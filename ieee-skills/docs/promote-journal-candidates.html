@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Promote Journal Candidates</title>
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+<header class="site-header"><h1>Promote Journal Candidates</h1><p>Context-safe journal skill-suite documentation.</p></header>
+<main class="container">
+
+<section><h2>Promotion workflow</h2><p>L0 candidates are not installed as default skills. Use the promotion script to create a staging draft, then verify official sources before importing it as a suite/static fragment or optional advanced skill.</p>
+<pre><code>python scripts/promote_journal_candidate.py --pack computer-vision --journal-id example-journal
+python scripts/validate_pack_maturity.py</code></pre>
+<p>Promotion must preserve context safety: no candidate may be added to the default <code>skills/</code> listing automatically.</p></section>
+<section><h2>Required evidence</h2><ul><li>Official homepage</li><li>Author instructions / Guide for Authors</li><li>Full official-source matrix</li><li>Source-refresh metadata</li><li>Live verification warning</li></ul></section>
+
+</main>
+<footer class="site-footer"><p>Unofficial project. Verify live publisher and journal pages before real submission.</p></footer>
+</body>
+</html>

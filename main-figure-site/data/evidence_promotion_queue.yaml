@@ -1,0 +1,2845 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: Evidence-Gated Candidate Promotion Queue
+promotion_policy:
+  default_gate: closed
+  human_review_required: true
+  allow_automatic_promotion: false
+  allowed_sources:
+  - open-access papers
+  - CC BY / CC BY-NC / explicit license versions
+  - publisher-permitted OA PDF
+  - author / institution repository OA version
+  prohibited_sources:
+  - Sci-Hub
+  - pirated PDF
+  - paywalled-only PDF
+  - copyright-unknown PDF
+  - unauthorized image reuse
+  minimum_unlock_conditions:
+  - canonical DOI verified
+  - lawful OA source verified
+  - exact license text recorded
+  - permission status approved for intended use
+  - third-party material review passed
+  - human reviewer decision logged
+summary:
+  total_candidates: 100
+  metadata_rag_only_candidates: 11
+  evidence_reviewed_candidates: 0
+  extraction_ready_candidates: 0
+  public_gallery_ready_candidates: 0
+  blocked_or_pending_candidates: 100
+  offline_release_policy: No candidate is promoted automatically in offline release
+    builds.
+queue:
+- candidate_id: ieee-seed-001
+  paper_id: tpami-2023-transformers-survey
+  proposed_title: 'Multimodal Learning With Transformers: A Survey'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-seed-002
+  paper_id: tip-2022-see360
+  proposed_title: 'See360: Novel Panoramic View Interpolation'
+  proposed_journal: IEEE TIP
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-seed-003
+  paper_id: tmi-2020-lesion-localization
+  proposed_title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised
+    Lesion Localization in Deep Interpretability Frameworks: Application to Color
+    Fundus Images'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-seed-004
+  paper_id: tnnls-2023-sparce
+  proposed_title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through
+    Sparse Representations'
+  proposed_journal: IEEE TNNLS
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-seed-005
+  paper_id: tnnls-2024-mediterranean
+  proposed_title: Fully Connected Networks on a Diet With the Mediterranean Matrix
+    Multiplication
+  proposed_journal: IEEE TNNLS
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-seed-006
+  paper_id: pr-2024-linear-transportation-lp-distance
+  proposed_title: A linear transportation Lp distance for pattern recognition
+  proposed_journal: Pattern Recognition
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-seed-007
+  paper_id: prl-2023-too-good-prior
+  proposed_title: A too-good-to-be-true prior to reduce shortcut reliance
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-seed-008
+  paper_id: eswa-2024-knowledge-based-ai
+  proposed_title: 'Enhancing vessel arrival time prediction: A fusion-based deep learning
+    approach'
+  proposed_journal: Expert Systems With Applications
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-seed-009
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  proposed_title: 'Advanced insights through systematic analysis: Mapping future research
+    directions and opportunities for xAI in deep learning and artificial intelligence
+    used in cybersecurity'
+  proposed_journal: Neurocomputing
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-seed-010
+  paper_id: information-sciences-2025-gkf-pual
+  proposed_title: 'GKF-PUAL: A group kernel-free approach to positive-unlabeled learning
+    with variable selection'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-seed-011
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  proposed_title: 'Adazd-Net: Automated adaptive and explainable Alzheimer’s disease
+    detection system using EEG signals'
+  proposed_journal: Knowledge-Based Systems
+  publisher_family: Aggregate
+  current_evidence_score: 42
+  current_extraction_gate: blocked_until_live_evidence_review
+  promotion_status: seed-metadata-only-needs-live-evidence-review
+  promotion_priority: P1
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: true
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Verify canonical DOI with a live metadata source.
+  - Verify publisher or repository OA page and exact license text.
+  - Record permission decision for gallery and RAG storage.
+  - Review third-party material notices in figure/caption/article.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-012
+  paper_id: elsevier-oa-candidate-012
+  proposed_title: 'TBD — pending Elsevier OA paper selection #012'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-013
+  paper_id: ieee-oa-candidate-013
+  proposed_title: 'TBD — pending IEEE OA paper selection #013'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-014
+  paper_id: elsevier-oa-candidate-014
+  proposed_title: 'TBD — pending Elsevier OA paper selection #014'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-015
+  paper_id: ieee-oa-candidate-015
+  proposed_title: 'TBD — pending IEEE OA paper selection #015'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-016
+  paper_id: elsevier-oa-candidate-016
+  proposed_title: 'TBD — pending Elsevier OA paper selection #016'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-017
+  paper_id: ieee-oa-candidate-017
+  proposed_title: 'TBD — pending IEEE OA paper selection #017'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-018
+  paper_id: elsevier-oa-candidate-018
+  proposed_title: 'TBD — pending Elsevier OA paper selection #018'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-019
+  paper_id: ieee-oa-candidate-019
+  proposed_title: 'TBD — pending IEEE OA paper selection #019'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-020
+  paper_id: elsevier-oa-candidate-020
+  proposed_title: 'TBD — pending Elsevier OA paper selection #020'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-021
+  paper_id: ieee-oa-candidate-021
+  proposed_title: 'TBD — pending IEEE OA paper selection #021'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-022
+  paper_id: elsevier-oa-candidate-022
+  proposed_title: 'TBD — pending Elsevier OA paper selection #022'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-023
+  paper_id: ieee-oa-candidate-023
+  proposed_title: 'TBD — pending IEEE OA paper selection #023'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-024
+  paper_id: elsevier-oa-candidate-024
+  proposed_title: 'TBD — pending Elsevier OA paper selection #024'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-025
+  paper_id: ieee-oa-candidate-025
+  proposed_title: 'TBD — pending IEEE OA paper selection #025'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-026
+  paper_id: elsevier-oa-candidate-026
+  proposed_title: 'TBD — pending Elsevier OA paper selection #026'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-027
+  paper_id: ieee-oa-candidate-027
+  proposed_title: 'TBD — pending IEEE OA paper selection #027'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-028
+  paper_id: elsevier-oa-candidate-028
+  proposed_title: 'TBD — pending Elsevier OA paper selection #028'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-029
+  paper_id: ieee-oa-candidate-029
+  proposed_title: 'TBD — pending IEEE OA paper selection #029'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-030
+  paper_id: elsevier-oa-candidate-030
+  proposed_title: 'TBD — pending Elsevier OA paper selection #030'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-031
+  paper_id: ieee-oa-candidate-031
+  proposed_title: 'TBD — pending IEEE OA paper selection #031'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-032
+  paper_id: elsevier-oa-candidate-032
+  proposed_title: 'TBD — pending Elsevier OA paper selection #032'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-033
+  paper_id: ieee-oa-candidate-033
+  proposed_title: 'TBD — pending IEEE OA paper selection #033'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-034
+  paper_id: elsevier-oa-candidate-034
+  proposed_title: 'TBD — pending Elsevier OA paper selection #034'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-035
+  paper_id: ieee-oa-candidate-035
+  proposed_title: 'TBD — pending IEEE OA paper selection #035'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-036
+  paper_id: elsevier-oa-candidate-036
+  proposed_title: 'TBD — pending Elsevier OA paper selection #036'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-037
+  paper_id: ieee-oa-candidate-037
+  proposed_title: 'TBD — pending IEEE OA paper selection #037'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-038
+  paper_id: elsevier-oa-candidate-038
+  proposed_title: 'TBD — pending Elsevier OA paper selection #038'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-039
+  paper_id: ieee-oa-candidate-039
+  proposed_title: 'TBD — pending IEEE OA paper selection #039'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-040
+  paper_id: elsevier-oa-candidate-040
+  proposed_title: 'TBD — pending Elsevier OA paper selection #040'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-041
+  paper_id: ieee-oa-candidate-041
+  proposed_title: 'TBD — pending IEEE OA paper selection #041'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-042
+  paper_id: elsevier-oa-candidate-042
+  proposed_title: 'TBD — pending Elsevier OA paper selection #042'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-043
+  paper_id: ieee-oa-candidate-043
+  proposed_title: 'TBD — pending IEEE OA paper selection #043'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-044
+  paper_id: elsevier-oa-candidate-044
+  proposed_title: 'TBD — pending Elsevier OA paper selection #044'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-045
+  paper_id: ieee-oa-candidate-045
+  proposed_title: 'TBD — pending IEEE OA paper selection #045'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-046
+  paper_id: elsevier-oa-candidate-046
+  proposed_title: 'TBD — pending Elsevier OA paper selection #046'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-047
+  paper_id: ieee-oa-candidate-047
+  proposed_title: 'TBD — pending IEEE OA paper selection #047'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-048
+  paper_id: elsevier-oa-candidate-048
+  proposed_title: 'TBD — pending Elsevier OA paper selection #048'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-049
+  paper_id: ieee-oa-candidate-049
+  proposed_title: 'TBD — pending IEEE OA paper selection #049'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-050
+  paper_id: elsevier-oa-candidate-050
+  proposed_title: 'TBD — pending Elsevier OA paper selection #050'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-051
+  paper_id: ieee-oa-candidate-051
+  proposed_title: 'TBD — pending IEEE OA paper selection #051'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-052
+  paper_id: elsevier-oa-candidate-052
+  proposed_title: 'TBD — pending Elsevier OA paper selection #052'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-053
+  paper_id: ieee-oa-candidate-053
+  proposed_title: 'TBD — pending IEEE OA paper selection #053'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-054
+  paper_id: elsevier-oa-candidate-054
+  proposed_title: 'TBD — pending Elsevier OA paper selection #054'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-055
+  paper_id: ieee-oa-candidate-055
+  proposed_title: 'TBD — pending IEEE OA paper selection #055'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-056
+  paper_id: elsevier-oa-candidate-056
+  proposed_title: 'TBD — pending Elsevier OA paper selection #056'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-057
+  paper_id: ieee-oa-candidate-057
+  proposed_title: 'TBD — pending IEEE OA paper selection #057'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-058
+  paper_id: elsevier-oa-candidate-058
+  proposed_title: 'TBD — pending Elsevier OA paper selection #058'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-059
+  paper_id: ieee-oa-candidate-059
+  proposed_title: 'TBD — pending IEEE OA paper selection #059'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-060
+  paper_id: elsevier-oa-candidate-060
+  proposed_title: 'TBD — pending Elsevier OA paper selection #060'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-061
+  paper_id: ieee-oa-candidate-061
+  proposed_title: 'TBD — pending IEEE OA paper selection #061'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-062
+  paper_id: elsevier-oa-candidate-062
+  proposed_title: 'TBD — pending Elsevier OA paper selection #062'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-063
+  paper_id: ieee-oa-candidate-063
+  proposed_title: 'TBD — pending IEEE OA paper selection #063'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-064
+  paper_id: elsevier-oa-candidate-064
+  proposed_title: 'TBD — pending Elsevier OA paper selection #064'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-065
+  paper_id: ieee-oa-candidate-065
+  proposed_title: 'TBD — pending IEEE OA paper selection #065'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-066
+  paper_id: elsevier-oa-candidate-066
+  proposed_title: 'TBD — pending Elsevier OA paper selection #066'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-067
+  paper_id: ieee-oa-candidate-067
+  proposed_title: 'TBD — pending IEEE OA paper selection #067'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-068
+  paper_id: elsevier-oa-candidate-068
+  proposed_title: 'TBD — pending Elsevier OA paper selection #068'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-069
+  paper_id: ieee-oa-candidate-069
+  proposed_title: 'TBD — pending IEEE OA paper selection #069'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-070
+  paper_id: elsevier-oa-candidate-070
+  proposed_title: 'TBD — pending Elsevier OA paper selection #070'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-071
+  paper_id: ieee-oa-candidate-071
+  proposed_title: 'TBD — pending IEEE OA paper selection #071'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-072
+  paper_id: elsevier-oa-candidate-072
+  proposed_title: 'TBD — pending Elsevier OA paper selection #072'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-073
+  paper_id: ieee-oa-candidate-073
+  proposed_title: 'TBD — pending IEEE OA paper selection #073'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-074
+  paper_id: elsevier-oa-candidate-074
+  proposed_title: 'TBD — pending Elsevier OA paper selection #074'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-075
+  paper_id: ieee-oa-candidate-075
+  proposed_title: 'TBD — pending IEEE OA paper selection #075'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-076
+  paper_id: elsevier-oa-candidate-076
+  proposed_title: 'TBD — pending Elsevier OA paper selection #076'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-077
+  paper_id: ieee-oa-candidate-077
+  proposed_title: 'TBD — pending IEEE OA paper selection #077'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-078
+  paper_id: elsevier-oa-candidate-078
+  proposed_title: 'TBD — pending Elsevier OA paper selection #078'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-079
+  paper_id: ieee-oa-candidate-079
+  proposed_title: 'TBD — pending IEEE OA paper selection #079'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-080
+  paper_id: elsevier-oa-candidate-080
+  proposed_title: 'TBD — pending Elsevier OA paper selection #080'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-081
+  paper_id: ieee-oa-candidate-081
+  proposed_title: 'TBD — pending IEEE OA paper selection #081'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-082
+  paper_id: elsevier-oa-candidate-082
+  proposed_title: 'TBD — pending Elsevier OA paper selection #082'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-083
+  paper_id: ieee-oa-candidate-083
+  proposed_title: 'TBD — pending IEEE OA paper selection #083'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-084
+  paper_id: elsevier-oa-candidate-084
+  proposed_title: 'TBD — pending Elsevier OA paper selection #084'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-085
+  paper_id: ieee-oa-candidate-085
+  proposed_title: 'TBD — pending IEEE OA paper selection #085'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-086
+  paper_id: elsevier-oa-candidate-086
+  proposed_title: 'TBD — pending Elsevier OA paper selection #086'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-087
+  paper_id: ieee-oa-candidate-087
+  proposed_title: 'TBD — pending IEEE OA paper selection #087'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-088
+  paper_id: elsevier-oa-candidate-088
+  proposed_title: 'TBD — pending Elsevier OA paper selection #088'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-089
+  paper_id: ieee-oa-candidate-089
+  proposed_title: 'TBD — pending IEEE OA paper selection #089'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-090
+  paper_id: elsevier-oa-candidate-090
+  proposed_title: 'TBD — pending Elsevier OA paper selection #090'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-091
+  paper_id: ieee-oa-candidate-091
+  proposed_title: 'TBD — pending IEEE OA paper selection #091'
+  proposed_journal: IEEE TPAMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-092
+  paper_id: elsevier-oa-candidate-092
+  proposed_title: 'TBD — pending Elsevier OA paper selection #092'
+  proposed_journal: Pattern Recognition Letters
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-093
+  paper_id: ieee-oa-candidate-093
+  proposed_title: 'TBD — pending IEEE OA paper selection #093'
+  proposed_journal: IEEE TMI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-094
+  paper_id: elsevier-oa-candidate-094
+  proposed_title: 'TBD — pending Elsevier OA paper selection #094'
+  proposed_journal: Expert Systems with Applications
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-095
+  paper_id: ieee-oa-candidate-095
+  proposed_title: 'TBD — pending IEEE OA paper selection #095'
+  proposed_journal: IEEE TMM
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-096
+  paper_id: elsevier-oa-candidate-096
+  proposed_title: 'TBD — pending Elsevier OA paper selection #096'
+  proposed_journal: Information Sciences
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-097
+  paper_id: ieee-oa-candidate-097
+  proposed_title: 'TBD — pending IEEE OA paper selection #097'
+  proposed_journal: IEEE TGRS
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-098
+  paper_id: elsevier-oa-candidate-098
+  proposed_title: 'TBD — pending Elsevier OA paper selection #098'
+  proposed_journal: Medical Image Analysis
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: ieee-candidate-slot-099
+  paper_id: ieee-oa-candidate-099
+  proposed_title: 'TBD — pending IEEE OA paper selection #099'
+  proposed_journal: IEEE JBHI
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.
+- candidate_id: elsevier-candidate-slot-100
+  paper_id: elsevier-oa-candidate-100
+  proposed_title: 'TBD — pending Elsevier OA paper selection #100'
+  proposed_journal: Information Fusion
+  publisher_family: Aggregate
+  current_evidence_score: 8
+  current_extraction_gate: blocked_until_doi_oa_license_permission_evidence_complete
+  promotion_status: pending-source-discovery-and-evidence-card-completion
+  promotion_priority: P2
+  can_promote_to_evidence_reviewed: false
+  can_promote_to_extraction_ready: false
+  can_promote_to_public_gallery: false
+  can_promote_to_metadata_rag_only: false
+  required_evidence_before_promotion:
+  - doi_evidence
+  - publisher_page_evidence
+  - repository_oa_evidence_or_not_applicable_reason
+  - license_evidence
+  - permission_evidence
+  - third_party_material_evidence
+  - human_reviewer_decision
+  next_actions:
+  - Find lawful OA source candidate.
+  - Run DOI/license preflight.
+  - Build evidence card from official metadata.
+  - Escalate to human reviewer before extraction scheduling.
+  safety_note: Do not extract or host visual assets until evidence promotion passes
+    human review.

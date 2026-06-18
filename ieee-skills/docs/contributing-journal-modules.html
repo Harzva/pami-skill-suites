@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contributing Journal Modules - IEEE Skills</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header><h1>Contributing Journal Modules - IEEE Skills</h1><p>IEEE Journal Skill-Suite v1.2.0</p><nav><a href="index.html">Home</a><a href="getting-started.html">Get started</a><a href="architecture.html">Architecture</a><a href="context-safety.html">Context safety</a><a href="official-sources.html">Official sources</a><a href="source-verification-workflow.html">Source verification</a><a href="contributing-journal-modules.html">Contribute journals</a><a href="release-maintenance.html">Maintenance</a><a href="faq.html">FAQ</a></nav></header>
+<main>
+
+<section class="card"><h2>Contribution workflow</h2><p>Use <code>templates/new-journal-fragment.md</code> when adding a journal module. Keep detailed journal rules inside <code>skills/ieee-skill-suite/static/journals/</code>; do not add new default-visible skills unless the module is a broadly reusable macro skill.</p></section>
+<section class="grid"><div class="card"><h3>Required source fields</h3><ul><li>Journal homepage</li><li>Author instructions / Guide for Authors</li><li>Submission system</li><li>Manuscript template</li><li>Publishing agreement</li><li>Copyright / license</li><li>Open access</li><li>Ethics / integrity</li><li>AI disclosure policy</li><li>Data / code availability</li><li>Permissions</li></ul></div><div class="card"><h3>Required metadata</h3><ul><li><code>last_live_checked</code></li><li><code>source_status</code></li><li><code>needs_reverification</code></li><li><code>official_link_health</code></li><li>Live verification warning</li></ul></div></section>
+<section class="card"><h2>Release gate</h2><pre>python scripts/validate_sources.py
+python scripts/check_official_links_live.py --live
+python scripts/report_stale_sources.py</pre></section>
+
+</main>
+<footer><p>Unofficial project. Verify live publisher and journal pages before real submission.</p></footer>
+</body>
+</html>

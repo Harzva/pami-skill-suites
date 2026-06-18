@@ -1,0 +1,150 @@
+{
+  "schema_version": "2.5.0",
+  "release_version": "v2.5.0",
+  "generated_on": "2026-06-16",
+  "title": "Main-Figure Site RAG Retrieval Benchmark",
+  "benchmark_policy": {
+    "mode_under_test": "metadata-only RAG",
+    "image_embedding_queries": "planned but disabled until permission gate passes",
+    "public_gallery_queries": "planned but disabled until public display rights pass",
+    "evaluation_note": "This is a static benchmark for retrieval metadata quality, not a live vector database evaluation."
+  },
+  "queries": [
+    {
+      "query_id": "method_pipeline_main_figure",
+      "user_query": "Find main figures that explain a method pipeline with inputs, modules, outputs, and evidence alignment.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "method-pipeline",
+        "main-figure",
+        "claim-evidence"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    },
+    {
+      "query_id": "motivation_gap_figure",
+      "user_query": "Find motivation figures that turn a problem pain point into a research gap and proposed solution.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "motivation",
+        "gap",
+        "problem-to-solution"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    },
+    {
+      "query_id": "ablation_table_style",
+      "user_query": "Find examples of clean ablation table organization and row grouping for reviewer-friendly comparison.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "ablation",
+        "table",
+        "comparison"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    },
+    {
+      "query_id": "taxonomy_or_survey_overview",
+      "user_query": "Find survey-style overview figures with taxonomy, categories, and relations.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "taxonomy",
+        "survey",
+        "overview"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    },
+    {
+      "query_id": "medical_ai_workflow",
+      "user_query": "Find medical AI visual workflows that separate data, model, evaluation, and clinical relevance.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "medical-ai",
+        "workflow",
+        "evaluation"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    },
+    {
+      "query_id": "remote_sensing_pipeline",
+      "user_query": "Find remote sensing figure patterns for imagery, feature extraction, and map/metric outputs.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "remote-sensing",
+        "pipeline",
+        "visualization"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    },
+    {
+      "query_id": "caption_explanation_pattern",
+      "user_query": "Find caption patterns that name the figure, define panels, explain symbols, and state the takeaway.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "caption",
+        "panel-explanation",
+        "takeaway"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    },
+    {
+      "query_id": "limitations_visualization",
+      "user_query": "Find figure/table examples that expose failure cases, limits, or boundary conditions safely.",
+      "expected_retrieval_mode": "metadata-only RAG",
+      "expected_tags": [
+        "limitations",
+        "failure-case",
+        "boundary"
+      ],
+      "expected_response_constraints": [
+        "return safe summaries and structural lessons only",
+        "do not reproduce source captions verbatim",
+        "do not provide source images for reuse",
+        "include permission warning when image reuse is requested"
+      ],
+      "seed_result_pool_size": 11
+    }
+  ]
+}

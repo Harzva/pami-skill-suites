@@ -1,0 +1,40 @@
+scenario_id: writing_related_work
+preset_id: multimedia
+scenario_type: writing / related-work scenario
+release_version: 1.5.0
+visibility: optional preset scenario; not default top-level skill
+target_journal:
+  id: tip
+  title: IEEE TIP
+  maturity_level: L4
+  journal_fragment: skills/ieee-skill-suite/static/journals/tip.md
+  advanced_skill: skills-advanced/journals/tip-writing
+  source_quality_score: 100
+  source_quality_band: A
+  needs_reverification: true
+selected_skills_modules:
+  suite_router: skills/ieee-skill-suite/
+  preset: presets/multimedia/
+  journal_fragment: skills/ieee-skill-suite/static/journals/tip.md
+  component_fragments:
+  - skills/ieee-skill-suite/static/components/introduction.md
+  - skills/ieee-skill-suite/static/components/related-work.md
+  - skills/ieee-skill-suite/static/components/contribution-positioning.md
+  - skills/ieee-skill-suite/static/components/citation.md
+  submission_fragments: []
+official_source_warning: Live verification required before real submission advice.
+copyright_safe_paper_mining_warning: No protected paper content is reused in this sample output.
+reviewer_risk_checklist:
+- claim-to-evidence mismatch
+- unverified journal-fit claim
+- missing statistical or metric context
+- stale official-source detail
+structured_output_contract:
+- selected skills/modules
+- official-source warning
+- copyright-safe paper-mining warning
+- reviewer-risk checklist
+- structured output contract
+warnings_required:
+  official_source_warning: true
+  copyright_safe_paper_mining_warning: false

@@ -1,0 +1,79 @@
+pack_id: medical-ai
+release_version: 1.3.0
+import_mode: opt-in-fragment-pack
+context_safety_rules:
+- Do not copy expansion pack journals into default skills/.
+- Import fragments into skill-suite/static/journals only after source matrix validation.
+- Keep independent advanced skills under skills-advanced/ unless explicitly requested by a maintainer.
+- All L0/L1/L2 entries require source verification before real submission use.
+imports:
+- journal_id: medical-image-analysis
+  source_fragment: skills/elsevier-skill-suite/static/journals/medical-image-analysis.md
+  advanced_skill_source: skills-advanced/journals/medical-image-analysis-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: artificial-intelligence-medicine
+  source_fragment: skills/elsevier-skill-suite/static/journals/artificial-intelligence-medicine.md
+  advanced_skill_source: skills-advanced/journals/artificial-intelligence-medicine-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: computers-biology-medicine
+  source_fragment: skills/elsevier-skill-suite/static/journals/computers-biology-medicine.md
+  advanced_skill_source: skills-advanced/journals/computers-biology-medicine-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: cmpb
+  source_fragment: skills/elsevier-skill-suite/static/journals/cmpb.md
+  advanced_skill_source: skills-advanced/journals/cmpb-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: biomedical-signal-processing-control
+  source_fragment: skills/elsevier-skill-suite/static/journals/biomedical-signal-processing-control.md
+  advanced_skill_source: skills-advanced/journals/biomedical-signal-processing-control-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+candidate_entries:
+- id: artificial-intelligence-in-life-sciences
+  title: Artificial Intelligence in the Life Sciences
+  entry_type: candidate-l0
+  publisher: Elsevier
+  maturity_level: L0
+  maturity_label: listed only
+  maturity_reason: Listed as a candidate for future coverage. No official source matrix has been populated in this release.
+  journal_fragment: null
+  advanced_skill: null
+  paper_template_cards: []
+  evaluation_tasks: []
+  source_status: not-started
+  needs_reverification: true
+  import_action: do-not-import-until-source-matrix-is-complete
+  official_sources:
+    matrix_status: not populated
+    missing_fields:
+    - journal_homepage
+    - author_instructions
+    - submission_system
+    - manuscript_template
+    - publishing_agreement
+    - copyright_license
+    - open_access
+    - ethics_integrity
+    - ai_disclosure_policy
+    - data_code_availability
+    - permissions
+    live_verification_required: true
+  discipline_tags:
+  - medical-ai
+promotion_workflow:
+  script: scripts/promote_journal_candidate.py
+  staging_only_by_default: true
+  default_skill_listing_policy: never add promoted candidates to default skills/
+  required_validators:
+  - validate_pack_maturity.py
+  - validate_official_links.py
+  - validate_live_verification_warnings.py

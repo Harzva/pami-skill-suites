@@ -1,0 +1,12 @@
+name: elsevier-figure-table
+version: 0.6.0
+role: figures, tables, captions, visual accessibility, result reporting, and consistency
+  checks
+context_policy: default-visible-macro-skill
+routes_through: elsevier-skill-suite
+loads:
+- manifest.yaml
+- references/output-contracts.md
+- checklists/quality-gate.md
+advanced_skills_policy: Use skills-advanced only for optional direct invocation or
+  repository development.

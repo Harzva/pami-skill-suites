@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.8.0",
+  "publisher": "IEEE",
+  "generated_on": "2026-06-14",
+  "use_scope": "For visual-structure analysis of legally included OA/template papers only. Do not copy or reuse content without checking license and citation/permission requirements.",
+  "asset_counts": {
+    "main_figure": 5,
+    "motivation_figure": 5,
+    "beautiful_table": 5
+  },
+  "assets": [
+    {
+      "paper_id": "tpami-2023-transformers-survey",
+      "title": "Multimodal Learning With Transformers: A Survey",
+      "journal": "IEEE TPAMI",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tpami_2023_multimodal_learning_with_transformers_ccby.pdf",
+      "page": 1,
+      "caption": "Fig. 1. Overview of Transformer [2].",
+      "caption_type": "figure",
+      "asset_type": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png",
+      "crop_rect_pdf_points": [
+        23.76,
+        44.66,
+        570.24,
+        439.03
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tpami-2023-transformers-survey",
+      "title": "Multimodal Learning With Transformers: A Survey",
+      "journal": "IEEE TPAMI",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tpami_2023_multimodal_learning_with_transformers_ccby.pdf",
+      "page": 1,
+      "caption": "This survey focuses on multimodal learning with Transform- ers [2] (as demonstrated in Fig. 1), inspired by their intrinsic ad- vantages and scalability in modelling different modalities (e.g., language, visual, auditory) and tasks (e.g., language translation, image recognition, speech recognition) with fewer modality- speciﬁc architectural assumptions (e.g., translation invariance and local grid attention bias in vision) [3]. Concretely, the input to a Transformer could encompass one or multiple sequences of tokens, and each sequence’s attribute (e.g., the modality label, the sequential order), naturally allowing for MML with- out architectural modiﬁcation [4]. Further, learning per-modal speciﬁcity and inter-modal correlation can be simply realized by controlling the input pattern of self-attention. Critically, there is a recent surge of research attempts and activities across distinct disciplines exploring the Transformer architectures, resulting in a large number of novel MML methods being developed in recent years, along with signiﬁcant and diverse advances in various areas [4], [5], [6], [7], [8]. This calls for a timely review",
+      "caption_type": "figure",
+      "asset_type": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tpami-2023-transformers-survey__p001__motivation_figure.png",
+      "crop_rect_pdf_points": [
+        23.76,
+        146.3,
+        570.24,
+        745.91
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tpami-2023-transformers-survey",
+      "title": "Multimodal Learning With Transformers: A Survey",
+      "journal": "IEEE TPAMI",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tpami_2023_multimodal_learning_with_transformers_ccby.pdf",
+      "page": 9,
+      "caption": "Pretext Tasks: In Transformer based multimodal pretrain- ing, the pretraining tasks/objectives are also termed pretext tasks/objectives. To date, various pretext tasks have been stud- ied, e.g., masked language modelling (MLM) [137], masked image region prediction/classiﬁcation (also termed masked object classiﬁcation (MOC)) [137], [190], masked region regression (MRR) [115], visual-linguistic matching (VLM) (e.g., image–text matching (ITM) [188], image text match- ing (ITM), phrase-region alignment (PRA) [204], word-region alignment (WRA) [106], video-subtitle matching (VSM) [116]), masked frame modelling (MFM) [116], frame order mod- elling (FOM) [116], next sentence prediction (NSP) [4], [102], [190], masked sentence generation (MSG) [191], masked group modelling (MGM) [188], preﬁx language modelling (Pre- ﬁxLM) [199], video conditioned masked language model [117], text conditioned masked frame model [117], visual transla- tion language modelling (VTLM) [206], and image-conditioned masked language modelling (also termed image-attended masked language modelling) [207]. These down-stream task -agnostic pretext pretraining is optional, and the down-stream task objectives can be trained directly, which will be discussed in Section IV-A2. Table III provides the common and representa- tive pretext tasks for Transformer based multimodal pretraining.",
+      "caption_type": "table",
+      "asset_type": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tpami-2023-transformers-survey__p009__beautiful_table.png",
+      "crop_rect_pdf_points": [
+        23.76,
+        170.71,
+        570.24,
+        768.75
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tip-2022-see360",
+      "title": "See360: Novel Panoramic View Interpolation",
+      "journal": "IEEE TIP",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tip_2022_see360_panoramic_view_interpolation_ccby.pdf",
+      "page": 1,
+      "caption": "(note that the most common setting of ﬁeld of view (FOV) for cameras is 55◦, which ensures that the input views will overlap). All occluded and missing scene parts in between are estimated by our method, while achieving smooth view transition. In addition, we can achieve view interpolation for 360◦panoramic videos/animations. Note that our proposed method is purely image-based view synthesis without requiring any knowledge of depth or 3D information, hence it is low cost on data requirement that common cameras can be used for view synthesis, but there might be spatial misalignment caused by the large moving objects, low scene overlapping or sudden scene changes. Figure 1 illustrates our method: we attach a single camera to a electronic tripod head (Figure 1(a)) which is able to automatically rotate the camera over the full 360◦range, to capture T sparse reference views and a dense set of S (S>T) intermediate views. For training, we place the camera at the",
+      "caption_type": "figure",
+      "asset_type": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        169.58,
+        587.52,
+        757.22
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tip-2022-see360",
+      "title": "See360: Novel Panoramic View Interpolation",
+      "journal": "IEEE TIP",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tip_2022_see360_panoramic_view_interpolation_ccby.pdf",
+      "page": 2,
+      "caption": "Fig. 1. (a) 360◦capture device. (b) The coordinates where we place the camera for data collection. Given reference views at 120◦and 180◦, our proposed See360 model can render views at different angles from left to right. (c) Novel views comparison (include our prediction, ground truth and residues between them) and (d) Segmentation results comparison. The view changes from the left and right references can be observed from the buildings and trees.",
+      "caption_type": "figure",
+      "asset_type": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tip-2022-see360__p002__motivation_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        0.0,
+        587.52,
+        322.83
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tip-2022-see360",
+      "title": "See360: Novel Panoramic View Interpolation",
+      "journal": "IEEE TIP",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tip_2022_see360_panoramic_view_interpolation_ccby.pdf",
+      "page": 9,
+      "caption": "Afﬁne Transformer (MSAT) and 3) multi-scale style discrim- inator with or without semantic segmentation (SS). To make a comparison, we refer to these three situations to as CPC, MSAT and SS. In Table II, we compute the evaluation metrics PSNR, SSIM and LPIPS on each dataset, to quantitatively measure the importance of their effects. In Table II, “Full Pipeline” is the our complete See360 model. To test the three key components, we successively removed the key components from the full pipeline to train the model. We can ﬁnd that the most important component is the use of Multi-Scale Afﬁne Transformer (MSAT). The reason is that we can reconstruct the scene from coarse to ﬁne to ﬁll the details at different scales. Meanwhile, the proposed MSAT adaptively estimates different 2D afﬁne parameters for features at different scales to fuse the reference views. Similar to “CPC”, we use it to extract the global feature correspondence. It can also improve the performance by about 0.3 dB and 0.01 in terms of PSNR and SSIM, respectively. For “SS”, we consider it as an extra constraint on the image generation. As discussed in Equation 8, using semantic segmentation as layout information (the contour of the whole scene) and combining it with generated images, the discriminator can learn to distinguish whether the generated image has similar structural information as ground truth. In Table III, we did another ablation study using dif- ferent losses introduced in Section III-C. The key losses we discussed include Laplacian loss (lap loss), Projection Distribution loss (pd loss) and VGG feature loss (VGG loss). See360— indicates models using different combinations of losses and See360 indicates the best model that makes use of all three losses. We measured PSNR, SSIM and LPIPS on UrbanCity360 dataset. It can be found that using lap loss improves the SSIM because it computes structural similarity of images using the differences of Gaussians. Using pd loss and VGG loss improves the LPIPS but affects PSNR and SSIM scores because of the trade-off effect between pixel distortion and visual quality [66]. Combining all three loss terms, See360 achieves the best LPIPS as well as the second best PSNR and SSIM, which indicates that our proposed See360 can well synthesize photo-realistic novel views.",
+      "caption_type": "table",
+      "asset_type": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tip-2022-see360__p009__beautiful_table.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        202.22,
+        587.52,
+        792.0
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tmi-2020-lesion-localization",
+      "title": "Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images",
+      "journal": "IEEE TMI",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tmi_2020_weakly_supervised_lesion_localization_ccby.pdf",
+      "page": 4,
+      "caption": "Fig. 1. Overview of the proposed method applied to automated grading of diabetic retinopathy in color fundus images. The workﬂow to generate the original prediction is depicted in green; the workﬂow for the proposed iterative visual evidence augmentation is depicted in blue. I, input image; Fcnn, convolutional neural network; ˆy, prediction; thpred, prediction threshold; t, number of iteration; T, maximum number of iterations; A, attribution method; Mt, explanation map at iteration t; Bt, binary mask at iteration t; It, inpainted image at iteration t; M, augmented explanation map.",
+      "caption_type": "figure",
+      "asset_type": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        0.0,
+        587.52,
+        298.84
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tmi-2020-lesion-localization",
+      "title": "Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images",
+      "journal": "IEEE TMI",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tmi_2020_weakly_supervised_lesion_localization_ccby.pdf",
+      "page": 4,
+      "caption": "The ﬁrst part of this section describes the proposed iterative visual evidence augmentation, depicted in Fig. 1. The proposed method iteratively unveils areas relevant for a ﬁnal diagnosis, so as to generate exhaustive visual evidence of classiﬁca- tion predictions and, consequently, weakly-supervised lesion- level localization. The second part of the section describes the image-level classiﬁcation used to provide the DL-based decisions to be interpreted.",
+      "caption_type": "figure",
+      "asset_type": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tmi-2020-lesion-localization__p004__motivation_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        140.06,
+        587.52,
+        620.06
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tmi-2020-lesion-localization",
+      "title": "Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images",
+      "journal": "IEEE TMI",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tmi_2020_weakly_supervised_lesion_localization_ccby.pdf",
+      "page": 2,
+      "caption": "I. INTRODUCTION D EEP learning (DL) systems in medical imaging have shown to provide high-performing approaches for diverse classiﬁcation tasks in healthcare, such as screening of eye diseases [1], [2], scoring of prostate cancer [3], or detection of skin cancer [4]. Nevertheless, DL systems are often referred to as “black boxes” due to the lack of interpretability of their predictions. This is problematic in healthcare applications [5], [6], and hinders experts’ trust and the integration of these systems in clinical settings as support for grading, diagnosis and treatment decisions. There is thus an increasing demand for interpretable systems in medical imaging that could further explain models’ decisions. Deﬁning an inter- pretability framework as the combination of a DL system to perform a classiﬁcation task and a procedure for gener- ating explainable predictions, several such frameworks have been proposed in different medical applications and imaging modalities [4], [7]–[17]. Among the integrated procedures, those based on visual attribution have become very popular, such as the ones deﬁned and described in Table I: saliency [18], guided backpropa- gation [19], integrated gradients [20], Grad-CAM [21], and guided Grad-CAM [21]. These attribution methods provide an interpretation of the network’s decision by assigning an attribution value, sometimes also called “relevance” or “contri- bution”, to each input feature of the network depending on its estimated contribution to the network output [22]. This allows to highlight features in the input image that contribute to the output prediction and, consequently, the weakly-supervised detection of objects. However, it has been shown for natural",
+      "caption_type": "table",
+      "asset_type": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tmi-2020-lesion-localization__p002__beautiful_table.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        349.21,
+        587.52,
+        792.0
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2023-sparce",
+      "title": "SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse Representations",
+      "journal": "IEEE TNNLS",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tnnls_2023_sparce_sparse_reservoir_computing_ccby.pdf",
+      "page": 4,
+      "caption": "exploit the dynamics of the ESNs, instead of using its activities at one step only, is particularly useful for classiﬁcation tasks. Previous works have introduced different techniques to deﬁne a ˜V vector from the ESN’s dynamic: adopting PCA on the multidimensional response of the reservoir across time [36], introducing a learnable temporal kernel to deﬁne the read- out [40], or concatenating the past activities of the reservoir to deﬁne a higher dimensional vector ˜V [39], [41]. In this work, we will exploit the latter approach, while other tech- niques, such as PCA, which reduces the dimensionality of the ESN’s representation, are more desirable in the case of overﬁtting. In this regard, while the most spontaneous choice for time-series prediction would be ˜V = V(t), corresponding to the activity of the reservoir at the current time, it is also possible to expand the dimensionality of the system by including previous reservoir representations at times tl and deﬁning a vector ˜V = C({V(tl)}tlεT ), where C denotes the concatenation operator and T denotes the ensemble of time steps tl considered. This latter approach has been adopted also in physical reservoir models through the use of virtual nodes [42], [43]. Of course, such dimensionality expansion leads to an artiﬁcial increase of the memory of the system. However, the concatenation of previous activities does not guarantee the understanding of the dependencies among events that are distant in time because the memory of a past input signal could have faded away when a new stimulus s(t) comes. A scheme of this procedure for time-series classiﬁcation can be found in Fig. 1(a).",
+      "caption_type": "figure",
+      "asset_type": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tnnls-2023-sparce__p004__main_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        48.49,
+        587.52,
+        723.9
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2023-sparce",
+      "title": "SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse Representations",
+      "journal": "IEEE TNNLS",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tnnls_2023_sparce_sparse_reservoir_computing_ccby.pdf",
+      "page": 4,
+      "caption": "symmetric with respect to zero, as is visible from the examples in Fig. 1(d) and (e). While panel D highlights the portions of the distributions that are positive after normalization, panel E shows the resulting distributions after application of (θi), but before learning, that is when ˜θi ≈0. In this formulation, the value of n needs to be considered as an additional, interpretable hyperparame- ter. However, we will show that all the sensible choices of n will correspond to faster convergence and better performance of the formulated algorithm in compari- son to the standard ESN learning paradigm across all tasks considered. We note that, even for P0, SpaRCe and a vanilla ESN would differ because the threshold values for P0 are nonzero, and the activities of the reservoir would be shifted. More speciﬁcally, choosing P0 will lead to a shift to the distributions of \u0007\u0007 ˜V \u0007\u0007, whose minimum value will now become approximately zero. Throughout this article, the same values of Pn \u0004\u0007\u0007 ˜Vi \u0007\u0007\u0005",
+      "caption_type": "figure",
+      "asset_type": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tnnls-2023-sparce__p004__motivation_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        48.5,
+        587.52,
+        617.13
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2023-sparce",
+      "title": "SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse Representations",
+      "journal": "IEEE TNNLS",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tnnls_2023_sparce_sparse_reservoir_computing_ccby.pdf",
+      "page": 10,
+      "caption": "which is analyzed in Appendix B.2. The optimizer used is Adam [54]. We ﬁrst tested the SpaRCe model with vari- ous initial sparsity levels [see Fig. 5(a), different colors]. Regardless of the initial condition, the ﬁnal performance was similar, as was the ﬁnal level of sparsity [the size of dots in Fig. 5(a) shows the percentage of active nodes in the network]. The error achieved by SpaRCe is 1.9%. The hyperparameter values are given in Appendix E. The model reaches performance levels comparable to those achieved with a three-layer neural network with backpropagation [55]. However, the task faced here with SpaRCe (column-by-column MNIST) is more challenging than the common approach used to train neural networks on the MNIST dataset, in which the whole image is fed into the network at once. The performances of convolutional neural networks and MLPs are reported in Table I as a benchmark for the results obtained with ESN with SpaRCe. Convolutional neural networks are best suited for image classiﬁcation problems, and nevertheless, SpaRCe is only 0.2% from the lower reported performance. In this comparison, we have not matched the number of parameters between SpaRCe and the other models; we have used a reservoir with 1000 neurons. To demonstrate the importance of thresholds in the SpaRCe model, we compared the perfor- mance of SpaRCe to that of an ESN without thresholds trained online with the same optimizer, using a learning rate optimized through grid search. SpaRCe outperformed the ESN in both classiﬁcation accuracy and convergence time [see Fig. 5(b), “MNIST”]. We also found that the normalization mechanism introduced due to SpaRCe stabilizes the learning process for relatively higher learning rates versus standard ESNs. For this simulation, the total computational time required by SpaRCe is 579.81 s while, for a standard ESN, is 474.51 s [as before, see Appendix E for more information]. As a second task, we applied the same model to the MNIST dataset where the pixels of each image are reordered through a permutation of the data. Each image is again fed one column at a time. Again, SpaRCe outperformed the ESN without thresholds (see Fig. 5(b), “pMNIST”). 2) Permuted Sequential MNIST (psMNIST): We next ana- lyzed the performance of the SpaRCe model and ESNs, in general, on the psMNIST task, which has become a standard benchmark for recurrent neural networks [44]. In this case, each image is reordered through a ﬁxed permutation and fed into the recurrent network one pixel at a time. The task is particularly challenging because temporal dependencies must be learned between widely separated time steps of an image. Since each sequence is a succession of 784 pixels, we decided to sample the dynamic of the reservoir across time at constant steps multiples of 28, deﬁning ˜V = C({V(t) : 28|t}), where 28|t indicates that t has to be divisible by 28. This sampling procedure at constant temporal time steps could be suboptimal",
+      "caption_type": "table",
+      "asset_type": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tnnls-2023-sparce__p010__beautiful_table.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        124.13,
+        587.52,
+        792.0
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2024-mediterranean",
+      "title": "Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication",
+      "journal": "IEEE TNNLS",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tnnls_2024_mediterranean_matrix_multiplication_ccby.pdf",
+      "page": 3,
+      "caption": "Fig. 1. Illustration of Monte Carlo sampling of an angle between two angles, which accumulates results from random tests (Algorithm 1). Left: both points are on the same side of the hyperplane and test will return 0. Right: hyperplane is separating the two points and the test will return +1.",
+      "caption_type": "figure",
+      "asset_type": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tnnls-2024-mediterranean__p003__main_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        166.98,
+        587.52,
+        544.47
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2024-mediterranean",
+      "title": "Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication",
+      "journal": "IEEE TNNLS",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tnnls_2024_mediterranean_matrix_multiplication_ccby.pdf",
+      "page": 6,
+      "caption": "Fig. 2. Pipeline of operations for estimating the product Y ≈W X. Operations needed during inference are shown in blue. Note that the entries of the constant matrix E follow a normal distribution and do not require storing.",
+      "caption_type": "figure",
+      "asset_type": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tnnls-2024-mediterranean__p006__motivation_figure.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        181.68,
+        587.52,
+        550.47
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2024-mediterranean",
+      "title": "Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication",
+      "journal": "IEEE TNNLS",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf",
+      "pdf_path": "paper_templates/open_access_papers/tnnls_2024_mediterranean_matrix_multiplication_ccby.pdf",
+      "page": 8,
+      "caption": "are compared both to standard matrix multiplication and to ASS⊤B, where S is a sign matrix. Computing ASS⊤B just requires three CUBLAS calls and therefore can be considered optimal and optimized. Table I summarizes the factors affecting performance between the use of signed matrices [30] and the proposed method. While our technique requires more samples to esti- mate dot products at angles close to π/2 due to a higher variance, it also beneﬁts from most operations being done by binary operators that can process 64 bits at a time (as implemented) to calculate the Hamming distance. However, a breakdown of the performance of the different components of the pipeline (Fig. 4) also shows that operations with a theoretically negligible complexity have a signiﬁcant impact on performance, especially when the matrix size is small. Fig.5 shows the performance gains obtained with our new technique and compare them to both a standard multiplication and Clarkson and Woodruff approach [30]. As expected, some signiﬁcant speedup is obtained for large matrix multiplications, where our method is measured to be up to 4.64× as fast as the use of signed matrices [30] after correcting for the higher variance per iteration and as implemented. When compared to a standard matrix multiplication, we can be up to 10× as fast depending on the error required. For small matrix sizes, our algorithm is actually slower, which may not have a practical impact as most concerns with matrix multiplication performances arise from the use of large matrices. 3) Using the M3 for Training: We study in Fig. 6 the effect of directly replacing the standard matrix multiplications with our M3 version in the training of two DNN models with two and three dense layers of the MNIST models (no data augmen- tation) being replaced. The replacements are made in either the forward pass, the backward pass, or both passes. Unless stated otherwise, we use a batch size of 1024 to be representative of a real-world application as our algorithm can only replace matrix–matrix multiplications efﬁciently (speedwise), but not matrix–vector multiplications. This large batch size does not affect the convergence rate but may be impractical in some situations as this increases the memory requirements. The best results have been obtained by reusing the same random matrices (matrix E in Algorithm 2, one unique matrix per layer) in the forward passes, while these random matrices are always regenerated for every multiplication performed during the backpropagation phase. All other combinations have severely degraded performance, but we do not have currently an explanation for this. Fig. 6 shows that both convergence rate and accuracy improve as we are using more planes for the approximation. The algorithm converges more or less closely to the refer- ence model as expected. Combining both forward propagation and backpropagation passes also logically results in a lower accuracy than only using one of them. These are important results as training with k = 1024 requires approximately the same number of operations for calculating the Hamming distance as ﬂoating-point operations with the standard matrix multiplication to obtain similar results. The Hamming distance code can, however, process up to 64 operations per instruction as they operate on single bits. This performance may, however,",
+      "caption_type": "table",
+      "asset_type": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tnnls-2024-mediterranean__p008__beautiful_table.png",
+      "crop_rect_pdf_points": [
+        24.48,
+        40.46,
+        587.52,
+        792.0
+      ],
+      "extraction_method": "heuristic caption-aware crop from OA PDF; for structure analysis only",
+      "copyright_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    }
+  ]
+}

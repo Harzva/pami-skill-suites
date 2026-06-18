@@ -1,0 +1,10 @@
+cff-version: "2.0.0"
+title: "IEEE Skills"
+version: "2.0.0"
+date-released: "2026-06-16"
+message: "If you use this unofficial journal skill-suite, please cite the repository release."
+authors:
+  - name: "Journal Skill Suites Contributors"
+license: "MIT"
+repository-code: "https://github.com/your-org/ieee-skills"
+abstract: "Context-safe AI-agent skill-suite for IEEE journal manuscripts with official-source maintenance automation."

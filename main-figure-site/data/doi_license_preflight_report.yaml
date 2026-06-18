@@ -1,0 +1,1513 @@
+schema_version: '1.0'
+release_version: v2.3.0
+generated_on: '2026-06-16'
+title: DOI / License Preflight Report
+offline_safe_notice: No live DOI, Crossref, publisher, or license lookup was performed in the release build.
+summary:
+  total_records: 100
+  seed_records_needing_live_recheck: 11
+  pending_source_discovery_records: 89
+  ready_for_extraction_now: 11
+  blocked_until_preflight: 89
+  forbidden_source_policy:
+  - Sci-Hub
+  - pirated PDF
+  - paywalled-only PDF
+  - copyright-unknown PDF
+  - unauthorized image reuse
+required_live_checks:
+- DOI resolution
+- publisher OA status
+- license text
+- third-party material status
+- target journal reuse policy
+items:
+- candidate_id: ieee-seed-001
+  paper_id: tpami-2023-transformers-survey
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: ieee-seed-002
+  paper_id: tip-2022-see360
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: ieee-seed-003
+  paper_id: tmi-2020-lesion-localization
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: ieee-seed-004
+  paper_id: tnnls-2023-sparce
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: ieee-seed-005
+  paper_id: tnnls-2024-mediterranean
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: elsevier-seed-006
+  paper_id: pr-2024-linear-transportation-lp-distance
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: elsevier-seed-007
+  paper_id: prl-2023-too-good-prior
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: elsevier-seed-008
+  paper_id: eswa-2024-knowledge-based-ai
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: elsevier-seed-009
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: elsevier-seed-010
+  paper_id: information-sciences-2025-gkf-pual
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: elsevier-seed-011
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  proposed DOI: Not encoded in seed manifest; verify from paper card or source URL before public reuse.
+  proposed source URL: https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf
+  DOI status: missing-or-not-encoded; live DOI lookup required
+  license candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  license status: requires-live-license-verification
+  OA status: seed-source-present; OA/license live re-check required
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-medium
+  next action: Verify DOI, publisher record, license text, and third-party material status before expanding reuse.
+- candidate_id: elsevier-candidate-slot-012
+  paper_id: elsevier-oa-candidate-012
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-013
+  paper_id: ieee-oa-candidate-013
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-014
+  paper_id: elsevier-oa-candidate-014
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-015
+  paper_id: ieee-oa-candidate-015
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-016
+  paper_id: elsevier-oa-candidate-016
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-017
+  paper_id: ieee-oa-candidate-017
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-018
+  paper_id: elsevier-oa-candidate-018
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-019
+  paper_id: ieee-oa-candidate-019
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-020
+  paper_id: elsevier-oa-candidate-020
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-021
+  paper_id: ieee-oa-candidate-021
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-022
+  paper_id: elsevier-oa-candidate-022
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-023
+  paper_id: ieee-oa-candidate-023
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-024
+  paper_id: elsevier-oa-candidate-024
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-025
+  paper_id: ieee-oa-candidate-025
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-026
+  paper_id: elsevier-oa-candidate-026
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-027
+  paper_id: ieee-oa-candidate-027
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-028
+  paper_id: elsevier-oa-candidate-028
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-029
+  paper_id: ieee-oa-candidate-029
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-030
+  paper_id: elsevier-oa-candidate-030
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-031
+  paper_id: ieee-oa-candidate-031
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-032
+  paper_id: elsevier-oa-candidate-032
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-033
+  paper_id: ieee-oa-candidate-033
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-034
+  paper_id: elsevier-oa-candidate-034
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-035
+  paper_id: ieee-oa-candidate-035
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-036
+  paper_id: elsevier-oa-candidate-036
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-037
+  paper_id: ieee-oa-candidate-037
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-038
+  paper_id: elsevier-oa-candidate-038
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-039
+  paper_id: ieee-oa-candidate-039
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-040
+  paper_id: elsevier-oa-candidate-040
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-041
+  paper_id: ieee-oa-candidate-041
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-042
+  paper_id: elsevier-oa-candidate-042
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-043
+  paper_id: ieee-oa-candidate-043
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-044
+  paper_id: elsevier-oa-candidate-044
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-045
+  paper_id: ieee-oa-candidate-045
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-046
+  paper_id: elsevier-oa-candidate-046
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-047
+  paper_id: ieee-oa-candidate-047
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-048
+  paper_id: elsevier-oa-candidate-048
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-049
+  paper_id: ieee-oa-candidate-049
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-050
+  paper_id: elsevier-oa-candidate-050
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-051
+  paper_id: ieee-oa-candidate-051
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-052
+  paper_id: elsevier-oa-candidate-052
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-053
+  paper_id: ieee-oa-candidate-053
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-054
+  paper_id: elsevier-oa-candidate-054
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-055
+  paper_id: ieee-oa-candidate-055
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-056
+  paper_id: elsevier-oa-candidate-056
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-057
+  paper_id: ieee-oa-candidate-057
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-058
+  paper_id: elsevier-oa-candidate-058
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-059
+  paper_id: ieee-oa-candidate-059
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-060
+  paper_id: elsevier-oa-candidate-060
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-061
+  paper_id: ieee-oa-candidate-061
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-062
+  paper_id: elsevier-oa-candidate-062
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-063
+  paper_id: ieee-oa-candidate-063
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-064
+  paper_id: elsevier-oa-candidate-064
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-065
+  paper_id: ieee-oa-candidate-065
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-066
+  paper_id: elsevier-oa-candidate-066
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-067
+  paper_id: ieee-oa-candidate-067
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-068
+  paper_id: elsevier-oa-candidate-068
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-069
+  paper_id: ieee-oa-candidate-069
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-070
+  paper_id: elsevier-oa-candidate-070
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-071
+  paper_id: ieee-oa-candidate-071
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-072
+  paper_id: elsevier-oa-candidate-072
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-073
+  paper_id: ieee-oa-candidate-073
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-074
+  paper_id: elsevier-oa-candidate-074
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-075
+  paper_id: ieee-oa-candidate-075
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-076
+  paper_id: elsevier-oa-candidate-076
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-077
+  paper_id: ieee-oa-candidate-077
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-078
+  paper_id: elsevier-oa-candidate-078
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-079
+  paper_id: ieee-oa-candidate-079
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-080
+  paper_id: elsevier-oa-candidate-080
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-081
+  paper_id: ieee-oa-candidate-081
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-082
+  paper_id: elsevier-oa-candidate-082
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-083
+  paper_id: ieee-oa-candidate-083
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-084
+  paper_id: elsevier-oa-candidate-084
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-085
+  paper_id: ieee-oa-candidate-085
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-086
+  paper_id: elsevier-oa-candidate-086
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-087
+  paper_id: ieee-oa-candidate-087
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-088
+  paper_id: elsevier-oa-candidate-088
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-089
+  paper_id: ieee-oa-candidate-089
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-090
+  paper_id: elsevier-oa-candidate-090
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-091
+  paper_id: ieee-oa-candidate-091
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-092
+  paper_id: elsevier-oa-candidate-092
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-093
+  paper_id: ieee-oa-candidate-093
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-094
+  paper_id: elsevier-oa-candidate-094
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-095
+  paper_id: ieee-oa-candidate-095
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-096
+  paper_id: elsevier-oa-candidate-096
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-097
+  paper_id: ieee-oa-candidate-097
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-098
+  paper_id: elsevier-oa-candidate-098
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: ieee-candidate-slot-099
+  paper_id: ieee-oa-candidate-099
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.
+- candidate_id: elsevier-candidate-slot-100
+  paper_id: elsevier-oa-candidate-100
+  proposed DOI: TBD — collect from official publisher page or DOI registry during OA review
+  proposed source URL: TBD — must be official OA publisher page, author page, or institutional repository
+  DOI status: pending-doi-discovery
+  license candidate: TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA
+  license status: requires-live-license-verification
+  OA status: pending-oa-source-discovery
+  preflight passed: false
+  risk flags:
+  - doi-not-fully-verified
+  - oa-license-not-fully-verified
+  - permission-risk-high
+  next action: Collect official DOI and OA source URL from publisher page, Crossref, OpenAlex, institutional repository, or
+    author page; do not download until preflight passes.

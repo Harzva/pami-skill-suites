@@ -1,0 +1,26 @@
+schema_version: '1.0'
+release_version: 1.9.0
+publisher: Elsevier
+generated_on: '2026-06-14'
+asset_total: 18
+by_role:
+  main_figure: 6
+  motivation_figure: 6
+  beautiful_table: 6
+top_visual_patterns:
+- - architecture-or-overview-map
+  - 6
+- - problem-gap-to-method-motivation
+  - 6
+- - result-comparison-or-ablation-table
+  - 6
+review_queue_items: 17
+recommended_next_release: v2.0.0 main-figure website and multimodal RAG corpus with
+  at least 100 lawful OA main figures
+rag_readiness:
+  current_assets: 18
+  target_main_figure_papers: 100
+  current_main_figures: 6
+  requires_new_oa_corpus: true
+  copyright_policy: Only OA / permitted versions; store metadata, embeddings, and
+    structural descriptions; do not reuse copyrighted visuals without permission.

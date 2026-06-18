@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "target_release": "2.0.0",
+  "publisher": "Elsevier",
+  "minimum_target_papers": 100,
+  "allowed_sources": [
+    "open-access papers",
+    "CC BY / compatible OA PDFs",
+    "publisher-permitted OA versions",
+    "author/institution repository versions with clear license"
+  ],
+  "forbidden_sources": [
+    "Sci-Hub",
+    "pirated PDFs",
+    "paywalled PDFs without permission",
+    "copyright-unclear PDFs"
+  ],
+  "record_schema": {
+    "paper_id": "string",
+    "title": "string",
+    "journal": "string",
+    "year": "integer",
+    "doi": "string",
+    "license": "string",
+    "source_url": "string",
+    "main_figure_path": "string",
+    "caption": "short excerpt or safe summary",
+    "visual_tags": [
+      "pipeline",
+      "motivation",
+      "taxonomy",
+      "comparison",
+      "ablation"
+    ],
+    "section_links": [
+      "motivation",
+      "method",
+      "experiment",
+      "limitations"
+    ],
+    "rag_text": "safe structural description, not copied paper text"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "records": [
+    {
+      "paper_id": "tpami-2023-transformers-survey",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tip-2022-see360",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tmi-2020-lesion-localization",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2023-sparce",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    },
+    {
+      "paper_id": "tnnls-2024-mediterranean",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements."
+    }
+  ],
+  "review_policy": "Every record must be reviewed for license, attribution, third-party material, and venue-specific reuse rules before reuse beyond structural analysis."
+}

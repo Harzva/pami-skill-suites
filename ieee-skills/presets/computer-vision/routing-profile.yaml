@@ -1,0 +1,85 @@
+preset_id: computer-vision
+title: Computer Vision
+publisher_family: IEEE
+release_version: 1.4.0
+trigger_terms:
+- computer-vision
+- computer vision
+- Computer Vision
+- computer vision
+journal_aliases:
+- pami
+- tip
+- tcsvt
+- tvcg
+routing_order:
+- detect discipline preset
+- detect target journal
+- select journal fragment
+- select component fragments
+- select submission/legal fragments when needed
+- apply official-source and paper-mining safety warnings
+- return output contract
+component_bundles:
+  writing_core:
+  - abstract
+  - introduction
+  - related-work
+  - method
+  - experiment
+  - discussion
+  - conclusion
+  visual_evidence:
+  - table
+  - figure
+  - caption
+  - visual-accessibility
+  - results-reporting
+  submission_core:
+  - cover-letter
+  - response-letter
+  - author-agreement
+  - copyright
+  - open-access
+  - final-files
+  safety_core:
+  - official-source-compliance
+  - copyright-safety
+  - paper-mining-safety
+route_examples:
+- task: abstract rewrite
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+- task: related work audit
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+- task: figure caption upgrade
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+- task: table audit
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+- task: reviewer response
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+- task: submission package audit
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+- task: paper mining structure task
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+- task: official source compliance task
+  selected_preset: computer-vision
+  suite_router: ieee-skill-suite
+  default_visibility: optional preset; not default skill
+non_goals:
+- Do not create a new default top-level skill for this preset.
+- Do not treat L0 candidate journals as submission-ready.
+- Do not use template papers as copyable text.

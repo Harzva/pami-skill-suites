@@ -1,0 +1,342 @@
+schema_version: 1.0
+family: elsevier
+publisher: Elsevier
+version: 0.5.0
+journal_adapters:
+  -
+    skill: "applied-soft-computing-writing"
+    aliases:
+      - applied soft computing
+      - asc
+    path: "skills/applied-soft-computing-writing"
+    official_links_file: "skills/applied-soft-computing-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/applied-soft-computing-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Applied Soft Computing
+      issn: "1568-4946"
+      homepage: "https://www.sciencedirect.com/journal/applied-soft-computing"
+      guide_for_authors: "https://www.sciencedirect.com/journal/applied-soft-computing/publish/guide-for-authors"
+      scope: "soft computing, fuzzy systems, evolutionary computation, neural networks, metaheuristics"
+  -
+    skill: "artificial-intelligence-medicine-writing"
+    aliases:
+      - artificial intelligence medicine
+    path: "skills/artificial-intelligence-medicine-writing"
+    official_links_file: "skills/artificial-intelligence-medicine-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/artificial-intelligence-medicine-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Artificial Intelligence in Medicine
+      issn: "0933-3657"
+      homepage: "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine"
+      guide_for_authors: "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors"
+      scope: "AI in medicine, clinical decision support, biomedical data analysis"
+  -
+    skill: "artificial-intelligence-writing"
+    aliases:
+      - artificial intelligence journal
+      - ai journal
+      - artificial intelligence
+    path: "skills/artificial-intelligence-writing"
+    official_links_file: "skills/artificial-intelligence-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/artificial-intelligence-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Artificial Intelligence
+      issn: "0004-3702"
+      homepage: "https://www.sciencedirect.com/journal/artificial-intelligence"
+      guide_for_authors: "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors"
+      scope: "AI theory, search, reasoning, planning, learning, agents, foundations"
+  -
+    skill: "biomedical-signal-processing-control-writing"
+    aliases:
+      - biomedical signal processing control
+    path: "skills/biomedical-signal-processing-control-writing"
+    official_links_file: "skills/biomedical-signal-processing-control-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/biomedical-signal-processing-control-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Biomedical Signal Processing and Control
+      issn: "1746-8094"
+      homepage: "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control"
+      guide_for_authors: "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control/publish/guide-for-authors"
+      scope: "biomedical signals, medical signal processing, control, clinical engineering"
+  -
+    skill: "cmpb-writing"
+    aliases:
+      - cmpb
+    path: "skills/cmpb-writing"
+    official_links_file: "skills/cmpb-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/cmpb-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Computer Methods and Programs in Biomedicine
+      issn: "0169-2607"
+      homepage: "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine"
+      guide_for_authors: "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine/publish/guide-for-authors"
+      scope: "biomedical software, medical informatics, computational methods, clinical systems"
+  -
+    skill: "computer-speech-language-writing"
+    aliases:
+      - computer speech language
+    path: "skills/computer-speech-language-writing"
+    official_links_file: "skills/computer-speech-language-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/computer-speech-language-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: "Computer Speech & Language"
+      issn: "0885-2308"
+      homepage: "https://www.sciencedirect.com/journal/computer-speech-and-language"
+      guide_for_authors: "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors"
+      scope: "speech processing, spoken language processing, natural language and audio systems"
+  -
+    skill: "computers-biology-medicine-writing"
+    aliases:
+      - computers biology medicine
+    path: "skills/computers-biology-medicine-writing"
+    official_links_file: "skills/computers-biology-medicine-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/computers-biology-medicine-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Computers in Biology and Medicine
+      issn: "0010-4825"
+      homepage: "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine"
+      guide_for_authors: "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine/publish/guide-for-authors"
+      scope: "computational biology, medical computing, biomedical AI, clinical data systems"
+  -
+    skill: "cviu-writing"
+    aliases:
+      - cviu
+      - computer vision and image understanding
+    path: "skills/cviu-writing"
+    official_links_file: "skills/cviu-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/cviu-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Computer Vision and Image Understanding
+      issn: "1077-3142"
+      homepage: "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding"
+      guide_for_authors: "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/publish/guide-for-authors"
+      scope: "computer vision, image understanding, image analysis, object recognition, scene understanding"
+  -
+    skill: "data-knowledge-engineering-writing"
+    aliases:
+      - data knowledge engineering
+    path: "skills/data-knowledge-engineering-writing"
+    official_links_file: "skills/data-knowledge-engineering-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/data-knowledge-engineering-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: "Data & Knowledge Engineering"
+      issn: "0169-023X"
+      homepage: "https://www.sciencedirect.com/journal/data-and-knowledge-engineering"
+      guide_for_authors: "https://www.sciencedirect.com/journal/data-and-knowledge-engineering/publish/guide-for-authors"
+      scope: "data engineering, knowledge engineering, database systems, semantic data management"
+  -
+    skill: "decision-support-systems-writing"
+    aliases:
+      - decision support systems
+    path: "skills/decision-support-systems-writing"
+    official_links_file: "skills/decision-support-systems-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/decision-support-systems-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Decision Support Systems
+      issn: "0167-9236"
+      homepage: "https://www.sciencedirect.com/journal/decision-support-systems"
+      guide_for_authors: "https://www.sciencedirect.com/journal/decision-support-systems/publish/guide-for-authors"
+      scope: "decision support, analytics, management information systems, intelligent decision methods"
+  -
+    skill: "eaai-writing"
+    aliases:
+      - eaai
+    path: "skills/eaai-writing"
+    official_links_file: "skills/eaai-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/eaai-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Engineering Applications of Artificial Intelligence
+      issn: "0952-1976"
+      homepage: "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence"
+      guide_for_authors: "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence/publish/guide-for-authors"
+      scope: "engineering AI applications, intelligent systems, methods validated in engineering settings"
+  -
+    skill: "eswa-writing"
+    aliases:
+      - eswa
+      - expert systems with applications
+    path: "skills/eswa-writing"
+    official_links_file: "skills/eswa-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/eswa-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Expert Systems with Applications
+      issn: "0957-4174"
+      homepage: "https://www.sciencedirect.com/journal/expert-systems-with-applications"
+      guide_for_authors: "https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors"
+      scope: "expert systems, intelligent systems, applied AI, decision support, knowledge-based applications"
+  -
+    skill: "future-generation-computer-systems-writing"
+    aliases:
+      - future generation computer systems
+    path: "skills/future-generation-computer-systems-writing"
+    official_links_file: "skills/future-generation-computer-systems-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/future-generation-computer-systems-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Future Generation Computer Systems
+      issn: "0167-739X"
+      homepage: "https://www.sciencedirect.com/journal/future-generation-computer-systems"
+      guide_for_authors: "https://www.sciencedirect.com/journal/future-generation-computer-systems/publish/guide-for-authors"
+      scope: "distributed systems, cloud, edge, high-performance computing, future computing infrastructure"
+  -
+    skill: "image-and-vision-computing-writing"
+    aliases:
+      - image and vision computing
+      - ivc
+    path: "skills/image-and-vision-computing-writing"
+    official_links_file: "skills/image-and-vision-computing-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/image-and-vision-computing-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Image and Vision Computing
+      issn: "0262-8856"
+      homepage: "https://www.sciencedirect.com/journal/image-and-vision-computing"
+      guide_for_authors: "https://www.sciencedirect.com/journal/image-and-vision-computing/publish/guide-for-authors"
+      scope: "image analysis, vision computing, computer vision applications and algorithms"
+  -
+    skill: "information-fusion-writing"
+    aliases:
+      - information fusion
+    path: "skills/information-fusion-writing"
+    official_links_file: "skills/information-fusion-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/information-fusion-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Information Fusion
+      issn: "1566-2535"
+      homepage: "https://www.sciencedirect.com/journal/information-fusion"
+      guide_for_authors: "https://www.sciencedirect.com/journal/information-fusion/publish/guide-for-authors"
+      scope: "sensor fusion, multimodal fusion, data fusion theory and applications"
+  -
+    skill: "information-sciences-writing"
+    aliases:
+      - information sciences
+      - ins
+    path: "skills/information-sciences-writing"
+    official_links_file: "skills/information-sciences-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/information-sciences-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Information Sciences
+      issn: "0020-0255"
+      homepage: "https://www.sciencedirect.com/journal/information-sciences"
+      guide_for_authors: "https://www.sciencedirect.com/journal/information-sciences/publish/guide-for-authors"
+      scope: "information science, intelligent systems, data science, fuzzy systems, AI methods"
+  -
+    skill: "jvcir-writing"
+    aliases:
+      - jvcir
+    path: "skills/jvcir-writing"
+    official_links_file: "skills/jvcir-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/jvcir-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Journal of Visual Communication and Image Representation
+      issn: "1047-3203"
+      homepage: "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation"
+      guide_for_authors: "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation/publish/guide-for-authors"
+      scope: "visual communication, image representation, multimedia, compression and analysis"
+  -
+    skill: "kbs-writing"
+    aliases:
+      - "knowledge-based systems"
+      - knowledge based systems
+      - kbs
+    path: "skills/kbs-writing"
+    official_links_file: "skills/kbs-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/kbs-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: "Knowledge-Based Systems"
+      issn: "0950-7051"
+      homepage: "https://www.sciencedirect.com/journal/knowledge-based-systems"
+      guide_for_authors: "https://www.sciencedirect.com/journal/knowledge-based-systems/publish/guide-for-authors"
+      scope: "knowledge-based AI, intelligent systems, explainability, reasoning, applied machine learning"
+  -
+    skill: "medical-image-analysis-writing"
+    aliases:
+      - medical image analysis
+      - media
+    path: "skills/medical-image-analysis-writing"
+    official_links_file: "skills/medical-image-analysis-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/medical-image-analysis-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Medical Image Analysis
+      issn: "1361-8415"
+      homepage: "https://www.sciencedirect.com/journal/medical-image-analysis"
+      guide_for_authors: "https://www.sciencedirect.com/journal/medical-image-analysis/publish/guide-for-authors"
+      scope: "medical image analysis, computational imaging, biomedical AI, segmentation, registration, diagnosis"
+  -
+    skill: "neurocomputing-writing"
+    aliases:
+      - neurocomputing
+    path: "skills/neurocomputing-writing"
+    official_links_file: "skills/neurocomputing-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/neurocomputing-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Neurocomputing
+      issn: "0925-2312"
+      homepage: "https://www.sciencedirect.com/journal/neurocomputing"
+      guide_for_authors: "https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors"
+      scope: "neural computation, learning systems, machine learning, computational intelligence"
+  -
+    skill: "pr-writing"
+    aliases:
+      - pr
+      - pattern recognition
+    path: "skills/pr-writing"
+    official_links_file: "skills/pr-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/pr-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Pattern Recognition
+      issn: "0031-3203"
+      homepage: "https://www.sciencedirect.com/journal/pattern-recognition"
+      guide_for_authors: "https://www.sciencedirect.com/journal/pattern-recognition/publish/guide-for-authors"
+      scope: "pattern recognition theory, methodology, applications, computer vision, image processing, machine learning"
+  -
+    skill: "prl-writing"
+    aliases:
+      - prl
+      - pattern recognition letters
+    path: "skills/prl-writing"
+    official_links_file: "skills/prl-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/prl-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Pattern Recognition Letters
+      issn: "0167-8655"
+      homepage: "https://www.sciencedirect.com/journal/pattern-recognition-letters"
+      guide_for_authors: "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors"
+      scope: "rapid concise pattern recognition, image analysis, theory, methodology, empirical studies"
+  -
+    skill: "robotics-autonomous-systems-writing"
+    aliases:
+      - robotics autonomous systems
+    path: "skills/robotics-autonomous-systems-writing"
+    official_links_file: "skills/robotics-autonomous-systems-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/robotics-autonomous-systems-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Robotics and Autonomous Systems
+      issn: "0921-8890"
+      homepage: "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems"
+      guide_for_authors: "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems/publish/guide-for-authors"
+      scope: "robotics, autonomous systems, control, perception, planning and applications"
+  -
+    skill: "signal-processing-image-communication-writing"
+    aliases:
+      - signal processing image communication
+    path: "skills/signal-processing-image-communication-writing"
+    official_links_file: "skills/signal-processing-image-communication-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/signal-processing-image-communication-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: "Signal Processing: Image Communication"
+      issn: "0923-5965"
+      homepage: "https://www.sciencedirect.com/journal/signal-processing-image-communication"
+      guide_for_authors: "https://www.sciencedirect.com/journal/signal-processing-image-communication/publish/guide-for-authors"
+      scope: "image communication, visual signal processing, coding, streaming and representation"
+  -
+    skill: "signal-processing-writing"
+    aliases:
+      - signal processing
+    path: "skills/signal-processing-writing"
+    official_links_file: "skills/signal-processing-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/signal-processing-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: Signal Processing
+      issn: "0165-1684"
+      homepage: "https://www.sciencedirect.com/journal/signal-processing"
+      guide_for_authors: "https://www.sciencedirect.com/journal/signal-processing/publish/guide-for-authors"
+      scope: "signal processing theory, methods, algorithms, applications"

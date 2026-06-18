@@ -1,0 +1,493 @@
+schema_version: 2.7.0
+release_version: v2.7.0
+generated_on: '2026-06-17'
+title: Corpus Expansion Recommendations
+scope: IEEE Skills
+recommendation_count: 20
+recommendations:
+- missing_tag: method-pipeline
+  missing_query_count: 3
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: caption
+  missing_query_count: 2
+  recommended_disciplines:
+  - multimedia
+  - computer-vision
+  candidate_journal_families:
+  - IEEE TMM
+  - PR
+  - CVIU
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: claim-evidence
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: comparison
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: evidence
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: gap
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: motivation
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: problem-framing
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: table
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - Pattern Recognition
+  - Information Sciences
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: workflow
+  missing_query_count: 2
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: ablation
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - Pattern Recognition
+  - Information Sciences
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: baseline
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: beautiful-table
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - Pattern Recognition
+  - Information Sciences
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: boundary-condition
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: clinical
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: contrast
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: contribution
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: evaluation
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: failure-case
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+- missing_tag: figure
+  missing_query_count: 1
+  recommended_disciplines:
+  - computer-vision
+  - multimedia
+  - data-mining
+  candidate_journal_families:
+  - TPAMI
+  - TIP
+  - Pattern Recognition
+  - ESWA
+  candidate_requirements:
+  - open-access or clearly permitted OA version
+  - DOI evidence card
+  - license evidence
+  - permission and third-party-material review
+  - human reviewer approval before extraction or image embedding
+  preferred_figure_types:
+  - main figure
+  - motivation figure
+  - method pipeline
+  - summary taxonomy
+  - beautiful table
+  blocked_until: evidence gate approval
+global_policy:
+  allowed_sources:
+  - open-access papers
+  - CC BY / CC BY-NC / clearly permitted OA versions
+  - publisher-permitted OA PDFs
+  - author or institution repository OA versions
+  prohibited_sources:
+  - Sci-Hub
+  - pirated PDFs
+  - paywalled-only PDFs
+  - copyright-unknown PDFs
+  - unauthorized image reuse
+  image_embedding_allowed: false
+  public_gallery_allowed: false

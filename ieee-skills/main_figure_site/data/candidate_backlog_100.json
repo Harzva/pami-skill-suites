@@ -1,0 +1,2036 @@
+{
+  "schema_version": "2.0.0",
+  "purpose": "Backlog slots for building a 100+ legally sourced main-figure corpus. These are not populated papers.",
+  "target_total_main_figures": 100,
+  "status": "pending_oa_source_collection_and_permission_review",
+  "required_fields": [
+    "paper_id",
+    "title",
+    "journal",
+    "year",
+    "doi",
+    "license",
+    "source_url",
+    "main_figure_path",
+    "caption_or_safe_summary",
+    "visual_rhetoric_tags",
+    "linked_paper_section",
+    "reusable_structure_lessons",
+    "copyright_safety_note"
+  ],
+  "allowed_sources": [
+    "open-access paper",
+    "CC BY / CC BY-NC / explicitly licensed PDF",
+    "publisher-permitted OA PDF",
+    "author/institution repository OA version"
+  ],
+  "prohibited_sources": [
+    "Sci-Hub",
+    "pirated PDF",
+    "paywalled-only PDF",
+    "copyright-unknown PDF",
+    "unauthorized reproduction"
+  ],
+  "slots": [
+    {
+      "slot_id": "MF-TARGET-001",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-002",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-003",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-004",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-005",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-006",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-007",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-008",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-009",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-010",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-011",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-012",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-013",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-014",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-015",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-016",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-017",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-018",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-019",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-020",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-021",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-022",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-023",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-024",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-025",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-026",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-027",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-028",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-029",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-030",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-031",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-032",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-033",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-034",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-035",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-036",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-037",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-038",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-039",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-040",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-041",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-042",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-043",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-044",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-045",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-046",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-047",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-048",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-049",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-050",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-051",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-052",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-053",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-054",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-055",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-056",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-057",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-058",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-059",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-060",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-061",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-062",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-063",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-064",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-065",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-066",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-067",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-068",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-069",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-070",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-071",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-072",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-073",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-074",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-075",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-076",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-077",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-078",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-079",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-080",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-081",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-082",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-083",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-084",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-085",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-086",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-087",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-088",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-089",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-090",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-091",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-092",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-093",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-094",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-095",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-096",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-097",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-098",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-099",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    },
+    {
+      "slot_id": "MF-TARGET-100",
+      "status": "empty-pending-legal-OA-source",
+      "required_before_ingest": [
+        "paper_id",
+        "title",
+        "journal",
+        "year",
+        "doi",
+        "license",
+        "source_url",
+        "main_figure_path",
+        "caption_or_safe_summary",
+        "visual_rhetoric_tags",
+        "linked_paper_section",
+        "reusable_structure_lessons",
+        "copyright_safety_note"
+      ],
+      "notes": "Populate only after source URL, license, and permission status are verified."
+    }
+  ]
+}

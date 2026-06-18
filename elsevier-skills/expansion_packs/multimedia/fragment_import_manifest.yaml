@@ -1,0 +1,42 @@
+pack_id: multimedia
+release_version: 1.3.0
+import_mode: opt-in-fragment-pack
+context_safety_rules:
+- Do not copy expansion pack journals into default skills/.
+- Import fragments into skill-suite/static/journals only after source matrix validation.
+- Keep independent advanced skills under skills-advanced/ unless explicitly requested by a maintainer.
+- All L0/L1/L2 entries require source verification before real submission use.
+imports:
+- journal_id: jvcir
+  source_fragment: skills/elsevier-skill-suite/static/journals/jvcir.md
+  advanced_skill_source: skills-advanced/journals/jvcir-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: signal-processing-image-communication
+  source_fragment: skills/elsevier-skill-suite/static/journals/signal-processing-image-communication.md
+  advanced_skill_source: skills-advanced/journals/signal-processing-image-communication-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: information-fusion
+  source_fragment: skills/elsevier-skill-suite/static/journals/information-fusion.md
+  advanced_skill_source: skills-advanced/journals/information-fusion-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: computer-speech-language
+  source_fragment: skills/elsevier-skill-suite/static/journals/computer-speech-language.md
+  advanced_skill_source: skills-advanced/journals/computer-speech-language-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+candidate_entries: []
+promotion_workflow:
+  script: scripts/promote_journal_candidate.py
+  staging_only_by_default: true
+  default_skill_listing_policy: never add promoted candidates to default skills/
+  required_validators:
+  - validate_pack_maturity.py
+  - validate_official_links.py
+  - validate_live_verification_warnings.py

@@ -1,0 +1,314 @@
+schema_version: 2.7.0
+release_version: v2.7.0
+generated_on: '2026-06-17'
+title: Missing Tag Coverage Report
+scope: IEEE Skills
+missing_tag_count: 35
+queries_with_missing_tags: 12
+top_missing_tags:
+- tag: method-pipeline
+  missing_query_count: 3
+- tag: caption
+  missing_query_count: 2
+- tag: claim-evidence
+  missing_query_count: 2
+- tag: comparison
+  missing_query_count: 2
+- tag: evidence
+  missing_query_count: 2
+- tag: gap
+  missing_query_count: 2
+- tag: motivation
+  missing_query_count: 2
+- tag: problem-framing
+  missing_query_count: 2
+- tag: table
+  missing_query_count: 2
+- tag: workflow
+  missing_query_count: 2
+- tag: ablation
+  missing_query_count: 1
+- tag: baseline
+  missing_query_count: 1
+- tag: beautiful-table
+  missing_query_count: 1
+- tag: boundary-condition
+  missing_query_count: 1
+- tag: clinical
+  missing_query_count: 1
+- tag: contrast
+  missing_query_count: 1
+- tag: contribution
+  missing_query_count: 1
+- tag: evaluation
+  missing_query_count: 1
+- tag: failure-case
+  missing_query_count: 1
+- tag: figure
+  missing_query_count: 1
+- tag: future-work
+  missing_query_count: 1
+- tag: limitations
+  missing_query_count: 1
+- tag: metadata-only
+  missing_query_count: 1
+- tag: method-comparison
+  missing_query_count: 1
+- tag: metrics
+  missing_query_count: 1
+- tag: panel-explanation
+  missing_query_count: 1
+- tag: permission-review
+  missing_query_count: 1
+- tag: preprocessing
+  missing_query_count: 1
+- tag: remote-sensing
+  missing_query_count: 1
+- tag: risk
+  missing_query_count: 1
+missing_by_query:
+- query_id: method_pipeline_main_figure
+  missing_tags:
+  - method-pipeline
+  - workflow
+  - claim-evidence
+  best_seed_matches:
+  - paper_id: tip-2022-see360
+    score: 4
+    tag_overlap:
+    - pipeline
+    text_hits:
+    - pipeline
+  - paper_id: tpami-2023-transformers-survey
+    score: 4
+    tag_overlap:
+    - overview
+    text_hits:
+    - overview
+  - paper_id: tnnls-2023-sparce
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: motivation_gap_figure
+  missing_tags:
+  - motivation
+  - gap
+  - contrast
+  - problem-framing
+  best_seed_matches:
+  - paper_id: tpami-2023-transformers-survey
+    score: 4
+    tag_overlap:
+    - overview
+    text_hits:
+    - overview
+  - paper_id: tnnls-2023-sparce
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: tnnls-2024-mediterranean
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: ablation_table_style
+  missing_tags:
+  - ablation
+  - table
+  - comparison
+  - method-comparison
+  - evidence
+  best_seed_matches:
+  - paper_id: tmi-2020-lesion-localization
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - evidence
+  coverage_status: has_seed_matches
+- query_id: taxonomy_survey_overview
+  missing_tags:
+  - survey
+  best_seed_matches:
+  - paper_id: tpami-2023-transformers-survey
+    score: 13
+    tag_overlap:
+    - concept-map
+    - overview
+    - taxonomy
+    text_hits:
+    - concept-map
+    - overview
+    - survey
+    - taxonomy
+  - paper_id: tnnls-2023-sparce
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: tnnls-2024-mediterranean
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: medical_ai_workflow
+  missing_tags:
+  - workflow
+  - clinical
+  - validation
+  - method-pipeline
+  best_seed_matches:
+  - paper_id: tmi-2020-lesion-localization
+    score: 4
+    tag_overlap:
+    - medical-ai
+    text_hits:
+    - medical-ai
+  coverage_status: has_seed_matches
+- query_id: remote_sensing_pipeline
+  missing_tags:
+  - remote-sensing
+  - preprocessing
+  - evaluation
+  - method-pipeline
+  best_seed_matches:
+  - paper_id: tip-2022-see360
+    score: 4
+    tag_overlap:
+    - pipeline
+    text_hits:
+    - pipeline
+  coverage_status: has_seed_matches
+- query_id: caption_explanation_pattern
+  missing_tags:
+  - caption
+  - panel-explanation
+  - takeaway
+  - symbol-explanation
+  best_seed_matches:
+  - paper_id: tip-2022-see360
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: tmi-2020-lesion-localization
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: tnnls-2023-sparce
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  coverage_status: has_seed_matches
+- query_id: limitations_visualization
+  missing_tags:
+  - limitations
+  - failure-case
+  - boundary-condition
+  - future-work
+  - risk
+  best_seed_matches: []
+  coverage_status: coverage_gap
+- query_id: beautiful_comparison_table
+  missing_tags:
+  - beautiful-table
+  - comparison
+  - metrics
+  - baseline
+  - evidence
+  best_seed_matches:
+  - paper_id: tmi-2020-lesion-localization
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - evidence
+  coverage_status: has_seed_matches
+- query_id: figure_table_caption_bundle
+  missing_tags:
+  - figure
+  - table
+  - caption
+  - claim-evidence
+  best_seed_matches:
+  - paper_id: tpami-2023-transformers-survey
+    score: 5
+    tag_overlap:
+    - overview
+    text_hits:
+    - figure
+    - overview
+  - paper_id: tnnls-2023-sparce
+    score: 2
+    tag_overlap: []
+    text_hits:
+    - figure
+    - overview
+  - paper_id: tnnls-2024-mediterranean
+    score: 2
+    tag_overlap: []
+    text_hits:
+    - figure
+    - overview
+  coverage_status: has_seed_matches
+- query_id: visual_rhetoric_for_introduction
+  missing_tags:
+  - motivation
+  - gap
+  - contribution
+  - problem-framing
+  best_seed_matches:
+  - paper_id: tpami-2023-transformers-survey
+    score: 4
+    tag_overlap:
+    - overview
+    text_hits:
+    - overview
+  - paper_id: tnnls-2023-sparce
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: tnnls-2024-mediterranean
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: rag_safety_permission_warning
+  missing_tags:
+  - permission-review
+  - metadata-only
+  - safety
+  best_seed_matches:
+  - paper_id: tip-2022-see360
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: tmi-2020-lesion-localization
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: tnnls-2023-sparce
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  coverage_status: has_seed_matches
+recommended_corpus_actions:
+- Prioritize lawful OA candidates that cover tags missing from multiple queries.
+- Add evidence cards before extraction.
+- Do not use pending candidates in retrieval until eligibility gates pass.

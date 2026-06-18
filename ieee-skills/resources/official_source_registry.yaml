@@ -1,0 +1,1022 @@
+registry_version: 1.8.0
+publisher: IEEE
+last_verified_date: '2026-06-12'
+verification_scope: official-source fields populated and publisher-wide official sources
+  mapped; mutable journal-specific rules require live verification before submission
+source_tier_policy:
+  highest: journal official rule
+  second: publisher official rule
+  third: repository best-practice recommendation
+  lowest: template-paper observation
+publisher_common_sources:
+  publisher_name: IEEE
+  author_center: https://journals.ieeeauthorcenter.ieee.org/
+  journal_home_finder: https://ieeexplore.ieee.org/Xplore/home.jsp
+  author_instructions: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+  submission_system: https://ieee.atyponrex.com/journalfinder
+  manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+  template_selector: https://template-selector.ieee.org/
+  publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+  copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/about-the-ieee-copyright-form/
+  open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+  ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/
+  ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+  data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+  permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+  editorial_style: https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/
+  submission_policies: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+journals:
+- id: access
+  title: IEEE Access
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/access.md
+  fields:
+    journal_homepage: https://ieeeaccess.ieee.org/
+    author_instructions: https://ieeeaccess.ieee.org/authors/submission-guidelines/
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: intelligent-transportation-systems
+  title: IEEE Intelligent Transportation Systems
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/intelligent-transportation-systems.md
+  fields:
+    journal_homepage: https://ieee-itss.org/pub/t-its
+    author_instructions: https://ieee-itss.org/pub/t-its/information-for-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: jbhi
+  title: IEEE JBHI
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/jbhi.md
+  fields:
+    journal_homepage: https://www.embs.org/jbhi/
+    author_instructions: https://www.embs.org/jbhi/authors/
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: pami
+  title: TPAMI / PAMI
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/pami.md
+  fields:
+    journal_homepage: https://www.computer.org/csdl/journal/tp
+    author_instructions: https://www.computer.org/publications/author-resources
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tac
+  title: IEEE Transactions on Automatic Control
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tac.md
+  fields:
+    journal_homepage: https://ieeecss.org/publication/transactions-automatic-control
+    author_instructions: https://ieeecss.org/publication/transactions-automatic-control/information-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tai
+  title: IEEE Transactions on Artificial Intelligence
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tai.md
+  fields:
+    journal_homepage: https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence
+    author_instructions: https://www.computer.org/publications/author-resources
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tase
+  title: IEEE T-ASE
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tase.md
+  fields:
+    journal_homepage: https://www.ieee-ras.org/publications/t-ase
+    author_instructions: https://www.ieee-ras.org/publications/t-ase/information-for-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tcomm
+  title: IEEE Transactions on Communications
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tcomm.md
+  fields:
+    journal_homepage: https://www.comsoc.org/publications/journals/ieee-tcom
+    author_instructions: https://www.comsoc.org/publications/journals/ieee-tcom/paper-submission-guidelines
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tcsvt
+  title: IEEE TCSVT
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tcsvt.md
+  fields:
+    journal_homepage: https://ieee-cas.org/publication/tcsvt
+    author_instructions: https://ieee-cas.org/publications/author-information
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tcyb
+  title: IEEE Transactions on Cybernetics
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tcyb.md
+  fields:
+    journal_homepage: https://cis.ieee.org/publications/t-cybernetics
+    author_instructions: https://www.ieeesmc.org/publications/information-for-authors/
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tgrs
+  title: IEEE TGRS
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tgrs.md
+  fields:
+    journal_homepage: https://www.grss-ieee.org/publications/transactions-on-geoscience-and-remote-sensing/
+    author_instructions: https://www.grss-ieee.org/publications/transactions-on-geoscience-and-remote-sensing/
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tifs
+  title: IEEE TIFS
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tifs.md
+  fields:
+    journal_homepage: https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-security
+    author_instructions: https://signalprocessingsociety.org/publications-resources/information-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tip
+  title: IEEE TIP
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tip.md
+  fields:
+    journal_homepage: https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing
+    author_instructions: https://signalprocessingsociety.org/publications-resources/information-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tkde
+  title: IEEE TKDE
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tkde.md
+  fields:
+    journal_homepage: https://www.computer.org/csdl/journal/tk
+    author_instructions: https://www.computer.org/publications/author-resources
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tmi
+  title: IEEE TMI
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tmi.md
+  fields:
+    journal_homepage: https://www.embs.org/tmi/
+    author_instructions: https://ieeetmi.org/authors-instructions/
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tmm
+  title: IEEE TMM
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tmm.md
+  fields:
+    journal_homepage: https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia
+    author_instructions: https://signalprocessingsociety.org/publications-resources/information-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tnnls
+  title: IEEE TNNLS
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tnnls.md
+  fields:
+    journal_homepage: https://cis.ieee.org/publications/t-neural-networks-and-learning-systems
+    author_instructions: https://cis.ieee.org/publications/t-neural-networks-and-learning-systems/tnnls
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tpel
+  title: IEEE TPEL
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tpel.md
+  fields:
+    journal_homepage: https://www.ieee-pels.org/publications/ieee-transactions-power-electronics
+    author_instructions: https://www.ieee-pels.org/publications/ieee-transactions-on-power-electronics/for-authors/
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tro
+  title: IEEE Transactions on Robotics
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tro.md
+  fields:
+    journal_homepage: https://www.ieee-ras.org/publications/tro
+    author_instructions: https://www.ieee-ras.org/publications/t-ro/information-for-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tsp
+  title: IEEE TSP
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tsp.md
+  fields:
+    journal_homepage: https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing
+    author_instructions: https://signalprocessingsociety.org/publications-resources/information-authors
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: tvcg
+  title: IEEE TVCG
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/tvcg.md
+  fields:
+    journal_homepage: https://www.computer.org/csdl/journal/tg
+    author_instructions: https://www.computer.org/publications/author-resources
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+- id: twc
+  title: IEEE Transactions on Wireless Communications
+  publisher: IEEE
+  path: skills/ieee-skill-suite/static/journals/twc.md
+  fields:
+    journal_homepage: https://www.comsoc.org/publications/journals/ieee-twc
+    author_instructions: https://www.comsoc.org/publications/journals/ieee-twc/paper-submission-guidelines
+    submission_system: https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/
+    manuscript_template: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+    publishing_agreement: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/
+    copyright_license: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    open_access: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/
+    ethics_integrity: https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/
+    ai_disclosure_policy: https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/
+    data_code_availability: https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/
+    permissions: https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/
+    xplore: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7693
+  last_verified_date: '2026-06-11'
+  verification_status: official-source fields populated in v0.8.0; live verification
+    required before submission
+  source_tiers:
+    publisher_official_rule:
+    - publisher author center/policies
+    - publisher templates
+    - publishing agreement/copyright/license/open access pages
+    - AI/data/permissions pages
+    journal_official_rule:
+    - journal homepage
+    - journal author instructions / Guide for Authors / Information for Authors
+    - submission system
+    repository_best_practice_recommendation:
+    - routing policy
+    - output contracts
+    - reviewer-risk checklists
+    template_paper_observation:
+    - open-access template-paper structural observations only, when included
+  last_live_checked: not-run-in-release-build
+  source_status: pending-live-check
+  needs_reverification: true
+  official_link_health:
+    status: unchecked
+    reason: Release build is offline-friendly; run scripts/check_official_links_live.py
+      --live in a networked environment.
+    report_path: resources/source_refresh_report.json
+source_refresh_policy:
+  cadence: quarterly or before each public release
+  live_check_script: scripts/check_official_links_live.py
+  stale_report_script: scripts/report_stale_sources.py
+  release_build_network_policy: offline-friendly by default; CI uses dry-run unless
+    maintainers opt into --live
+  mutable_fields_require_reverification:
+  - submission system
+  - manuscript template
+  - publishing agreement
+  - copyright/license
+  - open access options or APC
+  - AI disclosure policy
+  - data/code availability policy
+  - permissions
+  - page limits
+  - supplementary-file requirements
+maintenance_policy:
+  live_check_script: scripts/check_official_links_live.py --live
+  matrix_script: scripts/live_source_check_matrix.py
+  age_policy_script: scripts/source_age_policy.py
+  dashboard_script: scripts/release_health_dashboard.py
+  offline_safe_policy: Do not mark unchecked sources as healthy in offline release
+    builds.
+  last_release_update: '2026-06-13'
+last_policy_snapshot: resources/source_snapshots/2026-06-14-v1.8.0-registry-snapshot.json

@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.1.0",
+  "release_version": "2.1.0",
+  "generated_on": "2026-06-16",
+  "title": "Duplicate Visual Check Report",
+  "summary": {
+    "checked_seed_image_paths": 5,
+    "duplicate_path_count": 0,
+    "pending_slots_not_checked": 95
+  },
+  "duplicates": [],
+  "policy": "Near-duplicate visual similarity requires human or embedding-based review in future releases."
+}

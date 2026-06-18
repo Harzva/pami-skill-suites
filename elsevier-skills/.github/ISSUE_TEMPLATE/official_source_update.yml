@@ -1,0 +1,17 @@
+name: Official source update
+description: Report a changed Elsevier journal or publisher source URL/policy.
+title: "[source-update]: "
+labels: [official-source, maintenance]
+body:
+  - type: input
+    id: journal
+    attributes:
+      label: Journal / source
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed?

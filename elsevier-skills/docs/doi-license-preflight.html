@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DOI / License Preflight</title><link rel="stylesheet" href="assets/site.css"></head>
+<body>
+<main>
+<h1>DOI / License Preflight</h1>
+<p><strong>Release:</strong> v2.3.0</p>
+<p>Preflight records separate DOI lookup, OA source status, license candidate, and permission risk before any extraction task can proceed.</p>
+<section><h2>Safety policy</h2><p>This workflow is offline-safe by default. It does not download papers, bypass paywalls, use Sci-Hub, or treat pending candidates as approved OA sources.</p></section>
+<section><h2>Required artifacts</h2><pre>data/doi_license_preflight_report.json
+data/candidate_risk_scores.json</pre></section>
+<section><h2>Maintainer command</h2><pre>python scripts/doi_license_preflight.py</pre></section>
+</main>
+</body>
+</html>

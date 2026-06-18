@@ -1,0 +1,578 @@
+{
+  "schema_version": "1.0",
+  "family": "elsevier",
+  "version": "0.5.0",
+  "components": [
+    {
+      "component": "title",
+      "skill": "elsevier-title-author-metadata",
+      "aliases": [
+        "title",
+        "paper title",
+        "manuscript title",
+        "author metadata",
+        "author list",
+        "affiliation",
+        "corresponding author metadata",
+        "metadata"
+      ],
+      "path": "skills/elsevier-title-author-metadata",
+      "coupled_components": []
+    },
+    {
+      "component": "abstract",
+      "skill": "elsevier-abstract-keywords",
+      "aliases": [
+        "abstract",
+        "摘要"
+      ],
+      "path": "skills/elsevier-abstract-keywords",
+      "coupled_components": []
+    },
+    {
+      "component": "keywords",
+      "skill": "elsevier-keywords",
+      "aliases": [
+        "keyword",
+        "keywords",
+        "index terms",
+        "index term",
+        "关键词"
+      ],
+      "path": "skills/elsevier-keywords",
+      "coupled_components": []
+    },
+    {
+      "component": "introduction",
+      "skill": "elsevier-introduction",
+      "aliases": [
+        "introduction",
+        "intro",
+        "引言"
+      ],
+      "path": "skills/elsevier-introduction",
+      "coupled_components": []
+    },
+    {
+      "component": "related-work",
+      "skill": "elsevier-related-work",
+      "aliases": [
+        "related work",
+        "literature review",
+        "prior work",
+        "相关工作"
+      ],
+      "path": "skills/elsevier-related-work",
+      "coupled_components": [
+        "contribution-positioning",
+        "reference-integrity"
+      ]
+    },
+    {
+      "component": "contribution-positioning",
+      "skill": "elsevier-contribution-positioning",
+      "aliases": [
+        "contribution",
+        "novelty",
+        "positioning",
+        "贡献",
+        "创新点"
+      ],
+      "path": "skills/elsevier-contribution-positioning",
+      "coupled_components": [
+        "reference-integrity",
+        "related-work"
+      ]
+    },
+    {
+      "component": "problem-formulation",
+      "skill": "elsevier-problem-formulation",
+      "aliases": [
+        "problem formulation",
+        "formulation",
+        "definition",
+        "problem statement"
+      ],
+      "path": "skills/elsevier-problem-formulation",
+      "coupled_components": [
+        "algorithm",
+        "equation",
+        "method",
+        "theory-proof"
+      ]
+    },
+    {
+      "component": "method",
+      "skill": "elsevier-method-experiment",
+      "aliases": [
+        "method",
+        "methodology",
+        "approach",
+        "architecture",
+        "pipeline",
+        "方法"
+      ],
+      "path": "skills/elsevier-method-experiment",
+      "coupled_components": [
+        "algorithm",
+        "equation",
+        "problem-formulation",
+        "theory-proof"
+      ]
+    },
+    {
+      "component": "algorithm",
+      "skill": "elsevier-algorithm-pseudocode",
+      "aliases": [
+        "algorithm",
+        "pseudocode",
+        "pseudo-code",
+        "算法"
+      ],
+      "path": "skills/elsevier-algorithm-pseudocode",
+      "coupled_components": [
+        "equation",
+        "method",
+        "problem-formulation",
+        "theory-proof"
+      ]
+    },
+    {
+      "component": "equation",
+      "skill": "elsevier-equation",
+      "aliases": [
+        "equation",
+        "formula",
+        "math",
+        "notation",
+        "公式"
+      ],
+      "path": "skills/elsevier-equation",
+      "coupled_components": [
+        "algorithm",
+        "method",
+        "problem-formulation",
+        "theory-proof"
+      ]
+    },
+    {
+      "component": "theory-proof",
+      "skill": "elsevier-theory-proof",
+      "aliases": [
+        "theory",
+        "proof",
+        "lemma",
+        "theorem",
+        "理论",
+        "证明"
+      ],
+      "path": "skills/elsevier-theory-proof",
+      "coupled_components": [
+        "algorithm",
+        "equation",
+        "method",
+        "problem-formulation"
+      ]
+    },
+    {
+      "component": "experiment",
+      "skill": "elsevier-method-experiment",
+      "aliases": [
+        "experiment",
+        "experimental",
+        "evaluation",
+        "实验"
+      ],
+      "path": "skills/elsevier-method-experiment",
+      "coupled_components": [
+        "ablation-study",
+        "baseline-selection",
+        "dataset-protocol",
+        "metrics-evaluation",
+        "results-reporting",
+        "statistical-reporting"
+      ]
+    },
+    {
+      "component": "dataset-protocol",
+      "skill": "elsevier-dataset-protocol",
+      "aliases": [
+        "dataset",
+        "data set",
+        "benchmark",
+        "split",
+        "protocol",
+        "数据集"
+      ],
+      "path": "skills/elsevier-dataset-protocol",
+      "coupled_components": [
+        "ablation-study",
+        "baseline-selection",
+        "experiment",
+        "metrics-evaluation",
+        "results-reporting",
+        "statistical-reporting"
+      ]
+    },
+    {
+      "component": "baseline-selection",
+      "skill": "elsevier-baseline-selection",
+      "aliases": [
+        "baseline",
+        "sota",
+        "comparison",
+        "对比"
+      ],
+      "path": "skills/elsevier-baseline-selection",
+      "coupled_components": [
+        "ablation-study",
+        "dataset-protocol",
+        "experiment",
+        "metrics-evaluation",
+        "results-reporting",
+        "statistical-reporting"
+      ]
+    },
+    {
+      "component": "metrics-evaluation",
+      "skill": "elsevier-metrics-evaluation",
+      "aliases": [
+        "metric",
+        "evaluation metric",
+        "auc",
+        "f1",
+        "accuracy",
+        "指标"
+      ],
+      "path": "skills/elsevier-metrics-evaluation",
+      "coupled_components": [
+        "ablation-study",
+        "baseline-selection",
+        "dataset-protocol",
+        "experiment",
+        "results-reporting",
+        "statistical-reporting"
+      ]
+    },
+    {
+      "component": "results-reporting",
+      "skill": "elsevier-results-reporting",
+      "aliases": [
+        "result",
+        "results",
+        "性能",
+        "结果"
+      ],
+      "path": "skills/elsevier-results-reporting",
+      "coupled_components": [
+        "ablation-study",
+        "baseline-selection",
+        "dataset-protocol",
+        "experiment",
+        "metrics-evaluation",
+        "statistical-reporting"
+      ]
+    },
+    {
+      "component": "ablation-study",
+      "skill": "elsevier-ablation-study",
+      "aliases": [
+        "ablation",
+        "sensitivity",
+        "消融"
+      ],
+      "path": "skills/elsevier-ablation-study",
+      "coupled_components": [
+        "baseline-selection",
+        "dataset-protocol",
+        "experiment",
+        "metrics-evaluation",
+        "results-reporting",
+        "statistical-reporting"
+      ]
+    },
+    {
+      "component": "statistical-reporting",
+      "skill": "elsevier-statistical-significance",
+      "aliases": [
+        "statistical",
+        "significance",
+        "p-value",
+        "confidence interval",
+        "统计"
+      ],
+      "path": "skills/elsevier-statistical-significance",
+      "coupled_components": [
+        "ablation-study",
+        "baseline-selection",
+        "dataset-protocol",
+        "experiment",
+        "metrics-evaluation",
+        "results-reporting"
+      ]
+    },
+    {
+      "component": "table",
+      "skill": "elsevier-table",
+      "aliases": [
+        "table",
+        "tabular",
+        "表格"
+      ],
+      "path": "skills/elsevier-table",
+      "coupled_components": [
+        "caption",
+        "figure",
+        "visual-accessibility"
+      ]
+    },
+    {
+      "component": "figure",
+      "skill": "elsevier-figure",
+      "aliases": [
+        "figure",
+        "artwork",
+        "plot",
+        "diagram",
+        "图",
+        "插图"
+      ],
+      "path": "skills/elsevier-figure",
+      "coupled_components": [
+        "caption",
+        "table",
+        "visual-accessibility"
+      ]
+    },
+    {
+      "component": "caption",
+      "skill": "elsevier-caption",
+      "aliases": [
+        "caption",
+        "legend",
+        "图注",
+        "表注"
+      ],
+      "path": "skills/elsevier-caption",
+      "coupled_components": [
+        "figure",
+        "table",
+        "visual-accessibility"
+      ]
+    },
+    {
+      "component": "discussion",
+      "skill": "elsevier-discussion",
+      "aliases": [
+        "discussion",
+        "讨论"
+      ],
+      "path": "skills/elsevier-discussion",
+      "coupled_components": []
+    },
+    {
+      "component": "limitations",
+      "skill": "elsevier-limitations",
+      "aliases": [
+        "limitation",
+        "limitations",
+        "局限"
+      ],
+      "path": "skills/elsevier-limitations",
+      "coupled_components": []
+    },
+    {
+      "component": "conclusion",
+      "skill": "elsevier-conclusion",
+      "aliases": [
+        "conclusion",
+        "结论"
+      ],
+      "path": "skills/elsevier-conclusion",
+      "coupled_components": []
+    },
+    {
+      "component": "appendix",
+      "skill": "elsevier-appendix",
+      "aliases": [
+        "appendix",
+        "appendices",
+        "supplementary",
+        "supplement",
+        "附录",
+        "补充材料"
+      ],
+      "path": "skills/elsevier-appendix",
+      "coupled_components": []
+    },
+    {
+      "component": "reference-integrity",
+      "skill": "elsevier-citation",
+      "aliases": [
+        "reference",
+        "citation",
+        "bibliography",
+        "引用",
+        "参考文献"
+      ],
+      "path": "skills/elsevier-citation",
+      "coupled_components": [
+        "contribution-positioning",
+        "related-work"
+      ]
+    },
+    {
+      "component": "data-code-availability",
+      "skill": "elsevier-data-availability",
+      "aliases": [
+        "code availability",
+        "data availability",
+        "artifact",
+        "reproducibility",
+        "代码",
+        "数据可用"
+      ],
+      "path": "skills/elsevier-data-availability",
+      "coupled_components": [
+        "author-agreement",
+        "declarations",
+        "preprint-prior-publication"
+      ]
+    },
+    {
+      "component": "cover-letter",
+      "skill": "elsevier-cover-letter",
+      "aliases": [
+        "cover letter",
+        "fit statement",
+        "投稿信"
+      ],
+      "path": "skills/elsevier-cover-letter",
+      "coupled_components": []
+    },
+    {
+      "component": "response",
+      "skill": "elsevier-response",
+      "aliases": [
+        "response letter",
+        "reviewer response",
+        "rebuttal",
+        "revision response",
+        "回复审稿人"
+      ],
+      "path": "skills/elsevier-response",
+      "coupled_components": []
+    },
+    {
+      "component": "revision",
+      "skill": "elsevier-revision-diff",
+      "aliases": [
+        "revision",
+        "diff",
+        "change log",
+        "修稿"
+      ],
+      "path": "skills/elsevier-revision-diff",
+      "coupled_components": []
+    },
+    {
+      "component": "author-agreement",
+      "skill": "elsevier-author-agreement",
+      "aliases": [
+        "author agreement",
+        "publishing agreement",
+        "copyright",
+        "license",
+        "open access",
+        "版权",
+        "协议"
+      ],
+      "path": "skills/elsevier-author-agreement",
+      "coupled_components": [
+        "data-code-availability",
+        "declarations",
+        "preprint-prior-publication"
+      ]
+    },
+    {
+      "component": "declarations",
+      "skill": "elsevier-declarations",
+      "aliases": [
+        "declaration",
+        "competing interest",
+        "conflict of interest",
+        "funding",
+        "ethics",
+        "声明"
+      ],
+      "path": "skills/elsevier-declarations",
+      "coupled_components": [
+        "author-agreement",
+        "data-code-availability",
+        "preprint-prior-publication"
+      ]
+    },
+    {
+      "component": "proof-correction",
+      "skill": "elsevier-proof-correction",
+      "aliases": [
+        "proof",
+        "proof correction",
+        "page proof",
+        "校样"
+      ],
+      "path": "skills/elsevier-proof-correction",
+      "coupled_components": []
+    },
+    {
+      "component": "highlights",
+      "skill": "elsevier-highlights",
+      "aliases": [
+        "highlights",
+        "highlight",
+        "research highlights",
+        "submission highlights",
+        "highlights file",
+        "亮点"
+      ],
+      "path": "skills/elsevier-highlights",
+      "coupled_components": [
+        "abstract",
+        "keywords",
+        "cover-letter"
+      ]
+    },
+    {
+      "component": "graphical-abstract",
+      "skill": "elsevier-graphical-abstract",
+      "aliases": [
+        "graphical abstract",
+        "visual abstract",
+        "graphical summary",
+        "图文摘要"
+      ],
+      "path": "skills/elsevier-graphical-abstract",
+      "coupled_components": [
+        "figure",
+        "caption",
+        "highlights"
+      ]
+    },
+    {
+      "component": "permission-reuse",
+      "skill": "elsevier-permission-reuse",
+      "aliases": [
+        "permission",
+        "permissions",
+        "reuse permission",
+        "third-party material",
+        "image permission",
+        "版权复用"
+      ],
+      "path": "skills/elsevier-permission-reuse",
+      "coupled_components": [
+        "author-agreement"
+      ]
+    }
+  ]
+}

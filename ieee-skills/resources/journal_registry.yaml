@@ -1,0 +1,362 @@
+schema_version: 1.0
+family: ieee
+publisher: IEEE
+version: 0.5.0
+journal_adapters:
+  -
+    skill: "ieee-access-writing"
+    aliases:
+      - ieee access
+      - access
+    path: "skills/ieee-access-writing"
+    official_links_file: "skills/ieee-access-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/ieee-access-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Access
+      short: IEEE Access
+      publisher: IEEE
+      homepage: "https://ieeeaccess.ieee.org/"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639"
+      author_instructions: "https://ieeeaccess.ieee.org/authors/submission-guidelines/"
+      scope: "multidisciplinary IEEE engineering, computing, applied systems and technology"
+  -
+    skill: "intelligent-transportation-systems-writing"
+    aliases:
+      - intelligent transportation systems
+    path: "skills/intelligent-transportation-systems-writing"
+    official_links_file: "skills/intelligent-transportation-systems-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/intelligent-transportation-systems-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Intelligent Transportation Systems
+      short: "T-ITS"
+      publisher: IEEE Intelligent Transportation Systems Society
+      homepage: "https://ieee-itss.org/pub/t-its"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979"
+      author_instructions: "https://ieee-itss.org/pub/t-its/information-for-authors"
+      scope: "intelligent transportation systems, autonomous vehicles, traffic, mobility, sensing and control"
+  -
+    skill: "jbhi-writing"
+    aliases:
+      - jbhi
+      - biomedical health informatics
+      - journal of biomedical and health informatics
+    path: "skills/jbhi-writing"
+    official_links_file: "skills/jbhi-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/jbhi-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Journal of Biomedical and Health Informatics
+      short: JBHI
+      publisher: IEEE Engineering in Medicine and Biology Society
+      homepage: "https://www.embs.org/jbhi/"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020"
+      author_instructions: "https://www.embs.org/jbhi/authors/"
+      scope: "biomedical informatics, health informatics, clinical AI, medical data systems"
+  -
+    skill: "pami-writing"
+    aliases:
+      - pami
+      - tpami
+      - pattern analysis and machine intelligence
+      - ieee transactions on pattern analysis and machine intelligence
+    path: "skills/pami-writing"
+    official_links_file: "skills/pami-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/pami-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Pattern Analysis and Machine Intelligence
+      short: TPAMI / PAMI
+      publisher: IEEE Computer Society
+      homepage: "https://www.computer.org/csdl/journal/tp"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+      author_instructions: "https://www.computer.org/publications/author-resources"
+      scope: "computer vision, pattern analysis, machine intelligence, recognition, learning, image understanding"
+  -
+    skill: "tac-writing"
+    aliases:
+      - tac
+    path: "skills/tac-writing"
+    official_links_file: "skills/tac-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tac-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Automatic Control
+      short: TAC
+      publisher: IEEE Control Systems Society
+      homepage: "https://ieeecss.org/publication/transactions-automatic-control"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9"
+      author_instructions: "https://ieeecss.org/publication/transactions-automatic-control/information-authors"
+      scope: "control theory, systems, estimation, optimization, decision and dynamics"
+  -
+    skill: "tai-writing"
+    aliases:
+      - transactions on artificial intelligence
+      - tai
+    path: "skills/tai-writing"
+    official_links_file: "skills/tai-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tai-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Artificial Intelligence
+      short: TAI
+      publisher: IEEE Computer Society
+      homepage: "https://www.computer.org/csdl/journal/ta"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688"
+      author_instructions: "https://www.computer.org/publications/author-resources"
+      scope: "artificial intelligence theory, methods, systems, and applications"
+  -
+    skill: "tase-writing"
+    aliases:
+      - tase
+    path: "skills/tase-writing"
+    official_links_file: "skills/tase-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tase-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Automation Science and Engineering
+      short: "T-ASE"
+      publisher: IEEE Robotics and Automation Society
+      homepage: "https://www.ieee-ras.org/publications/t-ase"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856"
+      author_instructions: "https://www.ieee-ras.org/publications/t-ase/information-for-authors"
+      scope: "automation science, engineering systems, manufacturing, logistics, cyber-physical automation"
+  -
+    skill: "tcomm-writing"
+    aliases:
+      - tcomm
+    path: "skills/tcomm-writing"
+    official_links_file: "skills/tcomm-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tcomm-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Communications
+      short: TCOMM
+      publisher: IEEE Communications Society
+      homepage: "https://www.comsoc.org/publications/journals/ieee-tcom"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26"
+      author_instructions: "https://www.comsoc.org/publications/journals/ieee-tcom/paper-submission-guidelines"
+      scope: "communications theory, networks, coding, wireless, optical, and systems"
+  -
+    skill: "tcsvt-writing"
+    aliases:
+      - tcsvt
+    path: "skills/tcsvt-writing"
+    official_links_file: "skills/tcsvt-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tcsvt-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Circuits and Systems for Video Technology
+      short: TCSVT
+      publisher: IEEE Circuits and Systems Society
+      homepage: "https://ieee-cas.org/publication/tcsvt"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76"
+      author_instructions: "https://ieee-cas.org/publications/author-information"
+      scope: "video technology, circuits and systems for video/image processing and multimedia"
+  -
+    skill: "tcyb-writing"
+    aliases:
+      - tcyb
+    path: "skills/tcyb-writing"
+    official_links_file: "skills/tcyb-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tcyb-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Cybernetics
+      short: TCYB
+      publisher: "IEEE Systems, Man, and Cybernetics Society"
+      homepage: "https://www.ieeesmc.org/publications/transactions-on-cybernetics/"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036"
+      author_instructions: "https://www.ieeesmc.org/publications/information-for-authors/"
+      scope: "cybernetics, machine learning, control, decision systems, computational intelligence"
+  -
+    skill: "tgrs-writing"
+    aliases:
+      - tgrs
+      - geoscience remote sensing
+      - remote sensing
+    path: "skills/tgrs-writing"
+    official_links_file: "skills/tgrs-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tgrs-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Geoscience and Remote Sensing
+      short: TGRS
+      publisher: IEEE Geoscience and Remote Sensing Society
+      homepage: "https://www.grss-ieee.org/publications/transactions-on-geoscience-and-remote-sensing/"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36"
+      author_instructions: "https://www.grss-ieee.org/publications/transactions-on-geoscience-and-remote-sensing/"
+      scope: "remote sensing, geoscience, radar, hyperspectral imaging, earth observation"
+  -
+    skill: "tifs-writing"
+    aliases:
+      - tifs
+      - information forensics
+      - security
+    path: "skills/tifs-writing"
+    official_links_file: "skills/tifs-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tifs-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Information Forensics and Security
+      short: TIFS
+      publisher: IEEE Signal Processing Society
+      homepage: "https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206"
+      author_instructions: "https://signalprocessingsociety.org/publications-resources/information-authors"
+      scope: "information forensics, security, privacy, biometrics, trustworthy multimedia and signal processing"
+  -
+    skill: "tip-writing"
+    aliases:
+      - tip
+      - image processing
+      - ieee transactions on image processing
+    path: "skills/tip-writing"
+    official_links_file: "skills/tip-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tip-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Image Processing
+      short: TIP
+      publisher: IEEE Signal Processing Society
+      homepage: "https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83"
+      author_instructions: "https://signalprocessingsociety.org/publications-resources/information-authors"
+      scope: "image processing, image analysis, restoration, enhancement, coding, vision-related signal processing"
+  -
+    skill: "tkde-writing"
+    aliases:
+      - tkde
+      - knowledge and data engineering
+      - data engineering
+    path: "skills/tkde-writing"
+    official_links_file: "skills/tkde-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tkde-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Knowledge and Data Engineering
+      short: TKDE
+      publisher: IEEE Computer Society
+      homepage: "https://www.computer.org/csdl/journal/tk"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69"
+      author_instructions: "https://www.computer.org/publications/author-resources"
+      scope: "data engineering, knowledge discovery, data mining, databases, information systems"
+  -
+    skill: "tmi-writing"
+    aliases:
+      - tmi
+      - medical imaging
+      - ieee transactions on medical imaging
+    path: "skills/tmi-writing"
+    official_links_file: "skills/tmi-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tmi-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Medical Imaging
+      short: TMI
+      publisher: IEEE Engineering in Medicine and Biology Society
+      homepage: "https://ieeetmi.org/"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42"
+      author_instructions: "https://ieeetmi.org/authors-instructions/"
+      submission_checklist: "https://ieeetmi.org/submission-checklist/"
+      scope: "medical imaging methods, imaging science, biomedical imaging algorithms and validation"
+  -
+    skill: "tmm-writing"
+    aliases:
+      - tmm
+      - multimedia
+      - transactions on multimedia
+    path: "skills/tmm-writing"
+    official_links_file: "skills/tmm-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tmm-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Multimedia
+      short: TMM
+      publisher: IEEE
+      homepage: "https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046"
+      author_instructions: "https://signalprocessingsociety.org/publications-resources/information-authors"
+      scope: "multimedia processing, multimodal learning, multimedia systems and applications"
+  -
+    skill: "tnnls-writing"
+    aliases:
+      - tnnls
+      - neural networks
+      - learning systems
+      - ieee transactions on neural networks and learning systems
+    path: "skills/tnnls-writing"
+    official_links_file: "skills/tnnls-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tnnls-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Neural Networks and Learning Systems
+      short: TNNLS
+      publisher: IEEE Computational Intelligence Society
+      homepage: "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385"
+      author_instructions: "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems/tnnls"
+      submission_guidelines: "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems/tnnls-guidelines-for-paper-submission"
+      scope: "neural networks, learning systems, computational intelligence theory and applications"
+  -
+    skill: "tpel-writing"
+    aliases:
+      - tpel
+    path: "skills/tpel-writing"
+    official_links_file: "skills/tpel-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tpel-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Power Electronics
+      short: TPEL
+      publisher: IEEE Power Electronics Society
+      homepage: "https://www.ieee-pels.org/publications/ieee-transactions-on-power-electronics/"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63"
+      author_instructions: "https://www.ieee-pels.org/publications/ieee-transactions-on-power-electronics/for-authors/"
+      scope: "power electronics devices, converters, systems, applications and controls"
+  -
+    skill: "tro-writing"
+    aliases:
+      - tro
+    path: "skills/tro-writing"
+    official_links_file: "skills/tro-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tro-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Robotics
+      short: "T-RO"
+      publisher: IEEE Robotics and Automation Society
+      homepage: "https://www.ieee-ras.org/publications/t-ro"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860"
+      author_instructions: "https://www.ieee-ras.org/publications/t-ro/information-for-authors"
+      scope: "robotics theory, perception, control, planning, manipulation, robot learning"
+  -
+    skill: "tsp-writing"
+    aliases:
+      - tsp
+      - signal processing
+    path: "skills/tsp-writing"
+    official_links_file: "skills/tsp-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tsp-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Signal Processing
+      short: TSP
+      publisher: IEEE Signal Processing Society
+      homepage: "https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78"
+      author_instructions: "https://signalprocessingsociety.org/publications-resources/information-authors"
+      scope: "signal processing theory, algorithms, statistical signal processing, optimization"
+  -
+    skill: "tvcg-writing"
+    aliases:
+      - tvcg
+      - visualization
+      - computer graphics
+    path: "skills/tvcg-writing"
+    official_links_file: "skills/tvcg-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/tvcg-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Visualization and Computer Graphics
+      short: TVCG
+      publisher: IEEE Computer Society
+      homepage: "https://www.computer.org/csdl/journal/tg"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945"
+      author_instructions: "https://www.computer.org/publications/author-resources"
+      scope: "visualization, visual analytics, computer graphics, VR/AR, human-centered visual computing"
+  -
+    skill: "twc-writing"
+    aliases:
+      - twc
+    path: "skills/twc-writing"
+    official_links_file: "skills/twc-writing/references/official-links.md"
+    author_agreement_notes_file: "skills/twc-writing/references/author-agreement-notes.md"
+    official_links:
+      journal: IEEE Transactions on Wireless Communications
+      short: TWC
+      publisher: IEEE Communications Society
+      homepage: "https://www.comsoc.org/publications/journals/ieee-twc"
+      xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7693"
+      author_instructions: "https://www.comsoc.org/publications/journals/ieee-twc/paper-submission-guidelines"
+      scope: "wireless communications, networks, information theory, signal processing for wireless"

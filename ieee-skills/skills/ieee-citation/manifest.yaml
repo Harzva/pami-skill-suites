@@ -1,0 +1,12 @@
+name: ieee-citation
+version: 0.6.0
+role: citation integrity, reference consistency, missing prior work, and bibliography-risk
+  checks
+context_policy: default-visible-macro-skill
+routes_through: ieee-skill-suite
+loads:
+- manifest.yaml
+- references/output-contracts.md
+- checklists/quality-gate.md
+advanced_skills_policy: Use skills-advanced only for optional direct invocation or
+  repository development.

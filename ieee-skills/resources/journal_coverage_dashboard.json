@@ -1,0 +1,861 @@
+{
+  "schema_version": "1.3.0",
+  "release_version": "1.7.0",
+  "publisher_family": "IEEE",
+  "context_policy": "Expansion packs are opt-in and never increase default skills/ listing.",
+  "maturity_levels": {
+    "L0": "listed only",
+    "L1": "official homepage + author instructions",
+    "L2": "full official source matrix",
+    "L3": "source-refresh metadata + live-check support",
+    "L4": "paper-template card + evaluation task"
+  },
+  "summary": {
+    "expansion_packs": 6,
+    "journal_entries": 21,
+    "unique_journals": 17,
+    "maturity_counts": {
+      "L0": 3,
+      "L1": 0,
+      "L2": 0,
+      "L3": 13,
+      "L4": 5
+    },
+    "source_quality_scoring": "enabled",
+    "promotion_workflow": "staged only"
+  },
+  "packs": [
+    {
+      "pack_id": "computer-vision",
+      "title": "Computer Vision",
+      "journal_entries": 4,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 2,
+        "L4": 2
+      },
+      "hardening": {
+        "release": "v1.3.0",
+        "source_quality_scoring": {
+          "script": "scripts/score_source_quality.py",
+          "score_type": "static conservative score",
+          "live_check_required": true,
+          "note": "Scores help triage maintenance priority; they do not certify live publisher rules."
+        },
+        "promotion_workflow": {
+          "script": "scripts/promote_journal_candidate.py",
+          "staging_dir": "resources/promoted_fragments_staging/",
+          "default_visibility_rule": "Never add promoted candidates to default skills/ automatically.",
+          "target_path": "skills/ieee-skill-suite/static/journals/",
+          "required_before_core_import": [
+            "official homepage",
+            "author instructions",
+            "full official source matrix",
+            "live-check metadata"
+          ]
+        },
+        "pack_eval_placeholder": "expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml",
+        "paper_card_todo": "expansion_packs/computer-vision/paper_card_todo.md"
+      }
+    },
+    {
+      "pack_id": "data-mining",
+      "title": "Data Mining",
+      "journal_entries": 3,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 0
+      },
+      "hardening": {
+        "release": "v1.3.0",
+        "source_quality_scoring": {
+          "script": "scripts/score_source_quality.py",
+          "score_type": "static conservative score",
+          "live_check_required": true,
+          "note": "Scores help triage maintenance priority; they do not certify live publisher rules."
+        },
+        "promotion_workflow": {
+          "script": "scripts/promote_journal_candidate.py",
+          "staging_dir": "resources/promoted_fragments_staging/",
+          "default_visibility_rule": "Never add promoted candidates to default skills/ automatically.",
+          "target_path": "skills/ieee-skill-suite/static/journals/",
+          "required_before_core_import": [
+            "official homepage",
+            "author instructions",
+            "full official source matrix",
+            "live-check metadata"
+          ]
+        },
+        "pack_eval_placeholder": "expansion_packs/data-mining/eval_tasks/data-mining_coverage_task.yaml",
+        "paper_card_todo": "expansion_packs/data-mining/paper_card_todo.md"
+      }
+    },
+    {
+      "pack_id": "medical-ai",
+      "title": "Medical Ai",
+      "journal_entries": 3,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 1
+      },
+      "hardening": {
+        "release": "v1.3.0",
+        "source_quality_scoring": {
+          "script": "scripts/score_source_quality.py",
+          "score_type": "static conservative score",
+          "live_check_required": true,
+          "note": "Scores help triage maintenance priority; they do not certify live publisher rules."
+        },
+        "promotion_workflow": {
+          "script": "scripts/promote_journal_candidate.py",
+          "staging_dir": "resources/promoted_fragments_staging/",
+          "default_visibility_rule": "Never add promoted candidates to default skills/ automatically.",
+          "target_path": "skills/ieee-skill-suite/static/journals/",
+          "required_before_core_import": [
+            "official homepage",
+            "author instructions",
+            "full official source matrix",
+            "live-check metadata"
+          ]
+        },
+        "pack_eval_placeholder": "expansion_packs/medical-ai/eval_tasks/medical-ai_coverage_task.yaml",
+        "paper_card_todo": "expansion_packs/medical-ai/paper_card_todo.md"
+      }
+    },
+    {
+      "pack_id": "multimedia",
+      "title": "Multimedia",
+      "journal_entries": 4,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      },
+      "hardening": {
+        "release": "v1.3.0",
+        "source_quality_scoring": {
+          "script": "scripts/score_source_quality.py",
+          "score_type": "static conservative score",
+          "live_check_required": true,
+          "note": "Scores help triage maintenance priority; they do not certify live publisher rules."
+        },
+        "promotion_workflow": {
+          "script": "scripts/promote_journal_candidate.py",
+          "staging_dir": "resources/promoted_fragments_staging/",
+          "default_visibility_rule": "Never add promoted candidates to default skills/ automatically.",
+          "target_path": "skills/ieee-skill-suite/static/journals/",
+          "required_before_core_import": [
+            "official homepage",
+            "author instructions",
+            "full official source matrix",
+            "live-check metadata"
+          ]
+        },
+        "pack_eval_placeholder": "expansion_packs/multimedia/eval_tasks/multimedia_coverage_task.yaml",
+        "paper_card_todo": "expansion_packs/multimedia/paper_card_todo.md"
+      }
+    },
+    {
+      "pack_id": "remote-sensing",
+      "title": "Remote Sensing",
+      "journal_entries": 2,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 0
+      },
+      "hardening": {
+        "release": "v1.3.0",
+        "source_quality_scoring": {
+          "script": "scripts/score_source_quality.py",
+          "score_type": "static conservative score",
+          "live_check_required": true,
+          "note": "Scores help triage maintenance priority; they do not certify live publisher rules."
+        },
+        "promotion_workflow": {
+          "script": "scripts/promote_journal_candidate.py",
+          "staging_dir": "resources/promoted_fragments_staging/",
+          "default_visibility_rule": "Never add promoted candidates to default skills/ automatically.",
+          "target_path": "skills/ieee-skill-suite/static/journals/",
+          "required_before_core_import": [
+            "official homepage",
+            "author instructions",
+            "full official source matrix",
+            "live-check metadata"
+          ]
+        },
+        "pack_eval_placeholder": "expansion_packs/remote-sensing/eval_tasks/remote-sensing_coverage_task.yaml",
+        "paper_card_todo": "expansion_packs/remote-sensing/paper_card_todo.md"
+      }
+    },
+    {
+      "pack_id": "signal-processing",
+      "title": "Signal Processing",
+      "journal_entries": 5,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      },
+      "hardening": {
+        "release": "v1.3.0",
+        "source_quality_scoring": {
+          "script": "scripts/score_source_quality.py",
+          "score_type": "static conservative score",
+          "live_check_required": true,
+          "note": "Scores help triage maintenance priority; they do not certify live publisher rules."
+        },
+        "promotion_workflow": {
+          "script": "scripts/promote_journal_candidate.py",
+          "staging_dir": "resources/promoted_fragments_staging/",
+          "default_visibility_rule": "Never add promoted candidates to default skills/ automatically.",
+          "target_path": "skills/ieee-skill-suite/static/journals/",
+          "required_before_core_import": [
+            "official homepage",
+            "author instructions",
+            "full official source matrix",
+            "live-check metadata"
+          ]
+        },
+        "pack_eval_placeholder": "expansion_packs/signal-processing/eval_tasks/signal-processing_coverage_task.yaml",
+        "paper_card_todo": "expansion_packs/signal-processing/paper_card_todo.md"
+      }
+    }
+  ],
+  "journals": [
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "pami",
+      "title": "TPAMI / PAMI",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/pami.md",
+      "paper_template_cards": [
+        "tpami-2023-transformers-survey"
+      ],
+      "source_quality_score": {
+        "score": 100,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "tip",
+      "title": "IEEE TIP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tip.md",
+      "paper_template_cards": [
+        "tip-2022-see360"
+      ],
+      "source_quality_score": {
+        "score": 100,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "tcsvt",
+      "title": "IEEE TCSVT",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tcsvt.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "tvcg",
+      "title": "IEEE TVCG",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tvcg.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "tkde",
+      "title": "IEEE TKDE",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tkde.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "tai",
+      "title": "IEEE Transactions on Artificial Intelligence",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tai.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "access",
+      "title": "IEEE Access",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/access.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "medical-ai",
+      "journal_id": "tmi",
+      "title": "IEEE TMI",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tmi.md",
+      "paper_template_cards": [
+        "tmi-2020-lesion-localization"
+      ],
+      "source_quality_score": {
+        "score": 100,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "medical-ai",
+      "journal_id": "jbhi",
+      "title": "IEEE JBHI",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/jbhi.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "medical-ai",
+      "journal_id": "open-journal-engineering-medicine-biology",
+      "title": "IEEE Open Journal of Engineering in Medicine and Biology",
+      "entry_type": "candidate-l0",
+      "maturity_level": "L0",
+      "maturity_label": "listed only",
+      "needs_reverification": true,
+      "source_status": "not-started",
+      "journal_fragment": null,
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 11,
+        "band": "E",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": true,
+        "eligible_for_direct_core_import": false,
+        "next_target": "L1/L2 first; L3 only after source-refresh metadata and live-check support",
+        "missing_for_next_level": [
+          "full official source matrix",
+          "draft journal fragment",
+          "optional paper-template card for L4",
+          "evaluation task coverage"
+        ],
+        "recommended_action": "use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tmm",
+      "title": "IEEE TMM",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tmm.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tcsvt",
+      "title": "IEEE TCSVT",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tcsvt.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tvcg",
+      "title": "IEEE TVCG",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tvcg.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tip",
+      "title": "IEEE TIP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tip.md",
+      "paper_template_cards": [
+        "tip-2022-see360"
+      ],
+      "source_quality_score": {
+        "score": 100,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "remote-sensing",
+      "journal_id": "tgrs",
+      "title": "IEEE TGRS",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tgrs.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "remote-sensing",
+      "journal_id": "geoscience-remote-sensing-letters",
+      "title": "IEEE Geoscience and Remote Sensing Letters",
+      "entry_type": "candidate-l0",
+      "maturity_level": "L0",
+      "maturity_label": "listed only",
+      "needs_reverification": true,
+      "source_status": "not-started",
+      "journal_fragment": null,
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 11,
+        "band": "E",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": true,
+        "eligible_for_direct_core_import": false,
+        "next_target": "L1/L2 first; L3 only after source-refresh metadata and live-check support",
+        "missing_for_next_level": [
+          "full official source matrix",
+          "draft journal fragment",
+          "optional paper-template card for L4",
+          "evaluation task coverage"
+        ],
+        "recommended_action": "use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "tsp",
+      "title": "IEEE TSP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tsp.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "tip",
+      "title": "IEEE TIP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tip.md",
+      "paper_template_cards": [
+        "tip-2022-see360"
+      ],
+      "source_quality_score": {
+        "score": 100,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "tcomm",
+      "title": "IEEE Transactions on Communications",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tcomm.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "twc",
+      "title": "IEEE Transactions on Wireless Communications",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/twc.md",
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 90,
+        "band": "A",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": false,
+        "eligible_for_direct_core_import": true,
+        "next_target": "already imported; maintain or promote to L4 with paper card/eval coverage",
+        "missing_for_next_level": [
+          "live link check",
+          "optional paper-template card for L4"
+        ],
+        "recommended_action": "refresh sources and add paper-card/eval coverage if needed",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "signal-processing-letters",
+      "title": "IEEE Signal Processing Letters",
+      "entry_type": "candidate-l0",
+      "maturity_level": "L0",
+      "maturity_label": "listed only",
+      "needs_reverification": true,
+      "source_status": "not-started",
+      "journal_fragment": null,
+      "paper_template_cards": [],
+      "source_quality_score": {
+        "score": 11,
+        "band": "E",
+        "live_check_required": true,
+        "caveat": "Static score only. Run check_official_links_live.py --live before real submission advice."
+      },
+      "promotion_readiness": {
+        "is_l0_candidate": true,
+        "eligible_for_direct_core_import": false,
+        "next_target": "L1/L2 first; L3 only after source-refresh metadata and live-check support",
+        "missing_for_next_level": [
+          "full official source matrix",
+          "draft journal fragment",
+          "optional paper-template card for L4",
+          "evaluation task coverage"
+        ],
+        "recommended_action": "use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/",
+        "context_safety": "Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced skill."
+      }
+    }
+  ]
+}

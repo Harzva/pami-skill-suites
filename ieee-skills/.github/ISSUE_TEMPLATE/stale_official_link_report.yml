@@ -1,0 +1,22 @@
+name: Stale official link report
+description: Report an official publisher or journal source that appears stale or broken.
+title: "[stale-source]: "
+labels: [official-source, stale-source, maintenance]
+body:
+  - type: input
+    id: journal
+    attributes:
+      label: Journal or publisher source
+      placeholder: e.g., TPAMI author instructions
+  - type: input
+    id: current_url
+    attributes:
+      label: Current repository URL
+  - type: input
+    id: replacement_url
+    attributes:
+      label: Replacement official URL, if known
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and verification notes

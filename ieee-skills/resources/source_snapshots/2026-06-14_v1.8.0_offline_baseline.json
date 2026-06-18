@@ -1,0 +1,2805 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.8.0",
+  "generated_at": "2026-06-14",
+  "mode": "offline-snapshot",
+  "label": "2026-06-14_v1.8.0_offline_baseline",
+  "policy": "Snapshot stores normalized official-source metadata and hashes. It does not claim URL live health unless live check reports are attached.",
+  "summary": {
+    "source_records": 279,
+    "unique_urls": 74,
+    "mutable_records": 279
+  },
+  "records": [
+    {
+      "source_id": "publisher:author_center",
+      "scope": "publisher-wide",
+      "field": "author_center",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "29666929c2415a8a2aed09c5b545df4bb618efacb69659e77e4499a0b58ae882"
+    },
+    {
+      "source_id": "publisher:journal_home_finder",
+      "scope": "publisher-wide",
+      "field": "journal_home_finder",
+      "url": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "bbc6f4f54f612a7606f6886be36067e9a3b3e67071bde69725fc1915bad451c8"
+    },
+    {
+      "source_id": "publisher:author_instructions",
+      "scope": "publisher-wide",
+      "field": "author_instructions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "7cbff732b0a3017fbd54c461966118874f8d405f69c50bd63fdc85f17cc1a813"
+    },
+    {
+      "source_id": "publisher:submission_system",
+      "scope": "publisher-wide",
+      "field": "submission_system",
+      "url": "https://ieee.atyponrex.com/journalfinder",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "de21804190105c558f0bbb6f3d024828a06d4101bfba49c246e7a41bc2f1d894"
+    },
+    {
+      "source_id": "publisher:manuscript_template",
+      "scope": "publisher-wide",
+      "field": "manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "f7b2a54dbf8f4f2a93b8f9c68fa1d941f16d243e7032da113dbfd07063321712"
+    },
+    {
+      "source_id": "publisher:template_selector",
+      "scope": "publisher-wide",
+      "field": "template_selector",
+      "url": "https://template-selector.ieee.org/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "ac09f6869561218d225bfda1d91c76bc4246f0b4cebdb0025552c02767a8f3d4"
+    },
+    {
+      "source_id": "publisher:publishing_agreement",
+      "scope": "publisher-wide",
+      "field": "publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "26190ac185631dc0ec4e6f0d5fb3e3f7fff8c957615b0b273cf1e0bd44c60a63"
+    },
+    {
+      "source_id": "publisher:copyright_license",
+      "scope": "publisher-wide",
+      "field": "copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/about-the-ieee-copyright-form/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "260b425f72226be8bffbebd0d1cd4b8e92c3a6c43665eb0a366807ed5cdca5e1"
+    },
+    {
+      "source_id": "publisher:open_access",
+      "scope": "publisher-wide",
+      "field": "open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "983c4939b1e96f9d7b2e8cbe391787a601ceed056584eaa5157b04a02c6ce968"
+    },
+    {
+      "source_id": "publisher:ethics_integrity",
+      "scope": "publisher-wide",
+      "field": "ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "8fc640d90b2ac59b1a0d5c953291ef6d166ec19d4c13d6faaf0890eb819dea95"
+    },
+    {
+      "source_id": "publisher:ai_disclosure_policy",
+      "scope": "publisher-wide",
+      "field": "ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "3507f048dedd75da87afa073ad94009d0b565e9f862d992dfd6326ae6ef11375"
+    },
+    {
+      "source_id": "publisher:data_code_availability",
+      "scope": "publisher-wide",
+      "field": "data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "2a0c46fbff4106c089d307d4f0eb0deafdb4c20d2a1339994dfa941284e6b797"
+    },
+    {
+      "source_id": "publisher:permissions",
+      "scope": "publisher-wide",
+      "field": "permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "e70b9e54748af9da6679bfce964d19621c6bd5176d8cbbc810c3ffe1cecbee3a"
+    },
+    {
+      "source_id": "publisher:editorial_style",
+      "scope": "publisher-wide",
+      "field": "editorial_style",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "1adec4cc4c3203b43bdae5eca87cfe4cccdb9ca2ad311eb21e1c610af67cbde6"
+    },
+    {
+      "source_id": "publisher:submission_policies",
+      "scope": "publisher-wide",
+      "field": "submission_policies",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "publisher-official",
+      "journal_id": null,
+      "mutable": true,
+      "content_hash": "bacb843e25cbf40b21c61cd20317d8e0ed120f52f1df952e4bc1cd6844699ca2"
+    },
+    {
+      "source_id": "journal:access:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://ieeeaccess.ieee.org/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "87f1ec38585bcf2267f7a00a7c596dee11959f9a7c2a4bf8d55df880b3949865"
+    },
+    {
+      "source_id": "journal:access:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://ieeeaccess.ieee.org/authors/submission-guidelines/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "13599949783dd93cc4511d968f478c058dbd895a430d2d867fafe4f3da611167"
+    },
+    {
+      "source_id": "journal:access:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "e1cf37e77a17d360a890d1f3b598baf44bc07fc905fa018c9f8893c4a86a0cc8"
+    },
+    {
+      "source_id": "journal:access:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "00ae7304f2cef41e579922a004c8abee0d9e19bf50c5c3fa3f4879f4cdea21d4"
+    },
+    {
+      "source_id": "journal:access:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "570482529458c66fc6d1d77ead2116e866404cc63aaf8c4578668c2a62bd5a56"
+    },
+    {
+      "source_id": "journal:access:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "007258c1c45a43c0d47c34e6f8f3b8ddbc9d81bcc043a22cd70523cc7f3cf935"
+    },
+    {
+      "source_id": "journal:access:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "45ebba24f791df64102d493c9671ad29efb60e5756f3c98d8bcb7be9b3ba8709"
+    },
+    {
+      "source_id": "journal:access:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "4c3aea36ac5a8928e1a0d1c492f5a0c5634067288caede72934ad2514d6b454d"
+    },
+    {
+      "source_id": "journal:access:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "932403cc38163790d7d66a2635f91c71da546eb4627635bff0c1b1909e377449"
+    },
+    {
+      "source_id": "journal:access:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "3ac0789691d29e7a240dcf9af8487a5919771960894f687c83ff8851c176c65f"
+    },
+    {
+      "source_id": "journal:access:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "3fd7efce88ff017295cf05372e5ec276e2ff98c26baa007aa16cf74511a7cc2c"
+    },
+    {
+      "source_id": "journal:access:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
+      "tier": "journal-official",
+      "journal_id": "access",
+      "mutable": true,
+      "content_hash": "6de836399e2f2e01cce7e69650debba953cd1f0fbb32851e9cc637e16be0e0c3"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://ieee-itss.org/pub/t-its",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "a7d92ae5557fbddb440c8a5ea3cc2f3803df755f0e1fde92618b1e7b1be0307e"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://ieee-itss.org/pub/t-its/information-for-authors",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "391b8931d4f10cadb0b12c2ae3b66554e438ff41de7e75ca74e8019227017054"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "110f6145b92f29f8de1062311d4bd3690b6215052dcf34ae957f4facadf311db"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "e997594aaab8dcb91b9edb01331cefed91ea606c8c8c8a88980b52dd25f53568"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "e89ea91c32d685211cae18aef0f66d473f95ce770c3cbe99a37b15d7c55cdf61"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "29fcbe9c4d53e5fa9df2c9865a1e3c7564b0df25275e334011ac83ac4257b7a0"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "35f1e4aab4f0b9880c6d1de6b0971ecd73d805f5804e9319b058033b1471fa2c"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "fcd8256950f2deb7b3efeb85cdf196e5cdefec59eabd5d5bcf4f7fcfd0bee267"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "1ea45f0abae4f081ef1ad6d04c99edbaaf55a5663ce7a0936f4c6a3ae5b54d1e"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "8373751b63524ada438b5a67955857ff6953f1df34f79d1035a0109f1bf947e9"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "e16c2d9d68d0a4962aac064ae51508d33938f7eeb277fc90bf3ea90263a327b7"
+    },
+    {
+      "source_id": "journal:intelligent-transportation-systems:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979",
+      "tier": "journal-official",
+      "journal_id": "intelligent-transportation-systems",
+      "mutable": true,
+      "content_hash": "f6b7a1cb0ef67a2cbb88c2256f5b9f3d785f2c4863a721bc4194ae9f3d10e4b6"
+    },
+    {
+      "source_id": "journal:jbhi:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.embs.org/jbhi/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "1aa499695f42214f6d367999a16bfe3d701aea7898906f3146fa9ae0053dd155"
+    },
+    {
+      "source_id": "journal:jbhi:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.embs.org/jbhi/authors/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "c680a540c1ace4eb81a964eba54ec826ea19317e3d4a615e564f342c52e3997a"
+    },
+    {
+      "source_id": "journal:jbhi:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "e6810a66b1ece90f8f8a16104d8b81383beb159350b6cce8f7b3f85356fceeff"
+    },
+    {
+      "source_id": "journal:jbhi:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "3fce7ac38d7b50e01b8afe000263d34fc2379145b8559ca6c93d25ff2dd6f8f1"
+    },
+    {
+      "source_id": "journal:jbhi:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "b912e81acc2c3bb12aac375d61ab7aa43100c0b2cea82f5f66bccd3d0311e545"
+    },
+    {
+      "source_id": "journal:jbhi:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "f8d1958faf1ba506c3e0b1ac9aea67a51ceb470300eb31864cb6136388bdb7c1"
+    },
+    {
+      "source_id": "journal:jbhi:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "f2f9193d6f84a775c88efb0e520d7de8ca6526a56a238aa25267fb9925f586a4"
+    },
+    {
+      "source_id": "journal:jbhi:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "7696697467d109d8f962d8eda4ea2849d4d01e2d9e0051f344291dccb1b18cb3"
+    },
+    {
+      "source_id": "journal:jbhi:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "afd4e1288251717b755e40da674531b762d41d4a02768ba6b585b22ea555218c"
+    },
+    {
+      "source_id": "journal:jbhi:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "13f5f1f3fec120d37185f2791f439ddc8ba94b66b50598e7e47829bc89473ba1"
+    },
+    {
+      "source_id": "journal:jbhi:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "14681fab28f4b4b0ae4aef693b9edb3841c6514d31fb40f2d7101e35a4a76ef3"
+    },
+    {
+      "source_id": "journal:jbhi:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020",
+      "tier": "journal-official",
+      "journal_id": "jbhi",
+      "mutable": true,
+      "content_hash": "0da3ce69a96d2d5ea042b23a4fdce2ef0fdcf1e45c7530afbbe37b12d53833ce"
+    },
+    {
+      "source_id": "journal:pami:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.computer.org/csdl/journal/tp",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "d5122cffea410ab06cb45001bc86c2e4d5fc769c113f624b3050115b1ee6f658"
+    },
+    {
+      "source_id": "journal:pami:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.computer.org/publications/author-resources",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "1ca1cf43f1ffe6569c33c83bbc2c267d70c3a88123b1e5c0efd7adbaf505efba"
+    },
+    {
+      "source_id": "journal:pami:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "e3ec61cee43377493ad35dc74eebd59857cfe73946e18b6207d414bed1f65c3a"
+    },
+    {
+      "source_id": "journal:pami:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "87386db57758bbc657d832244decae471b79a4282d9ba1eca91230f7f7cc0296"
+    },
+    {
+      "source_id": "journal:pami:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "f724de0d9c49b261870688a7c88cadb7106acefb7d692eadf60dc8602ee93297"
+    },
+    {
+      "source_id": "journal:pami:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "0c7efe132220f0511831ed6d0a4756b3f3d904583a39274e56c2dc2f50dbaa83"
+    },
+    {
+      "source_id": "journal:pami:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "bdf6285ff184d15d31d9128c74c85cc969ba0b118020703b2c797b3e7f21cf9e"
+    },
+    {
+      "source_id": "journal:pami:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "77fa0b046cfe2c97025eba8dc5d4cd76d4f0cf2d16331d3d03a08045b27b4ce9"
+    },
+    {
+      "source_id": "journal:pami:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "d0d4f72442b62eb7e918f00a99091d2c240760e129cd62fd5f50aed9d7bb1ae7"
+    },
+    {
+      "source_id": "journal:pami:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "a132f4272d460f1e43d73d95745b8e7f5e83a4cbd16eef4018260c970d54d5c0"
+    },
+    {
+      "source_id": "journal:pami:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "8d58886b1858b3ea56377133374b03944105d247ae7c6875f7efb4f3c00149b7"
+    },
+    {
+      "source_id": "journal:pami:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34",
+      "tier": "journal-official",
+      "journal_id": "pami",
+      "mutable": true,
+      "content_hash": "2b9bf9f667b016669aea55659e1d385e4b03b0d366f56b0a3f7f2bcc39d018bc"
+    },
+    {
+      "source_id": "journal:tac:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://ieeecss.org/publication/transactions-automatic-control",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "5ad9f50f01fa7d836d3a26d0775fd0e35023bc41dc61d516e3714e0eb99eda6c"
+    },
+    {
+      "source_id": "journal:tac:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://ieeecss.org/publication/transactions-automatic-control/information-authors",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "2c90a43b7fe6f9711f95b37746072840dccc5db567e871f40e0d7fa486c2181e"
+    },
+    {
+      "source_id": "journal:tac:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "e9b16ff0d571a1ea470d1b903c0f32e09e04ec22787d80694e11c63f675a9ab4"
+    },
+    {
+      "source_id": "journal:tac:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "e780d81a6b4cd99076b3ee1ce44b7d299121972500d657680dfd0679059a561f"
+    },
+    {
+      "source_id": "journal:tac:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "cedb9e71cb0caccf6c40075502931e73eae1a78071162dac2eddb84ca64fff0d"
+    },
+    {
+      "source_id": "journal:tac:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "42615ebc2e74e268f387d786ed01f5f5f2261772faf67f14032bcf201f34b05c"
+    },
+    {
+      "source_id": "journal:tac:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "6787fccd4940ffa44fd37f1eb432d17d68e78f363a5ba4da45619e865e85e6ec"
+    },
+    {
+      "source_id": "journal:tac:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "cf3720da2394f06b796054155405e97cbb7c342df14ba7fcfc0d3734f06b180b"
+    },
+    {
+      "source_id": "journal:tac:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "237f913dd5418a1887167701b6056dd1cd3d12ef883697436f9bd418e10401c4"
+    },
+    {
+      "source_id": "journal:tac:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "d5c0b86d5a1072dbdfe4df36a66ae8ad8cd83a3125432b8c1f99ba458dbf1e09"
+    },
+    {
+      "source_id": "journal:tac:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "b53a499745c8faf04342e9ee634429b10c664ad7aa36c1fa8600c279844dc20b"
+    },
+    {
+      "source_id": "journal:tac:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9",
+      "tier": "journal-official",
+      "journal_id": "tac",
+      "mutable": true,
+      "content_hash": "6a687866952c0b21af9df835056358a18517196a914faeb6f19fb8d0bb79a5be"
+    },
+    {
+      "source_id": "journal:tai:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "8759b12fae6335c26eae13589081163b3a4386ec097cfd726776a720b32cd02c"
+    },
+    {
+      "source_id": "journal:tai:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.computer.org/publications/author-resources",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "951359ca15d95bb1a7ccaddb35031550d6b2237db3db09487061ff237acc76a7"
+    },
+    {
+      "source_id": "journal:tai:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "cc44680cb6ea6eaca71e42390fdf31c81f3832d9d4f50dfaf54d45d732d540b1"
+    },
+    {
+      "source_id": "journal:tai:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "bbec45a5d5d0f8a233265585b00c4c9dad71cf58b9bdbdc8660453c6ed94e8e5"
+    },
+    {
+      "source_id": "journal:tai:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "b970458adbf3c9469bdb0e382e0d90923b0a58c1e7b790a8cf165cff45012299"
+    },
+    {
+      "source_id": "journal:tai:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "f92e03871cc0c7ceb972af1b7cee973d675271d5259135df263209361b185c4a"
+    },
+    {
+      "source_id": "journal:tai:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "8715994ba65e4a848daf8de8ca4ca2b17b5dcb5be35095bf22c1ea060134bf27"
+    },
+    {
+      "source_id": "journal:tai:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "5117c4e36c9d8c89cf93e002091d2cb48873f60ab319f286c66bf4cd3a995923"
+    },
+    {
+      "source_id": "journal:tai:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "7af727a6ec5d6af1c86bf6cfd1a56ab96c29d50ee6b7cac352597eb1f0b2d3da"
+    },
+    {
+      "source_id": "journal:tai:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "ec3ff1e5bf736df0cd8abb5f5691bdd58f60d8996b18a682ebc26284f074eb1b"
+    },
+    {
+      "source_id": "journal:tai:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "a051a77989609356ab708d7c3f56a248f0df95c500aa349441430ae713855ede"
+    },
+    {
+      "source_id": "journal:tai:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688",
+      "tier": "journal-official",
+      "journal_id": "tai",
+      "mutable": true,
+      "content_hash": "937488f26db4d52b2c891ac827440781fa6fd73621878283689509b9bb2d26da"
+    },
+    {
+      "source_id": "journal:tase:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.ieee-ras.org/publications/t-ase",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "e7ca329e06d042870830c643b49cd65af8735ecc561c628f7aedb4b41768d863"
+    },
+    {
+      "source_id": "journal:tase:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.ieee-ras.org/publications/t-ase/information-for-authors",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "9683f71ff162a2320614595e6b3a95f28edada9b08b9c8ce47b082b2ab39ee20"
+    },
+    {
+      "source_id": "journal:tase:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "364608059d8d42e5156748ee17e6f5fe853234f12d87f7c1a534cfa19fee01cf"
+    },
+    {
+      "source_id": "journal:tase:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "8bde8d151ed359cebbfaabd3c42f902852534c63470fd7236e6e3617c1d8117c"
+    },
+    {
+      "source_id": "journal:tase:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "f3e24a215319851accdf30ff62f3fd080e59b114a65bb5f19cc4d8e98c836e5a"
+    },
+    {
+      "source_id": "journal:tase:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "f47c72eeda2324bb2b592e6eaf05801cadf9a7700b871f337b3dbe92c0f37ec1"
+    },
+    {
+      "source_id": "journal:tase:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "938c72f5fd6052a800e28f51772be192fe2aaf927b5982c536de3208e5ad0fda"
+    },
+    {
+      "source_id": "journal:tase:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "6c4fe705c0656dd6ef2f9c7576f066c16beaa2dbe091c7507e46feb07b8a6f71"
+    },
+    {
+      "source_id": "journal:tase:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "710aae1d534971bf3709c485a56aa9afa9c4da3aac7a3002a537c848ec39bddb"
+    },
+    {
+      "source_id": "journal:tase:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "d506c8f93f7cf4f08e62754706d2cdf3587bea93f54ec9d11f61042d8941ec31"
+    },
+    {
+      "source_id": "journal:tase:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "490b444c770779fbb69fa350033531ed0fb606def45e01f09db086ce6575e251"
+    },
+    {
+      "source_id": "journal:tase:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856",
+      "tier": "journal-official",
+      "journal_id": "tase",
+      "mutable": true,
+      "content_hash": "04f24af15566fc9d9ec0110e901d4a00d31d05f872bc8b092923e252b7cd3218"
+    },
+    {
+      "source_id": "journal:tcomm:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.comsoc.org/publications/journals/ieee-tcom",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "9335f41928155d8d8fd2c28a916457dd72d62857505f2c6418b02aa4630fd21f"
+    },
+    {
+      "source_id": "journal:tcomm:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.comsoc.org/publications/journals/ieee-tcom/paper-submission-guidelines",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "a80f7495bf863eac2d5684402dd0e75ff477479fb8668dd6b97155d5fe166aa1"
+    },
+    {
+      "source_id": "journal:tcomm:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "9cfdc554fa2a67d00c9fd4f890642c9006d02f6d1cc7bbf20e1e1354b01d6e40"
+    },
+    {
+      "source_id": "journal:tcomm:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "917a82a0a4c8007c059b40ffbbdaaaf6f01e760e20c36e6d580b809d556b0638"
+    },
+    {
+      "source_id": "journal:tcomm:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "d80c20be1cc8a83ad0de5c0132a81a8919ae17b9eb327be66f37d674386e36b0"
+    },
+    {
+      "source_id": "journal:tcomm:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "428261bcecb51973a60a1c4f4df2d9d8fcdb827e253b62c672ac33a8d49a3a52"
+    },
+    {
+      "source_id": "journal:tcomm:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "cdbb1266fdcf9a96d78e81bbf7f35ced4f1fb4cc5e26a6a71fb2d16fe6781708"
+    },
+    {
+      "source_id": "journal:tcomm:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "83fbd21fdd39e7138f3903498bcdf5a04fda107d2bea0704b4a255b71faac0c5"
+    },
+    {
+      "source_id": "journal:tcomm:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "842601094c74c3049d798938c593d6ef13432ebc74a7bc6bc530f2de922adb4a"
+    },
+    {
+      "source_id": "journal:tcomm:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "44afd8930912094b6659c1cb51f5ad45f018df34f62283f2b01972ba771290ec"
+    },
+    {
+      "source_id": "journal:tcomm:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "2d4e4d93a7c771d64527f1ce0d4b2eaf7cc9034e379d0acf293d4ac0360eeeab"
+    },
+    {
+      "source_id": "journal:tcomm:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26",
+      "tier": "journal-official",
+      "journal_id": "tcomm",
+      "mutable": true,
+      "content_hash": "6b9ca760c1d0922eb1d6e3516f2e8e319a5cd1b2fa9f1ff89f9afe2436d74362"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://ieee-cas.org/publication/tcsvt",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "398be09b8560ec857fceeac0cd301bcba10b85dc9f8cd9e183f4e69598d79d8d"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://ieee-cas.org/publications/author-information",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "bd05ea658a67bfd7758caf8cd18f39fe4035fcc5f6723a0e49d6009c8fb24ad9"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "cd7f97fe03360b0fdfb6f1d87c31e68c18a0ef022df34ecbe9878522792307cd"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "6a36fb2a8b73c033fc337d8444505386ddb4b95b061e13da18c1966978da4192"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "3f384cf0e768c97a7ae23b88b67981e9798a8aef9b34b3f5f630ee20f7785c38"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "22dcf24f2b1a9e144ca5b514d4b03e2ce62fed39717d69fde8d2ddb38d447828"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "13491d039aabdb114e8e0276f03a25acbdf83c667d683fc68de48a76e90c5799"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "f741fb77dbff8e6f0b7db397002abb0963e2aa9422d0e51e3e078dcd3028e4b3"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "e9f985bb29289b58f0fc5ee78e102b98c63d4bacbc8318e3111b2cf6a45ef198"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "01f2b73108ce96c39632119da980adfe5c16daf9707831d48eae6a35d139bd25"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "6acde898034751fe397684507b99e48139102529cedb7c66cda682e191fa77ff"
+    },
+    {
+      "source_id": "journal:tcsvt:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76",
+      "tier": "journal-official",
+      "journal_id": "tcsvt",
+      "mutable": true,
+      "content_hash": "d4331718bdaf82de5f36f9c2b56f91efd89cfe9229b60ea0f6015474ca9db32e"
+    },
+    {
+      "source_id": "journal:tcyb:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://cis.ieee.org/publications/t-cybernetics",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "ce339b038a91615eeec490dfdf6f5aca8f3670fefffd27f2f529c10c6eeaf10a"
+    },
+    {
+      "source_id": "journal:tcyb:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.ieeesmc.org/publications/information-for-authors/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "ecb3811e64d05fabed584db8d8007feec86be9de3fe41b4d1ac3c2cb9dfe314c"
+    },
+    {
+      "source_id": "journal:tcyb:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "1a4a51049eb3c9ee07b99d849a9bc9808189d8d04649e0ae80547de978836973"
+    },
+    {
+      "source_id": "journal:tcyb:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "3d4612f07a08ff519ef1f884d0b458a79f4fc5d88dc5e6099075b1574efcd82d"
+    },
+    {
+      "source_id": "journal:tcyb:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "344b22ecaf43e99772583a0e9d39acd656012553d42427d0d11cf9167ef4bcd6"
+    },
+    {
+      "source_id": "journal:tcyb:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "6fd53aa18c56dcacccbc4c764b1c306e85e41b48a0d6bd64f6f4e75d13c7647d"
+    },
+    {
+      "source_id": "journal:tcyb:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "a5ef1d98659c15ba86138541510ed9727a1af2bc2472d6151237bcefc6996f3d"
+    },
+    {
+      "source_id": "journal:tcyb:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "b8fae7c1eddaf9f0959c7f43ad7d5dce0a37dae71c85290f884e92c70e660749"
+    },
+    {
+      "source_id": "journal:tcyb:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "e21f47f5f07ba717ea87e20a20b697b19658b255cb9b8ed9b066b0504aa5a3e8"
+    },
+    {
+      "source_id": "journal:tcyb:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "a2ef396e75e6abdec49f355e68199e73f1c5b37fac3be440c56fef6651e87aaf"
+    },
+    {
+      "source_id": "journal:tcyb:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "53e718342187127e5b16b950a9718b3c93d6686792e77b68135270f8a0807284"
+    },
+    {
+      "source_id": "journal:tcyb:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
+      "tier": "journal-official",
+      "journal_id": "tcyb",
+      "mutable": true,
+      "content_hash": "c7c4c657513da9e8f4d93925a6c4904cac058a2fdc4ce8cc413672a9cbc988c1"
+    },
+    {
+      "source_id": "journal:tgrs:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.grss-ieee.org/publications/transactions-on-geoscience-and-remote-sensing/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "d6330b649ef60778dca6b8c6c9d9bbd11d288abd638ef0fe8bb83f63e545789d"
+    },
+    {
+      "source_id": "journal:tgrs:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.grss-ieee.org/publications/transactions-on-geoscience-and-remote-sensing/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "e6fbba50079fef2a32ff0111796961050683887dfa24826a84e478b5c47ce323"
+    },
+    {
+      "source_id": "journal:tgrs:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "e9d56cdaf7da14dc7e9f954116b54620ff02292e72f1c251ecc4f9bc27d21852"
+    },
+    {
+      "source_id": "journal:tgrs:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "a830fe516edcfe86a5d54105e05c2b58c7d635194e86b087d65ae940b5e4d1aa"
+    },
+    {
+      "source_id": "journal:tgrs:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "672efe94d6f0db45a2e36bcae0525c52eb7020867b6357f584d2cefec4e716c3"
+    },
+    {
+      "source_id": "journal:tgrs:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "42d6761a435f7dd9359095cf03c7f3ffcc943fc47847e4e3dcf2b172d72bb4f6"
+    },
+    {
+      "source_id": "journal:tgrs:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "ef74699e4dd79acc1bf92a479de542f6c4d654cd2a9f518b6bfd9d3425b21394"
+    },
+    {
+      "source_id": "journal:tgrs:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "5c3f9cca26dc6a75ddd0195fedbc959e60c2e61d160c43902de80326afb720e5"
+    },
+    {
+      "source_id": "journal:tgrs:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "c3f80e36a0b05497ea148551465b870dfa7df1dda67b3b906a8ea39b4882658d"
+    },
+    {
+      "source_id": "journal:tgrs:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "fc056dbd25ce8371ec4048aed51d42b2e5edca573e7b3223cbf9e97d9ce2d98b"
+    },
+    {
+      "source_id": "journal:tgrs:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "03bbc7eb9f359ab292571a890bb21fc4e3f67dc6e2e13edba38ebce61f98ef50"
+    },
+    {
+      "source_id": "journal:tgrs:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36",
+      "tier": "journal-official",
+      "journal_id": "tgrs",
+      "mutable": true,
+      "content_hash": "d832c7225165e038d682558378187d3a2caacc7d41a979925d2742b944a882cb"
+    },
+    {
+      "source_id": "journal:tifs:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-security",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "61d9aa0f6f501216b5848a1edaee0b525e9c8b6acf89f5bc6aa27fc47f6c191f"
+    },
+    {
+      "source_id": "journal:tifs:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://signalprocessingsociety.org/publications-resources/information-authors",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "f9aa7d6efb6fbc3af29ed085d67104110b860f33705af0328feaf3213399e636"
+    },
+    {
+      "source_id": "journal:tifs:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "d69b2ec665c80f76b32eebb5e203a034292697e73c87f71722775b9e6697819b"
+    },
+    {
+      "source_id": "journal:tifs:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "33dfc9c7bdca87dc2b1b3dd945e294d80c39d6cfd5bc7302a5605adfdb5da866"
+    },
+    {
+      "source_id": "journal:tifs:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "696d18107dc28e63378f7678a971734a074503da0ab4d03f36dbf47a684c215b"
+    },
+    {
+      "source_id": "journal:tifs:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "3f11a8dc528cff5a05eec7bfbfb2c8faae9106ee845b9e14f35407b6bdc02df8"
+    },
+    {
+      "source_id": "journal:tifs:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "1ae4615be4569e9eed704a6ed423d2322740febb71ff964f029922493b36d6f8"
+    },
+    {
+      "source_id": "journal:tifs:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "b3c820c6771832dd4e5bf5b5ca683b10b8a6ebe71c992d5775ab9d145310d92c"
+    },
+    {
+      "source_id": "journal:tifs:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "5fa3a0ab7a85c38b724566c329c30424bf805c845c6e3e7d1245f89ce79f097d"
+    },
+    {
+      "source_id": "journal:tifs:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "a1096212ec58365410d285ae4cdb53e17e25e013a4412ec3957e3e65639a3bbc"
+    },
+    {
+      "source_id": "journal:tifs:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "cbf91286231ac4e96d7e988258beaf1ba95ec485dfee0b90e9c4969c180f7cdb"
+    },
+    {
+      "source_id": "journal:tifs:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+      "tier": "journal-official",
+      "journal_id": "tifs",
+      "mutable": true,
+      "content_hash": "f2d5b7f84e7d38c120d7cf59fd856a0e03dce4b26ad5ad07b37b3a0e004fe593"
+    },
+    {
+      "source_id": "journal:tip:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "571ce8812b540ca9900c407cf2302f94d24fb3f818432d8f60c8fb3a4926e73d"
+    },
+    {
+      "source_id": "journal:tip:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://signalprocessingsociety.org/publications-resources/information-authors",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "e865173b17f33cfe0e04a84f4e3e92d406392f09ca213846ce87ae33762b09b6"
+    },
+    {
+      "source_id": "journal:tip:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "43adf294bdf1b4ca88aabf1ee64bd67fa545d2bb232c7639c34bb36c1817b2d4"
+    },
+    {
+      "source_id": "journal:tip:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "6c56f7fdd5edf82187291784b8181fdd8c3d57b1bcbefb06d0564e784949980d"
+    },
+    {
+      "source_id": "journal:tip:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "3d1d83f78d03e2c898233be63ec167042d9850825df49d97e7c9c961da128051"
+    },
+    {
+      "source_id": "journal:tip:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "4790e0c71e513bc1dae9f1491b786f8670dcf142b80c29db5ab8b5e223ff324b"
+    },
+    {
+      "source_id": "journal:tip:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "4c757ccc18860e4031f5e2c1a2a060efd29498b980b8f3b5864cb345f1e16e8f"
+    },
+    {
+      "source_id": "journal:tip:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "f5e4931f4ed88bb6fcb19c055b8789a4cc6967e6eac848080dbf5894a0512536"
+    },
+    {
+      "source_id": "journal:tip:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "3a649792f9c06b08b90f8d8353144c6ab78bbdf26eab415b63c7880410dee701"
+    },
+    {
+      "source_id": "journal:tip:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "23447f32b34a5b2d567eb0bf1edae7cce8425e4c4ac45a39314c4074a3e6379e"
+    },
+    {
+      "source_id": "journal:tip:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "93a50cb828c35b2f3c376297a22bb7a053b454bfaf16811d066d46dce88ab8ad"
+    },
+    {
+      "source_id": "journal:tip:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83",
+      "tier": "journal-official",
+      "journal_id": "tip",
+      "mutable": true,
+      "content_hash": "11af88b4111edf9b806bd8d0681f7dbc2324d4a662022768a45bec631fc0d1e3"
+    },
+    {
+      "source_id": "journal:tkde:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.computer.org/csdl/journal/tk",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "1a5a25cf313edc78320b7af7da43ff066381a6d7074eb95a3e9493a532d8c35b"
+    },
+    {
+      "source_id": "journal:tkde:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.computer.org/publications/author-resources",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "912917e03ade504a222ce7bb673a3ed0596cd9aee73e1c8aeeb638c3b64ab938"
+    },
+    {
+      "source_id": "journal:tkde:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "20b8b12ebc819605596d2462e045606baba53eab65be57ec491fcd4c520f395e"
+    },
+    {
+      "source_id": "journal:tkde:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "95286d1d3f7493c5e32b761036a535da725a111be1858cbbbeda8b8b62fa7bdc"
+    },
+    {
+      "source_id": "journal:tkde:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "1e7abcaa3dc2dd4ed7163748064fe19b9a6ff0f466e2e71d01d8684c4df90937"
+    },
+    {
+      "source_id": "journal:tkde:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "b0912a29faa10cd856067a8f66f66a961eeeeb2d5afa2b739b61bb5529a16445"
+    },
+    {
+      "source_id": "journal:tkde:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "b3bf20f40bd6b989e7f8a90b3f2eed54ec23d1467f74dc0d7b6fe9d730a7149a"
+    },
+    {
+      "source_id": "journal:tkde:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "76ff24f0747fb3c8b8fe31c171493cd7cb7347312b50c98a6c31ca5be4a3c39c"
+    },
+    {
+      "source_id": "journal:tkde:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "c3951d755f024f65f458cf928ecbd9d50f50e33f0febecbe5a148a5eeca32e72"
+    },
+    {
+      "source_id": "journal:tkde:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "1547bd431ba944c1b7497b4f14d7b244d08b1430b1722cd43272a0b93a818193"
+    },
+    {
+      "source_id": "journal:tkde:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "ba560e29fad2904e5d8724f40ec346722decc9a5f759583af665ad019ebb3afb"
+    },
+    {
+      "source_id": "journal:tkde:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69",
+      "tier": "journal-official",
+      "journal_id": "tkde",
+      "mutable": true,
+      "content_hash": "d6d800805efae254d74e26f6bc8b955d61332de72f30fe156fe699fdd6af7c06"
+    },
+    {
+      "source_id": "journal:tmi:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.embs.org/tmi/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "d6ea4c44c898db2cfc287e8abf52e4524544920452e9f8d3c756cf674dc46535"
+    },
+    {
+      "source_id": "journal:tmi:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://ieeetmi.org/authors-instructions/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "e619ddbe3c7c947430b25b28612dd2b1a256611f46dc05716abe1a33147d4b60"
+    },
+    {
+      "source_id": "journal:tmi:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "a853ce908ac463c57fcbc42651df1f1ecccf01b6b7815d235fdf52fd25147b46"
+    },
+    {
+      "source_id": "journal:tmi:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "98aa3b664eee2141e5e48f26cfbb52aa15dfb38e6664976808bcc4359c53045f"
+    },
+    {
+      "source_id": "journal:tmi:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "6274dcd4e02bd4e197e7f79344d4997d0451173870c749d91e9726292a3c8afd"
+    },
+    {
+      "source_id": "journal:tmi:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "428900e7ae8e3872f852bf39b00973b995dd1e79747c86e5fb751b443a675676"
+    },
+    {
+      "source_id": "journal:tmi:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "a218c3086faabdf90cc1c84c346b29169d41c2afc94a7508de7626a74f823bdd"
+    },
+    {
+      "source_id": "journal:tmi:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "e8222b33fc3f15beffeee18e943dac2b504a0308e2b762f4c8055de71e798a9d"
+    },
+    {
+      "source_id": "journal:tmi:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "ba2c5654c152220854b7b3a0df77825d13f5b71cece2253f3b8b7ead2f8f0d39"
+    },
+    {
+      "source_id": "journal:tmi:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "704e6ba5fc2419c7684936b1d562ec5dd29270fedc001b06ee1a3e4b5a729386"
+    },
+    {
+      "source_id": "journal:tmi:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "af51f594f0f323c6745d50966e4488abe649571d233dfe1fc127f8b1abd1762d"
+    },
+    {
+      "source_id": "journal:tmi:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42",
+      "tier": "journal-official",
+      "journal_id": "tmi",
+      "mutable": true,
+      "content_hash": "63c58efedc6a19eaed6e92b8ee03a85a19a934191011b7c2beea0fd37680731d"
+    },
+    {
+      "source_id": "journal:tmm:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "c6ff184cfa3ccd049cd322e861241ac70ca9ee09088649442c2bcd20f8d54129"
+    },
+    {
+      "source_id": "journal:tmm:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://signalprocessingsociety.org/publications-resources/information-authors",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "d449c3ae87ba32a6bd3629581eaf87513e83538d5b5685c78ef0a2f69fbb6f8a"
+    },
+    {
+      "source_id": "journal:tmm:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "5158f78553120b8eb7499ee2397d8c15c39242b52edb0eb15c6e7df769699fe8"
+    },
+    {
+      "source_id": "journal:tmm:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "e973778bce939e599180d2967c8e03296b1ebfe952c475699f625e839ea4d575"
+    },
+    {
+      "source_id": "journal:tmm:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "074f1ce36a45728d3caf92667c800dce0d654f07edd5068b4766c3153a90462b"
+    },
+    {
+      "source_id": "journal:tmm:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "07e4b7c5f38334287c5d1740ef2c2a96a6ddb8719ae6b3e7c7037d37c2ec2ba0"
+    },
+    {
+      "source_id": "journal:tmm:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "fa5e9db4ace1ca89cf2efb1e349da99c46a1fdf24b2deeb0aaee57ec5a2d8008"
+    },
+    {
+      "source_id": "journal:tmm:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "69289da12206447e4f805829738981d093acc732caeb4e02502106e9459fa8ed"
+    },
+    {
+      "source_id": "journal:tmm:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "e0d8bf41a2f0bb12d15f4488a4515d181cc27c11f1ca34dda1aef9fc52311369"
+    },
+    {
+      "source_id": "journal:tmm:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "2a49365cd3f78f8743b1c35cfffbd00ac713186363a98591fbff2e13d3fac837"
+    },
+    {
+      "source_id": "journal:tmm:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "72219a342f97ada867ca6136595d5e7863f64ab525347718843a1ef40a7a2710"
+    },
+    {
+      "source_id": "journal:tmm:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046",
+      "tier": "journal-official",
+      "journal_id": "tmm",
+      "mutable": true,
+      "content_hash": "99adb91883ecb6bf74a315cd33c4877c416146e81657ef8fc4b035b18a88cc21"
+    },
+    {
+      "source_id": "journal:tnnls:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "852fa16a9a66256e0e78ff90727cb301db58b1155ad3301450f51bebdf9b38fb"
+    },
+    {
+      "source_id": "journal:tnnls:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems/tnnls",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "7b339aee77ba9cb1ff963a00471de6ee969197fd7ecb0934bc710b89a9bb3cb3"
+    },
+    {
+      "source_id": "journal:tnnls:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "351342b6e32f2e25372d98bedea15411cf6ecc1e13a5d96d7edfa4708db94f92"
+    },
+    {
+      "source_id": "journal:tnnls:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "cbe4088958c60a7efb70932f58c885b9a2a0cf435cd939d116b64bca30457d35"
+    },
+    {
+      "source_id": "journal:tnnls:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "7d5915ee3246f89d6a99c32c98a070fb7d1cefaa6e4341feee3c73ecb2e03503"
+    },
+    {
+      "source_id": "journal:tnnls:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "e4090cc3bc18b6a02136246bf103549235812674bcc9419d2509ce199f4fe053"
+    },
+    {
+      "source_id": "journal:tnnls:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "83158d7fcd86f4e5c6aed910f41462142fb1938a31d6c76f1d01a100ab69eea7"
+    },
+    {
+      "source_id": "journal:tnnls:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "893d72d938a0609e07822da74e0bea31150328a493c9514ef6d85388f0cbcba1"
+    },
+    {
+      "source_id": "journal:tnnls:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "7c442301d133be69cd25cab7c1c2fb7a677fdee81db2ee358e8f63ae84f6fe16"
+    },
+    {
+      "source_id": "journal:tnnls:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "7410e16d5a6d7b83c56ead0ba036f1e2f137cfbfc557621248a4d8a3461e833f"
+    },
+    {
+      "source_id": "journal:tnnls:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "10a30bd22358a63e4ece46d731799cd081c29f8c3240fd876d7a8b15e51bb96f"
+    },
+    {
+      "source_id": "journal:tnnls:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385",
+      "tier": "journal-official",
+      "journal_id": "tnnls",
+      "mutable": true,
+      "content_hash": "d6cb24d8e1cdf6ad34b0ad4ce855c4d4560231704c614a4f2454648e914141b0"
+    },
+    {
+      "source_id": "journal:tpel:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.ieee-pels.org/publications/ieee-transactions-power-electronics",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "c30fb71fda3dfdd1bee179c556727982651b6c162ee48ca5e8f263a5a7cdf77e"
+    },
+    {
+      "source_id": "journal:tpel:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.ieee-pels.org/publications/ieee-transactions-on-power-electronics/for-authors/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "a51ee485d68ecc123f50703adabc41a2f3810799bab7e8b21ab8cacedef7558f"
+    },
+    {
+      "source_id": "journal:tpel:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "62ad21c8175c11301f969176cedfd37a914065baeaa0fc81d243ed51ba6ef15b"
+    },
+    {
+      "source_id": "journal:tpel:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "309396e082cdcb73a4b6d57724a7883e680c8dfa941a6fe024d381e2a4b4d4c3"
+    },
+    {
+      "source_id": "journal:tpel:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "cab241d7e3a973e40fe9589025c4357f68f576cd942a1527e4fd3e4d25445f2e"
+    },
+    {
+      "source_id": "journal:tpel:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "0edd8eac46f8b38b4fa5343841d39d20936891708e9e2c59595bee837c0761fa"
+    },
+    {
+      "source_id": "journal:tpel:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "4b3d757d2c712e880f7cbac97df7b0246b58e651ffc8e2c4c87b50ce38b47dcd"
+    },
+    {
+      "source_id": "journal:tpel:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "7781ff2b7082e6cb905a6667e2c27aebdb5e33d52f84865b5866906fcfba9bab"
+    },
+    {
+      "source_id": "journal:tpel:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "3d2a2833061bcfd77294951593fedbf0c0531967e0b2fd44448dcfe5278c3e45"
+    },
+    {
+      "source_id": "journal:tpel:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "65872cbb7534b18942bc7098120a37b69f4fce72f215f32e7a7e5284c646d097"
+    },
+    {
+      "source_id": "journal:tpel:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "5d139afa826d4345412789eb2fa5c9aa0403e0123e8cfba787011580132f4928"
+    },
+    {
+      "source_id": "journal:tpel:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63",
+      "tier": "journal-official",
+      "journal_id": "tpel",
+      "mutable": true,
+      "content_hash": "d6a7fb865ce4fa30acf1a83c520162ce2a359155fc496bf9faedab6c48a2c7f9"
+    },
+    {
+      "source_id": "journal:tro:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.ieee-ras.org/publications/tro",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "0fbd8ca5e4a8a814d38b2a4920a4fa866f571c8d21c6398fa77269edc979455c"
+    },
+    {
+      "source_id": "journal:tro:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.ieee-ras.org/publications/t-ro/information-for-authors",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "4f40407328ae6dc64d9fd1ffb4dac3ff7a8b42a77fc6c3260433ad15b2114b0d"
+    },
+    {
+      "source_id": "journal:tro:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "41a7eb6dee175f39cdf39fc651543d307802fcfbce8846d94e66d34129ac2ee6"
+    },
+    {
+      "source_id": "journal:tro:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "38686b6eeb5b4cd3c832adb3cf9da65f71999feaf3c5d83d5fae864550ee69ed"
+    },
+    {
+      "source_id": "journal:tro:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "a668b7df8dd674a1a55871f491c46025bdf9ffc9219931e0facca25b183c7710"
+    },
+    {
+      "source_id": "journal:tro:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "0ca56a2b36b926edeabbae155f86ea3b4868ba52d473d23a5cfa84970d56b63e"
+    },
+    {
+      "source_id": "journal:tro:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "e2a796e41b7df46c383beb60225dc1651c3bec77ebab718190ca20c515ed679a"
+    },
+    {
+      "source_id": "journal:tro:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "09682effbde852878f4adcfc5094bce736a480e30c60cabae87280b2ace80ebd"
+    },
+    {
+      "source_id": "journal:tro:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "04abac12ba1bf3b7c1bccd879b8822d96ce811adb1794843d3db07c0552e011d"
+    },
+    {
+      "source_id": "journal:tro:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "2deb88e61e06daf46e1d4e1ad32c01e06ee1dafb121e113e6d1d0bc51425a0d8"
+    },
+    {
+      "source_id": "journal:tro:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "6db6f01dbfbc50486304ade98e943faefdeadc839cb7f66f6e1304ba6150df42"
+    },
+    {
+      "source_id": "journal:tro:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860",
+      "tier": "journal-official",
+      "journal_id": "tro",
+      "mutable": true,
+      "content_hash": "c20ed67f3bbc7157ff12d6f265848c2259b7f5163a513e1f7f19ed3df390a168"
+    },
+    {
+      "source_id": "journal:tsp:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "707ec341f578c1b8d72555da63f5714083a3309ed91df615a0febb40caf98d7c"
+    },
+    {
+      "source_id": "journal:tsp:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://signalprocessingsociety.org/publications-resources/information-authors",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "65276a993e4924d52c2cd5c5a61ab84126f0dd6bc2b918d8901e3c7cc86ee1f1"
+    },
+    {
+      "source_id": "journal:tsp:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "0d5e22bd99bce786beb31eed84b39e84f3f4fa5c7b3c7d4b838768c4cfc48db8"
+    },
+    {
+      "source_id": "journal:tsp:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "4ab12df522ffdce3c10181e5d9d17a7e1c6e52b4e88d79daf0db09defb7ab3e4"
+    },
+    {
+      "source_id": "journal:tsp:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "e7020133ba78974b6f7b8b4bcc05aea29534cce17c4b033222beb112b8806c73"
+    },
+    {
+      "source_id": "journal:tsp:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "b80d07c2fe418bd0c917d56809b5ec0df3952aeed1cfbbe5656088d025647fbe"
+    },
+    {
+      "source_id": "journal:tsp:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "bae13ac8c48e036ccd039b69a2d306e1207d7a94894f04cc2aead6a84dfbb862"
+    },
+    {
+      "source_id": "journal:tsp:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "a75e388fa8b82ce4692657fd3d0addb61b684b0f9af25555a38a6daf91be017f"
+    },
+    {
+      "source_id": "journal:tsp:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "269bd02f092dec59d0fbfb6f515535dfe4fcf7b23eab8cb0216a7f243c13ca5c"
+    },
+    {
+      "source_id": "journal:tsp:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "8002dacd2c4113b2e7729f3be95fd35eaf37b3502b78ae48ef3399ed6d502273"
+    },
+    {
+      "source_id": "journal:tsp:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "9d3f3d73069aeb4fc5da4fdd6ef77e3b4cc57c58babbccaa3c9c561dea927042"
+    },
+    {
+      "source_id": "journal:tsp:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78",
+      "tier": "journal-official",
+      "journal_id": "tsp",
+      "mutable": true,
+      "content_hash": "a33d8510ef901d95fdeea8e261a493770341453346fc7600cf1f49cb2968b38b"
+    },
+    {
+      "source_id": "journal:tvcg:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.computer.org/csdl/journal/tg",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "49aab2049a1701a2c50f53d408919be70ab635182a1be7b41568666c3ea6393c"
+    },
+    {
+      "source_id": "journal:tvcg:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.computer.org/publications/author-resources",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "8b1d9a99165a8222a3490830b8bfae75a9e568e06e07dc4a6c751942701341c0"
+    },
+    {
+      "source_id": "journal:tvcg:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "e57c613f129c63c4c021549a8c9744103cedd53738843711eb1d7774f7f6e77d"
+    },
+    {
+      "source_id": "journal:tvcg:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "bc0758477cd08a442513ef60d1f72400e3cf13dbedca0c151ef7bd3fce2c0d0b"
+    },
+    {
+      "source_id": "journal:tvcg:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "7ea5f3792be255cd2c288b4d15338cdb3da59371354f2e9e2e54950dc6e3dc6b"
+    },
+    {
+      "source_id": "journal:tvcg:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "04492640327d933029e508bfa62ef27883663d5b8c25e8c32e653a4bca96eddc"
+    },
+    {
+      "source_id": "journal:tvcg:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "7ad820c4eeb7e5ca62ffc8f157a5c65e390db764a69c8da6d7f7b70953d55974"
+    },
+    {
+      "source_id": "journal:tvcg:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "8b4abcda691629041b475816e64f9779d8823f1a876d46ffdf87a18f1077d454"
+    },
+    {
+      "source_id": "journal:tvcg:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "76770cb1b5da8cf56445f3d4ab5efbbf09c25bef64888889759834e85c70d82d"
+    },
+    {
+      "source_id": "journal:tvcg:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "57b49aece7ff575d678b5b592be61f62f06053ab56ff9d86a76c192423f03d9c"
+    },
+    {
+      "source_id": "journal:tvcg:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "41590dab6d6133d5240d4f8f4cc56d7b6ce87b54d6dd4770dc14f7944d7f7200"
+    },
+    {
+      "source_id": "journal:tvcg:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945",
+      "tier": "journal-official",
+      "journal_id": "tvcg",
+      "mutable": true,
+      "content_hash": "a9af065fd08dab7e6b772a569cbc871abaa9ce0cd6b400d6eca5c184451a336c"
+    },
+    {
+      "source_id": "journal:twc:fields:journal_homepage",
+      "scope": "journal-specific",
+      "field": "fields.journal_homepage",
+      "url": "https://www.comsoc.org/publications/journals/ieee-twc",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "864844c49638ab7c6ee894201bfda5a289514ccbca8a9e124b96b9ba98fb31e4"
+    },
+    {
+      "source_id": "journal:twc:fields:author_instructions",
+      "scope": "journal-specific",
+      "field": "fields.author_instructions",
+      "url": "https://www.comsoc.org/publications/journals/ieee-twc/paper-submission-guidelines",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "9b0199dd88ea37e074ecdc09f73027780eb59cd3e093c81ca1b69554ae84962d"
+    },
+    {
+      "source_id": "journal:twc:fields:submission_system",
+      "scope": "journal-specific",
+      "field": "fields.submission_system",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "9f54f2b32ee016822d8ea7c8c379ed1321a535dfd07d3ad187680b3a45d88afd"
+    },
+    {
+      "source_id": "journal:twc:fields:manuscript_template",
+      "scope": "journal-specific",
+      "field": "fields.manuscript_template",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "35a20c2a77b8636dc2ec124c3ac068d33b232fd6e48d034cfe6aa56fa0ae4715"
+    },
+    {
+      "source_id": "journal:twc:fields:publishing_agreement",
+      "scope": "journal-specific",
+      "field": "fields.publishing_agreement",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "6a544060c21b1eec7b55186117f46ed2e732a7ec6e62c39174f7991c40c4eae6"
+    },
+    {
+      "source_id": "journal:twc:fields:copyright_license",
+      "scope": "journal-specific",
+      "field": "fields.copyright_license",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "89845b7c212b9abd2e5306762b957050d0e032db9a1765e3c4c6bb7d9ac21aba"
+    },
+    {
+      "source_id": "journal:twc:fields:open_access",
+      "scope": "journal-specific",
+      "field": "fields.open_access",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/open-access-rights-management/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "2de059213dc6b30a8e7878c96605f05f2e30f46f079df9ee7d27aa4620c2aacd"
+    },
+    {
+      "source_id": "journal:twc:fields:ethics_integrity",
+      "scope": "journal-specific",
+      "field": "fields.ethics_integrity",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "34934f1d87f66ea5ac301afdccfd13e43ade9e73a2f6511301f673f22e957f9e"
+    },
+    {
+      "source_id": "journal:twc:fields:ai_disclosure_policy",
+      "scope": "journal-specific",
+      "field": "fields.ai_disclosure_policy",
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "2c7a4972f7fe39c0150e596cfead45cfff03fdb988ec3b22d6336bb5759812ce"
+    },
+    {
+      "source_id": "journal:twc:fields:data_code_availability",
+      "scope": "journal-specific",
+      "field": "fields.data_code_availability",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/research-reproducibility/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "4c95d64dfaf62cf766842c91bac88fdda7d581bd768e20bf1f73ef563ff3217a"
+    },
+    {
+      "source_id": "journal:twc:fields:permissions",
+      "scope": "journal-specific",
+      "field": "fields.permissions",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/avoid-infringement-upon-ieee-copyright/",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "7a93ac04aca4e5b1dd4dfcc003690539438d63a7f88bf59c4124fbef48280560"
+    },
+    {
+      "source_id": "journal:twc:fields:xplore",
+      "scope": "journal-specific",
+      "field": "fields.xplore",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7693",
+      "tier": "journal-official",
+      "journal_id": "twc",
+      "mutable": true,
+      "content_hash": "e83663a909641dd36e766cf3e844cae074ce32b318183a58c0de330058a2b68c"
+    }
+  ]
+}

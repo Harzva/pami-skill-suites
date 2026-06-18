@@ -1,0 +1,337 @@
+schema_version: 2.6.0
+release_version: v2.6.0
+generated_on: '2026-06-17'
+title: Query-to-Tag Coverage Matrix
+available_seed_tags:
+- copyright-review-required
+- main-figure
+- method-comparison
+- method-or-result-overview
+- pattern-recognition
+matrix:
+- query_id: method_pipeline_main_figure
+  expected_tags:
+  - method-pipeline
+  - workflow
+  - overview
+  - pipeline
+  - claim-evidence
+  seed_record_count: 6
+  tag_coverage:
+    method-pipeline: 0
+    workflow: 0
+    overview: 0
+    pipeline: 0
+    claim-evidence: 0
+  best_seed_matches:
+  - paper_id: eswa-2024-knowledge-based-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: information-sciences-2025-gkf-pual
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: kbs-2023-alzheimers-explainable-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: motivation_gap_figure
+  expected_tags:
+  - motivation
+  - gap
+  - contrast
+  - problem-framing
+  - overview
+  seed_record_count: 6
+  tag_coverage:
+    motivation: 0
+    gap: 0
+    contrast: 0
+    problem-framing: 0
+    overview: 0
+  best_seed_matches:
+  - paper_id: eswa-2024-knowledge-based-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: information-sciences-2025-gkf-pual
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: kbs-2023-alzheimers-explainable-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: ablation_table_style
+  expected_tags:
+  - ablation
+  - table
+  - comparison
+  - method-comparison
+  - evidence
+  seed_record_count: 6
+  tag_coverage:
+    ablation: 0
+    table: 0
+    comparison: 0
+    method-comparison: 2
+    evidence: 0
+  best_seed_matches:
+  - paper_id: pr-2024-linear-transportation-lp-distance
+    score: 5
+    tag_overlap:
+    - method-comparison
+    text_hits:
+    - comparison
+    - method-comparison
+  - paper_id: prl-2023-too-good-prior
+    score: 5
+    tag_overlap:
+    - method-comparison
+    text_hits:
+    - comparison
+    - method-comparison
+  coverage_status: has_seed_matches
+- query_id: taxonomy_survey_overview
+  expected_tags:
+  - taxonomy
+  - survey
+  - overview
+  - concept-map
+  seed_record_count: 6
+  tag_coverage:
+    taxonomy: 0
+    survey: 0
+    overview: 0
+    concept-map: 0
+  best_seed_matches:
+  - paper_id: eswa-2024-knowledge-based-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: information-sciences-2025-gkf-pual
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: kbs-2023-alzheimers-explainable-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: medical_ai_workflow
+  expected_tags:
+  - medical-ai
+  - workflow
+  - clinical
+  - validation
+  - method-pipeline
+  seed_record_count: 6
+  tag_coverage:
+    medical-ai: 0
+    workflow: 0
+    clinical: 0
+    validation: 0
+    method-pipeline: 0
+  best_seed_matches: []
+  coverage_status: coverage_gap
+- query_id: remote_sensing_pipeline
+  expected_tags:
+  - remote-sensing
+  - pipeline
+  - preprocessing
+  - evaluation
+  - method-pipeline
+  seed_record_count: 6
+  tag_coverage:
+    remote-sensing: 0
+    pipeline: 0
+    preprocessing: 0
+    evaluation: 0
+    method-pipeline: 0
+  best_seed_matches: []
+  coverage_status: coverage_gap
+- query_id: caption_explanation_pattern
+  expected_tags:
+  - caption
+  - panel-explanation
+  - takeaway
+  - symbol-explanation
+  - copyright-review-required
+  seed_record_count: 6
+  tag_coverage:
+    caption: 0
+    panel-explanation: 0
+    takeaway: 0
+    symbol-explanation: 0
+    copyright-review-required: 6
+  best_seed_matches:
+  - paper_id: eswa-2024-knowledge-based-ai
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: information-sciences-2025-gkf-pual
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: kbs-2023-alzheimers-explainable-ai
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  coverage_status: has_seed_matches
+- query_id: limitations_visualization
+  expected_tags:
+  - limitations
+  - failure-case
+  - boundary-condition
+  - future-work
+  - risk
+  seed_record_count: 6
+  tag_coverage:
+    limitations: 0
+    failure-case: 0
+    boundary-condition: 0
+    future-work: 0
+    risk: 0
+  best_seed_matches: []
+  coverage_status: coverage_gap
+- query_id: beautiful_comparison_table
+  expected_tags:
+  - beautiful-table
+  - comparison
+  - metrics
+  - baseline
+  - evidence
+  seed_record_count: 6
+  tag_coverage:
+    beautiful-table: 0
+    comparison: 0
+    metrics: 0
+    baseline: 0
+    evidence: 0
+  best_seed_matches:
+  - paper_id: pr-2024-linear-transportation-lp-distance
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - comparison
+  - paper_id: prl-2023-too-good-prior
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - comparison
+  coverage_status: has_seed_matches
+- query_id: figure_table_caption_bundle
+  expected_tags:
+  - figure
+  - table
+  - caption
+  - claim-evidence
+  - overview
+  seed_record_count: 6
+  tag_coverage:
+    figure: 0
+    table: 0
+    caption: 0
+    claim-evidence: 0
+    overview: 0
+  best_seed_matches:
+  - paper_id: eswa-2024-knowledge-based-ai
+    score: 2
+    tag_overlap: []
+    text_hits:
+    - figure
+    - overview
+  - paper_id: information-sciences-2025-gkf-pual
+    score: 2
+    tag_overlap: []
+    text_hits:
+    - figure
+    - overview
+  - paper_id: kbs-2023-alzheimers-explainable-ai
+    score: 2
+    tag_overlap: []
+    text_hits:
+    - figure
+    - overview
+  coverage_status: has_seed_matches
+- query_id: visual_rhetoric_for_introduction
+  expected_tags:
+  - motivation
+  - gap
+  - contribution
+  - problem-framing
+  - overview
+  seed_record_count: 6
+  tag_coverage:
+    motivation: 0
+    gap: 0
+    contribution: 0
+    problem-framing: 0
+    overview: 0
+  best_seed_matches:
+  - paper_id: eswa-2024-knowledge-based-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: information-sciences-2025-gkf-pual
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  - paper_id: kbs-2023-alzheimers-explainable-ai
+    score: 1
+    tag_overlap: []
+    text_hits:
+    - overview
+  coverage_status: has_seed_matches
+- query_id: rag_safety_permission_warning
+  expected_tags:
+  - copyright-review-required
+  - permission-review
+  - metadata-only
+  - safety
+  seed_record_count: 6
+  tag_coverage:
+    copyright-review-required: 6
+    permission-review: 0
+    metadata-only: 0
+    safety: 0
+  best_seed_matches:
+  - paper_id: eswa-2024-knowledge-based-ai
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: information-sciences-2025-gkf-pual
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  - paper_id: kbs-2023-alzheimers-explainable-ai
+    score: 4
+    tag_overlap:
+    - copyright-review-required
+    text_hits:
+    - copyright-review-required
+  coverage_status: has_seed_matches

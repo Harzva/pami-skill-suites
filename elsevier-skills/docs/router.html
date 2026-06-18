@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>elsevier-skills</title><link rel="stylesheet" href="assets/site.css"></head><body><div class="wrap"><nav class="nav"><div class="brand">elsevier-skills</div><div class="links"><a href="skills.html">Skills</a><a href="journals.html">Journals</a><a href="router.html">Router</a><a href="compact-suite.html">Compact</a><a href="sources.html">Official sources</a><a href="getting-started.html">Install</a></div></nav><section class="hero small"><span class="badge">v0.5.0 router architecture</span><h1>Skill-in-skill without hiding the skills.</h1><p class="lead">The source-of-truth layout keeps skills flat and independently installable. Router skills orchestrate them through registries. The compact suite is generated separately for one-skill installation.</p></section><h2>Architecture</h2><pre class="tree">skills/
+├── elsevier-skill-suite/          # suite-level router
+├── elsevier-journal-router/  # journal adapter router
+├── elsevier-component-router/# manuscript component router
+├── elsevier-submission-router/# submission workflow router
+├── &lt;component-skill&gt;/
+└── &lt;journal-adapter&gt;/
+
+resources/
+├── skill_registry.json
+├── journal_registry.json
+├── component_registry.json
+├── submission_registry.json
+└── routing_rules.json
+
+dist/compact-suite/
+└── elsevier-skill-suite/          # one-skill distribution</pre><h2>Why flat source layout?</h2><div class="card"><p>Flat skills stay directly discoverable, installable, and testable. The router can coordinate them, but each journal adapter and manuscript component remains a real skill. Nested modules are used only in the generated compact distribution.</p></div><h2>Route output contract</h2><table class="table"><tr><th>Field</th><th>Purpose</th></tr><tr><td>Detected journal</td><td>Names the journal adapter or generic writer.</td></tr><tr><td>Detected components</td><td>Names manuscript parts such as table, figure, caption, related work, method, experiment.</td></tr><tr><td>Selected skills</td><td>Transparent route chain.</td></tr><tr><td>Official checks</td><td>Policy-sensitive items that require live verification.</td></tr></table><footer class="footer">Unofficial project. Not affiliated with any publisher or society. Verify all requirements on live official pages before submission.</footer></div></body></html>

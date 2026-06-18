@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "release_version": "v2.3.0",
+  "generated_on": "2026-06-16",
+  "candidate_id": "ieee-candidate-slot-052",
+  "paper_id": "ieee-oa-candidate-052",
+  "publisher_family": "IEEE",
+  "proposed_title": "TBD — pending IEEE OA paper selection #052",
+  "proposed_journal": "IEEE TIP",
+  "year": "TBD",
+  "target_figure_type": "motivation_figure",
+  "source_status": "pending-evidence-collection",
+  "evidence_completeness_score": 8,
+  "extraction_gate": "blocked_until_doi_oa_license_permission_evidence_complete",
+  "doi_evidence": {
+    "proposed_doi": "TBD — collect from official publisher page or DOI registry during OA review",
+    "doi_status": "pending-doi-discovery",
+    "evidence_status": "missing-or-TBD",
+    "required_actions": [
+      "query Crossref or DOI registry",
+      "confirm title/year/journal match",
+      "record canonical DOI URL"
+    ],
+    "notes": "DOI evidence alone is not enough for OA figure extraction."
+  },
+  "publisher_page_evidence": {
+    "proposed_source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+    "source_type": "pending_oa_source_collection",
+    "evidence_status": "missing-or-TBD",
+    "required_actions": [
+      "open official publisher article page",
+      "capture license/copyright statement",
+      "record official PDF availability if any"
+    ],
+    "notes": "Do not use Sci-Hub, pirated PDFs, or paywalled-only PDFs."
+  },
+  "repository_oa_evidence": {
+    "candidate_repository_url": "TBD or not applicable",
+    "evidence_status": "needs-manual-review",
+    "required_actions": [
+      "check author or institutional repository version",
+      "record rights statement and version type",
+      "confirm repository copy is legally hosted"
+    ],
+    "notes": "Repository OA evidence may differ from publisher license evidence."
+  },
+  "license_evidence": {
+    "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+    "evidence_status": "missing-or-TBD",
+    "accepted_license_examples": [
+      "CC BY",
+      "CC BY-NC",
+      "publisher-permitted OA",
+      "author/institutional repository OA with permitted analysis use"
+    ],
+    "required_actions": [
+      "record exact license text",
+      "record attribution requirements",
+      "record no-derivatives / non-commercial limitations when present"
+    ],
+    "notes": "A license candidate is not a final permission decision."
+  },
+  "permission_evidence": {
+    "permission_risk": "high",
+    "permission_status": "requires-human-review",
+    "required_actions": [
+      "confirm figure extraction is allowed for analysis/gallery/RAG metadata",
+      "decide whether images can be hosted or only referenced",
+      "record attribution format"
+    ],
+    "notes": "Public gallery display and RAG storage may have stricter requirements than private structural analysis."
+  },
+  "third_party_material_evidence": {
+    "status": "unknown-until-visual-and-caption-review",
+    "required_actions": [
+      "check caption and article for third-party material notices",
+      "flag figures containing reused photos/logos/maps/screenshots/datasets",
+      "exclude or seek permissions if third-party status is unclear"
+    ],
+    "notes": "Third-party elements can invalidate apparent article-level reuse permission."
+  },
+  "manual_reviewer_notes": {
+    "reviewer": "TBD",
+    "last_reviewed": "not-reviewed-in-offline-release-build",
+    "decision": "do-not-extract-new-assets-yet",
+    "notes": "Offline scaffold only. Live DOI/OA/license verification is required before any new extraction or public hosting."
+  },
+  "forbidden_sources": [
+    "Sci-Hub",
+    "pirated PDF",
+    "paywalled-only PDF",
+    "copyright-unknown PDF",
+    "unauthorized image reuse"
+  ]
+}

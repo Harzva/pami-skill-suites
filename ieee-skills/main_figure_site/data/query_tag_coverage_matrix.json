@@ -1,0 +1,503 @@
+{
+  "schema_version": "2.6.0",
+  "release_version": "v2.6.0",
+  "generated_on": "2026-06-17",
+  "title": "Query-to-Tag Coverage Matrix",
+  "available_seed_tags": [
+    "concept-map",
+    "copyright-review-required",
+    "evidence-flow",
+    "image-processing",
+    "main-figure",
+    "medical-ai",
+    "method-or-result-overview",
+    "overview",
+    "pipeline",
+    "taxonomy"
+  ],
+  "matrix": [
+    {
+      "query_id": "method_pipeline_main_figure",
+      "expected_tags": [
+        "method-pipeline",
+        "workflow",
+        "overview",
+        "pipeline",
+        "claim-evidence"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "method-pipeline": 0,
+        "workflow": 0,
+        "overview": 1,
+        "pipeline": 1,
+        "claim-evidence": 0
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "pipeline"
+          ],
+          "text_hits": [
+            "pipeline"
+          ]
+        },
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "motivation_gap_figure",
+      "expected_tags": [
+        "motivation",
+        "gap",
+        "contrast",
+        "problem-framing",
+        "overview"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "motivation": 0,
+        "gap": 0,
+        "contrast": 0,
+        "problem-framing": 0,
+        "overview": 1
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "ablation_table_style",
+      "expected_tags": [
+        "ablation",
+        "table",
+        "comparison",
+        "method-comparison",
+        "evidence"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "ablation": 0,
+        "table": 0,
+        "comparison": 0,
+        "method-comparison": 0,
+        "evidence": 0
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "evidence"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "taxonomy_survey_overview",
+      "expected_tags": [
+        "taxonomy",
+        "survey",
+        "overview",
+        "concept-map"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "taxonomy": 1,
+        "survey": 0,
+        "overview": 1,
+        "concept-map": 1
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 13,
+          "tag_overlap": [
+            "concept-map",
+            "overview",
+            "taxonomy"
+          ],
+          "text_hits": [
+            "concept-map",
+            "overview",
+            "survey",
+            "taxonomy"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "medical_ai_workflow",
+      "expected_tags": [
+        "medical-ai",
+        "workflow",
+        "clinical",
+        "validation",
+        "method-pipeline"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "medical-ai": 1,
+        "workflow": 0,
+        "clinical": 0,
+        "validation": 0,
+        "method-pipeline": 0
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 4,
+          "tag_overlap": [
+            "medical-ai"
+          ],
+          "text_hits": [
+            "medical-ai"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "remote_sensing_pipeline",
+      "expected_tags": [
+        "remote-sensing",
+        "pipeline",
+        "preprocessing",
+        "evaluation",
+        "method-pipeline"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "remote-sensing": 0,
+        "pipeline": 1,
+        "preprocessing": 0,
+        "evaluation": 0,
+        "method-pipeline": 0
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "pipeline"
+          ],
+          "text_hits": [
+            "pipeline"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "caption_explanation_pattern",
+      "expected_tags": [
+        "caption",
+        "panel-explanation",
+        "takeaway",
+        "symbol-explanation",
+        "copyright-review-required"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "caption": 0,
+        "panel-explanation": 0,
+        "takeaway": 0,
+        "symbol-explanation": 0,
+        "copyright-review-required": 5
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "limitations_visualization",
+      "expected_tags": [
+        "limitations",
+        "failure-case",
+        "boundary-condition",
+        "future-work",
+        "risk"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "limitations": 0,
+        "failure-case": 0,
+        "boundary-condition": 0,
+        "future-work": 0,
+        "risk": 0
+      },
+      "best_seed_matches": [],
+      "coverage_status": "coverage_gap"
+    },
+    {
+      "query_id": "beautiful_comparison_table",
+      "expected_tags": [
+        "beautiful-table",
+        "comparison",
+        "metrics",
+        "baseline",
+        "evidence"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "beautiful-table": 0,
+        "comparison": 0,
+        "metrics": 0,
+        "baseline": 0,
+        "evidence": 0
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "evidence"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "figure_table_caption_bundle",
+      "expected_tags": [
+        "figure",
+        "table",
+        "caption",
+        "claim-evidence",
+        "overview"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "figure": 0,
+        "table": 0,
+        "caption": 0,
+        "claim-evidence": 0,
+        "overview": 1
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 5,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "figure",
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "visual_rhetoric_for_introduction",
+      "expected_tags": [
+        "motivation",
+        "gap",
+        "contribution",
+        "problem-framing",
+        "overview"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "motivation": 0,
+        "gap": 0,
+        "contribution": 0,
+        "problem-framing": 0,
+        "overview": 1
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    },
+    {
+      "query_id": "rag_safety_permission_warning",
+      "expected_tags": [
+        "copyright-review-required",
+        "permission-review",
+        "metadata-only",
+        "safety"
+      ],
+      "seed_record_count": 5,
+      "tag_coverage": {
+        "copyright-review-required": 5,
+        "permission-review": 0,
+        "metadata-only": 0,
+        "safety": 0
+      },
+      "best_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        }
+      ],
+      "coverage_status": "has_seed_matches"
+    }
+  ]
+}

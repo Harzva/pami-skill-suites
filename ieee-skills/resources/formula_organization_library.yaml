@@ -1,0 +1,43 @@
+schema_version: '1.0'
+release_version: 1.9.0
+publisher: IEEE
+generated_on: '2026-06-14'
+purpose: Make mathematical notation serve the method narrative instead of becoming
+  opaque decoration.
+fixed_routines:
+- name: Define-before-use
+  sequence:
+  - symbol table
+  - problem setting
+  - objective
+  - constraints
+  - optimization/algorithm link
+  risk: Undefined symbols break reviewer trust.
+- name: Equation-to-algorithm bridge
+  sequence:
+  - mathematical objective
+  - closed-form/intuitive reading
+  - algorithmic step
+  - complexity/implementation note
+  risk: Equations that do not map to implementation feel ornamental.
+- name: Assumption-lemma-consequence
+  sequence:
+  - assumption
+  - formal statement
+  - proof sketch or citation
+  - practical consequence
+  risk: Theoretical claims without assumptions invite rejection.
+- name: Notation consistency audit
+  sequence:
+  - dimensions
+  - indices
+  - sets
+  - random variables
+  - loss terms
+  - hyperparameters
+  risk: Notation drift causes method ambiguity.
+output_contract:
+- notation table
+- equation purpose map
+- implementation bridge
+- ambiguity list

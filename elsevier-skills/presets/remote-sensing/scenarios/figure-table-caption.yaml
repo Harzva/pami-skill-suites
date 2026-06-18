@@ -1,0 +1,60 @@
+scenario_id: figure-table-caption
+title: Figure-table-caption scenario
+release_version: 1.5.0
+preset_id: remote-sensing
+preset_title: Remote Sensing
+publisher_family: Elsevier
+visibility: optional preset scenario; not a default top-level skill
+context_policy: Do not add preset scenarios to default skills/. Route through the suite macro skill and internal fragments.
+purpose: 'Upgrade visual evidence: tables, figures, and captions.'
+example_user_prompt: Use the Remote Sensing preset to handle this figure-table-caption scenario for a Elsevier journal manuscript;
+  show selected modules, warnings, risks, and output contract.
+target_journal_candidates:
+- id: isprs-journal-photogrammetry-remote-sensing
+  title: ISPRS Journal of Photogrammetry and Remote Sensing
+  maturity_level: L0
+  needs_reverification: true
+- id: international-journal-applied-earth-observation-geoinformation
+  title: International Journal of Applied Earth Observation and Geoinformation
+  maturity_level: L0
+  needs_reverification: true
+- id: remote-sensing-applications-society-environment
+  title: 'Remote Sensing Applications: Society and Environment'
+  maturity_level: L0
+  needs_reverification: true
+selected_skills:
+- skills/elsevier-skill-suite
+- skills/elsevier-figure-table
+selected_modules:
+  suite_router: skills/elsevier-skill-suite
+  journal_modules: []
+  component_modules:
+  - skills/elsevier-skill-suite/static/components/table.md
+  - skills/elsevier-skill-suite/static/components/figure.md
+  - skills/elsevier-skill-suite/static/components/caption.md
+  - skills/elsevier-skill-suite/static/components/results-reporting.md
+  - skills/elsevier-skill-suite/static/components/visual-accessibility.md
+  - skills/elsevier-skill-suite/static/components/statistical-reporting.md
+  submission_modules: []
+required_warnings:
+  official_source_warning: true
+  copyright_safe_paper_mining_warning: true
+  context_visibility_warning: true
+reviewer_risk_checklist:
+- Novelty or contribution is not clearly separated from prior work.
+- Claims are not tied to experiments, tables, figures, citations, or reviewer evidence.
+- Visual evidence or captions are not self-contained enough for expert review.
+- Mutable publisher or journal rules are used without live verification.
+- Template-paper mining copies content instead of extracting reusable structure.
+structured_output_contract:
+- detected preset and task type
+- selected skills/modules
+- official-source and copyright-safe paper-mining warnings
+- reviewer-risk checklist
+- discipline-specific action plan
+- next validation step
+evaluation_rubrics:
+- evals/rubrics/elsevier_rubric.md
+- evals/rubrics/journal_adapter_rubric.md
+- evals/rubrics/official_source_rubric.md
+- evals/rubrics/copyright_safety_rubric.md

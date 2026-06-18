@@ -1,0 +1,174 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: RAG-Ready Metadata Candidates
+rag_policy:
+  metadata_only_allowed_for_existing_seed_records: true
+  image_embedding_or_public_hosting_requires_permission_review: true
+  pending_candidates_excluded_from_rag: true
+summary:
+  total_candidates: 100
+  metadata_only_rag_ready_count: 11
+  full_visual_rag_ready_count: 0
+  pending_or_blocked_count: 89
+rag_ready_metadata_candidates:
+- candidate_id: ieee-seed-001
+  paper_id: tpami-2023-transformers-survey
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-002
+  paper_id: tip-2022-see360
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-003
+  paper_id: tmi-2020-lesion-localization
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization
+    in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-004
+  paper_id: tnnls-2023-sparce
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+    Representations'
+  journal: IEEE TNNLS
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-005
+  paper_id: tnnls-2024-mediterranean
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: elsevier-seed-006
+  paper_id: pr-2024-linear-transportation-lp-distance
+  title: A linear transportation Lp distance for pattern recognition
+  journal: Pattern Recognition
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: elsevier-seed-007
+  paper_id: prl-2023-too-good-prior
+  title: A too-good-to-be-true prior to reduce shortcut reliance
+  journal: Pattern Recognition Letters
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: elsevier-seed-008
+  paper_id: eswa-2024-knowledge-based-ai
+  title: 'Enhancing vessel arrival time prediction: A fusion-based deep learning approach'
+  journal: Expert Systems With Applications
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: elsevier-seed-009
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  title: 'Advanced insights through systematic analysis: Mapping future research directions
+    and opportunities for xAI in deep learning and artificial intelligence used in
+    cybersecurity'
+  journal: Neurocomputing
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: elsevier-seed-010
+  paper_id: information-sciences-2025-gkf-pual
+  title: 'GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with
+    variable selection'
+  journal: Information Sciences
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: elsevier-seed-011
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  title: 'Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection
+    system using EEG signals'
+  journal: Knowledge-Based Systems
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off

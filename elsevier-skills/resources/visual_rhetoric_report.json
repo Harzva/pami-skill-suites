@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.9.0",
+  "publisher": "Elsevier",
+  "generated_on": "2026-06-14",
+  "source_manifest": "paper_templates/extracted_visual_assets/visual_asset_manifest.json",
+  "use_scope": "For visual rhetoric and figure/table/caption pattern analysis only. Do not copy or reuse original visuals or captions.",
+  "summary": {
+    "asset_total": 18,
+    "by_role": {
+      "main_figure": 6,
+      "motivation_figure": 6,
+      "beautiful_table": 6
+    },
+    "by_journal": {
+      "Pattern Recognition": 3,
+      "Pattern Recognition Letters": 3,
+      "Expert Systems With Applications": 3,
+      "Neurocomputing": 3,
+      "Information Sciences": 3,
+      "Knowledge-Based Systems": 3
+    },
+    "pattern_counts": {
+      "architecture-or-overview-map": 6,
+      "problem-gap-to-method-motivation": 6,
+      "result-comparison-or-ablation-table": 6
+    },
+    "review_queue_items": 17
+  },
+  "visual_rhetoric_axes": [
+    "problem-motivation",
+    "method-overview",
+    "data-evidence",
+    "comparison",
+    "ablation",
+    "workflow",
+    "taxonomy",
+    "caption-standalone-clarity",
+    "visual-hierarchy",
+    "reproducibility-cues"
+  ],
+  "assets": [
+    {
+      "asset_id": "pr-2024-linear-transportation-lp-distance::main_figure::p7",
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "title": "A linear transportation Lp distance for pattern recognition",
+      "journal": "Pattern Recognition",
+      "role": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png",
+      "page": 7,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "architecture-or-overview-map",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 647,
+        "aspect_ratio": 1.883,
+        "orientation": "wide",
+        "brightness": 233.81,
+        "contrast_proxy": 187.0,
+        "file_bytes": 196283
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "low-pixel-resolution-for-close-study",
+        "wide-layout"
+      ],
+      "visual_analysis_score": 85
+    },
+    {
+      "asset_id": "pr-2024-linear-transportation-lp-distance::motivation_figure::p8",
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "title": "A linear transportation Lp distance for pattern recognition",
+      "journal": "Pattern Recognition",
+      "role": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/pr-2024-linear-transportation-lp-distance__p008__motivation_figure.png",
+      "page": 8,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "problem-gap-to-method-motivation",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 679,
+        "aspect_ratio": 1.794,
+        "orientation": "wide",
+        "brightness": 248.51,
+        "contrast_proxy": 198.0,
+        "file_bytes": 156678
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "low-pixel-resolution-for-close-study",
+        "wide-layout"
+      ],
+      "visual_analysis_score": 85
+    },
+    {
+      "asset_id": "pr-2024-linear-transportation-lp-distance::beautiful_table::p7",
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "title": "A linear transportation Lp distance for pattern recognition",
+      "journal": "Pattern Recognition",
+      "role": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/pr-2024-linear-transportation-lp-distance__p007__beautiful_table.png",
+      "page": 7,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "table",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "result-comparison-or-ablation-table",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 885,
+        "aspect_ratio": 1.376,
+        "orientation": "wide",
+        "brightness": 225.69,
+        "contrast_proxy": 147.0,
+        "file_bytes": 334921
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "wide-layout",
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 95
+    },
+    {
+      "asset_id": "prl-2023-too-good-prior::main_figure::p2",
+      "paper_id": "prl-2023-too-good-prior",
+      "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+      "journal": "Pattern Recognition Letters",
+      "role": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png",
+      "page": 2,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "architecture-or-overview-map",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 971,
+        "aspect_ratio": 1.254,
+        "orientation": "balanced",
+        "brightness": 245.45,
+        "contrast_proxy": 255.0,
+        "file_bytes": 259225
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "prl-2023-too-good-prior::motivation_figure::p2",
+      "paper_id": "prl-2023-too-good-prior",
+      "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+      "journal": "Pattern Recognition Letters",
+      "role": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/prl-2023-too-good-prior__p002__motivation_figure.png",
+      "page": 2,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "problem-gap-to-method-motivation",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 1322,
+        "aspect_ratio": 0.921,
+        "orientation": "balanced",
+        "brightness": 238.11,
+        "contrast_proxy": 255.0,
+        "file_bytes": 371991
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "prl-2023-too-good-prior::beautiful_table::p3",
+      "paper_id": "prl-2023-too-good-prior",
+      "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+      "journal": "Pattern Recognition Letters",
+      "role": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/prl-2023-too-good-prior__p003__beautiful_table.png",
+      "page": 3,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "table",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "result-comparison-or-ablation-table",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 1072,
+        "aspect_ratio": 1.136,
+        "orientation": "balanced",
+        "brightness": 229.3,
+        "contrast_proxy": 207.0,
+        "file_bytes": 339830
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 95
+    },
+    {
+      "asset_id": "eswa-2024-knowledge-based-ai::main_figure::p5",
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+      "journal": "Expert Systems With Applications",
+      "role": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+      "page": 5,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "architecture-or-overview-map",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 1518,
+        "aspect_ratio": 0.802,
+        "orientation": "balanced",
+        "brightness": 225.53,
+        "contrast_proxy": 170.0,
+        "file_bytes": 582524
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "eswa-2024-knowledge-based-ai::motivation_figure::p5",
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+      "journal": "Expert Systems With Applications",
+      "role": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/eswa-2024-knowledge-based-ai__p005__motivation_figure.png",
+      "page": 5,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "problem-gap-to-method-motivation",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 1673,
+        "aspect_ratio": 0.728,
+        "orientation": "tall",
+        "brightness": 227.32,
+        "contrast_proxy": 147.0,
+        "file_bytes": 602706
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "eswa-2024-knowledge-based-ai::beautiful_table::p5",
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+      "journal": "Expert Systems With Applications",
+      "role": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/eswa-2024-knowledge-based-ai__p005__beautiful_table.png",
+      "page": 5,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "table",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "result-comparison-or-ablation-table",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 1690,
+        "aspect_ratio": 0.721,
+        "orientation": "tall",
+        "brightness": 227.47,
+        "contrast_proxy": 170.0,
+        "file_bytes": 607805
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 95
+    },
+    {
+      "asset_id": "neurocomputing-2024-xai-cybersecurity::main_figure::p2",
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+      "journal": "Neurocomputing",
+      "role": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+      "page": 2,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "architecture-or-overview-map",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 550,
+        "aspect_ratio": 2.215,
+        "orientation": "wide",
+        "brightness": 236.42,
+        "contrast_proxy": 255.0,
+        "file_bytes": 198847
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "low-pixel-resolution-for-close-study",
+        "wide-layout"
+      ],
+      "visual_analysis_score": 85
+    },
+    {
+      "asset_id": "neurocomputing-2024-xai-cybersecurity::motivation_figure::p2",
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+      "journal": "Neurocomputing",
+      "role": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/neurocomputing-2024-xai-cybersecurity__p002__motivation_figure.png",
+      "page": 2,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "problem-gap-to-method-motivation",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 1716,
+        "aspect_ratio": 0.71,
+        "orientation": "tall",
+        "brightness": 231.73,
+        "contrast_proxy": 255.0,
+        "file_bytes": 573361
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "neurocomputing-2024-xai-cybersecurity::beautiful_table::p6",
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+      "journal": "Neurocomputing",
+      "role": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/neurocomputing-2024-xai-cybersecurity__p006__beautiful_table.png",
+      "page": 6,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "table",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "result-comparison-or-ablation-table",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 902,
+        "aspect_ratio": 1.35,
+        "orientation": "wide",
+        "brightness": 229.24,
+        "contrast_proxy": 148.0,
+        "file_bytes": 294765
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "wide-layout",
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 95
+    },
+    {
+      "asset_id": "information-sciences-2025-gkf-pual::main_figure::p3",
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+      "journal": "Information Sciences",
+      "role": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+      "page": 3,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "architecture-or-overview-map",
+      "analysis_stats": {
+        "width": 1114,
+        "height": 757,
+        "aspect_ratio": 1.472,
+        "orientation": "wide",
+        "brightness": 228.32,
+        "contrast_proxy": 161.33,
+        "file_bytes": 234157
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "wide-layout"
+      ],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "information-sciences-2025-gkf-pual::motivation_figure::p3",
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+      "journal": "Information Sciences",
+      "role": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/information-sciences-2025-gkf-pual__p003__motivation_figure.png",
+      "page": 3,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "problem-gap-to-method-motivation",
+      "analysis_stats": {
+        "width": 1114,
+        "height": 949,
+        "aspect_ratio": 1.174,
+        "orientation": "balanced",
+        "brightness": 231.86,
+        "contrast_proxy": 255.0,
+        "file_bytes": 292804
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "information-sciences-2025-gkf-pual::beautiful_table::p11",
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+      "journal": "Information Sciences",
+      "role": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/information-sciences-2025-gkf-pual__p011__beautiful_table.png",
+      "page": 11,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "table",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "result-comparison-or-ablation-table",
+      "analysis_stats": {
+        "width": 1114,
+        "height": 916,
+        "aspect_ratio": 1.216,
+        "orientation": "balanced",
+        "brightness": 240.96,
+        "contrast_proxy": 160.0,
+        "file_bytes": 186511
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 95
+    },
+    {
+      "asset_id": "kbs-2023-alzheimers-explainable-ai::main_figure::p4",
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+      "journal": "Knowledge-Based Systems",
+      "role": "main_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+      "page": 4,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "architecture-or-overview-map",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 652,
+        "aspect_ratio": 1.868,
+        "orientation": "wide",
+        "brightness": 238.52,
+        "contrast_proxy": 255.0,
+        "file_bytes": 358630
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "low-pixel-resolution-for-close-study",
+        "wide-layout"
+      ],
+      "visual_analysis_score": 85
+    },
+    {
+      "asset_id": "kbs-2023-alzheimers-explainable-ai::motivation_figure::p4",
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+      "journal": "Knowledge-Based Systems",
+      "role": "motivation_figure",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/kbs-2023-alzheimers-explainable-ai__p004__motivation_figure.png",
+      "page": 4,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "figure",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "problem-gap-to-method-motivation",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 950,
+        "aspect_ratio": 1.282,
+        "orientation": "balanced",
+        "brightness": 235.16,
+        "contrast_proxy": 255.0,
+        "file_bytes": 477246
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [],
+      "visual_analysis_score": 100
+    },
+    {
+      "asset_id": "kbs-2023-alzheimers-explainable-ai::beautiful_table::p7",
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+      "journal": "Knowledge-Based Systems",
+      "role": "beautiful_table",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/kbs-2023-alzheimers-explainable-ai__p007__beautiful_table.png",
+      "page": 7,
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "caption_type": "table",
+      "caption_summary": "caption present",
+      "visual_rhetoric_pattern": "result-comparison-or-ablation-table",
+      "analysis_stats": {
+        "width": 1218,
+        "height": 1103,
+        "aspect_ratio": 1.104,
+        "orientation": "balanced",
+        "brightness": 224.55,
+        "contrast_proxy": 179.0,
+        "file_bytes": 398449
+      },
+      "visual_reuse_scope": "structure-analysis-only; do not copy, redraw, publish, or reuse without license and permission checks",
+      "quality_flags": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "visual_analysis_score": 95
+    }
+  ],
+  "copyright_safety": {
+    "allowed": [
+      "structural analysis",
+      "visual taxonomy building",
+      "caption/rhetoric pattern learning"
+    ],
+    "forbidden": [
+      "copy original figure",
+      "reuse table image",
+      "redraw layout too closely",
+      "publish extracted assets as original work"
+    ],
+    "required_before_reuse": [
+      "check license",
+      "check third-party materials",
+      "provide attribution",
+      "check target journal policy"
+    ]
+  }
+}

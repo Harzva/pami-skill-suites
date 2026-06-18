@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.9.0",
+  "publisher": "Elsevier",
+  "generated_on": "2026-06-14",
+  "purpose": "Close the paper by restating contribution, evidence, and future trajectory without redoing the abstract.",
+  "fixed_routines": [
+    {
+      "name": "Contribution-evidence-impact",
+      "sequence": [
+        "problem revisited",
+        "method contribution",
+        "key evidence",
+        "broader technical implication",
+        "future direction"
+      ],
+      "risk": "Conclusion that merely repeats results feels weak."
+    },
+    {
+      "name": "Takeaway compression",
+      "sequence": [
+        "one-sentence core takeaway",
+        "two evidence anchors",
+        "one limitation/future bridge"
+      ],
+      "risk": "Too many claims dilute the final message."
+    },
+    {
+      "name": "No-new-claims rule",
+      "sequence": [
+        "only claims already supported",
+        "no new experiments",
+        "no new terminology",
+        "no unsupported application promise"
+      ],
+      "risk": "New claims in conclusion can trigger reviewer skepticism."
+    }
+  ],
+  "output_contract": [
+    "closing paragraph skeleton",
+    "evidence anchors",
+    "safe future-work sentence",
+    "no-new-claim audit"
+  ]
+}

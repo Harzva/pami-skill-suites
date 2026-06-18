@@ -1,0 +1,83 @@
+schema_version: 1.0
+family: ieee
+version: 0.5.0
+submission_tasks:
+  -
+    task: "cover-letter"
+    skill: "ieee-cover-letter"
+    aliases:
+      - cover letter
+      - fit statement
+      - editor letter
+      - 投稿信
+    path: "skills/ieee-cover-letter"
+    requires_official_verification: false
+  -
+    task: response
+    skill: "ieee-response"
+    aliases:
+      - response
+      - rebuttal
+      - reviewer comment
+      - revision response
+      - 回复
+      - 审稿意见
+    path: "skills/ieee-response"
+    requires_official_verification: false
+  -
+    task: "submission-package"
+    skill: "ieee-submission-router"
+    aliases:
+      - submission package
+      - final files
+      - source files
+      - latex source
+      - upload
+      - 投稿材料
+    path: "skills/ieee-submission-router"
+    requires_official_verification: true
+  -
+    task: "author-agreement"
+    skill: "ieee-author-agreement"
+    aliases:
+      - author agreement
+      - copyright
+      - license
+      - publishing agreement
+      - open access
+      - 版权
+      - 许可
+    path: "skills/ieee-author-agreement"
+    requires_official_verification: true
+  -
+    task: "preprint-prior-publication"
+    skill: "ieee-preprint-prior-publication"
+    aliases:
+      - preprint
+      - prior publication
+      - conference extension
+      - multiple submission
+      - 预印本
+      - 会议扩展
+    path: "skills/ieee-preprint-prior-publication"
+    requires_official_verification: true
+  -
+    task: declarations
+    skill: "ieee-submission-router"
+    aliases:
+      - declaration
+      - ai disclosure
+      - competing interest
+      - funding
+      - ethics
+    path: "skills/ieee-submission-router"
+    requires_official_verification: true
+  -
+    task: "proof-correction"
+    skill: "ieee-proof-correction"
+    aliases:
+      - proof
+      - proof correction
+      - 校样
+    path: "skills/ieee-proof-correction"
+    requires_official_verification: true

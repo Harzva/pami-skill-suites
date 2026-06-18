@@ -1,0 +1,18 @@
+name: Source refresh request
+description: Request a live refresh of publisher or journal source records.
+title: "[source-refresh]: "
+labels: [official-source, maintenance]
+body:
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Refresh scope
+      options:
+        - publisher-wide sources
+        - one journal
+        - one expansion pack
+        - all sources
+  - type: textarea
+    id: details
+    attributes:
+      label: Details

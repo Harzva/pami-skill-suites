@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "family": "ieee",
+  "version": "0.5.0",
+  "default_chain": [
+    "ieee-skill-suite",
+    "ieee-journal-router",
+    "ieee-component-router",
+    "ieee-submission-router"
+  ],
+  "selection_policy": [
+    "Select one publisher-family router first.",
+    "Select at most one primary journal adapter unless the task asks for comparison.",
+    "Select only components mentioned or logically coupled to mentioned components.",
+    "Route rights, agreements, licenses, open access, policies, and submission portal items to submission router plus official-source audit.",
+    "When official instructions differ from repository guidance, official instructions win."
+  ],
+  "coupled_routes": [
+    {
+      "trigger_components": [
+        "figure",
+        "table",
+        "caption"
+      ],
+      "recommended_chain": [
+        "ieee-figure",
+        "ieee-table",
+        "ieee-caption"
+      ]
+    },
+    {
+      "trigger_components": [
+        "related-work",
+        "contribution-positioning",
+        "reference-integrity"
+      ],
+      "recommended_chain": [
+        "ieee-related-work",
+        "ieee-citation"
+      ]
+    },
+    {
+      "trigger_components": [
+        "experiment",
+        "ablation-study",
+        "statistical-reporting",
+        "results-reporting"
+      ],
+      "recommended_chain": [
+        "ieee-experiment-ablation"
+      ]
+    },
+    {
+      "trigger_components": [
+        "author-agreement",
+        "declarations"
+      ],
+      "recommended_chain": [
+        "ieee-author-agreement",
+        "ieee-official-source-audit"
+      ]
+    }
+  ],
+  "official_source_policy": [
+    "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+    "https://journals.ieeeauthorcenter.ieee.org/choose-a-publishing-agreement/",
+    "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-the-text-of-your-article/structure-your-article/"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.9.0",
+  "publisher": "IEEE",
+  "generated_on": "2026-06-14",
+  "purpose": "Show intellectual honesty while protecting the main contribution.",
+  "fixed_routines": [
+    {
+      "name": "Boundary-not-defect",
+      "sequence": [
+        "scope boundary",
+        "why boundary exists",
+        "evidence that main claim still holds",
+        "future extension"
+      ],
+      "risk": "Limitations framed as defects undermine contribution."
+    },
+    {
+      "name": "Failure-case taxonomy",
+      "sequence": [
+        "failure mode",
+        "trigger condition",
+        "observed effect",
+        "mitigation/future work"
+      ],
+      "risk": "Unstructured limitations look defensive."
+    },
+    {
+      "name": "Ethics-deployment caution",
+      "sequence": [
+        "deployment condition",
+        "risk",
+        "guardrail",
+        "evaluation needed before deployment"
+      ],
+      "risk": "High-impact application papers need responsible caveats."
+    }
+  ],
+  "output_contract": [
+    "limitations table",
+    "future work ladder",
+    "deployment caveat",
+    "reviewer-risk note"
+  ]
+}

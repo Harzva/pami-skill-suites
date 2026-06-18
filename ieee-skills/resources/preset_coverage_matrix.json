@@ -1,0 +1,217 @@
+{
+  "release_version": "1.4.0",
+  "generated_on": "2026-06-13",
+  "publisher_family": "IEEE",
+  "coverage_matrix": [
+    {
+      "preset_id": "computer-vision",
+      "title": "Computer Vision",
+      "journal_count": 4,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 2,
+        "L4": 2
+      },
+      "journals": [
+        {
+          "id": "pami",
+          "title": "TPAMI / PAMI",
+          "maturity_level": "L4",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tip",
+          "title": "IEEE TIP",
+          "maturity_level": "L4",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tcsvt",
+          "title": "IEEE TCSVT",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tvcg",
+          "title": "IEEE TVCG",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        }
+      ]
+    },
+    {
+      "preset_id": "medical-ai",
+      "title": "Medical AI",
+      "journal_count": 3,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 1
+      },
+      "journals": [
+        {
+          "id": "tmi",
+          "title": "IEEE TMI",
+          "maturity_level": "L4",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "jbhi",
+          "title": "IEEE JBHI",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "open-journal-engineering-medicine-biology",
+          "title": "IEEE Open Journal of Engineering in Medicine and Biology",
+          "maturity_level": "L0",
+          "source_quality_band": "E"
+        }
+      ]
+    },
+    {
+      "preset_id": "remote-sensing",
+      "title": "Remote Sensing",
+      "journal_count": 2,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 0
+      },
+      "journals": [
+        {
+          "id": "tgrs",
+          "title": "IEEE TGRS",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "geoscience-remote-sensing-letters",
+          "title": "IEEE Geoscience and Remote Sensing Letters",
+          "maturity_level": "L0",
+          "source_quality_band": "E"
+        }
+      ]
+    },
+    {
+      "preset_id": "multimedia",
+      "title": "Multimedia",
+      "journal_count": 4,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      },
+      "journals": [
+        {
+          "id": "tmm",
+          "title": "IEEE TMM",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tcsvt",
+          "title": "IEEE TCSVT",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tvcg",
+          "title": "IEEE TVCG",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tip",
+          "title": "IEEE TIP",
+          "maturity_level": "L4",
+          "source_quality_band": "A"
+        }
+      ]
+    },
+    {
+      "preset_id": "data-mining",
+      "title": "Data Mining",
+      "journal_count": 3,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 0
+      },
+      "journals": [
+        {
+          "id": "tkde",
+          "title": "IEEE TKDE",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tai",
+          "title": "IEEE Transactions on Artificial Intelligence",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "access",
+          "title": "IEEE Access",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        }
+      ]
+    },
+    {
+      "preset_id": "signal-processing",
+      "title": "Signal Processing",
+      "journal_count": 5,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      },
+      "journals": [
+        {
+          "id": "tsp",
+          "title": "IEEE TSP",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tip",
+          "title": "IEEE TIP",
+          "maturity_level": "L4",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "tcomm",
+          "title": "IEEE Transactions on Communications",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "twc",
+          "title": "IEEE Transactions on Wireless Communications",
+          "maturity_level": "L3",
+          "source_quality_band": "A"
+        },
+        {
+          "id": "signal-processing-letters",
+          "title": "IEEE Signal Processing Letters",
+          "maturity_level": "L0",
+          "source_quality_band": "E"
+        }
+      ]
+    }
+  ]
+}

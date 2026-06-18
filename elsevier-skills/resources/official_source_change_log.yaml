@@ -1,0 +1,12 @@
+schema_version: '1.0'
+release_version: 1.8.0
+publisher: Elsevier
+generated_on: '2026-06-14'
+entries:
+- date: '2026-06-14'
+  release: 1.8.0
+  type: baseline-snapshot-created
+  summary: Created initial offline official-source registry snapshot and policy diff
+    engine. No remote page content was fetched in the release build.
+  affected_fragments: []
+  requires_human_review: false

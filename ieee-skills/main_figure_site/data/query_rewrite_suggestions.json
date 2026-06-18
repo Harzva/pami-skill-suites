@@ -1,0 +1,322 @@
+{
+  "schema_version": "2.7.0",
+  "release_version": "v2.7.0",
+  "generated_on": "2026-06-17",
+  "title": "Query Rewrite Suggestions",
+  "scope": "IEEE Skills",
+  "suggestion_count": 12,
+  "suggestions": [
+    {
+      "query_id": "method_pipeline_main_figure",
+      "original_query": "Find main figures that explain a method pipeline with inputs, modules, outputs, and evidence alignment.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with method-pipeline, workflow, overview, pipeline, claim-evidence; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for method pipeline visual synthesis; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for method pipeline visual synthesis and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "motivation_gap_figure",
+      "original_query": "Find motivation figures that communicate a gap, limitation, or contrast between prior work and the proposed idea.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with motivation, gap, contrast, problem-framing, overview; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for motivation and gap framing; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for motivation and gap framing and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "ablation_table_style",
+      "original_query": "Find table examples that organize ablations or component-wise evidence clearly.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with ablation, table, comparison, method-comparison, evidence; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for table structure and ablation evidence retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for table structure and ablation evidence retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "taxonomy_survey_overview",
+      "original_query": "Find survey-style overview figures or taxonomy diagrams for organizing a research field.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with taxonomy, survey, overview, concept-map; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for taxonomy / survey overview retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for taxonomy / survey overview retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "medical_ai_workflow",
+      "original_query": "Find medical AI workflow figures showing data, model, clinical output, and validation logic.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with medical-ai, workflow, clinical, validation, method-pipeline; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for medical AI workflow retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for medical AI workflow retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "remote_sensing_pipeline",
+      "original_query": "Find remote sensing pipeline figures showing sensing data, preprocessing, model stages, and evaluation.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with remote-sensing, pipeline, preprocessing, evaluation, method-pipeline; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for remote sensing pipeline retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for remote sensing pipeline retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "caption_explanation_pattern",
+      "original_query": "Find figure-caption patterns that explain panels, symbols, abbreviations, and takeaway evidence safely.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with caption, panel-explanation, takeaway, symbol-explanation, copyright-review-required; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for caption structure retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for caption structure retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "limitations_visualization",
+      "original_query": "Find visual examples or retrieval records useful for explaining limitations, failure cases, or boundary conditions.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with limitations, failure-case, boundary-condition, future-work, risk; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for limitations and future-work visual retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for limitations and future-work visual retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "beautiful_comparison_table",
+      "original_query": "Find beautiful comparison-table styles that make baselines, metrics, and evidence hierarchy easy to read.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with beautiful-table, comparison, metrics, baseline, evidence; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for beautiful table pattern retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for beautiful table pattern retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "figure_table_caption_bundle",
+      "original_query": "Find examples where figure, table, and caption logic work together to support one paper claim.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with figure, table, caption, claim-evidence, overview; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for multi-component evidence bundle retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for multi-component evidence bundle retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "visual_rhetoric_for_introduction",
+      "original_query": "Find visuals that help an introduction move from problem pain point to research gap to contribution.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with motivation, gap, contribution, problem-framing, overview; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for introduction visual rhetoric retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for introduction visual rhetoric retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    },
+    {
+      "query_id": "rag_safety_permission_warning",
+      "original_query": "Find records that illustrate when a user must be warned not to copy or reuse source figures directly.",
+      "rewrite_set": [
+        {
+          "type": "tag-focused",
+          "rewrite": "Find metadata-only examples tagged with copyright-review-required, permission-review, metadata-only, safety; return safe structural lessons, not reusable images.",
+          "why": "Forces retrieval to use tag coverage and mode safety."
+        },
+        {
+          "type": "discipline-neutral scientific-figure design",
+          "rewrite": "Retrieve seed records useful for copyright and permission-safe retrieval; summarize visual organization, claim-evidence flow, and caption strategy with permission warnings.",
+          "why": "Emphasizes transferable organization rather than copying a source figure."
+        },
+        {
+          "type": "coverage-expansion",
+          "rewrite": "Identify missing tags for copyright and permission-safe retrieval and recommend lawful OA candidate collection priorities before image extraction.",
+          "why": "Turns poor retrieval into corpus expansion rather than hallucinating results."
+        }
+      ],
+      "blocked_rewrites": [
+        "Show me the original source image for reuse.",
+        "Copy this paper figure layout and labels exactly.",
+        "Generate embeddings from unapproved images."
+      ]
+    }
+  ]
+}

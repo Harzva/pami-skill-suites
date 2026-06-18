@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.9.0",
+  "publisher": "IEEE",
+  "generated_on": "2026-06-14",
+  "use_scope": "Caption-writing pattern library; do not copy source captions.",
+  "caption_moves": [
+    {
+      "move": "Identify visual object",
+      "prompt": "What does the figure/table show?"
+    },
+    {
+      "move": "State experimental or conceptual context",
+      "prompt": "What dataset/task/setting or method stage is involved?"
+    },
+    {
+      "move": "Decode labels/arrows/colors/symbols",
+      "prompt": "What visual encodings must be explained?"
+    },
+    {
+      "move": "State takeaway without overclaim",
+      "prompt": "What should the reader notice, supported by the paper?"
+    },
+    {
+      "move": "Point to details when needed",
+      "prompt": "Where are metrics/protocols/ablations explained?"
+    }
+  ],
+  "caption_templates": {
+    "main_figure": "Overview of [problem/method]. The figure shows [panels/modules] and how [information/evidence] flows from [input] to [output]. Labels denote [symbols].",
+    "motivation_figure": "Motivation for [method]. Existing approaches struggle with [specific gap], whereas the proposed design introduces [mechanism] to address [constraint].",
+    "table": "Comparison of [methods/settings] on [datasets/tasks]. Results are reported under [protocol]; bold/underline markers indicate [meaning]."
+  },
+  "failure_modes": [
+    "Caption repeats title only",
+    "Caption contains unsupported interpretation",
+    "Caption omits symbols or arrows",
+    "Caption hides protocol details",
+    "Caption copies source wording"
+  ]
+}

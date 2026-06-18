@@ -1,0 +1,205 @@
+dashboard_version: 1.7.0
+generated_at: '2026-06-14'
+repository: ieee-skills
+version: 1.8.0
+overall_status: offline-maintenance-ready
+context_safety:
+  default_macro_skills: 8
+  max_allowed_default_macro_skills: 10
+  advanced_skills_not_default_visible: true
+  expansion_packs_not_default_visible: true
+  presets_not_default_visible: true
+source_health:
+  total_records: 279
+  unique_urls: 74
+  healthy: 0
+  needs_reverification: 279
+  unchecked: 279
+  stale: 0
+  policy_note: Offline release builds may be maintenance-ready while source records
+    remain unchecked; run live checks before relying on mutable publication details.
+source_aging:
+  total_records: 279
+  bucket_counts:
+    unchecked: 279
+  maintenance_actions:
+    run live check before real submission advice: 279
+  unchecked_ratio: 1.0
+  offline_release_allowed: true
+  advisory_threshold: 1.0
+source_trust:
+  enabled: true
+  tier_counts:
+    publisher-official: 213
+    journal-official: 30
+    society-official: 36
+    repository-best-practice: 4
+    template-paper-observation: 7
+    unverified-candidate: 3
+  records: 293
+  records_needing_reverification: 289
+human_review_queue:
+  enabled: true
+  total_queue_items: 277
+  P0: 0
+  P1: 277
+  P2: 0
+  queue_file: resources/human_review_queue.json
+coverage:
+  expansion_packs: 6
+  journal_entries: 21
+  unique_journals: 17
+  maturity_counts:
+    L0: 3
+    L1: 0
+    L2: 0
+    L3: 13
+    L4: 5
+  source_quality_scoring: enabled
+  promotion_workflow: staged only
+presets:
+  count: 6
+  eval_summary:
+    preset_count: 6
+    scenario_count: 18
+    sample_output_count: 18
+    route_trace_count: 18
+    passed: true
+distribution:
+  zip_count: 31
+  all_zip_integrity_ok: true
+  zips:
+  - name: advanced-skills.zip
+    size_bytes: 4735120
+    ok: true
+    bad_member: null
+  - name: compact-suite.zip
+    size_bytes: 3795743
+    ok: true
+    bad_member: null
+  - name: default-skills.zip
+    size_bytes: 3893709
+    ok: true
+    bad_member: null
+  - name: expansion-pack-computer-vision.zip
+    size_bytes: 2728340
+    ok: true
+    bad_member: null
+  - name: expansion-pack-data-mining.zip
+    size_bytes: 2725469
+    ok: true
+    bad_member: null
+  - name: expansion-pack-medical-ai.zip
+    size_bytes: 2726517
+    ok: true
+    bad_member: null
+  - name: expansion-pack-multimedia.zip
+    size_bytes: 2727340
+    ok: true
+    bad_member: null
+  - name: expansion-pack-remote-sensing.zip
+    size_bytes: 2725090
+    ok: true
+    bad_member: null
+  - name: expansion-pack-signal-processing.zip
+    size_bytes: 2732624
+    ok: true
+    bad_member: null
+  - name: expansion-packs.zip
+    size_bytes: 2805700
+    ok: true
+    bad_member: null
+  - name: full-suite.zip
+    size_bytes: 17672149
+    ok: true
+    bad_member: null
+  - name: plugin-compact.zip
+    size_bytes: 3753421
+    ok: true
+    bad_member: null
+  - name: plugin-default.zip
+    size_bytes: 3850621
+    ok: true
+    bad_member: null
+  - name: preset-computer-vision.zip
+    size_bytes: 2740437
+    ok: true
+    bad_member: null
+  - name: preset-data-mining.zip
+    size_bytes: 2739043
+    ok: true
+    bad_member: null
+  - name: preset-medical-ai.zip
+    size_bytes: 2738779
+    ok: true
+    bad_member: null
+  - name: preset-multimedia.zip
+    size_bytes: 2739049
+    ok: true
+    bad_member: null
+  - name: preset-remote-sensing.zip
+    size_bytes: 2739480
+    ok: true
+    bad_member: null
+  - name: preset-scenarios-computer-vision.zip
+    size_bytes: 18200
+    ok: true
+    bad_member: null
+  - name: preset-scenarios-data-mining.zip
+    size_bytes: 17928
+    ok: true
+    bad_member: null
+  - name: preset-scenarios-medical-ai.zip
+    size_bytes: 17842
+    ok: true
+    bad_member: null
+  - name: preset-scenarios-multimedia.zip
+    size_bytes: 17842
+    ok: true
+    bad_member: null
+  - name: preset-scenarios-remote-sensing.zip
+    size_bytes: 18123
+    ok: true
+    bad_member: null
+  - name: preset-scenarios-signal-processing.zip
+    size_bytes: 18297
+    ok: true
+    bad_member: null
+  - name: preset-scenarios.zip
+    size_bytes: 106462
+    ok: true
+    bad_member: null
+  - name: preset-signal-processing.zip
+    size_bytes: 2741363
+    ok: true
+    bad_member: null
+  - name: presets.zip
+    size_bytes: 2883553
+    ok: true
+    bad_member: null
+  - name: source-maintenance.zip
+    size_bytes: 815582
+    ok: true
+    bad_member: null
+  - name: source-policy-diff.zip
+    size_bytes: 612270
+    ok: true
+    bad_member: null
+  - name: source-trust-review.zip
+    size_bytes: 897898
+    ok: true
+    bad_member: null
+  - name: visual-assets.zip
+    size_bytes: 7902513
+    ok: true
+    bad_member: null
+recommended_maintenance_commands:
+- python scripts/check_official_links_live.py --live
+- python scripts/report_stale_sources.py
+- python scripts/live_source_check_matrix.py
+- python scripts/source_age_policy.py
+- python scripts/generate_source_badges.py
+- python scripts/release_health_dashboard.py
+- python scripts/classify_source_trust.py
+- python scripts/build_human_review_queue.py
+- python scripts/validate_source_trust.py

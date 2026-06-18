@@ -1,0 +1,4 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Source Snapshots</title><link rel="stylesheet" href="assets/site.css"></head>
+<body><main class="container"><nav><a href="index.html">Home</a> · <a href="policy-diff-dashboard.html">Policy Diff</a> · <a href="source-snapshots.html">Snapshots</a> · <a href="affected-fragments.html">Affected Fragments</a> · <a href="visual-assets-gallery.html">Visual Assets</a></nav><h1>Source Snapshots</h1><p>Source snapshots record official-source fields from the registry without fetching remote page content during offline release builds.</p><pre><code>python scripts/snapshot_official_sources.py --label YYYYMMDD-live
+python scripts/diff_source_snapshots.py --old resources/source_snapshots/old.json --new resources/source_snapshots/latest.json</code></pre></main></body></html>

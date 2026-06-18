@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "family": "elsevier",
+  "version": "0.5.0",
+  "submission_tasks": [
+    {
+      "task": "cover-letter",
+      "skill": "elsevier-cover-letter",
+      "aliases": [
+        "cover letter",
+        "fit statement",
+        "editor letter",
+        "投稿信"
+      ],
+      "path": "skills/elsevier-cover-letter",
+      "requires_official_verification": false
+    },
+    {
+      "task": "response",
+      "skill": "elsevier-response",
+      "aliases": [
+        "response",
+        "rebuttal",
+        "reviewer comment",
+        "revision response",
+        "回复",
+        "审稿意见"
+      ],
+      "path": "skills/elsevier-response",
+      "requires_official_verification": false
+    },
+    {
+      "task": "submission-package",
+      "skill": "elsevier-submission-package",
+      "aliases": [
+        "submission package",
+        "final files",
+        "source files",
+        "latex source",
+        "upload",
+        "投稿材料"
+      ],
+      "path": "skills/elsevier-submission-package",
+      "requires_official_verification": true
+    },
+    {
+      "task": "author-agreement",
+      "skill": "elsevier-author-agreement",
+      "aliases": [
+        "author agreement",
+        "copyright",
+        "license",
+        "publishing agreement",
+        "open access",
+        "版权",
+        "许可"
+      ],
+      "path": "skills/elsevier-author-agreement",
+      "requires_official_verification": true
+    },
+    {
+      "task": "preprint-prior-publication",
+      "skill": "elsevier-preprint-prior-publication",
+      "aliases": [
+        "preprint",
+        "prior publication",
+        "conference extension",
+        "multiple submission",
+        "预印本",
+        "会议扩展"
+      ],
+      "path": "skills/elsevier-preprint-prior-publication",
+      "requires_official_verification": true
+    },
+    {
+      "task": "declarations",
+      "skill": "elsevier-declarations",
+      "aliases": [
+        "declaration",
+        "ai disclosure",
+        "competing interest",
+        "funding",
+        "ethics"
+      ],
+      "path": "skills/elsevier-declarations",
+      "requires_official_verification": true
+    },
+    {
+      "task": "proof-correction",
+      "skill": "elsevier-proof-correction",
+      "aliases": [
+        "proof",
+        "proof correction",
+        "校样"
+      ],
+      "path": "skills/elsevier-proof-correction",
+      "requires_official_verification": true
+    }
+  ]
+}

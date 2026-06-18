@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.2.0",
+  "release_version": "1.2.0",
+  "publisher_family": "IEEE",
+  "context_policy": "Expansion packs are opt-in and never increase default skills/ listing.",
+  "maturity_levels": {
+    "L0": "listed only",
+    "L1": "official homepage + author instructions",
+    "L2": "full official source matrix",
+    "L3": "source-refresh metadata + live-check support",
+    "L4": "paper-template card + evaluation task"
+  },
+  "summary": {
+    "expansion_packs": 6,
+    "journal_entries": 21,
+    "unique_journals": 17,
+    "maturity_counts": {
+      "L0": 3,
+      "L1": 0,
+      "L2": 0,
+      "L3": 13,
+      "L4": 5
+    }
+  },
+  "packs": [
+    {
+      "pack_id": "computer-vision",
+      "title": "Computer Vision",
+      "journal_entries": 4,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 2,
+        "L4": 2
+      }
+    },
+    {
+      "pack_id": "data-mining",
+      "title": "Data Mining",
+      "journal_entries": 3,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 0
+      }
+    },
+    {
+      "pack_id": "medical-ai",
+      "title": "Medical Ai",
+      "journal_entries": 3,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 1
+      }
+    },
+    {
+      "pack_id": "multimedia",
+      "title": "Multimedia",
+      "journal_entries": 4,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      }
+    },
+    {
+      "pack_id": "remote-sensing",
+      "title": "Remote Sensing",
+      "journal_entries": 2,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 0
+      }
+    },
+    {
+      "pack_id": "signal-processing",
+      "title": "Signal Processing",
+      "journal_entries": 5,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      }
+    }
+  ],
+  "journals": [
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "pami",
+      "title": "TPAMI / PAMI",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/pami.md",
+      "paper_template_cards": [
+        "tpami-2023-transformers-survey"
+      ]
+    },
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "tip",
+      "title": "IEEE TIP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tip.md",
+      "paper_template_cards": [
+        "tip-2022-see360"
+      ]
+    },
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "tcsvt",
+      "title": "IEEE TCSVT",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tcsvt.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "computer-vision",
+      "journal_id": "tvcg",
+      "title": "IEEE TVCG",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tvcg.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "tkde",
+      "title": "IEEE TKDE",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tkde.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "tai",
+      "title": "IEEE Transactions on Artificial Intelligence",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tai.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "access",
+      "title": "IEEE Access",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/access.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "medical-ai",
+      "journal_id": "tmi",
+      "title": "IEEE TMI",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tmi.md",
+      "paper_template_cards": [
+        "tmi-2020-lesion-localization"
+      ]
+    },
+    {
+      "pack_id": "medical-ai",
+      "journal_id": "jbhi",
+      "title": "IEEE JBHI",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/jbhi.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "medical-ai",
+      "journal_id": "open-journal-engineering-medicine-biology",
+      "title": "IEEE Open Journal of Engineering in Medicine and Biology",
+      "entry_type": "candidate-l0",
+      "maturity_level": "L0",
+      "maturity_label": "listed only",
+      "needs_reverification": true,
+      "source_status": "not-started",
+      "journal_fragment": null,
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tmm",
+      "title": "IEEE TMM",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tmm.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tcsvt",
+      "title": "IEEE TCSVT",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tcsvt.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tvcg",
+      "title": "IEEE TVCG",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tvcg.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "multimedia",
+      "journal_id": "tip",
+      "title": "IEEE TIP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tip.md",
+      "paper_template_cards": [
+        "tip-2022-see360"
+      ]
+    },
+    {
+      "pack_id": "remote-sensing",
+      "journal_id": "tgrs",
+      "title": "IEEE TGRS",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tgrs.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "remote-sensing",
+      "journal_id": "geoscience-remote-sensing-letters",
+      "title": "IEEE Geoscience and Remote Sensing Letters",
+      "entry_type": "candidate-l0",
+      "maturity_level": "L0",
+      "maturity_label": "listed only",
+      "needs_reverification": true,
+      "source_status": "not-started",
+      "journal_fragment": null,
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "tsp",
+      "title": "IEEE TSP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tsp.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "tip",
+      "title": "IEEE TIP",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L4",
+      "maturity_label": "paper-template card + evaluation task",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tip.md",
+      "paper_template_cards": [
+        "tip-2022-see360"
+      ]
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "tcomm",
+      "title": "IEEE Transactions on Communications",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/tcomm.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "twc",
+      "title": "IEEE Transactions on Wireless Communications",
+      "entry_type": "imported-fragment",
+      "maturity_level": "L3",
+      "maturity_label": "source-refresh metadata + live-check support",
+      "needs_reverification": true,
+      "source_status": "pending-live-check",
+      "journal_fragment": "skills/ieee-skill-suite/static/journals/twc.md",
+      "paper_template_cards": []
+    },
+    {
+      "pack_id": "signal-processing",
+      "journal_id": "signal-processing-letters",
+      "title": "IEEE Signal Processing Letters",
+      "entry_type": "candidate-l0",
+      "maturity_level": "L0",
+      "maturity_label": "listed only",
+      "needs_reverification": true,
+      "source_status": "not-started",
+      "journal_fragment": null,
+      "paper_template_cards": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.7.0",
+  "generated_at": "2026-06-14",
+  "repository": "ieee-skills",
+  "summary": {
+    "total_queue_items": 277,
+    "P0": 0,
+    "P1": 277,
+    "P2": 0
+  },
+  "source_trust_summary": {
+    "records": 293,
+    "tier_counts": {
+      "publisher-official": 213,
+      "journal-official": 30,
+      "society-official": 36,
+      "repository-best-practice": 4,
+      "template-paper-observation": 7,
+      "unverified-candidate": 3
+    },
+    "records_needing_reverification": 289,
+    "human_review_required": 289
+  },
+  "recommended_next_actions": [
+    "Run live source checks in a networked environment.",
+    "Review P0 missing copyright/license or AI-disclosure records first.",
+    "Promote L0/L1 expansion candidates only through staged fragment workflow.",
+    "Do not use unverified candidates for real submission advice."
+  ],
+  "reports": {
+    "source_trust_tiers": "resources/source_trust_tiers.json",
+    "human_review_queue": "resources/human_review_queue.json",
+    "release_health_dashboard": "resources/release_health_dashboard.json"
+  }
+}

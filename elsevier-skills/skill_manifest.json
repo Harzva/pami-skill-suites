@@ -1,0 +1,68 @@
+{
+  "version": "v2.7.0",
+  "release_version": "v2.7.0",
+  "updated_for": "RAG Trace UI + Visual Query Debugger",
+  "default_skills": [
+    {
+      "name": "elsevier-citation",
+      "description": "Audit Elsevier citations, reference integrity, missing related work, and bibliography consistency without fabricating sources."
+    },
+    {
+      "name": "elsevier-figure-table",
+      "description": "Audit and improve Elsevier figures, tables, captions, result reporting, and visual consistency using compact component fragments."
+    },
+    {
+      "name": "elsevier-highlights",
+      "description": "Create and audit Elsevier Highlights, graphical-abstract briefs, and short submission assets with Guide-for-Authors verification reminders."
+    },
+    {
+      "name": "elsevier-paper-miner",
+      "description": "Mine the lawful template-paper corpus for section structure, figure/table/caption patterns, and reviewer-risk lessons without copying protected text."
+    },
+    {
+      "name": "elsevier-response",
+      "description": "Prepare Elsevier reviewer-response letters, revision matrices, rebuttal plans, and change summaries with source-grounded compliance checks."
+    },
+    {
+      "name": "elsevier-reviewer",
+      "description": "Simulate Elsevier journal reviewers and identify novelty, evidence, experiment, formatting, and integrity risks with compact module routing."
+    },
+    {
+      "name": "elsevier-skill-suite",
+      "description": "Context-safe Elsevier journal manuscript skill-suite with routing for writing, review, response, figure/table, highlights, citation, submission, official-source checks, and paper-template mining."
+    },
+    {
+      "name": "elsevier-submission",
+      "description": "Prepare Elsevier submission-package checklists, cover letters, declarations, rights/license checks, and final-file reminders with live verification warnings."
+    },
+    {
+      "name": "elsevier-writing",
+      "description": "Draft, rewrite, and audit Elsevier journal manuscripts via compact suite fragments for journals, components, evidence, structure, and official-source checks."
+    }
+  ],
+  "advanced_counts": {
+    "journals": 25,
+    "components": 40,
+    "submission": 28,
+    "routers": 3,
+    "core": 0
+  },
+  "fragments": {
+    "elsevier-skill-suite": {
+      "journals": 50,
+      "components": 49,
+      "submission": 33
+    }
+  },
+  "paper_corpus": {
+    "entries": 7,
+    "open_access_papers": 6,
+    "official_templates": 1
+  },
+  "evals": {
+    "tasks": 8,
+    "rubrics": 6,
+    "sample_outputs": 8,
+    "manifest": "evals/benchmark_manifest.yaml"
+  }
+}

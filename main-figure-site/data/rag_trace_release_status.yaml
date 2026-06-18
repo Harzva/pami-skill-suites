@@ -1,0 +1,34 @@
+schema_version: 2.7.0
+release_version: v2.7.0
+generated_on: '2026-06-17'
+target: Main-Figure Site
+context_safe_architecture_preserved: true
+default_top_level_skills: 0
+advanced_visible_by_default: false
+expansion_packs_visible_by_default: false
+presets_visible_by_default: false
+main_figure_site_visible_by_default: false
+metadata_only_seed_rag_allowed: true
+image_embedding_allowed: false
+public_gallery_allowed: false
+required_data_files:
+- rag_trace_ui_index.json
+- rag_trace_ui_index.yaml
+- visual_query_debug_traces.json
+- visual_query_debug_traces.yaml
+- query_rewrite_suggestions.json
+- query_rewrite_suggestions.yaml
+- missing_tag_coverage_report.json
+- missing_tag_coverage_report.yaml
+- corpus_expansion_recommendations.json
+- corpus_expansion_recommendations.yaml
+- human_eval_dashboard.json
+- human_eval_dashboard.yaml
+required_scripts:
+- build_rag_trace_ui_index.py
+- visual_query_debugger.py
+- query_rewrite_suggestions.py
+- missing_tag_coverage_report.py
+- corpus_expansion_recommendations.py
+- human_eval_dashboard.py
+- validate_rag_trace_ui.py

@@ -1,0 +1,106 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: Metadata Connector Simulation Report
+simulation_policy:
+  offline_safe: true
+  live_lookup_performed: false
+  connectors_planned:
+  - crossref
+  - openalex
+  - unpaywall
+  - publisher_official_page
+  - institutional_repository_metadata
+  approval_authority: none; simulation is advisory only
+summary:
+  total_candidates: 100
+  connectors_simulated: 5
+  extraction_approved_by_simulation: 0
+  metadata_rag_approved_by_simulation: 0
+  requires_live_connector_run: true
+connectors:
+- connector_id: crossref
+  mode: offline-simulation
+  status: not_run_live
+  candidate_count: 100
+  seed_count: 5
+  pending_count: 95
+  required_fields:
+  - DOI
+  - title
+  - year
+  - journal/container-title
+  simulated_outcome: would verify canonical DOI and bibliographic match; not run in
+    offline release build
+  blocking_notes:
+  - No network calls were made in this release.
+  - Connector simulation cannot approve extraction or public gallery hosting.
+  - Manual reviewer decision remains required after live metadata checks.
+- connector_id: openalex
+  mode: offline-simulation
+  status: not_run_live
+  candidate_count: 100
+  seed_count: 5
+  pending_count: 95
+  required_fields:
+  - openalex_id
+  - doi
+  - host_venue
+  - oa_status
+  simulated_outcome: would cross-check OA status and venue metadata; not run in offline
+    release build
+  blocking_notes:
+  - No network calls were made in this release.
+  - Connector simulation cannot approve extraction or public gallery hosting.
+  - Manual reviewer decision remains required after live metadata checks.
+- connector_id: unpaywall
+  mode: offline-simulation
+  status: not_run_live
+  candidate_count: 100
+  seed_count: 5
+  pending_count: 95
+  required_fields:
+  - doi
+  - is_oa
+  - best_oa_location
+  - license
+  simulated_outcome: would identify OA locations and license candidates; not run in
+    offline release build
+  blocking_notes:
+  - No network calls were made in this release.
+  - Connector simulation cannot approve extraction or public gallery hosting.
+  - Manual reviewer decision remains required after live metadata checks.
+- connector_id: publisher_official_page
+  mode: offline-simulation
+  status: not_run_live
+  candidate_count: 100
+  seed_count: 5
+  pending_count: 95
+  required_fields:
+  - article_url
+  - license_text
+  - copyright_statement
+  - permissions_link
+  simulated_outcome: would verify official article page and reuse terms; manual review
+    still required
+  blocking_notes:
+  - No network calls were made in this release.
+  - Connector simulation cannot approve extraction or public gallery hosting.
+  - Manual reviewer decision remains required after live metadata checks.
+- connector_id: institutional_repository_metadata
+  mode: offline-simulation
+  status: not_run_live
+  candidate_count: 100
+  seed_count: 5
+  pending_count: 95
+  required_fields:
+  - repository_url
+  - rights_statement
+  - version_type
+  - license
+  simulated_outcome: would verify lawful institutional or author-hosted OA copy; not
+    run offline
+  blocking_notes:
+  - No network calls were made in this release.
+  - Connector simulation cannot approve extraction or public gallery hosting.
+  - Manual reviewer decision remains required after live metadata checks.

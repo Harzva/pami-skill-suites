@@ -1,0 +1,203 @@
+schema_version: 2.1.0
+release_version: 2.1.0
+title: IEEE Main-Figure Gallery + RAG Scaffold
+generated_on: '2026-06-16'
+target_capacity_minimum: 100
+current_seed_main_figures: 5
+actual_seed_status: seeded from existing open-access template corpus only
+corpus_status: scaffold-ready; 100+ corpus support implemented; additional papers
+  require OA source and permission review
+allowed_sources:
+- open-access papers
+- CC BY / CC BY-NC / explicitly licensed versions
+- publisher-permitted OA PDFs
+- author/institution repository OA versions
+prohibited_sources:
+- Sci-Hub
+- pirated PDFs
+- paywalled-only PDFs
+- copyright-unknown PDFs
+- unauthorized reproductions
+required_card_fields:
+- paper_id
+- title
+- journal
+- year
+- DOI
+- license
+- source URL
+- main figure path
+- caption / safe summary
+- visual rhetoric tags
+- linked paper section
+- reusable structure lessons
+- copyright safety note
+entries:
+- paper_id: tpami-2023-transformers-survey
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  publisher_family: IEEE
+  year: 2023
+  doi: Not encoded in seed manifest; verify from paper card or source URL before public
+    reuse.
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf
+  source_pdf_path: paper_templates/open_access_papers/tpami_2023_multimodal_learning_with_transformers_ccby.pdf
+  main_figure_path_repo: paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png
+  caption_excerpt: Fig. 1. Overview of Transformer [2].
+  safe_summary: Main figure from IEEE TPAMI used for structural visual-rhetoric analysis
+    only.
+  visual_rhetoric_tags:
+  - concept-map
+  - copyright-review-required
+  - overview
+  - taxonomy
+  linked_paper_section: Figure introduction / method overview / results context; verify
+    manually from source PDF.
+  reusable_structure_lessons:
+  - Use the figure as a structural example, not as reusable artwork.
+  - Map the visual flow to claims, evidence, and caption logic.
+  - 'Record what makes the figure effective: hierarchy, grouping, arrows, legends,
+    or comparison layout.'
+  copyright_safety_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+  seed_status: seeded-from-existing-open-access-template-corpus
+  permission_status: requires-license-and-third-party-material-review-before-reuse
+  site_image_path: gallery/ieee/tpami-2023-transformers-survey__p001__main_figure.png
+- paper_id: tip-2022-see360
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  publisher_family: IEEE
+  year: 2022
+  doi: Not encoded in seed manifest; verify from paper card or source URL before public
+    reuse.
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf
+  source_pdf_path: paper_templates/open_access_papers/tip_2022_see360_panoramic_view_interpolation_ccby.pdf
+  main_figure_path_repo: paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png
+  caption_excerpt: (note that the most common setting of ﬁeld of view (FOV) for cameras
+    is 55◦, which ensures that the input views will overlap). All occluded and missing
+    scene parts in between are estimated by our method, while achieving…
+  safe_summary: Main figure from IEEE TIP used for structural visual-rhetoric analysis
+    only.
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - image-processing
+  - pipeline
+  linked_paper_section: Figure introduction / method overview / results context; verify
+    manually from source PDF.
+  reusable_structure_lessons:
+  - Use the figure as a structural example, not as reusable artwork.
+  - Map the visual flow to claims, evidence, and caption logic.
+  - 'Record what makes the figure effective: hierarchy, grouping, arrows, legends,
+    or comparison layout.'
+  copyright_safety_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+  seed_status: seeded-from-existing-open-access-template-corpus
+  permission_status: requires-license-and-third-party-material-review-before-reuse
+  site_image_path: gallery/ieee/tip-2022-see360__p001__main_figure.png
+- paper_id: tmi-2020-lesion-localization
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization
+    in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  publisher_family: IEEE
+  year: 2020
+  doi: Not encoded in seed manifest; verify from paper card or source URL before public
+    reuse.
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf
+  source_pdf_path: paper_templates/open_access_papers/tmi_2020_weakly_supervised_lesion_localization_ccby.pdf
+  main_figure_path_repo: paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png
+  caption_excerpt: Fig. 1. Overview of the proposed method applied to automated grading
+    of diabetic retinopathy in color fundus images. The workﬂow to generate the original
+    prediction is depicted in green; the workﬂow for the proposed ite…
+  safe_summary: Main figure from IEEE TMI used for structural visual-rhetoric analysis
+    only.
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - evidence-flow
+  - medical-ai
+  linked_paper_section: Figure introduction / method overview / results context; verify
+    manually from source PDF.
+  reusable_structure_lessons:
+  - Use the figure as a structural example, not as reusable artwork.
+  - Map the visual flow to claims, evidence, and caption logic.
+  - 'Record what makes the figure effective: hierarchy, grouping, arrows, legends,
+    or comparison layout.'
+  copyright_safety_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+  seed_status: seeded-from-existing-open-access-template-corpus
+  permission_status: requires-license-and-third-party-material-review-before-reuse
+  site_image_path: gallery/ieee/tmi-2020-lesion-localization__p004__main_figure.png
+- paper_id: tnnls-2023-sparce
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+    Representations'
+  journal: IEEE TNNLS
+  publisher_family: IEEE
+  year: 2023
+  doi: Not encoded in seed manifest; verify from paper card or source URL before public
+    reuse.
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf
+  source_pdf_path: paper_templates/open_access_papers/tnnls_2023_sparce_sparse_reservoir_computing_ccby.pdf
+  main_figure_path_repo: paper_templates/extracted_visual_assets/main_figures/tnnls-2023-sparce__p004__main_figure.png
+  caption_excerpt: exploit the dynamics of the ESNs, instead of using its activities
+    at one step only, is particularly useful for classiﬁcation tasks. Previous works
+    have introduced different techniques to deﬁne a ˜V vector from the ESN’s…
+  safe_summary: Main figure from IEEE TNNLS used for structural visual-rhetoric analysis
+    only.
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  linked_paper_section: Figure introduction / method overview / results context; verify
+    manually from source PDF.
+  reusable_structure_lessons:
+  - Use the figure as a structural example, not as reusable artwork.
+  - Map the visual flow to claims, evidence, and caption logic.
+  - 'Record what makes the figure effective: hierarchy, grouping, arrows, legends,
+    or comparison layout.'
+  copyright_safety_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+  seed_status: seeded-from-existing-open-access-template-corpus
+  permission_status: requires-license-and-third-party-material-review-before-reuse
+  site_image_path: gallery/ieee/tnnls-2023-sparce__p004__main_figure.png
+- paper_id: tnnls-2024-mediterranean
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  publisher_family: IEEE
+  year: 2024
+  doi: Not encoded in seed manifest; verify from paper card or source URL before public
+    reuse.
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf
+  source_pdf_path: paper_templates/open_access_papers/tnnls_2024_mediterranean_matrix_multiplication_ccby.pdf
+  main_figure_path_repo: paper_templates/extracted_visual_assets/main_figures/tnnls-2024-mediterranean__p003__main_figure.png
+  caption_excerpt: 'Fig. 1. Illustration of Monte Carlo sampling of an angle between
+    two angles, which accumulates results from random tests (Algorithm 1). Left: both
+    points are on the same side of the hyperplane and test will return 0. Ri…'
+  safe_summary: Main figure from IEEE TNNLS used for structural visual-rhetoric analysis
+    only.
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  linked_paper_section: Figure introduction / method overview / results context; verify
+    manually from source PDF.
+  reusable_structure_lessons:
+  - Use the figure as a structural example, not as reusable artwork.
+  - Map the visual flow to claims, evidence, and caption logic.
+  - 'Record what makes the figure effective: hierarchy, grouping, arrows, legends,
+    or comparison layout.'
+  copyright_safety_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+  seed_status: seeded-from-existing-open-access-template-corpus
+  permission_status: requires-license-and-third-party-material-review-before-reuse
+  site_image_path: gallery/ieee/tnnls-2024-mediterranean__p003__main_figure.png
+candidate_registry: data/candidate_papers_100.json
+candidate_workflow_status: 100-candidate workflow-ready; pending slots require OA
+  source and permission review
+actual_seed_main_figures: 5
+candidate_slot_count: 100
+do_not_claim_100_collected: Only seed figures are actual extracted assets; candidate
+  slots are placeholders until verified.

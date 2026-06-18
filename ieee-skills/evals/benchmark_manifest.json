@@ -1,0 +1,54 @@
+{
+  "benchmark_version": "1.2.0",
+  "publisher": "IEEE",
+  "task_count": 8,
+  "tasks": [
+    "tasks/abstract_rewrite.yaml",
+    "tasks/related_work_audit.yaml",
+    "tasks/figure_caption_upgrade.yaml",
+    "tasks/table_audit.yaml",
+    "tasks/reviewer_response.yaml",
+    "tasks/submission_package_audit.yaml",
+    "tasks/paper_mining_structure_task.yaml",
+    "tasks/official_source_compliance_task.yaml"
+  ],
+  "rubrics": [
+    "ieee_rubric.md",
+    "elsevier_rubric.md",
+    "journal_adapter_rubric.md",
+    "paper_mining_rubric.md",
+    "official_source_rubric.md",
+    "copyright_safety_rubric.md"
+  ],
+  "sample_outputs": [
+    "sample_outputs/ieee_abstract_rewrite_001.md",
+    "sample_outputs/ieee_related_work_audit_001.md",
+    "sample_outputs/ieee_figure_caption_upgrade_001.md",
+    "sample_outputs/ieee_table_audit_001.md",
+    "sample_outputs/ieee_reviewer_response_001.md",
+    "sample_outputs/ieee_submission_package_audit_001.md",
+    "sample_outputs/ieee_paper_mining_structure_task_001.md",
+    "sample_outputs/ieee_official_source_compliance_task_001.md"
+  ],
+  "static_gate": {
+    "required_task_fields": [
+      "task_id",
+      "benchmark_version",
+      "publisher",
+      "target_journal",
+      "query",
+      "required_modules",
+      "expected_output_sections",
+      "rubrics",
+      "sample_output",
+      "safety_warnings"
+    ],
+    "required_sample_markers": [
+      "Selected skills/modules",
+      "Official-source warning",
+      "Copyright-safe paper-mining warning",
+      "Reviewer-risk checklist",
+      "Structured output contract"
+    ]
+  }
+}

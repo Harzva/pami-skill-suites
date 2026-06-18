@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.5.0",
+  "release_version": "v2.5.0",
+  "generated_on": "2026-06-16",
+  "title": "Elsevier Skills RAG Ingestion Governance",
+  "context_safety_policy": {
+    "main_figure_site_default_visible_skill": false,
+    "skills_advanced_default_visible": false,
+    "expansion_packs_default_visible": false,
+    "presets_default_visible": false,
+    "notes": "RAG governance data lives outside default skill listing and does not increase top-level skill context."
+  },
+  "allowed_sources": [
+    "open-access paper",
+    "CC BY / CC BY-NC / clearly licensed version",
+    "publisher-permitted OA PDF",
+    "author or institutional repository OA version"
+  ],
+  "prohibited_sources": [
+    "sci-hub",
+    "pirated_pdf",
+    "paywalled_only_pdf",
+    "copyright_unknown_pdf",
+    "unauthorized_image_reuse"
+  ],
+  "rag_modes": [
+    {
+      "mode": "metadata-only RAG",
+      "status": "enabled_for_seed_records_only",
+      "allowed_inputs": [
+        "metadata fields",
+        "safe summaries",
+        "visual rhetoric tags",
+        "license metadata",
+        "permission status"
+      ],
+      "prohibited_inputs": [
+        "full copyrighted figure pixels unless permission approved for embedding",
+        "source captions as copied text",
+        "paper-specific claims as reusable advice"
+      ],
+      "eligibility_rule": "seed records may be used as metadata-only entries; all pending candidates remain blocked until evidence review passes."
+    },
+    {
+      "mode": "image-embedding RAG",
+      "status": "disabled_until_permission_evidence_and_human_approval",
+      "allowed_inputs": [
+        "figure crops only after license and third-party material review approve embedding"
+      ],
+      "prohibited_inputs": [
+        "unreviewed images",
+        "paywalled-only images",
+        "third-party-material images without clearance"
+      ],
+      "eligibility_rule": "requires extraction gate approval, permission evidence, and human reviewer approval."
+    },
+    {
+      "mode": "public-gallery RAG",
+      "status": "disabled_until_license_allows_public_display_and_human_approval",
+      "allowed_inputs": [
+        "publicly displayable images only after license review and attribution requirements are satisfied"
+      ],
+      "prohibited_inputs": [
+        "metadata-only records",
+        "unreviewed seed images",
+        "pending candidates"
+      ],
+      "eligibility_rule": "requires public-gallery approval and attribution package."
+    }
+  ],
+  "global_ingestion_rules": [
+    "Do not ingest images for embedding or public display until license, permission, and third-party-material evidence pass review.",
+    "Do not use Sci-Hub, pirated PDFs, paywalled-only PDFs, copyright-unknown PDFs, or unauthorized image reuse.",
+    "Metadata-only RAG may include safe summaries and tags, but must not copy source captions, labels, or figure layouts as reusable content.",
+    "Connector output is evidence, not approval; human review remains required before image extraction or public hosting."
+  ],
+  "current_status": {
+    "candidate_count": 100,
+    "seed_metadata_only_entries": 6,
+    "image_embedding_entries_allowed": 0,
+    "public_gallery_entries_allowed": 0,
+    "pending_candidates_blocked": 94
+  }
+}

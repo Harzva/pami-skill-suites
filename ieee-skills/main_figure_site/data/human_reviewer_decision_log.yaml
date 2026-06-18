@@ -1,0 +1,2126 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: Human Reviewer Decision Log
+log_policy:
+  human_review_required: true
+  release_build_decisions_are_provisional: true
+  no_automatic_approval: true
+  prohibited_sources:
+  - Sci-Hub
+  - pirated PDF
+  - paywalled-only PDF
+  - copyright-unknown PDF
+  - unauthorized image reuse
+summary:
+  total_entries: 100
+  approved_for_new_extraction: 0
+  approved_for_public_gallery: 0
+  metadata_only_seed_retained: 5
+  blocked_pending_review: 95
+entries:
+- decision_id: ieee-seed-001__v2_4_initial_decision
+  candidate_id: ieee-seed-001
+  paper_id: tpami-2023-transformers-survey
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: metadata-only-seed-retained; no-new-extraction
+  priority: P1
+  allowed_actions:
+  - metadata-only structural analysis
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-seed-002__v2_4_initial_decision
+  candidate_id: ieee-seed-002
+  paper_id: tip-2022-see360
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: metadata-only-seed-retained; no-new-extraction
+  priority: P1
+  allowed_actions:
+  - metadata-only structural analysis
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-seed-003__v2_4_initial_decision
+  candidate_id: ieee-seed-003
+  paper_id: tmi-2020-lesion-localization
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: metadata-only-seed-retained; no-new-extraction
+  priority: P1
+  allowed_actions:
+  - metadata-only structural analysis
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-seed-004__v2_4_initial_decision
+  candidate_id: ieee-seed-004
+  paper_id: tnnls-2023-sparce
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: metadata-only-seed-retained; no-new-extraction
+  priority: P1
+  allowed_actions:
+  - metadata-only structural analysis
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-seed-005__v2_4_initial_decision
+  candidate_id: ieee-seed-005
+  paper_id: tnnls-2024-mediterranean
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: metadata-only-seed-retained; no-new-extraction
+  priority: P1
+  allowed_actions:
+  - metadata-only structural analysis
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-006__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-006
+  paper_id: ieee-oa-candidate-006
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-007__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-007
+  paper_id: ieee-oa-candidate-007
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-008__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-008
+  paper_id: ieee-oa-candidate-008
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-009__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-009
+  paper_id: ieee-oa-candidate-009
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-010__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-010
+  paper_id: ieee-oa-candidate-010
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-011__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-011
+  paper_id: ieee-oa-candidate-011
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-012__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-012
+  paper_id: ieee-oa-candidate-012
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-013__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-013
+  paper_id: ieee-oa-candidate-013
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-014__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-014
+  paper_id: ieee-oa-candidate-014
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-015__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-015
+  paper_id: ieee-oa-candidate-015
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-016__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-016
+  paper_id: ieee-oa-candidate-016
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-017__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-017
+  paper_id: ieee-oa-candidate-017
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-018__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-018
+  paper_id: ieee-oa-candidate-018
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-019__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-019
+  paper_id: ieee-oa-candidate-019
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-020__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-020
+  paper_id: ieee-oa-candidate-020
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-021__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-021
+  paper_id: ieee-oa-candidate-021
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-022__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-022
+  paper_id: ieee-oa-candidate-022
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-023__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-023
+  paper_id: ieee-oa-candidate-023
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-024__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-024
+  paper_id: ieee-oa-candidate-024
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-025__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-025
+  paper_id: ieee-oa-candidate-025
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-026__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-026
+  paper_id: ieee-oa-candidate-026
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-027__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-027
+  paper_id: ieee-oa-candidate-027
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-028__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-028
+  paper_id: ieee-oa-candidate-028
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-029__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-029
+  paper_id: ieee-oa-candidate-029
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-030__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-030
+  paper_id: ieee-oa-candidate-030
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-031__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-031
+  paper_id: ieee-oa-candidate-031
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-032__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-032
+  paper_id: ieee-oa-candidate-032
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-033__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-033
+  paper_id: ieee-oa-candidate-033
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-034__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-034
+  paper_id: ieee-oa-candidate-034
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-035__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-035
+  paper_id: ieee-oa-candidate-035
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-036__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-036
+  paper_id: ieee-oa-candidate-036
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-037__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-037
+  paper_id: ieee-oa-candidate-037
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-038__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-038
+  paper_id: ieee-oa-candidate-038
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-039__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-039
+  paper_id: ieee-oa-candidate-039
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-040__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-040
+  paper_id: ieee-oa-candidate-040
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-041__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-041
+  paper_id: ieee-oa-candidate-041
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-042__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-042
+  paper_id: ieee-oa-candidate-042
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-043__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-043
+  paper_id: ieee-oa-candidate-043
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-044__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-044
+  paper_id: ieee-oa-candidate-044
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-045__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-045
+  paper_id: ieee-oa-candidate-045
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-046__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-046
+  paper_id: ieee-oa-candidate-046
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-047__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-047
+  paper_id: ieee-oa-candidate-047
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-048__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-048
+  paper_id: ieee-oa-candidate-048
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-049__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-049
+  paper_id: ieee-oa-candidate-049
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-050__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-050
+  paper_id: ieee-oa-candidate-050
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-051__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-051
+  paper_id: ieee-oa-candidate-051
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-052__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-052
+  paper_id: ieee-oa-candidate-052
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-053__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-053
+  paper_id: ieee-oa-candidate-053
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-054__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-054
+  paper_id: ieee-oa-candidate-054
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-055__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-055
+  paper_id: ieee-oa-candidate-055
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-056__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-056
+  paper_id: ieee-oa-candidate-056
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-057__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-057
+  paper_id: ieee-oa-candidate-057
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-058__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-058
+  paper_id: ieee-oa-candidate-058
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-059__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-059
+  paper_id: ieee-oa-candidate-059
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-060__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-060
+  paper_id: ieee-oa-candidate-060
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-061__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-061
+  paper_id: ieee-oa-candidate-061
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-062__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-062
+  paper_id: ieee-oa-candidate-062
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-063__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-063
+  paper_id: ieee-oa-candidate-063
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-064__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-064
+  paper_id: ieee-oa-candidate-064
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-065__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-065
+  paper_id: ieee-oa-candidate-065
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-066__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-066
+  paper_id: ieee-oa-candidate-066
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-067__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-067
+  paper_id: ieee-oa-candidate-067
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-068__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-068
+  paper_id: ieee-oa-candidate-068
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-069__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-069
+  paper_id: ieee-oa-candidate-069
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-070__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-070
+  paper_id: ieee-oa-candidate-070
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-071__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-071
+  paper_id: ieee-oa-candidate-071
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-072__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-072
+  paper_id: ieee-oa-candidate-072
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-073__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-073
+  paper_id: ieee-oa-candidate-073
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-074__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-074
+  paper_id: ieee-oa-candidate-074
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-075__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-075
+  paper_id: ieee-oa-candidate-075
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-076__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-076
+  paper_id: ieee-oa-candidate-076
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-077__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-077
+  paper_id: ieee-oa-candidate-077
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-078__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-078
+  paper_id: ieee-oa-candidate-078
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-079__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-079
+  paper_id: ieee-oa-candidate-079
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-080__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-080
+  paper_id: ieee-oa-candidate-080
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-081__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-081
+  paper_id: ieee-oa-candidate-081
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-082__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-082
+  paper_id: ieee-oa-candidate-082
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-083__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-083
+  paper_id: ieee-oa-candidate-083
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-084__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-084
+  paper_id: ieee-oa-candidate-084
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-085__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-085
+  paper_id: ieee-oa-candidate-085
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-086__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-086
+  paper_id: ieee-oa-candidate-086
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-087__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-087
+  paper_id: ieee-oa-candidate-087
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-088__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-088
+  paper_id: ieee-oa-candidate-088
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-089__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-089
+  paper_id: ieee-oa-candidate-089
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-090__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-090
+  paper_id: ieee-oa-candidate-090
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-091__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-091
+  paper_id: ieee-oa-candidate-091
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-092__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-092
+  paper_id: ieee-oa-candidate-092
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-093__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-093
+  paper_id: ieee-oa-candidate-093
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-094__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-094
+  paper_id: ieee-oa-candidate-094
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-095__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-095
+  paper_id: ieee-oa-candidate-095
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-096__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-096
+  paper_id: ieee-oa-candidate-096
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-097__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-097
+  paper_id: ieee-oa-candidate-097
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-098__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-098
+  paper_id: ieee-oa-candidate-098
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-099__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-099
+  paper_id: ieee-oa-candidate-099
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.
+- decision_id: ieee-candidate-slot-100__v2_4_initial_decision
+  candidate_id: ieee-candidate-slot-100
+  paper_id: ieee-oa-candidate-100
+  decision_date: '2026-06-16'
+  reviewer: TBD-human-reviewer
+  decision: blocked-pending-source-discovery
+  priority: P2
+  allowed_actions: []
+  blocked_actions:
+  - new figure extraction
+  - public gallery hosting
+  - caption/layout reuse
+  - publishable redraw based on source figure
+  required_before_status_change:
+  - live DOI/OA metadata check
+  - license evidence recorded
+  - permission evidence approved
+  - third-party material review
+  - explicit human reviewer sign-off
+  notes: Initial v2.4 offline release decision log entry; not a final legal permission
+    decision.

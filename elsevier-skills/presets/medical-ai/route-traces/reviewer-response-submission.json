@@ -1,0 +1,83 @@
+{
+  "route_trace_id": "medical-ai:reviewer-response-submission",
+  "release_version": "1.5.0",
+  "visibility_policy": "optional preset route trace; not a default top-level skill",
+  "steps": [
+    {
+      "step": 1,
+      "action": "detect discipline preset",
+      "result": "medical-ai"
+    },
+    {
+      "step": 2,
+      "action": "detect scenario type",
+      "result": "reviewer-response-submission"
+    },
+    {
+      "step": 3,
+      "action": "select suite router",
+      "result": "skills/elsevier-skill-suite"
+    },
+    {
+      "step": 4,
+      "action": "select journal modules",
+      "result": [
+        "skills/elsevier-skill-suite/static/journals/medical-image-analysis.md",
+        "skills/elsevier-skill-suite/static/journals/artificial-intelligence-medicine.md",
+        "skills/elsevier-skill-suite/static/journals/computers-biology-medicine.md"
+      ]
+    },
+    {
+      "step": 5,
+      "action": "select component modules",
+      "result": [
+        "skills/elsevier-skill-suite/static/components/reviewer-risk-register.md",
+        "skills/elsevier-skill-suite/static/components/checklist-risk-register.md",
+        "skills/elsevier-skill-suite/static/components/official-source-audit.md"
+      ]
+    },
+    {
+      "step": 6,
+      "action": "select submission/legal modules",
+      "result": [
+        "skills/elsevier-skill-suite/static/submission/response-letter.md",
+        "skills/elsevier-skill-suite/static/submission/reviewer-response-matrix.md",
+        "skills/elsevier-skill-suite/static/submission/cover-letter.md",
+        "skills/elsevier-skill-suite/static/submission/author-agreement.md",
+        "skills/elsevier-skill-suite/static/submission/copyright.md",
+        "skills/elsevier-skill-suite/static/submission/open-access.md",
+        "skills/elsevier-skill-suite/static/submission/data-code-availability.md",
+        "skills/elsevier-skill-suite/static/submission/final-files.md",
+        "skills/elsevier-skill-suite/static/submission/declarations.md",
+        "skills/elsevier-skill-suite/static/submission/research-data-statement.md",
+        "skills/elsevier-skill-suite/static/submission/license-options.md"
+      ]
+    },
+    {
+      "step": 7,
+      "action": "attach warnings",
+      "result": {
+        "official_source_warning": true,
+        "copyright_safe_paper_mining_warning": false,
+        "context_visibility_warning": true
+      }
+    },
+    {
+      "step": 8,
+      "action": "return output contract",
+      "result": [
+        "detected preset and task type",
+        "selected skills/modules",
+        "official-source and copyright-safe paper-mining warnings",
+        "reviewer-risk checklist",
+        "discipline-specific action plan",
+        "next validation step"
+      ]
+    }
+  ],
+  "explainability": {
+    "why_preset": "The task matches the Medical Ai discipline preset.",
+    "why_not_default_skill": "Presets are optional resources and do not change default skill listing.",
+    "why_live_verification": "Mutable publication policies may change after release."
+  }
+}

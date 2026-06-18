@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RAG Ingestion Governance</title>
+<link rel="stylesheet" href="assets/site.css" />
+<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;max-width:1100px;margin:auto;padding:2rem;line-height:1.55}code,pre{background:#f6f8fa;padding:.2rem .35rem;border-radius:4px}.card{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:1rem 0}.warn{background:#fff7e6;border-left:4px solid #f0a000;padding:1rem}</style>
+</head>
+<body>
+<nav><a href="index.html">Home</a> · <a href="main-figure-gallery.html">Main figures</a> · <a href="rag-ingestion-governance.html">RAG governance</a> · <a href="rag-quality-dashboard.html">RAG quality</a></nav>
+<h1>RAG Ingestion Governance</h1>
+
+<div class="card"><strong>Release:</strong> v2.5.0</div>
+<p>This page explains the three RAG modes used by Main-Figure Site and the standalone main-figure corpus.</p>
+<ul>
+<li><strong>metadata-only RAG</strong>: enabled for seed records only.</li>
+<li><strong>image-embedding RAG</strong>: blocked until permission evidence and human approval pass.</li>
+<li><strong>public-gallery RAG</strong>: blocked until public display rights and attribution requirements pass.</li>
+</ul>
+<div class="warn">Do not ingest images, captions, labels, or layouts for reuse from Sci-Hub, pirated PDFs, paywalled-only PDFs, copyright-unknown PDFs, or unauthorized sources.</div>
+<pre>python scripts/rag_ingestion_governance.py
+python scripts/validate_rag_governance.py</pre>
+
+</body>
+</html>

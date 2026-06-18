@@ -1,0 +1,53 @@
+release_version: 1.5.0
+generated_on: '2026-06-13'
+publisher_family: Elsevier
+policy: Presets are optional resources and are not default top-level skills.
+presets:
+- preset_id: computer-vision
+  title: Computer Vision
+  scenario_count: 3
+  sample_output_count: 3
+  route_trace_count: 3
+  evaluation_report: presets/computer-vision/evaluation-report.md
+  status: passed
+- preset_id: medical-ai
+  title: Medical Ai
+  scenario_count: 3
+  sample_output_count: 3
+  route_trace_count: 3
+  evaluation_report: presets/medical-ai/evaluation-report.md
+  status: passed
+- preset_id: remote-sensing
+  title: Remote Sensing
+  scenario_count: 3
+  sample_output_count: 3
+  route_trace_count: 3
+  evaluation_report: presets/remote-sensing/evaluation-report.md
+  status: passed
+- preset_id: multimedia
+  title: Multimedia
+  scenario_count: 3
+  sample_output_count: 3
+  route_trace_count: 3
+  evaluation_report: presets/multimedia/evaluation-report.md
+  status: passed
+- preset_id: data-mining
+  title: Data Mining
+  scenario_count: 3
+  sample_output_count: 3
+  route_trace_count: 3
+  evaluation_report: presets/data-mining/evaluation-report.md
+  status: passed
+- preset_id: signal-processing
+  title: Signal Processing
+  scenario_count: 3
+  sample_output_count: 3
+  route_trace_count: 3
+  evaluation_report: presets/signal-processing/evaluation-report.md
+  status: passed
+totals:
+  presets: 6
+  scenarios: 18
+  sample_outputs: 18
+  route_traces: 18
+  evaluation_reports: 6

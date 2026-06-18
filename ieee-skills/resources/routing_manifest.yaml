@@ -1,0 +1,843 @@
+suite:
+  name: ieee-skill-suite
+  publisher: IEEE
+  version: 0.6.0
+  routing_mode: compact-by-default
+  default_visible_skills_max: 10
+  advanced_skills_directory: skills-advanced
+default_skills:
+- ieee-skill-suite
+- ieee-writing
+- ieee-reviewer
+- ieee-response
+- ieee-figure-table
+- ieee-submission
+- ieee-citation
+- ieee-paper-miner
+journals:
+  access:
+    aliases:
+    - access
+    module: static/journals/access.md
+    official_links_embedded: true
+    advanced_skill: null
+  intelligent-transportation-systems:
+    aliases:
+    - intelligent transportation systems
+    - intelligent-transportation-systems
+    module: static/journals/intelligent-transportation-systems.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/intelligent-transportation-systems-writing
+  jbhi:
+    aliases:
+    - ieee journal of biomedical and health informatics
+    - jbhi
+    module: static/journals/jbhi.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/jbhi-writing
+  pami:
+    aliases:
+    - ieee transactions on pattern analysis and machine intelligence
+    - pami
+    - tpami
+    module: static/journals/pami.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/pami-writing
+  tac:
+    aliases:
+    - tac
+    module: static/journals/tac.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tac-writing
+  tai:
+    aliases:
+    - tai
+    module: static/journals/tai.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tai-writing
+  tase:
+    aliases:
+    - tase
+    module: static/journals/tase.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tase-writing
+  tcomm:
+    aliases:
+    - tcomm
+    module: static/journals/tcomm.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tcomm-writing
+  tcsvt:
+    aliases:
+    - tcsvt
+    module: static/journals/tcsvt.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tcsvt-writing
+  tcyb:
+    aliases:
+    - tcyb
+    module: static/journals/tcyb.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tcyb-writing
+  tgrs:
+    aliases:
+    - ieee transactions on geoscience and remote sensing
+    - tgrs
+    module: static/journals/tgrs.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tgrs-writing
+  tifs:
+    aliases:
+    - ieee transactions on information forensics and security
+    - tifs
+    module: static/journals/tifs.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tifs-writing
+  tip:
+    aliases:
+    - ieee transactions on image processing
+    - tip
+    module: static/journals/tip.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tip-writing
+  tkde:
+    aliases:
+    - ieee transactions on knowledge and data engineering
+    - tkde
+    module: static/journals/tkde.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tkde-writing
+  tmi:
+    aliases:
+    - ieee transactions on medical imaging
+    - tmi
+    module: static/journals/tmi.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tmi-writing
+  tmm:
+    aliases:
+    - ieee transactions on multimedia
+    - tmm
+    module: static/journals/tmm.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tmm-writing
+  tnnls:
+    aliases:
+    - ieee transactions on neural networks and learning systems
+    - tnnls
+    module: static/journals/tnnls.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tnnls-writing
+  tpel:
+    aliases:
+    - tpel
+    module: static/journals/tpel.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tpel-writing
+  tro:
+    aliases:
+    - tro
+    module: static/journals/tro.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tro-writing
+  tsp:
+    aliases:
+    - ieee transactions on signal processing
+    - tsp
+    module: static/journals/tsp.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tsp-writing
+  tvcg:
+    aliases:
+    - tvcg
+    module: static/journals/tvcg.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/tvcg-writing
+  twc:
+    aliases:
+    - twc
+    module: static/journals/twc.md
+    official_links_embedded: true
+    advanced_skill: skills-advanced/journals/twc-writing
+components:
+  ablation:
+    aliases:
+    - ablation
+    module: static/components/ablation.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  ablation-study:
+    aliases:
+    - ablation study
+    - ablation-study
+    module: static/components/ablation-study.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  abstract:
+    aliases:
+    - abstract
+    module: static/components/abstract.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  algorithm:
+    aliases:
+    - algorithm
+    module: static/components/algorithm.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  algorithm-pseudocode:
+    aliases:
+    - algorithm pseudocode
+    - algorithm-pseudocode
+    module: static/components/algorithm-pseudocode.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  appendix:
+    aliases:
+    - appendix
+    module: static/components/appendix.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  baseline:
+    aliases:
+    - baseline
+    module: static/components/baseline.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  baseline-selection:
+    aliases:
+    - baseline selection
+    - baseline-selection
+    module: static/components/baseline-selection.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  caption:
+    aliases:
+    - caption
+    module: static/components/caption.md
+    pair_with:
+    - figure
+    - table
+    - related-work
+    - experiment
+  checklist-risk-register:
+    aliases:
+    - checklist risk register
+    - checklist-risk-register
+    module: static/components/checklist-risk-register.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  claim-evidence-map:
+    aliases:
+    - claim evidence map
+    - claim-evidence-map
+    module: static/components/claim-evidence-map.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  conclusion:
+    aliases:
+    - conclusion
+    module: static/components/conclusion.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  conference-extension:
+    aliases:
+    - conference extension
+    - conference-extension
+    module: static/components/conference-extension.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  conference-extension-delta:
+    aliases:
+    - conference extension delta
+    - conference-extension-delta
+    module: static/components/conference-extension-delta.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  contribution-positioning:
+    aliases:
+    - contribution positioning
+    - contribution-positioning
+    module: static/components/contribution-positioning.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  dataset:
+    aliases:
+    - dataset
+    module: static/components/dataset.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  dataset-protocol:
+    aliases:
+    - dataset protocol
+    - dataset-protocol
+    module: static/components/dataset-protocol.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  discussion:
+    aliases:
+    - discussion
+    module: static/components/discussion.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  editorial-screening:
+    aliases:
+    - editorial screening
+    - editorial-screening
+    module: static/components/editorial-screening.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  equation:
+    aliases:
+    - equation
+    module: static/components/equation.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  experiment:
+    aliases:
+    - experiment
+    module: static/components/experiment.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  experimental-design:
+    aliases:
+    - experimental design
+    - experimental-design
+    module: static/components/experimental-design.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  figure:
+    aliases:
+    - figure
+    module: static/components/figure.md
+    pair_with:
+    - caption
+    - table
+    - related-work
+    - experiment
+  graphical-abstract:
+    aliases:
+    - graphical abstract
+    - graphical-abstract
+    module: static/components/graphical-abstract.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  index-terms:
+    aliases:
+    - index terms
+    - index-terms
+    module: static/components/index-terms.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  introduction:
+    aliases:
+    - introduction
+    module: static/components/introduction.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  keywords-or-index-terms:
+    aliases:
+    - keywords or index terms
+    - keywords-or-index-terms
+    module: static/components/keywords-or-index-terms.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  latex-source-package:
+    aliases:
+    - latex source package
+    - latex-source-package
+    module: static/components/latex-source-package.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  latex-template-audit:
+    aliases:
+    - latex template audit
+    - latex-template-audit
+    module: static/components/latex-template-audit.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  limitations:
+    aliases:
+    - limitations
+    module: static/components/limitations.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  math-notation:
+    aliases:
+    - math notation
+    - math-notation
+    module: static/components/math-notation.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  method:
+    aliases:
+    - method
+    module: static/components/method.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  method-details:
+    aliases:
+    - method details
+    - method-details
+    module: static/components/method-details.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  metrics:
+    aliases:
+    - metrics
+    module: static/components/metrics.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  multimedia-supplement:
+    aliases:
+    - multimedia supplement
+    - multimedia-supplement
+    module: static/components/multimedia-supplement.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  official-source-audit:
+    aliases:
+    - official source audit
+    - official-source-audit
+    module: static/components/official-source-audit.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  paper-miner:
+    aliases:
+    - paper miner
+    - paper-miner
+    module: static/components/paper-miner.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  polishing:
+    aliases:
+    - polishing
+    module: static/components/polishing.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  problem-formulation:
+    aliases:
+    - problem formulation
+    - problem-formulation
+    module: static/components/problem-formulation.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  references:
+    aliases:
+    - references
+    module: static/components/references.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  related-work:
+    aliases:
+    - related work
+    - related-work
+    module: static/components/related-work.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - experiment
+  reproducibility-check:
+    aliases:
+    - reproducibility check
+    - reproducibility-check
+    module: static/components/reproducibility-check.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  results-reporting:
+    aliases:
+    - results reporting
+    - results-reporting
+    module: static/components/results-reporting.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  reviewer-risk-register:
+    aliases:
+    - reviewer risk register
+    - reviewer-risk-register
+    module: static/components/reviewer-risk-register.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  statistical-reporting:
+    aliases:
+    - statistical reporting
+    - statistical-reporting
+    module: static/components/statistical-reporting.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  supplementary:
+    aliases:
+    - supplementary
+    module: static/components/supplementary.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  table:
+    aliases:
+    - table
+    module: static/components/table.md
+    pair_with:
+    - caption
+    - figure
+    - related-work
+    - experiment
+  theory-proof:
+    aliases:
+    - theory proof
+    - theory-proof
+    module: static/components/theory-proof.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  title-author-metadata:
+    aliases:
+    - title author metadata
+    - title-author-metadata
+    module: static/components/title-author-metadata.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+  visual-accessibility:
+    aliases:
+    - visual accessibility
+    - visual-accessibility
+    module: static/components/visual-accessibility.md
+    pair_with:
+    - caption
+    - figure
+    - table
+    - related-work
+submission:
+  acknowledgment-first-footnote:
+    aliases:
+    - acknowledgment first footnote
+    - acknowledgment-first-footnote
+    module: static/submission/acknowledgment-first-footnote.md
+    live_verification_required: true
+  ai-disclosure:
+    aliases:
+    - ai disclosure
+    - ai-disclosure
+    module: static/submission/ai-disclosure.md
+    live_verification_required: true
+  ai-disclosure-integrity:
+    aliases:
+    - ai disclosure integrity
+    - ai-disclosure-integrity
+    module: static/submission/ai-disclosure-integrity.md
+    live_verification_required: true
+  artifact-availability:
+    aliases:
+    - artifact availability
+    - artifact-availability
+    module: static/submission/artifact-availability.md
+    live_verification_required: true
+  author-agreement:
+    aliases:
+    - author agreement
+    - author-agreement
+    module: static/submission/author-agreement.md
+    live_verification_required: true
+  author-contribution:
+    aliases:
+    - author contribution
+    - author-contribution
+    module: static/submission/author-contribution.md
+    live_verification_required: true
+  code-availability:
+    aliases:
+    - code availability
+    - code-availability
+    module: static/submission/code-availability.md
+    live_verification_required: true
+  competing-interest:
+    aliases:
+    - competing interest
+    - competing-interest
+    module: static/submission/competing-interest.md
+    live_verification_required: true
+  conflict-of-interest:
+    aliases:
+    - conflict of interest
+    - conflict-of-interest
+    module: static/submission/conflict-of-interest.md
+    live_verification_required: true
+  copyright:
+    aliases:
+    - copyright
+    module: static/submission/copyright.md
+    live_verification_required: true
+  cover-letter:
+    aliases:
+    - cover letter
+    - cover-letter
+    module: static/submission/cover-letter.md
+    live_verification_required: true
+  data-availability:
+    aliases:
+    - data availability
+    - data-availability
+    module: static/submission/data-availability.md
+    live_verification_required: true
+  data-code-availability:
+    aliases:
+    - data code availability
+    - data-code-availability
+    module: static/submission/data-code-availability.md
+    live_verification_required: true
+  declarations:
+    aliases:
+    - declarations
+    module: static/submission/declarations.md
+    live_verification_required: true
+  ethics-limitations:
+    aliases:
+    - ethics limitations
+    - ethics-limitations
+    module: static/submission/ethics-limitations.md
+    live_verification_required: true
+  final-files:
+    aliases:
+    - final files
+    - final-files
+    module: static/submission/final-files.md
+    live_verification_required: true
+  funding:
+    aliases:
+    - funding
+    module: static/submission/funding.md
+    live_verification_required: true
+  funding-acknowledgment:
+    aliases:
+    - funding acknowledgment
+    - funding-acknowledgment
+    module: static/submission/funding-acknowledgment.md
+    live_verification_required: true
+  license-options:
+    aliases:
+    - license options
+    - license-options
+    module: static/submission/license-options.md
+    live_verification_required: true
+  open-access:
+    aliases:
+    - open access
+    - open-access
+    module: static/submission/open-access.md
+    live_verification_required: true
+  permission-reuse:
+    aliases:
+    - permission reuse
+    - permission-reuse
+    module: static/submission/permission-reuse.md
+    live_verification_required: true
+  preprint-prior-publication:
+    aliases:
+    - preprint prior publication
+    - preprint-prior-publication
+    module: static/submission/preprint-prior-publication.md
+    live_verification_required: true
+  proof-correction:
+    aliases:
+    - proof correction
+    - proof-correction
+    module: static/submission/proof-correction.md
+    live_verification_required: true
+  response-letter:
+    aliases:
+    - response letter
+    - response-letter
+    module: static/submission/response-letter.md
+    live_verification_required: true
+  reviewer-response-matrix:
+    aliases:
+    - reviewer response matrix
+    - reviewer-response-matrix
+    module: static/submission/reviewer-response-matrix.md
+    live_verification_required: true
+  revision-diff:
+    aliases:
+    - revision diff
+    - revision-diff
+    module: static/submission/revision-diff.md
+    live_verification_required: true
+  revision-strategy:
+    aliases:
+    - revision strategy
+    - revision-strategy
+    module: static/submission/revision-strategy.md
+    live_verification_required: true
+  submission-metadata:
+    aliases:
+    - submission metadata
+    - submission-metadata
+    module: static/submission/submission-metadata.md
+    live_verification_required: true
+  supplementary-files:
+    aliases:
+    - supplementary files
+    - supplementary-files
+    module: static/submission/supplementary-files.md
+    live_verification_required: true
+  supplementary-material:
+    aliases:
+    - supplementary material
+    - supplementary-material
+    module: static/submission/supplementary-material.md
+    live_verification_required: true
+  theory-proof:
+    aliases:
+    - theory proof
+    - theory-proof
+    module: static/submission/theory-proof.md
+    live_verification_required: true
+official_source_policy:
+  priority:
+  - journal official rule
+  - publisher official rule
+  - repository best-practice recommendation
+  - template-paper observation
+  require_live_check_for:
+  - author agreement
+  - copyright
+  - license
+  - open access
+  - fee/APC
+  - page limit
+  - submission system
+  - AI disclosure
+  - data/code policy
+  - final files

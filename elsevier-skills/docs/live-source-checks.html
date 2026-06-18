@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Live Source Checks · Elsevier Skills</title><link rel="stylesheet" href="assets/site.css"></head>
+<body><main class="container"><p><a href="index.html">← Home</a></p><h1>Live Source Checks</h1><p>Live checks are performed by scripts/check_official_links_live.py --live in a networked maintenance environment. Dry-run builds never claim unchecked URLs are healthy.</p>
+<section><h2>Key files</h2><ul>
+<li><code>resources/live_source_check_matrix.json</code></li>
+<li><code>resources/source_age_policy_report.json</code></li>
+<li><code>resources/release_health_dashboard.json</code></li>
+<li><code>resources/source_badges.json</code></li>
+<li><code>.github/workflows/source-refresh.yml</code></li>
+</ul></section>
+<section><h2>Maintenance commands</h2><pre><code>python scripts/check_official_links_live.py --live
+python scripts/report_stale_sources.py
+python scripts/live_source_check_matrix.py
+python scripts/source_age_policy.py
+python scripts/generate_source_badges.py
+python scripts/release_health_dashboard.py</code></pre></section>
+<section><h2>Offline-safe policy</h2><p>Dry-run release builds must not mark unchecked sources as healthy. Mutable publication details require live verification before real submission advice.</p></section>
+</main></body></html>

@@ -1,0 +1,14 @@
+name: elsevier-skills-compact
+version: "1.2.0"
+description: 'Single suite-router package: Context-safe AI-agent skills for Elsevier
+  journal manuscripts.'
+publisher_family: Elsevier
+unofficial: true
+install_mode: compact
+entrypoint_skill: elsevier-skill-suite
+context_safe: true
+advanced_skills_default_visible: false
+requires_live_verification_for_mutable_publication_rules: true
+artifacts:
+  repository_dist: dist/compact-suite.zip
+  plugin_zip: dist/plugin-compact.zip

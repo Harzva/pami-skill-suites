@@ -1,0 +1,1040 @@
+{
+  "schema_version": "2.7.0",
+  "release_version": "v2.7.0",
+  "generated_on": "2026-06-17",
+  "title": "Visual Query Debug Traces",
+  "scope": "Elsevier Skills",
+  "trace_count": 12,
+  "debug_traces": [
+    {
+      "query_id": "method_pipeline_main_figure",
+      "debug_trace_id": "debug_method_pipeline_main_figure",
+      "user_query": "Find main figures that explain a method pipeline with inputs, modules, outputs, and evidence alignment.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find main figures that explain a method pipeline with inputs, modules, outputs, and evidence alignment.",
+          "output": "method pipeline visual synthesis"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "method-pipeline",
+            "workflow",
+            "overview",
+            "pipeline",
+            "claim-evidence"
+          ],
+          "missing_tags": [
+            "method-pipeline",
+            "workflow",
+            "overview",
+            "pipeline",
+            "claim-evidence"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 3,
+          "top_matches": [
+            {
+              "paper_id": "eswa-2024-knowledge-based-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "information-sciences-2025-gkf-pual",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "kbs-2023-alzheimers-explainable-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "motivation_gap_figure",
+      "debug_trace_id": "debug_motivation_gap_figure",
+      "user_query": "Find motivation figures that communicate a gap, limitation, or contrast between prior work and the proposed idea.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find motivation figures that communicate a gap, limitation, or contrast between prior work and the proposed idea.",
+          "output": "motivation and gap framing"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "motivation",
+            "gap",
+            "contrast",
+            "problem-framing",
+            "overview"
+          ],
+          "missing_tags": [
+            "motivation",
+            "gap",
+            "contrast",
+            "problem-framing",
+            "overview"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 3,
+          "top_matches": [
+            {
+              "paper_id": "eswa-2024-knowledge-based-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "information-sciences-2025-gkf-pual",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "kbs-2023-alzheimers-explainable-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "ablation_table_style",
+      "debug_trace_id": "debug_ablation_table_style",
+      "user_query": "Find table examples that organize ablations or component-wise evidence clearly.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find table examples that organize ablations or component-wise evidence clearly.",
+          "output": "table structure and ablation evidence retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "ablation",
+            "table",
+            "comparison",
+            "method-comparison",
+            "evidence"
+          ],
+          "missing_tags": [
+            "ablation",
+            "table",
+            "comparison",
+            "evidence"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 2,
+          "top_matches": [
+            {
+              "paper_id": "pr-2024-linear-transportation-lp-distance",
+              "score": 5,
+              "tag_overlap": [
+                "method-comparison"
+              ],
+              "text_hits": [
+                "comparison",
+                "method-comparison"
+              ]
+            },
+            {
+              "paper_id": "prl-2023-too-good-prior",
+              "score": 5,
+              "tag_overlap": [
+                "method-comparison"
+              ],
+              "text_hits": [
+                "comparison",
+                "method-comparison"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "taxonomy_survey_overview",
+      "debug_trace_id": "debug_taxonomy_survey_overview",
+      "user_query": "Find survey-style overview figures or taxonomy diagrams for organizing a research field.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find survey-style overview figures or taxonomy diagrams for organizing a research field.",
+          "output": "taxonomy / survey overview retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "taxonomy",
+            "survey",
+            "overview",
+            "concept-map"
+          ],
+          "missing_tags": [
+            "taxonomy",
+            "survey",
+            "overview",
+            "concept-map"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 3,
+          "top_matches": [
+            {
+              "paper_id": "eswa-2024-knowledge-based-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "information-sciences-2025-gkf-pual",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "kbs-2023-alzheimers-explainable-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "medical_ai_workflow",
+      "debug_trace_id": "debug_medical_ai_workflow",
+      "user_query": "Find medical AI workflow figures showing data, model, clinical output, and validation logic.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find medical AI workflow figures showing data, model, clinical output, and validation logic.",
+          "output": "medical AI workflow retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "medical-ai",
+            "workflow",
+            "clinical",
+            "validation",
+            "method-pipeline"
+          ],
+          "missing_tags": [
+            "medical-ai",
+            "workflow",
+            "clinical",
+            "validation",
+            "method-pipeline"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 0,
+          "top_matches": []
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F07 low evidence alignment",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "remote_sensing_pipeline",
+      "debug_trace_id": "debug_remote_sensing_pipeline",
+      "user_query": "Find remote sensing pipeline figures showing sensing data, preprocessing, model stages, and evaluation.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find remote sensing pipeline figures showing sensing data, preprocessing, model stages, and evaluation.",
+          "output": "remote sensing pipeline retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "remote-sensing",
+            "pipeline",
+            "preprocessing",
+            "evaluation",
+            "method-pipeline"
+          ],
+          "missing_tags": [
+            "remote-sensing",
+            "pipeline",
+            "preprocessing",
+            "evaluation",
+            "method-pipeline"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 0,
+          "top_matches": []
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F07 low evidence alignment",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "caption_explanation_pattern",
+      "debug_trace_id": "debug_caption_explanation_pattern",
+      "user_query": "Find figure-caption patterns that explain panels, symbols, abbreviations, and takeaway evidence safely.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find figure-caption patterns that explain panels, symbols, abbreviations, and takeaway evidence safely.",
+          "output": "caption structure retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "caption",
+            "panel-explanation",
+            "takeaway",
+            "symbol-explanation",
+            "copyright-review-required"
+          ],
+          "missing_tags": [
+            "caption",
+            "panel-explanation",
+            "takeaway",
+            "symbol-explanation"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 3,
+          "top_matches": [
+            {
+              "paper_id": "eswa-2024-knowledge-based-ai",
+              "score": 4,
+              "tag_overlap": [
+                "copyright-review-required"
+              ],
+              "text_hits": [
+                "copyright-review-required"
+              ]
+            },
+            {
+              "paper_id": "information-sciences-2025-gkf-pual",
+              "score": 4,
+              "tag_overlap": [
+                "copyright-review-required"
+              ],
+              "text_hits": [
+                "copyright-review-required"
+              ]
+            },
+            {
+              "paper_id": "kbs-2023-alzheimers-explainable-ai",
+              "score": 4,
+              "tag_overlap": [
+                "copyright-review-required"
+              ],
+              "text_hits": [
+                "copyright-review-required"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "limitations_visualization",
+      "debug_trace_id": "debug_limitations_visualization",
+      "user_query": "Find visual examples or retrieval records useful for explaining limitations, failure cases, or boundary conditions.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find visual examples or retrieval records useful for explaining limitations, failure cases, or boundary conditions.",
+          "output": "limitations and future-work visual retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "limitations",
+            "failure-case",
+            "boundary-condition",
+            "future-work",
+            "risk"
+          ],
+          "missing_tags": [
+            "limitations",
+            "failure-case",
+            "boundary-condition",
+            "future-work",
+            "risk"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 0,
+          "top_matches": []
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F07 low evidence alignment",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "beautiful_comparison_table",
+      "debug_trace_id": "debug_beautiful_comparison_table",
+      "user_query": "Find beautiful comparison-table styles that make baselines, metrics, and evidence hierarchy easy to read.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find beautiful comparison-table styles that make baselines, metrics, and evidence hierarchy easy to read.",
+          "output": "beautiful table pattern retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "beautiful-table",
+            "comparison",
+            "metrics",
+            "baseline",
+            "evidence"
+          ],
+          "missing_tags": [
+            "beautiful-table",
+            "comparison",
+            "metrics",
+            "baseline",
+            "evidence"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 2,
+          "top_matches": [
+            {
+              "paper_id": "pr-2024-linear-transportation-lp-distance",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "comparison"
+              ]
+            },
+            {
+              "paper_id": "prl-2023-too-good-prior",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "comparison"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "figure_table_caption_bundle",
+      "debug_trace_id": "debug_figure_table_caption_bundle",
+      "user_query": "Find examples where figure, table, and caption logic work together to support one paper claim.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find examples where figure, table, and caption logic work together to support one paper claim.",
+          "output": "multi-component evidence bundle retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "figure",
+            "table",
+            "caption",
+            "claim-evidence",
+            "overview"
+          ],
+          "missing_tags": [
+            "figure",
+            "table",
+            "caption",
+            "claim-evidence",
+            "overview"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 3,
+          "top_matches": [
+            {
+              "paper_id": "eswa-2024-knowledge-based-ai",
+              "score": 2,
+              "tag_overlap": [],
+              "text_hits": [
+                "figure",
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "information-sciences-2025-gkf-pual",
+              "score": 2,
+              "tag_overlap": [],
+              "text_hits": [
+                "figure",
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "kbs-2023-alzheimers-explainable-ai",
+              "score": 2,
+              "tag_overlap": [],
+              "text_hits": [
+                "figure",
+                "overview"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "visual_rhetoric_for_introduction",
+      "debug_trace_id": "debug_visual_rhetoric_for_introduction",
+      "user_query": "Find visuals that help an introduction move from problem pain point to research gap to contribution.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find visuals that help an introduction move from problem pain point to research gap to contribution.",
+          "output": "introduction visual rhetoric retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "motivation",
+            "gap",
+            "contribution",
+            "problem-framing",
+            "overview"
+          ],
+          "missing_tags": [
+            "motivation",
+            "gap",
+            "contribution",
+            "problem-framing",
+            "overview"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 3,
+          "top_matches": [
+            {
+              "paper_id": "eswa-2024-knowledge-based-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "information-sciences-2025-gkf-pual",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            },
+            {
+              "paper_id": "kbs-2023-alzheimers-explainable-ai",
+              "score": 1,
+              "tag_overlap": [],
+              "text_hits": [
+                "overview"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    },
+    {
+      "query_id": "rag_safety_permission_warning",
+      "debug_trace_id": "debug_rag_safety_permission_warning",
+      "user_query": "Find records that illustrate when a user must be warned not to copy or reuse source figures directly.",
+      "pipeline_stages": [
+        {
+          "stage": "normalize_query",
+          "input": "Find records that illustrate when a user must be warned not to copy or reuse source figures directly.",
+          "output": "copyright and permission-safe retrieval"
+        },
+        {
+          "stage": "map_query_to_tags",
+          "expected_tags": [
+            "copyright-review-required",
+            "permission-review",
+            "metadata-only",
+            "safety"
+          ],
+          "missing_tags": [
+            "permission-review",
+            "metadata-only",
+            "safety"
+          ]
+        },
+        {
+          "stage": "apply_rag_mode_filter",
+          "eligible": [
+            "metadata-only"
+          ],
+          "blocked": [
+            "image-embedding",
+            "public-gallery"
+          ]
+        },
+        {
+          "stage": "match_seed_records",
+          "candidate_count": 3,
+          "top_matches": [
+            {
+              "paper_id": "eswa-2024-knowledge-based-ai",
+              "score": 4,
+              "tag_overlap": [
+                "copyright-review-required"
+              ],
+              "text_hits": [
+                "copyright-review-required"
+              ]
+            },
+            {
+              "paper_id": "information-sciences-2025-gkf-pual",
+              "score": 4,
+              "tag_overlap": [
+                "copyright-review-required"
+              ],
+              "text_hits": [
+                "copyright-review-required"
+              ]
+            },
+            {
+              "paper_id": "kbs-2023-alzheimers-explainable-ai",
+              "score": 4,
+              "tag_overlap": [
+                "copyright-review-required"
+              ],
+              "text_hits": [
+                "copyright-review-required"
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "check_safety_gates",
+          "status": "passed-for-metadata-only",
+          "warnings": [
+            "No image reuse or embedding without evidence gate approval.",
+            "No source caption, label, layout, or panel text copying."
+          ]
+        },
+        {
+          "stage": "prepare_human_eval_trace",
+          "status": "pending-human-evaluation"
+        }
+      ],
+      "observed_failure_mode_candidates": [
+        "F01 tag mismatch",
+        "F02 RAG mode violation guard active",
+        "F08 permission warning required"
+      ],
+      "recommended_action": "Use metadata-only seed results. For coverage gaps, collect lawful OA candidates and complete evidence review before extraction.",
+      "do_not_do": [
+        "Do not retrieve pending candidates into RAG results.",
+        "Do not provide source figures for reuse.",
+        "Do not infer license or permission from DOI metadata alone."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+schema_version: '1.0'
+release_version: 1.9.0
+publisher: IEEE
+generated_on: '2026-06-14'
+source_manifest: paper_templates/extracted_visual_assets/visual_asset_manifest.json
+use_scope: For visual rhetoric and figure/table/caption pattern analysis only. Do
+  not copy or reuse original visuals or captions.
+summary:
+  asset_total: 15
+  by_role:
+    main_figure: 5
+    motivation_figure: 5
+    beautiful_table: 5
+  by_journal:
+    IEEE TPAMI: 3
+    IEEE TIP: 3
+    IEEE TMI: 3
+    IEEE TNNLS: 6
+  pattern_counts:
+    taxonomy-overview-map: 1
+    problem-gap-to-method-motivation: 5
+    result-comparison-or-ablation-table: 5
+    architecture-or-overview-map: 4
+  review_queue_items: 14
+visual_rhetoric_axes:
+- problem-motivation
+- method-overview
+- data-evidence
+- comparison
+- ablation
+- workflow
+- taxonomy
+- caption-standalone-clarity
+- visual-hierarchy
+- reproducibility-cues
+assets:
+- asset_id: tpami-2023-transformers-survey::main_figure::p1
+  paper_id: tpami-2023-transformers-survey
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  role: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png
+  page: 1
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: taxonomy-overview-map
+  analysis_stats:
+    width: 1216
+    height: 877
+    aspect_ratio: 1.387
+    orientation: wide
+    brightness: 235.78
+    contrast_proxy: 244.0
+    file_bytes: 244047
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - wide-layout
+  - caption-too-short-for-standalone-reuse-analysis
+  visual_analysis_score: 90
+- asset_id: tpami-2023-transformers-survey::motivation_figure::p1
+  paper_id: tpami-2023-transformers-survey
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  role: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tpami-2023-transformers-survey__p001__motivation_figure.png
+  page: 1
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: problem-gap-to-method-motivation
+  analysis_stats:
+    width: 1216
+    height: 1333
+    aspect_ratio: 0.912
+    orientation: balanced
+    brightness: 231.68
+    contrast_proxy: 246.0
+    file_bytes: 485548
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 100
+- asset_id: tpami-2023-transformers-survey::beautiful_table::p9
+  paper_id: tpami-2023-transformers-survey
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  role: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/tpami-2023-transformers-survey__p009__beautiful_table.png
+  page: 9
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: table
+  caption_summary: caption present
+  visual_rhetoric_pattern: result-comparison-or-ablation-table
+  analysis_stats:
+    width: 1216
+    height: 1330
+    aspect_ratio: 0.914
+    orientation: balanced
+    brightness: 229.79
+    contrast_proxy: 154.33
+    file_bytes: 490156
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 95
+- asset_id: tip-2022-see360::main_figure::p1
+  paper_id: tip-2022-see360
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  role: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png
+  page: 1
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: architecture-or-overview-map
+  analysis_stats:
+    width: 1252
+    height: 1307
+    aspect_ratio: 0.958
+    orientation: balanced
+    brightness: 228.54
+    contrast_proxy: 241.0
+    file_bytes: 545373
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 100
+- asset_id: tip-2022-see360::motivation_figure::p2
+  paper_id: tip-2022-see360
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  role: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tip-2022-see360__p002__motivation_figure.png
+  page: 2
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: problem-gap-to-method-motivation
+  analysis_stats:
+    width: 1252
+    height: 718
+    aspect_ratio: 1.744
+    orientation: wide
+    brightness: 210.99
+    contrast_proxy: 255.0
+    file_bytes: 553153
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - wide-layout
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 100
+- asset_id: tip-2022-see360::beautiful_table::p9
+  paper_id: tip-2022-see360
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  role: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/tip-2022-see360__p009__beautiful_table.png
+  page: 9
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: table
+  caption_summary: caption present
+  visual_rhetoric_pattern: result-comparison-or-ablation-table
+  analysis_stats:
+    width: 1252
+    height: 1311
+    aspect_ratio: 0.955
+    orientation: balanced
+    brightness: 232.41
+    contrast_proxy: 137.33
+    file_bytes: 500940
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 95
+- asset_id: tmi-2020-lesion-localization::main_figure::p4
+  paper_id: tmi-2020-lesion-localization
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization
+    in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  role: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png
+  page: 4
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: architecture-or-overview-map
+  analysis_stats:
+    width: 1252
+    height: 665
+    aspect_ratio: 1.883
+    orientation: wide
+    brightness: 219.48
+    contrast_proxy: 255.0
+    file_bytes: 240324
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - low-pixel-resolution-for-close-study
+  - wide-layout
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 85
+- asset_id: tmi-2020-lesion-localization::motivation_figure::p4
+  paper_id: tmi-2020-lesion-localization
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization
+    in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  role: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tmi-2020-lesion-localization__p004__motivation_figure.png
+  page: 4
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: problem-gap-to-method-motivation
+  analysis_stats:
+    width: 1252
+    height: 1067
+    aspect_ratio: 1.173
+    orientation: balanced
+    brightness: 225.15
+    contrast_proxy: 255.0
+    file_bytes: 392255
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags: []
+  visual_analysis_score: 100
+- asset_id: tmi-2020-lesion-localization::beautiful_table::p2
+  paper_id: tmi-2020-lesion-localization
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization
+    in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  role: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/tmi-2020-lesion-localization__p002__beautiful_table.png
+  page: 2
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: table
+  caption_summary: caption present
+  visual_rhetoric_pattern: result-comparison-or-ablation-table
+  analysis_stats:
+    width: 1252
+    height: 984
+    aspect_ratio: 1.272
+    orientation: balanced
+    brightness: 224.41
+    contrast_proxy: 255.0
+    file_bytes: 381113
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 95
+- asset_id: tnnls-2023-sparce::main_figure::p4
+  paper_id: tnnls-2023-sparce
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+    Representations'
+  journal: IEEE TNNLS
+  role: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tnnls-2023-sparce__p004__main_figure.png
+  page: 4
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: architecture-or-overview-map
+  analysis_stats:
+    width: 1252
+    height: 1502
+    aspect_ratio: 0.834
+    orientation: balanced
+    brightness: 233.48
+    contrast_proxy: 173.0
+    file_bytes: 520628
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 100
+- asset_id: tnnls-2023-sparce::motivation_figure::p4
+  paper_id: tnnls-2023-sparce
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+    Representations'
+  journal: IEEE TNNLS
+  role: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tnnls-2023-sparce__p004__motivation_figure.png
+  page: 4
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: problem-gap-to-method-motivation
+  analysis_stats:
+    width: 1252
+    height: 1265
+    aspect_ratio: 0.99
+    orientation: balanced
+    brightness: 234.3
+    contrast_proxy: 186.0
+    file_bytes: 419404
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 100
+- asset_id: tnnls-2023-sparce::beautiful_table::p10
+  paper_id: tnnls-2023-sparce
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+    Representations'
+  journal: IEEE TNNLS
+  role: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/tnnls-2023-sparce__p010__beautiful_table.png
+  page: 10
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: table
+  caption_summary: caption present
+  visual_rhetoric_pattern: result-comparison-or-ablation-table
+  analysis_stats:
+    width: 1252
+    height: 1485
+    aspect_ratio: 0.843
+    orientation: balanced
+    brightness: 233.71
+    contrast_proxy: 147.33
+    file_bytes: 496797
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 95
+- asset_id: tnnls-2024-mediterranean::main_figure::p3
+  paper_id: tnnls-2024-mediterranean
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  role: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tnnls-2024-mediterranean__p003__main_figure.png
+  page: 3
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: architecture-or-overview-map
+  analysis_stats:
+    width: 1252
+    height: 839
+    aspect_ratio: 1.492
+    orientation: wide
+    brightness: 233.16
+    contrast_proxy: 137.67
+    file_bytes: 302514
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - wide-layout
+  visual_analysis_score: 100
+- asset_id: tnnls-2024-mediterranean::motivation_figure::p6
+  paper_id: tnnls-2024-mediterranean
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  role: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tnnls-2024-mediterranean__p006__motivation_figure.png
+  page: 6
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: figure
+  caption_summary: caption present
+  visual_rhetoric_pattern: problem-gap-to-method-motivation
+  analysis_stats:
+    width: 1252
+    height: 821
+    aspect_ratio: 1.525
+    orientation: wide
+    brightness: 236.65
+    contrast_proxy: 176.33
+    file_bytes: 261097
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - wide-layout
+  visual_analysis_score: 100
+- asset_id: tnnls-2024-mediterranean::beautiful_table::p8
+  paper_id: tnnls-2024-mediterranean
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  role: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/tnnls-2024-mediterranean__p008__beautiful_table.png
+  page: 8
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  caption_type: table
+  caption_summary: caption present
+  visual_rhetoric_pattern: result-comparison-or-ablation-table
+  analysis_stats:
+    width: 1252
+    height: 1671
+    aspect_ratio: 0.749
+    orientation: balanced
+    brightness: 231.6
+    contrast_proxy: 125.33
+    file_bytes: 563370
+  visual_reuse_scope: structure-analysis-only; do not copy, redraw, publish, or reuse
+    without license and permission checks
+  quality_flags:
+  - caption-long-may-encode-results-and-conditions
+  visual_analysis_score: 95
+copyright_safety:
+  allowed:
+  - structural analysis
+  - visual taxonomy building
+  - caption/rhetoric pattern learning
+  forbidden:
+  - copy original figure
+  - reuse table image
+  - redraw layout too closely
+  - publish extracted assets as original work
+  required_before_reuse:
+  - check license
+  - check third-party materials
+  - provide attribution
+  - check target journal policy

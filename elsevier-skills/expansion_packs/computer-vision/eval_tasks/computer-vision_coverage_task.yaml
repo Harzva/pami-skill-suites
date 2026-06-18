@@ -1,0 +1,25 @@
+task_id: computer-vision_coverage_task
+release_version: 1.3.0
+publisher_family: Elsevier
+pack_id: computer-vision
+purpose: Placeholder task for evaluating expansion-pack routing, source-quality scoring, and candidate promotion readiness.
+inputs:
+- target journal or candidate id
+- manuscript component
+- source verification status
+expected_output:
+- selected pack
+- maturity level
+- source-quality score
+- promotion recommendation
+- live verification warning
+- context-safe install warning
+must_include_warnings:
+- Expansion packs are opt-in.
+- Do not add promoted candidates to default skills/.
+- Live verification required before submission.
+rubric:
+- correct pack selection
+- correct maturity interpretation
+- safe promotion recommendation
+- no copyright or official-source overclaiming

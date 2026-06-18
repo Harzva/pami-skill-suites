@@ -1,0 +1,147 @@
+{
+  "release_version": "1.5.0",
+  "generated_on": "2026-06-13",
+  "publisher_family": "Elsevier",
+  "context_policy": "Presets are optional routing profiles and are not top-level skills.",
+  "presets": [
+    {
+      "id": "computer-vision",
+      "title": "Computer Vision",
+      "path": "presets/computer-vision/",
+      "publisher_family": "Elsevier",
+      "default_visible": false,
+      "source_expansion_pack": "expansion_packs/computer-vision/",
+      "journal_count": 5,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 2
+      },
+      "dist_package": "dist/preset-computer-vision.zip",
+      "aggregate_package": "dist/presets.zip",
+      "scenario_count": 3,
+      "scenario_gallery": "presets/computer-vision/scenarios/",
+      "sample_outputs": "presets/computer-vision/sample-outputs/",
+      "route_traces": "presets/computer-vision/route-traces/",
+      "evaluation_report": "presets/computer-vision/evaluation-report.md"
+    },
+    {
+      "id": "medical-ai",
+      "title": "Medical AI",
+      "path": "presets/medical-ai/",
+      "publisher_family": "Elsevier",
+      "default_visible": false,
+      "source_expansion_pack": "expansion_packs/medical-ai/",
+      "journal_count": 6,
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 5,
+        "L4": 0
+      },
+      "dist_package": "dist/preset-medical-ai.zip",
+      "aggregate_package": "dist/presets.zip",
+      "scenario_count": 3,
+      "scenario_gallery": "presets/medical-ai/scenarios/",
+      "sample_outputs": "presets/medical-ai/sample-outputs/",
+      "route_traces": "presets/medical-ai/route-traces/",
+      "evaluation_report": "presets/medical-ai/evaluation-report.md"
+    },
+    {
+      "id": "remote-sensing",
+      "title": "Remote Sensing",
+      "path": "presets/remote-sensing/",
+      "publisher_family": "Elsevier",
+      "default_visible": false,
+      "source_expansion_pack": "expansion_packs/remote-sensing/",
+      "journal_count": 3,
+      "maturity_counts": {
+        "L0": 3,
+        "L1": 0,
+        "L2": 0,
+        "L3": 0,
+        "L4": 0
+      },
+      "dist_package": "dist/preset-remote-sensing.zip",
+      "aggregate_package": "dist/presets.zip",
+      "scenario_count": 3,
+      "scenario_gallery": "presets/remote-sensing/scenarios/",
+      "sample_outputs": "presets/remote-sensing/sample-outputs/",
+      "route_traces": "presets/remote-sensing/route-traces/",
+      "evaluation_report": "presets/remote-sensing/evaluation-report.md"
+    },
+    {
+      "id": "multimedia",
+      "title": "Multimedia",
+      "path": "presets/multimedia/",
+      "publisher_family": "Elsevier",
+      "default_visible": false,
+      "source_expansion_pack": "expansion_packs/multimedia/",
+      "journal_count": 4,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 4,
+        "L4": 0
+      },
+      "dist_package": "dist/preset-multimedia.zip",
+      "aggregate_package": "dist/presets.zip",
+      "scenario_count": 3,
+      "scenario_gallery": "presets/multimedia/scenarios/",
+      "sample_outputs": "presets/multimedia/sample-outputs/",
+      "route_traces": "presets/multimedia/route-traces/",
+      "evaluation_report": "presets/multimedia/evaluation-report.md"
+    },
+    {
+      "id": "data-mining",
+      "title": "Data Mining",
+      "path": "presets/data-mining/",
+      "publisher_family": "Elsevier",
+      "default_visible": false,
+      "source_expansion_pack": "expansion_packs/data-mining/",
+      "journal_count": 6,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 3
+      },
+      "dist_package": "dist/preset-data-mining.zip",
+      "aggregate_package": "dist/presets.zip",
+      "scenario_count": 3,
+      "scenario_gallery": "presets/data-mining/scenarios/",
+      "sample_outputs": "presets/data-mining/sample-outputs/",
+      "route_traces": "presets/data-mining/route-traces/",
+      "evaluation_report": "presets/data-mining/evaluation-report.md"
+    },
+    {
+      "id": "signal-processing",
+      "title": "Signal Processing",
+      "path": "presets/signal-processing/",
+      "publisher_family": "Elsevier",
+      "default_visible": false,
+      "source_expansion_pack": "expansion_packs/signal-processing/",
+      "journal_count": 3,
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 0
+      },
+      "dist_package": "dist/preset-signal-processing.zip",
+      "aggregate_package": "dist/presets.zip",
+      "scenario_count": 3,
+      "scenario_gallery": "presets/signal-processing/scenarios/",
+      "sample_outputs": "presets/signal-processing/sample-outputs/",
+      "route_traces": "presets/signal-processing/route-traces/",
+      "evaluation_report": "presets/signal-processing/evaluation-report.md"
+    }
+  ],
+  "preset_scenario_harness": "enabled"
+}

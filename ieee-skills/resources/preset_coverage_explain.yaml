@@ -1,0 +1,27 @@
+release_version: 1.5.0
+publisher_family: IEEE
+explanations:
+- preset_id: computer-vision
+  scenario_count: 3
+  default_visible: false
+  message: Preset coverage is optional and does not add default top-level skills.
+- preset_id: medical-ai
+  scenario_count: 3
+  default_visible: false
+  message: Preset coverage is optional and does not add default top-level skills.
+- preset_id: remote-sensing
+  scenario_count: 3
+  default_visible: false
+  message: Preset coverage is optional and does not add default top-level skills.
+- preset_id: multimedia
+  scenario_count: 3
+  default_visible: false
+  message: Preset coverage is optional and does not add default top-level skills.
+- preset_id: data-mining
+  scenario_count: 3
+  default_visible: false
+  message: Preset coverage is optional and does not add default top-level skills.
+- preset_id: signal-processing
+  scenario_count: 3
+  default_visible: false
+  message: Preset coverage is optional and does not add default top-level skills.

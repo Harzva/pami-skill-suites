@@ -1,0 +1,28 @@
+schema_version: 2.0.0
+tags:
+  concept-map:
+  - tpami-2023-transformers-survey
+  copyright-review-required:
+  - tpami-2023-transformers-survey
+  - tip-2022-see360
+  - tmi-2020-lesion-localization
+  - tnnls-2023-sparce
+  - tnnls-2024-mediterranean
+  overview:
+  - tpami-2023-transformers-survey
+  taxonomy:
+  - tpami-2023-transformers-survey
+  image-processing:
+  - tip-2022-see360
+  pipeline:
+  - tip-2022-see360
+  evidence-flow:
+  - tmi-2020-lesion-localization
+  medical-ai:
+  - tmi-2020-lesion-localization
+  main-figure:
+  - tnnls-2023-sparce
+  - tnnls-2024-mediterranean
+  method-or-result-overview:
+  - tnnls-2023-sparce
+  - tnnls-2024-mediterranean

@@ -1,0 +1,600 @@
+{
+  "applied-soft-computing-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "artificial-intelligence-medicine-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "artificial-intelligence-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "biomedical-signal-processing-control-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "cmpb-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "computer-speech-language-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "computers-biology-medicine-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "cviu-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "data-knowledge-engineering-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "decision-support-systems-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "eaai-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-abstract-keywords": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-ai-disclosure-integrity": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-citation": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-cover-letter": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-data-availability": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-declarations": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-editorial-screening": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-ethics-limitations": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-figure-table": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-graphical-abstract": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-highlights": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-introduction-related-work": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-latex-template-audit": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-method-experiment": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-polishing": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-response": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-reviewer": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-revision-strategy": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-statistical-significance": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-submission-package": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "elsevier-writing": {
+    "kind": "core",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "eswa-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "future-generation-computer-systems-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "image-and-vision-computing-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "information-fusion-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "information-sciences-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "jvcir-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "kbs-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "medical-image-analysis-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "neurocomputing-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "pr-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "prl-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "robotics-autonomous-systems-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "signal-processing-image-communication-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  },
+  "signal-processing-writing": {
+    "kind": "journal-adapter",
+    "outputs": [
+      "revised_text",
+      "structural_diagnosis",
+      "claim_evidence_map",
+      "reviewer_risks",
+      "missing_materials",
+      "submission_checklist",
+      "assumptions"
+    ],
+    "integrity_rule": "Do not fabricate evidence, citations, declarations, or official policies."
+  }
+}

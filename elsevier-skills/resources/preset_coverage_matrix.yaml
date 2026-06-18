@@ -1,0 +1,172 @@
+release_version: 1.5.0
+generated_on: '2026-06-13'
+publisher_family: Elsevier
+coverage_matrix:
+- preset_id: computer-vision
+  title: Computer Vision
+  journal_count: 5
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 2
+  journals:
+  - id: pr
+    title: Pattern Recognition
+    maturity_level: L4
+    source_quality_band: A
+  - id: prl
+    title: Pattern Recognition Letters
+    maturity_level: L4
+    source_quality_band: A
+  - id: cviu
+    title: Computer Vision and Image Understanding
+    maturity_level: L3
+    source_quality_band: A
+  - id: image-and-vision-computing
+    title: Image and Vision Computing
+    maturity_level: L3
+    source_quality_band: A
+  - id: medical-image-analysis
+    title: Medical Image Analysis
+    maturity_level: L3
+    source_quality_band: A
+- preset_id: medical-ai
+  title: Medical AI
+  journal_count: 6
+  maturity_counts:
+    L0: 1
+    L1: 0
+    L2: 0
+    L3: 5
+    L4: 0
+  journals:
+  - id: medical-image-analysis
+    title: Medical Image Analysis
+    maturity_level: L3
+    source_quality_band: A
+  - id: artificial-intelligence-medicine
+    title: Artificial Intelligence in Medicine
+    maturity_level: L3
+    source_quality_band: A
+  - id: computers-biology-medicine
+    title: Computers in Biology and Medicine
+    maturity_level: L3
+    source_quality_band: A
+  - id: cmpb
+    title: Computer Methods and Programs in Biomedicine
+    maturity_level: L3
+    source_quality_band: A
+  - id: biomedical-signal-processing-control
+    title: Biomedical Signal Processing and Control
+    maturity_level: L3
+    source_quality_band: A
+  - id: artificial-intelligence-in-life-sciences
+    title: Artificial Intelligence in the Life Sciences
+    maturity_level: L0
+    source_quality_band: E
+- preset_id: remote-sensing
+  title: Remote Sensing
+  journal_count: 3
+  maturity_counts:
+    L0: 3
+    L1: 0
+    L2: 0
+    L3: 0
+    L4: 0
+  journals:
+  - id: isprs-journal-photogrammetry-remote-sensing
+    title: ISPRS Journal of Photogrammetry and Remote Sensing
+    maturity_level: L0
+    source_quality_band: E
+  - id: international-journal-applied-earth-observation-geoinformation
+    title: International Journal of Applied Earth Observation and Geoinformation
+    maturity_level: L0
+    source_quality_band: E
+  - id: remote-sensing-applications-society-environment
+    title: 'Remote Sensing Applications: Society and Environment'
+    maturity_level: L0
+    source_quality_band: E
+- preset_id: multimedia
+  title: Multimedia
+  journal_count: 4
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 4
+    L4: 0
+  journals:
+  - id: jvcir
+    title: Journal of Visual Communication and Image Representation
+    maturity_level: L3
+    source_quality_band: A
+  - id: signal-processing-image-communication
+    title: 'Signal Processing: Image Communication'
+    maturity_level: L3
+    source_quality_band: A
+  - id: information-fusion
+    title: Information Fusion
+    maturity_level: L3
+    source_quality_band: A
+  - id: computer-speech-language
+    title: Computer Speech & Language
+    maturity_level: L3
+    source_quality_band: A
+- preset_id: data-mining
+  title: Data Mining
+  journal_count: 6
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 3
+  journals:
+  - id: information-sciences
+    title: Information Sciences
+    maturity_level: L4
+    source_quality_band: A
+  - id: kbs
+    title: Knowledge-Based Systems
+    maturity_level: L4
+    source_quality_band: A
+  - id: data-knowledge-engineering
+    title: Data & Knowledge Engineering
+    maturity_level: L3
+    source_quality_band: A
+  - id: decision-support-systems
+    title: Decision Support Systems
+    maturity_level: L3
+    source_quality_band: A
+  - id: eswa
+    title: Expert Systems With Applications
+    maturity_level: L4
+    source_quality_band: A
+  - id: artificial-intelligence
+    title: Artificial Intelligence
+    maturity_level: L3
+    source_quality_band: A
+- preset_id: signal-processing
+  title: Signal Processing
+  journal_count: 3
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 0
+  journals:
+  - id: signal-processing
+    title: Signal Processing
+    maturity_level: L3
+    source_quality_band: A
+  - id: signal-processing-image-communication
+    title: 'Signal Processing: Image Communication'
+    maturity_level: L3
+    source_quality_band: A
+  - id: biomedical-signal-processing-control
+    title: Biomedical Signal Processing and Control
+    maturity_level: L3
+    source_quality_band: A

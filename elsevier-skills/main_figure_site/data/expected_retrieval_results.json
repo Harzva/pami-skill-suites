@@ -1,0 +1,546 @@
+{
+  "schema_version": "2.6.0",
+  "release_version": "v2.6.0",
+  "generated_on": "2026-06-17",
+  "title": "Expected Retrieval Results",
+  "results": [
+    {
+      "query_id": "method_pipeline_main_figure",
+      "expected_results_count": 4,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "motivation_gap_figure",
+      "expected_results_count": 4,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "ablation_table_style",
+      "expected_results_count": 2,
+      "expected_result_cards": [
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 5,
+          "tag_overlap": [
+            "method-comparison"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "prl-2023-too-good-prior",
+          "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+          "journal": "Pattern Recognition Letters",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 5,
+          "tag_overlap": [
+            "method-comparison"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "taxonomy_survey_overview",
+      "expected_results_count": 4,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "medical_ai_workflow",
+      "expected_results_count": 0,
+      "expected_result_cards": [],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "remote_sensing_pipeline",
+      "expected_results_count": 0,
+      "expected_result_cards": [],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "caption_explanation_pattern",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "limitations_visualization",
+      "expected_results_count": 0,
+      "expected_result_cards": [],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "beautiful_comparison_table",
+      "expected_results_count": 2,
+      "expected_result_cards": [
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "prl-2023-too-good-prior",
+          "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+          "journal": "Pattern Recognition Letters",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "figure_table_caption_bundle",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "visual_rhetoric_for_introduction",
+      "expected_results_count": 4,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    },
+    {
+      "query_id": "rag_safety_permission_warning",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        },
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "structural retrieval only; no source visual reuse",
+          "blocked_use": "no image reuse, caption copying, embedding, or public gallery display without approval"
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "say coverage is insufficient if no seed matches",
+        "include permission warning",
+        "keep output metadata-only"
+      ]
+    }
+  ]
+}

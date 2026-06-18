@@ -1,0 +1,448 @@
+schema_version: 2.6.0
+release_version: v2.6.0
+generated_on: '2026-06-17'
+title: Expected Retrieval Results
+results:
+- query_id: method_pipeline_main_figure
+  expected_results_count: 4
+  expected_result_cards:
+  - paper_id: tip-2022-see360
+    title: 'See360: Novel Panoramic View Interpolation'
+    journal: IEEE TIP
+    year: 2022
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - pipeline
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tpami-2023-transformers-survey
+    title: 'Multimodal Learning With Transformers: A Survey'
+    journal: IEEE TPAMI
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - overview
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2023-sparce
+    title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+      Representations'
+    journal: IEEE TNNLS
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2024-mediterranean
+    title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+    journal: IEEE TNNLS
+    year: 2024
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: motivation_gap_figure
+  expected_results_count: 3
+  expected_result_cards:
+  - paper_id: tpami-2023-transformers-survey
+    title: 'Multimodal Learning With Transformers: A Survey'
+    journal: IEEE TPAMI
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - overview
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2023-sparce
+    title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+      Representations'
+    journal: IEEE TNNLS
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2024-mediterranean
+    title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+    journal: IEEE TNNLS
+    year: 2024
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: ablation_table_style
+  expected_results_count: 1
+  expected_result_cards:
+  - paper_id: tmi-2020-lesion-localization
+    title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion
+      Localization in Deep Interpretability Frameworks: Application to Color Fundus
+      Images'
+    journal: IEEE TMI
+    year: 2020
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: taxonomy_survey_overview
+  expected_results_count: 3
+  expected_result_cards:
+  - paper_id: tpami-2023-transformers-survey
+    title: 'Multimodal Learning With Transformers: A Survey'
+    journal: IEEE TPAMI
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 13
+    tag_overlap:
+    - concept-map
+    - overview
+    - taxonomy
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2023-sparce
+    title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+      Representations'
+    journal: IEEE TNNLS
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2024-mediterranean
+    title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+    journal: IEEE TNNLS
+    year: 2024
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: medical_ai_workflow
+  expected_results_count: 1
+  expected_result_cards:
+  - paper_id: tmi-2020-lesion-localization
+    title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion
+      Localization in Deep Interpretability Frameworks: Application to Color Fundus
+      Images'
+    journal: IEEE TMI
+    year: 2020
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - medical-ai
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: remote_sensing_pipeline
+  expected_results_count: 1
+  expected_result_cards:
+  - paper_id: tip-2022-see360
+    title: 'See360: Novel Panoramic View Interpolation'
+    journal: IEEE TIP
+    year: 2022
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - pipeline
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: caption_explanation_pattern
+  expected_results_count: 5
+  expected_result_cards:
+  - paper_id: tip-2022-see360
+    title: 'See360: Novel Panoramic View Interpolation'
+    journal: IEEE TIP
+    year: 2022
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tmi-2020-lesion-localization
+    title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion
+      Localization in Deep Interpretability Frameworks: Application to Color Fundus
+      Images'
+    journal: IEEE TMI
+    year: 2020
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2023-sparce
+    title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+      Representations'
+    journal: IEEE TNNLS
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2024-mediterranean
+    title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+    journal: IEEE TNNLS
+    year: 2024
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tpami-2023-transformers-survey
+    title: 'Multimodal Learning With Transformers: A Survey'
+    journal: IEEE TPAMI
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: limitations_visualization
+  expected_results_count: 0
+  expected_result_cards: []
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: beautiful_comparison_table
+  expected_results_count: 1
+  expected_result_cards:
+  - paper_id: tmi-2020-lesion-localization
+    title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion
+      Localization in Deep Interpretability Frameworks: Application to Color Fundus
+      Images'
+    journal: IEEE TMI
+    year: 2020
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: figure_table_caption_bundle
+  expected_results_count: 5
+  expected_result_cards:
+  - paper_id: tpami-2023-transformers-survey
+    title: 'Multimodal Learning With Transformers: A Survey'
+    journal: IEEE TPAMI
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 5
+    tag_overlap:
+    - overview
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2023-sparce
+    title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+      Representations'
+    journal: IEEE TNNLS
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 2
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2024-mediterranean
+    title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+    journal: IEEE TNNLS
+    year: 2024
+    retrieval_mode: metadata-only
+    match_score: 2
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tip-2022-see360
+    title: 'See360: Novel Panoramic View Interpolation'
+    journal: IEEE TIP
+    year: 2022
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tmi-2020-lesion-localization
+    title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion
+      Localization in Deep Interpretability Frameworks: Application to Color Fundus
+      Images'
+    journal: IEEE TMI
+    year: 2020
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: visual_rhetoric_for_introduction
+  expected_results_count: 3
+  expected_result_cards:
+  - paper_id: tpami-2023-transformers-survey
+    title: 'Multimodal Learning With Transformers: A Survey'
+    journal: IEEE TPAMI
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - overview
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2023-sparce
+    title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+      Representations'
+    journal: IEEE TNNLS
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2024-mediterranean
+    title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+    journal: IEEE TNNLS
+    year: 2024
+    retrieval_mode: metadata-only
+    match_score: 1
+    tag_overlap: []
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only
+- query_id: rag_safety_permission_warning
+  expected_results_count: 5
+  expected_result_cards:
+  - paper_id: tip-2022-see360
+    title: 'See360: Novel Panoramic View Interpolation'
+    journal: IEEE TIP
+    year: 2022
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tmi-2020-lesion-localization
+    title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion
+      Localization in Deep Interpretability Frameworks: Application to Color Fundus
+      Images'
+    journal: IEEE TMI
+    year: 2020
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2023-sparce
+    title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+      Representations'
+    journal: IEEE TNNLS
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tnnls-2024-mediterranean
+    title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+    journal: IEEE TNNLS
+    year: 2024
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  - paper_id: tpami-2023-transformers-survey
+    title: 'Multimodal Learning With Transformers: A Survey'
+    journal: IEEE TPAMI
+    year: 2023
+    retrieval_mode: metadata-only
+    match_score: 4
+    tag_overlap:
+    - copyright-review-required
+    safe_expected_use: structural retrieval only; no source visual reuse
+    blocked_use: no image reuse, caption copying, embedding, or public gallery display
+      without approval
+  minimum_acceptable_behavior:
+  - say coverage is insufficient if no seed matches
+  - include permission warning
+  - keep output metadata-only

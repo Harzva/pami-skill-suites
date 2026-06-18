@@ -1,0 +1,11 @@
+name: elsevier-reviewer
+version: 0.6.0
+role: review simulation, reviewer-risk diagnosis, and editorial-screening preparation
+context_policy: default-visible-macro-skill
+routes_through: elsevier-skill-suite
+loads:
+- manifest.yaml
+- references/output-contracts.md
+- checklists/quality-gate.md
+advanced_skills_policy: Use skills-advanced only for optional direct invocation or
+  repository development.

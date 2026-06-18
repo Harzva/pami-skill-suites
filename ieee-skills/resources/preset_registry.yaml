@@ -1,0 +1,95 @@
+release_version: 1.4.0
+generated_on: '2026-06-13'
+publisher_family: IEEE
+context_policy: Presets are optional routing profiles and are not top-level skills.
+presets:
+- id: computer-vision
+  title: Computer Vision
+  path: presets/computer-vision/
+  publisher_family: IEEE
+  default_visible: false
+  source_expansion_pack: expansion_packs/computer-vision/
+  journal_count: 4
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 2
+    L4: 2
+  dist_package: dist/preset-computer-vision.zip
+  aggregate_package: dist/presets.zip
+- id: medical-ai
+  title: Medical AI
+  path: presets/medical-ai/
+  publisher_family: IEEE
+  default_visible: false
+  source_expansion_pack: expansion_packs/medical-ai/
+  journal_count: 3
+  maturity_counts:
+    L0: 1
+    L1: 0
+    L2: 0
+    L3: 1
+    L4: 1
+  dist_package: dist/preset-medical-ai.zip
+  aggregate_package: dist/presets.zip
+- id: remote-sensing
+  title: Remote Sensing
+  path: presets/remote-sensing/
+  publisher_family: IEEE
+  default_visible: false
+  source_expansion_pack: expansion_packs/remote-sensing/
+  journal_count: 2
+  maturity_counts:
+    L0: 1
+    L1: 0
+    L2: 0
+    L3: 1
+    L4: 0
+  dist_package: dist/preset-remote-sensing.zip
+  aggregate_package: dist/presets.zip
+- id: multimedia
+  title: Multimedia
+  path: presets/multimedia/
+  publisher_family: IEEE
+  default_visible: false
+  source_expansion_pack: expansion_packs/multimedia/
+  journal_count: 4
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 1
+  dist_package: dist/preset-multimedia.zip
+  aggregate_package: dist/presets.zip
+- id: data-mining
+  title: Data Mining
+  path: presets/data-mining/
+  publisher_family: IEEE
+  default_visible: false
+  source_expansion_pack: expansion_packs/data-mining/
+  journal_count: 3
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 0
+  dist_package: dist/preset-data-mining.zip
+  aggregate_package: dist/presets.zip
+- id: signal-processing
+  title: Signal Processing
+  path: presets/signal-processing/
+  publisher_family: IEEE
+  default_visible: false
+  source_expansion_pack: expansion_packs/signal-processing/
+  journal_count: 5
+  maturity_counts:
+    L0: 1
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 1
+  dist_package: dist/preset-signal-processing.zip
+  aggregate_package: dist/presets.zip

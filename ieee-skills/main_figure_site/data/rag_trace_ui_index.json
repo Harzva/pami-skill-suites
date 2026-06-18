@@ -1,0 +1,897 @@
+{
+  "schema_version": "2.7.0",
+  "release_version": "v2.7.0",
+  "generated_on": "2026-06-17",
+  "title": "RAG Trace UI Index",
+  "scope": "IEEE Skills",
+  "trace_count": 12,
+  "context_policy": {
+    "metadata_only_rag_allowed": true,
+    "image_embedding_allowed": false,
+    "public_gallery_allowed": false,
+    "default_top_level_skill_visibility_changed": false,
+    "offline_safe_release_build": true
+  },
+  "trace_cards": [
+    {
+      "trace_id": "rag_trace_method_pipeline_main_figure",
+      "query_id": "method_pipeline_main_figure",
+      "user_query": "Find main figures that explain a method pipeline with inputs, modules, outputs, and evidence alignment.",
+      "intent": "method pipeline visual synthesis",
+      "expected_tags": [
+        "method-pipeline",
+        "workflow",
+        "overview",
+        "pipeline",
+        "claim-evidence"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "pipeline"
+          ],
+          "text_hits": [
+            "pipeline"
+          ]
+        },
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "method-pipeline",
+        "workflow",
+        "claim-evidence"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#method_pipeline_main_figure",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#method_pipeline_main_figure",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_method_pipeline_main_figure",
+      "expected_result_count": 4,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_motivation_gap_figure",
+      "query_id": "motivation_gap_figure",
+      "user_query": "Find motivation figures that communicate a gap, limitation, or contrast between prior work and the proposed idea.",
+      "intent": "motivation and gap framing",
+      "expected_tags": [
+        "motivation",
+        "gap",
+        "contrast",
+        "problem-framing",
+        "overview"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "motivation",
+        "gap",
+        "contrast",
+        "problem-framing"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#motivation_gap_figure",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#motivation_gap_figure",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_motivation_gap_figure",
+      "expected_result_count": 3,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_ablation_table_style",
+      "query_id": "ablation_table_style",
+      "user_query": "Find table examples that organize ablations or component-wise evidence clearly.",
+      "intent": "table structure and ablation evidence retrieval",
+      "expected_tags": [
+        "ablation",
+        "table",
+        "comparison",
+        "method-comparison",
+        "evidence"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "evidence"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "ablation",
+        "table",
+        "comparison",
+        "method-comparison",
+        "evidence"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#ablation_table_style",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#ablation_table_style",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_ablation_table_style",
+      "expected_result_count": 1,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_taxonomy_survey_overview",
+      "query_id": "taxonomy_survey_overview",
+      "user_query": "Find survey-style overview figures or taxonomy diagrams for organizing a research field.",
+      "intent": "taxonomy / survey overview retrieval",
+      "expected_tags": [
+        "taxonomy",
+        "survey",
+        "overview",
+        "concept-map"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 13,
+          "tag_overlap": [
+            "concept-map",
+            "overview",
+            "taxonomy"
+          ],
+          "text_hits": [
+            "concept-map",
+            "overview",
+            "survey",
+            "taxonomy"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "survey"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#taxonomy_survey_overview",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#taxonomy_survey_overview",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_taxonomy_survey_overview",
+      "expected_result_count": 3,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_medical_ai_workflow",
+      "query_id": "medical_ai_workflow",
+      "user_query": "Find medical AI workflow figures showing data, model, clinical output, and validation logic.",
+      "intent": "medical AI workflow retrieval",
+      "expected_tags": [
+        "medical-ai",
+        "workflow",
+        "clinical",
+        "validation",
+        "method-pipeline"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 4,
+          "tag_overlap": [
+            "medical-ai"
+          ],
+          "text_hits": [
+            "medical-ai"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "workflow",
+        "clinical",
+        "validation",
+        "method-pipeline"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#medical_ai_workflow",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#medical_ai_workflow",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_medical_ai_workflow",
+      "expected_result_count": 1,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_remote_sensing_pipeline",
+      "query_id": "remote_sensing_pipeline",
+      "user_query": "Find remote sensing pipeline figures showing sensing data, preprocessing, model stages, and evaluation.",
+      "intent": "remote sensing pipeline retrieval",
+      "expected_tags": [
+        "remote-sensing",
+        "pipeline",
+        "preprocessing",
+        "evaluation",
+        "method-pipeline"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "pipeline"
+          ],
+          "text_hits": [
+            "pipeline"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "remote-sensing",
+        "preprocessing",
+        "evaluation",
+        "method-pipeline"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#remote_sensing_pipeline",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#remote_sensing_pipeline",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_remote_sensing_pipeline",
+      "expected_result_count": 1,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_caption_explanation_pattern",
+      "query_id": "caption_explanation_pattern",
+      "user_query": "Find figure-caption patterns that explain panels, symbols, abbreviations, and takeaway evidence safely.",
+      "intent": "caption structure retrieval",
+      "expected_tags": [
+        "caption",
+        "panel-explanation",
+        "takeaway",
+        "symbol-explanation",
+        "copyright-review-required"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "caption",
+        "panel-explanation",
+        "takeaway",
+        "symbol-explanation"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#caption_explanation_pattern",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#caption_explanation_pattern",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_caption_explanation_pattern",
+      "expected_result_count": 5,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_limitations_visualization",
+      "query_id": "limitations_visualization",
+      "user_query": "Find visual examples or retrieval records useful for explaining limitations, failure cases, or boundary conditions.",
+      "intent": "limitations and future-work visual retrieval",
+      "expected_tags": [
+        "limitations",
+        "failure-case",
+        "boundary-condition",
+        "future-work",
+        "risk"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [],
+      "missing_tags": [
+        "limitations",
+        "failure-case",
+        "boundary-condition",
+        "future-work",
+        "risk"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "no-seed-match",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#limitations_visualization",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#limitations_visualization",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_limitations_visualization",
+      "expected_result_count": 0,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_beautiful_comparison_table",
+      "query_id": "beautiful_comparison_table",
+      "user_query": "Find beautiful comparison-table styles that make baselines, metrics, and evidence hierarchy easy to read.",
+      "intent": "beautiful table pattern retrieval",
+      "expected_tags": [
+        "beautiful-table",
+        "comparison",
+        "metrics",
+        "baseline",
+        "evidence"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "evidence"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "beautiful-table",
+        "comparison",
+        "metrics",
+        "baseline",
+        "evidence"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#beautiful_comparison_table",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#beautiful_comparison_table",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_beautiful_comparison_table",
+      "expected_result_count": 1,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_figure_table_caption_bundle",
+      "query_id": "figure_table_caption_bundle",
+      "user_query": "Find examples where figure, table, and caption logic work together to support one paper claim.",
+      "intent": "multi-component evidence bundle retrieval",
+      "expected_tags": [
+        "figure",
+        "table",
+        "caption",
+        "claim-evidence",
+        "overview"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 5,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "figure",
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "figure",
+        "table",
+        "caption",
+        "claim-evidence"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#figure_table_caption_bundle",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#figure_table_caption_bundle",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_figure_table_caption_bundle",
+      "expected_result_count": 5,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_visual_rhetoric_for_introduction",
+      "query_id": "visual_rhetoric_for_introduction",
+      "user_query": "Find visuals that help an introduction move from problem pain point to research gap to contribution.",
+      "intent": "introduction visual rhetoric retrieval",
+      "expected_tags": [
+        "motivation",
+        "gap",
+        "contribution",
+        "problem-framing",
+        "overview"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2024-mediterranean",
+          "score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "motivation",
+        "gap",
+        "contribution",
+        "problem-framing"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#visual_rhetoric_for_introduction",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#visual_rhetoric_for_introduction",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_visual_rhetoric_for_introduction",
+      "expected_result_count": 3,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    },
+    {
+      "trace_id": "rag_trace_rag_safety_permission_warning",
+      "query_id": "rag_safety_permission_warning",
+      "user_query": "Find records that illustrate when a user must be warned not to copy or reuse source figures directly.",
+      "intent": "copyright and permission-safe retrieval",
+      "expected_tags": [
+        "copyright-review-required",
+        "permission-review",
+        "metadata-only",
+        "safety"
+      ],
+      "eligible_rag_modes": [
+        "metadata-only"
+      ],
+      "blocked_rag_modes": [
+        "image-embedding",
+        "public-gallery"
+      ],
+      "seed_result_pool_size": 5,
+      "top_seed_matches": [
+        {
+          "paper_id": "tip-2022-see360",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        },
+        {
+          "paper_id": "tnnls-2023-sparce",
+          "score": 4,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ]
+        }
+      ],
+      "missing_tags": [
+        "permission-review",
+        "metadata-only",
+        "safety"
+      ],
+      "warning_flags": [
+        "missing-tag-coverage",
+        "image-embedding-blocked",
+        "public-gallery-blocked"
+      ],
+      "ui_sections": [
+        "query",
+        "tag mapping",
+        "eligible corpus filter",
+        "seed match preview",
+        "safety gates",
+        "failure modes",
+        "human judgment placeholders",
+        "corpus expansion recommendation"
+      ],
+      "debug_trace_ref": "visual_query_debug_traces.json#rag_safety_permission_warning",
+      "query_rewrite_ref": "query_rewrite_suggestions.json#rag_safety_permission_warning",
+      "human_eval_ref": "human_retrieval_eval_traces.json#trace_rag_safety_permission_warning",
+      "expected_result_count": 5,
+      "safe_output_policy": [
+        "Return metadata-only retrieval results and safe structural summaries.",
+        "Do not return extracted image files as reusable assets.",
+        "Do not copy source captions, labels, layouts, or panel text.",
+        "Include permission warning for image embedding, public gallery, reuse, or redrawing requests."
+      ]
+    }
+  ]
+}

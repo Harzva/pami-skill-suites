@@ -1,0 +1,38 @@
+generated_at: '2026-06-14'
+badges:
+  source_status:
+    schemaVersion: 1
+    label: official sources
+    message: pending live check
+    color: yellow
+  context_safety:
+    schemaVersion: 1
+    label: context safety
+    message: compact
+    color: brightgreen
+  distribution:
+    schemaVersion: 1
+    label: dist zips
+    message: ok
+    color: brightgreen
+  live_check_policy:
+    schemaVersion: 1
+    label: live check
+    message: required before submission
+    color: blue
+  source_trust:
+    schemaVersion: 1
+    label: source trust
+    message: human review queue
+    color: blueviolet
+  human_review:
+    schemaVersion: 1
+    label: human review
+    message: 277 queued
+    color: orange
+markdown_examples:
+  source_status: '![official sources](https://img.shields.io/badge/official%20sources-pending%20live%20check-yellow)'
+  context_safety: '![context safety](https://img.shields.io/badge/context%20safety-compact-brightgreen)'
+  live_check_policy: '![live check](https://img.shields.io/badge/live%20check-required%20before%20submission-blue)'
+  source_trust: '![source trust](https://img.shields.io/badge/source%20trust-human%20review%20queue-blueviolet)'
+  human_review: '![human review](https://img.shields.io/badge/human%20review-queue%20generated-orange)'

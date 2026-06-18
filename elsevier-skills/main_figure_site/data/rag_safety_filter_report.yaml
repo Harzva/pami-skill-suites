@@ -1,0 +1,817 @@
+schema_version: 2.5.0
+release_version: v2.5.0
+generated_on: '2026-06-16'
+title: Elsevier Skills RAG Safety Filter Report
+prohibited_sources:
+- sci-hub
+- pirated_pdf
+- paywalled_only_pdf
+- copyright_unknown_pdf
+- unauthorized_image_reuse
+summary:
+  candidate_count: 100
+  prohibited_source_hits: 0
+  metadata_only_allowed: 6
+  image_embedding_allowed: 0
+  public_gallery_allowed: 0
+flags:
+- candidate_id: elsevier-seed-001
+  paper_id: pr-2024-linear-transportation-lp-distance
+  prohibited_source_hits: []
+  metadata_only_allowed: true
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: metadata_only_seed_record
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-seed-002
+  paper_id: prl-2023-too-good-prior
+  prohibited_source_hits: []
+  metadata_only_allowed: true
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: metadata_only_seed_record
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-seed-003
+  paper_id: eswa-2024-knowledge-based-ai
+  prohibited_source_hits: []
+  metadata_only_allowed: true
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: metadata_only_seed_record
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-seed-004
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  prohibited_source_hits: []
+  metadata_only_allowed: true
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: metadata_only_seed_record
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-seed-005
+  paper_id: information-sciences-2025-gkf-pual
+  prohibited_source_hits: []
+  metadata_only_allowed: true
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: metadata_only_seed_record
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-seed-006
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  prohibited_source_hits: []
+  metadata_only_allowed: true
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: metadata_only_seed_record
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-007
+  paper_id: elsevier-oa-candidate-007
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-008
+  paper_id: elsevier-oa-candidate-008
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-009
+  paper_id: elsevier-oa-candidate-009
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-010
+  paper_id: elsevier-oa-candidate-010
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-011
+  paper_id: elsevier-oa-candidate-011
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-012
+  paper_id: elsevier-oa-candidate-012
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-013
+  paper_id: elsevier-oa-candidate-013
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-014
+  paper_id: elsevier-oa-candidate-014
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-015
+  paper_id: elsevier-oa-candidate-015
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-016
+  paper_id: elsevier-oa-candidate-016
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-017
+  paper_id: elsevier-oa-candidate-017
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-018
+  paper_id: elsevier-oa-candidate-018
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-019
+  paper_id: elsevier-oa-candidate-019
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-020
+  paper_id: elsevier-oa-candidate-020
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-021
+  paper_id: elsevier-oa-candidate-021
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-022
+  paper_id: elsevier-oa-candidate-022
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-023
+  paper_id: elsevier-oa-candidate-023
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-024
+  paper_id: elsevier-oa-candidate-024
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-025
+  paper_id: elsevier-oa-candidate-025
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-026
+  paper_id: elsevier-oa-candidate-026
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-027
+  paper_id: elsevier-oa-candidate-027
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-028
+  paper_id: elsevier-oa-candidate-028
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-029
+  paper_id: elsevier-oa-candidate-029
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-030
+  paper_id: elsevier-oa-candidate-030
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-031
+  paper_id: elsevier-oa-candidate-031
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-032
+  paper_id: elsevier-oa-candidate-032
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-033
+  paper_id: elsevier-oa-candidate-033
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-034
+  paper_id: elsevier-oa-candidate-034
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-035
+  paper_id: elsevier-oa-candidate-035
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-036
+  paper_id: elsevier-oa-candidate-036
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-037
+  paper_id: elsevier-oa-candidate-037
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-038
+  paper_id: elsevier-oa-candidate-038
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-039
+  paper_id: elsevier-oa-candidate-039
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-040
+  paper_id: elsevier-oa-candidate-040
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-041
+  paper_id: elsevier-oa-candidate-041
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-042
+  paper_id: elsevier-oa-candidate-042
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-043
+  paper_id: elsevier-oa-candidate-043
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-044
+  paper_id: elsevier-oa-candidate-044
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-045
+  paper_id: elsevier-oa-candidate-045
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-046
+  paper_id: elsevier-oa-candidate-046
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-047
+  paper_id: elsevier-oa-candidate-047
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-048
+  paper_id: elsevier-oa-candidate-048
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-049
+  paper_id: elsevier-oa-candidate-049
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-050
+  paper_id: elsevier-oa-candidate-050
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-051
+  paper_id: elsevier-oa-candidate-051
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-052
+  paper_id: elsevier-oa-candidate-052
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-053
+  paper_id: elsevier-oa-candidate-053
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-054
+  paper_id: elsevier-oa-candidate-054
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-055
+  paper_id: elsevier-oa-candidate-055
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-056
+  paper_id: elsevier-oa-candidate-056
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-057
+  paper_id: elsevier-oa-candidate-057
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-058
+  paper_id: elsevier-oa-candidate-058
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-059
+  paper_id: elsevier-oa-candidate-059
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-060
+  paper_id: elsevier-oa-candidate-060
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-061
+  paper_id: elsevier-oa-candidate-061
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-062
+  paper_id: elsevier-oa-candidate-062
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-063
+  paper_id: elsevier-oa-candidate-063
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-064
+  paper_id: elsevier-oa-candidate-064
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-065
+  paper_id: elsevier-oa-candidate-065
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-066
+  paper_id: elsevier-oa-candidate-066
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-067
+  paper_id: elsevier-oa-candidate-067
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-068
+  paper_id: elsevier-oa-candidate-068
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-069
+  paper_id: elsevier-oa-candidate-069
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-070
+  paper_id: elsevier-oa-candidate-070
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-071
+  paper_id: elsevier-oa-candidate-071
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-072
+  paper_id: elsevier-oa-candidate-072
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-073
+  paper_id: elsevier-oa-candidate-073
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-074
+  paper_id: elsevier-oa-candidate-074
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-075
+  paper_id: elsevier-oa-candidate-075
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-076
+  paper_id: elsevier-oa-candidate-076
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-077
+  paper_id: elsevier-oa-candidate-077
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-078
+  paper_id: elsevier-oa-candidate-078
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-079
+  paper_id: elsevier-oa-candidate-079
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-080
+  paper_id: elsevier-oa-candidate-080
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-081
+  paper_id: elsevier-oa-candidate-081
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-082
+  paper_id: elsevier-oa-candidate-082
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-083
+  paper_id: elsevier-oa-candidate-083
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-084
+  paper_id: elsevier-oa-candidate-084
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-085
+  paper_id: elsevier-oa-candidate-085
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-086
+  paper_id: elsevier-oa-candidate-086
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-087
+  paper_id: elsevier-oa-candidate-087
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-088
+  paper_id: elsevier-oa-candidate-088
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-089
+  paper_id: elsevier-oa-candidate-089
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-090
+  paper_id: elsevier-oa-candidate-090
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-091
+  paper_id: elsevier-oa-candidate-091
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-092
+  paper_id: elsevier-oa-candidate-092
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-093
+  paper_id: elsevier-oa-candidate-093
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-094
+  paper_id: elsevier-oa-candidate-094
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-095
+  paper_id: elsevier-oa-candidate-095
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-096
+  paper_id: elsevier-oa-candidate-096
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-097
+  paper_id: elsevier-oa-candidate-097
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-098
+  paper_id: elsevier-oa-candidate-098
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-099
+  paper_id: elsevier-oa-candidate-099
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass
+- candidate_id: elsevier-candidate-slot-100
+  paper_id: elsevier-oa-candidate-100
+  prohibited_source_hits: []
+  metadata_only_allowed: false
+  image_embedding_allowed: false
+  public_gallery_allowed: false
+  safety_status: blocked_pending_review
+  filter_reason: image embedding and public gallery remain blocked until evidence and human approval pass

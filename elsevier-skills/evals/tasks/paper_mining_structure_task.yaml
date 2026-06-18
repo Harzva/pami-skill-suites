@@ -1,0 +1,43 @@
+task_id: elsevier_paper_mining_structure_task_001
+benchmark_version: 1.2.0
+publisher: Elsevier
+target_journal: Pattern Recognition
+scenario: Mine the lawful template-paper corpus for structural patterns without copying
+  protected text.
+query: Mine the lawful template-paper corpus for Pattern Recognition method and experiment
+  structure without copying text.
+input_stub:
+  manuscript_stage: draft or revision
+  available_material: rough text, tables/figures, reviewer comments, or submission
+    checklist depending on task
+  missing_material_policy: ask for missing evidence only when essential; otherwise
+    flag assumptions and risks
+required_modules:
+- journal:pr
+- skill:elsevier-paper-miner
+- component:method
+- component:experiment
+expected_output_sections:
+- selected skills/modules
+- diagnosis
+- revised_or_generated_output
+- reviewer-risk checklist
+- official-source warning
+- structured output contract
+rubrics:
+- journal_adapter_rubric.md
+- paper_mining_rubric.md
+- copyright_safety_rubric.md
+- elsevier_rubric.md
+sample_output: evals/sample_outputs/elsevier_paper_mining_structure_task_001.md
+safety_warnings:
+  official_source: required when submission, license, AI disclosure, data/code, template,
+    or author-agreement rules are involved
+  paper_mining: required for corpus/template-paper mining tasks
+  copyright: do not copy text, figures, tables, captions, equations, or layouts from
+    template papers
+success_criteria:
+- routes to the compact suite and relevant fragments
+- keeps mutable official rules as live verification items
+- does not fabricate sources or legal requirements
+- returns a structured, reviewer-aware output

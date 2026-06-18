@@ -1,0 +1,203 @@
+pack_id: computer-vision
+title: Computer Vision
+publisher_family: IEEE
+release_version: 1.4.0
+generated_on: '2026-06-13'
+context_policy: Expansion packs are opt-in. They do not add journals to default skills/ and must not increase the default
+  skill listing.
+maturity_levels:
+  L0: listed only
+  L1: official homepage + author instructions
+  L2: full official source matrix
+  L3: source-refresh metadata + live-check support
+  L4: paper-template card + evaluation task
+journals:
+- id: pami
+  title: TPAMI / PAMI
+  entry_type: imported-fragment
+  publisher: IEEE
+  maturity_level: L4
+  maturity_label: paper-template card + evaluation task
+  maturity_reason: Existing core fragment with source-refresh metadata and live-check support. Paper card/evaluation coverage
+    available.
+  journal_fragment: skills/ieee-skill-suite/static/journals/pami.md
+  advanced_skill: skills-advanced/journals/pami-writing
+  paper_template_cards:
+  - tpami-2023-transformers-survey
+  evaluation_tasks:
+  - abstract_rewrite
+  - related_work_audit
+  - figure_caption_upgrade
+  - table_audit
+  - official_source_compliance_task
+  source_status: pending-live-check
+  needs_reverification: true
+  import_action: reference-existing-fragment
+  official_sources:
+    matrix_status: full matrix populated
+    missing_fields: []
+    live_verification_required: true
+  discipline_tags:
+  - computer-vision
+  source_quality_score:
+    score: 100
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+  pack_specific_evaluation_task: expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml
+  paper_card_todo: expansion_packs/computer-vision/paper_card_todo.md
+- id: tip
+  title: IEEE TIP
+  entry_type: imported-fragment
+  publisher: IEEE
+  maturity_level: L4
+  maturity_label: paper-template card + evaluation task
+  maturity_reason: Existing core fragment with source-refresh metadata and live-check support. Paper card/evaluation coverage
+    available.
+  journal_fragment: skills/ieee-skill-suite/static/journals/tip.md
+  advanced_skill: skills-advanced/journals/tip-writing
+  paper_template_cards:
+  - tip-2022-see360
+  evaluation_tasks:
+  - abstract_rewrite
+  - related_work_audit
+  - figure_caption_upgrade
+  - table_audit
+  - official_source_compliance_task
+  source_status: pending-live-check
+  needs_reverification: true
+  import_action: reference-existing-fragment
+  official_sources:
+    matrix_status: full matrix populated
+    missing_fields: []
+    live_verification_required: true
+  discipline_tags:
+  - computer-vision
+  source_quality_score:
+    score: 100
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+  pack_specific_evaluation_task: expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml
+  paper_card_todo: expansion_packs/computer-vision/paper_card_todo.md
+- id: tcsvt
+  title: IEEE TCSVT
+  entry_type: imported-fragment
+  publisher: IEEE
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  maturity_reason: Existing core fragment with source-refresh metadata and live-check support.
+  journal_fragment: skills/ieee-skill-suite/static/journals/tcsvt.md
+  advanced_skill: skills-advanced/journals/tcsvt-writing
+  paper_template_cards: []
+  evaluation_tasks:
+  - abstract_rewrite
+  - related_work_audit
+  - figure_caption_upgrade
+  - table_audit
+  - official_source_compliance_task
+  source_status: pending-live-check
+  needs_reverification: true
+  import_action: reference-existing-fragment
+  official_sources:
+    matrix_status: full matrix populated
+    missing_fields: []
+    live_verification_required: true
+  discipline_tags:
+  - computer-vision
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+  pack_specific_evaluation_task: expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml
+  paper_card_todo: expansion_packs/computer-vision/paper_card_todo.md
+- id: tvcg
+  title: IEEE TVCG
+  entry_type: imported-fragment
+  publisher: IEEE
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  maturity_reason: Existing core fragment with source-refresh metadata and live-check support.
+  journal_fragment: skills/ieee-skill-suite/static/journals/tvcg.md
+  advanced_skill: skills-advanced/journals/tvcg-writing
+  paper_template_cards: []
+  evaluation_tasks:
+  - abstract_rewrite
+  - related_work_audit
+  - figure_caption_upgrade
+  - table_audit
+  - official_source_compliance_task
+  source_status: pending-live-check
+  needs_reverification: true
+  import_action: reference-existing-fragment
+  official_sources:
+    matrix_status: full matrix populated
+    missing_fields: []
+    live_verification_required: true
+  discipline_tags:
+  - computer-vision
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+  pack_specific_evaluation_task: expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml
+  paper_card_todo: expansion_packs/computer-vision/paper_card_todo.md
+hardening:
+  release: v1.3.0
+  source_quality_scoring:
+    script: scripts/score_source_quality.py
+    score_type: static conservative score
+    live_check_required: true
+    note: Scores help triage maintenance priority; they do not certify live publisher rules.
+  promotion_workflow:
+    script: scripts/promote_journal_candidate.py
+    staging_dir: resources/promoted_fragments_staging/
+    default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+    target_path: skills/ieee-skill-suite/static/journals/
+    required_before_core_import:
+    - official homepage
+    - author instructions
+    - full official source matrix
+    - live-check metadata
+  pack_eval_placeholder: expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml
+  paper_card_todo: expansion_packs/computer-vision/paper_card_todo.md

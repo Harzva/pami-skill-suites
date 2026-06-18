@@ -1,0 +1,64 @@
+{
+  "version": "v2.7.0",
+  "release_version": "v2.7.0",
+  "updated_for": "RAG Trace UI + Visual Query Debugger",
+  "default_skills": [
+    {
+      "name": "ieee-citation",
+      "description": "Audit IEEE citations, reference integrity, missing related work, and bibliography consistency without fabricating sources."
+    },
+    {
+      "name": "ieee-figure-table",
+      "description": "Audit and improve IEEE figures, tables, captions, result reporting, and visual consistency using compact component fragments."
+    },
+    {
+      "name": "ieee-paper-miner",
+      "description": "Mine the lawful template-paper corpus for section structure, figure/table/caption patterns, and reviewer-risk lessons without copying protected text."
+    },
+    {
+      "name": "ieee-response",
+      "description": "Prepare IEEE reviewer-response letters, revision matrices, rebuttal plans, and change summaries with source-grounded compliance checks."
+    },
+    {
+      "name": "ieee-reviewer",
+      "description": "Simulate IEEE journal reviewers and identify novelty, evidence, experiment, formatting, and integrity risks with compact module routing."
+    },
+    {
+      "name": "ieee-skill-suite",
+      "description": "Context-safe IEEE journal manuscript skill-suite with routing for writing, review, response, figure/table, citation, submission, official-source checks, and paper-template mining."
+    },
+    {
+      "name": "ieee-submission",
+      "description": "Prepare IEEE submission-package checklists, cover letters, declarations, rights/license checks, and final-file reminders with live verification warnings."
+    },
+    {
+      "name": "ieee-writing",
+      "description": "Draft, rewrite, and audit IEEE journal manuscripts via compact suite fragments for journals, components, evidence, structure, and official-source checks."
+    }
+  ],
+  "advanced_counts": {
+    "journals": 22,
+    "components": 43,
+    "submission": 23,
+    "routers": 3,
+    "core": 0
+  },
+  "fragments": {
+    "ieee-skill-suite": {
+      "journals": 44,
+      "components": 51,
+      "submission": 31
+    }
+  },
+  "paper_corpus": {
+    "entries": 7,
+    "open_access_papers": 5,
+    "official_templates": 2
+  },
+  "evals": {
+    "tasks": 8,
+    "rubrics": 6,
+    "sample_outputs": 8,
+    "manifest": "evals/benchmark_manifest.yaml"
+  }
+}

@@ -1,0 +1,74 @@
+schema_version: '1.0'
+release_version: 1.9.0
+publisher: Elsevier
+generated_on: '2026-06-14'
+use_scope: Reusable table-structure patterns only; do not copy table values or layouts.
+beautiful_table_patterns:
+- pattern_id: baseline-comparison-table
+  columns:
+  - method
+  - venue/year or category
+  - metric group
+  - best/second-best markers
+  - notes
+  best_for: central quantitative claim
+  risk: Unclear fairness protocol or missing statistical support.
+- pattern_id: ablation-staircase-table
+  columns:
+  - variant
+  - component toggles
+  - primary metric
+  - secondary metric
+  - delta from baseline
+  best_for: showing contribution of each module
+  risk: Ablations without hypothesis read as arbitrary.
+- pattern_id: dataset-protocol-table
+  columns:
+  - dataset
+  - task
+  - split
+  - metric
+  - preprocessing
+  - license/availability
+  best_for: reproducibility and experimental clarity
+  risk: Dataset leakage or ambiguous splits.
+- pattern_id: complexity-efficiency-table
+  columns:
+  - method
+  - parameters/FLOPs/time
+  - memory
+  - accuracy
+  - trade-off note
+  best_for: method efficiency claims
+  risk: Hardware/software not specified.
+asset_observations:
+- asset_id: pr-2024-linear-transportation-lp-distance::beautiful_table::p7
+  pattern: result-comparison-or-ablation-table
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/pr-2024-linear-transportation-lp-distance__p007__beautiful_table.png
+- asset_id: prl-2023-too-good-prior::beautiful_table::p3
+  pattern: result-comparison-or-ablation-table
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/prl-2023-too-good-prior__p003__beautiful_table.png
+- asset_id: eswa-2024-knowledge-based-ai::beautiful_table::p5
+  pattern: result-comparison-or-ablation-table
+  orientation: tall
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/eswa-2024-knowledge-based-ai__p005__beautiful_table.png
+- asset_id: neurocomputing-2024-xai-cybersecurity::beautiful_table::p6
+  pattern: result-comparison-or-ablation-table
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/neurocomputing-2024-xai-cybersecurity__p006__beautiful_table.png
+- asset_id: information-sciences-2025-gkf-pual::beautiful_table::p11
+  pattern: result-comparison-or-ablation-table
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/information-sciences-2025-gkf-pual__p011__beautiful_table.png
+- asset_id: kbs-2023-alzheimers-explainable-ai::beautiful_table::p7
+  pattern: result-comparison-or-ablation-table
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/kbs-2023-alzheimers-explainable-ai__p007__beautiful_table.png
+table_quality_rubric:
+  readability: 5
+  claim_alignment: 5
+  fairness_protocol: 5
+  caption_standalone_clarity: 5
+  statistical_caution: 5

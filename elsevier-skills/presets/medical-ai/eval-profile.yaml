@@ -1,0 +1,48 @@
+preset_id: medical-ai
+title: Medical AI
+release_version: 1.5.0
+evaluation_policy: Preset evaluation is static and release-gated. It does not claim peer-review success or live official-source
+  validity.
+benchmark_tasks:
+- evals/tasks/abstract_rewrite.yaml
+- evals/tasks/related_work_audit.yaml
+- evals/tasks/figure_caption_upgrade.yaml
+- evals/tasks/table_audit.yaml
+- evals/tasks/reviewer_response.yaml
+- evals/tasks/submission_package_audit.yaml
+- evals/tasks/paper_mining_structure_task.yaml
+- evals/tasks/official_source_compliance_task.yaml
+rubrics:
+- evals/rubrics/elsevier_rubric.md
+- evals/rubrics/journal_adapter_rubric.md
+- evals/rubrics/paper_mining_rubric.md
+- evals/rubrics/official_source_rubric.md
+- evals/rubrics/copyright_safety_rubric.md
+sample_outputs:
+- evals/sample_outputs/abstract_rewrite.md
+- evals/sample_outputs/related_work_audit.md
+- evals/sample_outputs/figure_caption_upgrade.md
+- evals/sample_outputs/table_audit.md
+- evals/sample_outputs/reviewer_response.md
+- evals/sample_outputs/submission_package_audit.md
+- evals/sample_outputs/paper_mining_structure_task.md
+- evals/sample_outputs/official_source_compliance_task.md
+preset_specific_checks:
+- selected modules must include suite router
+- official-source warnings appear when mutable rules are involved
+- paper-mining warnings appear for corpus-derived structure tasks
+- reviewer-risk checklist is present
+- output contract is structured
+context_safety_check: Preset must remain outside default skills/ and must not increase default top-level skill count.
+preset_scenarios:
+- scenarios/writing-related-work.yaml
+- scenarios/figure-table-caption.yaml
+- scenarios/reviewer-response-submission.yaml
+preset_sample_outputs:
+- sample-outputs/writing-related-work.md
+- sample-outputs/figure-table-caption.md
+- sample-outputs/reviewer-response-submission.md
+preset_route_traces:
+- route-traces/writing-related-work.json
+- route-traces/figure-table-caption.json
+- route-traces/reviewer-response-submission.json

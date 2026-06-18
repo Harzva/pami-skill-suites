@@ -1,0 +1,475 @@
+schema_version: 1.0
+family: ieee
+version: 0.5.0
+components:
+  -
+    component: title
+    skill: "ieee-title-author-metadata"
+    aliases:
+      - title
+      - paper title
+      - manuscript title
+      - author metadata
+      - author list
+      - affiliation
+      - corresponding author metadata
+      - metadata
+    path: "skills/ieee-title-author-metadata"
+    coupled_components:
+
+  -
+    component: abstract
+    skill: "ieee-abstract-index-terms"
+    aliases:
+      - abstract
+      - 摘要
+    path: "skills/ieee-abstract-index-terms"
+    coupled_components:
+
+  -
+    component: keywords
+    skill: "ieee-index-terms"
+    aliases:
+      - keyword
+      - keywords
+      - index terms
+      - index term
+      - 关键词
+    path: "skills/ieee-index-terms"
+    coupled_components:
+
+  -
+    component: introduction
+    skill: "ieee-introduction"
+    aliases:
+      - introduction
+      - intro
+      - 引言
+    path: "skills/ieee-introduction"
+    coupled_components:
+
+  -
+    component: "related-work"
+    skill: "ieee-related-work"
+    aliases:
+      - related work
+      - literature review
+      - prior work
+      - 相关工作
+    path: "skills/ieee-related-work"
+    coupled_components:
+      - "contribution-positioning"
+      - "reference-integrity"
+  -
+    component: "contribution-positioning"
+    skill: "ieee-contribution-positioning"
+    aliases:
+      - contribution
+      - novelty
+      - positioning
+      - 贡献
+      - 创新点
+    path: "skills/ieee-contribution-positioning"
+    coupled_components:
+      - "reference-integrity"
+      - "related-work"
+  -
+    component: "problem-formulation"
+    skill: "ieee-problem-formulation"
+    aliases:
+      - problem formulation
+      - formulation
+      - definition
+      - problem statement
+    path: "skills/ieee-problem-formulation"
+    coupled_components:
+      - algorithm
+      - equation
+      - method
+      - "theory-proof"
+  -
+    component: method
+    skill: "ieee-method-details"
+    aliases:
+      - method
+      - methodology
+      - approach
+      - architecture
+      - pipeline
+      - 方法
+    path: "skills/ieee-method-details"
+    coupled_components:
+      - algorithm
+      - equation
+      - "problem-formulation"
+      - "theory-proof"
+  -
+    component: algorithm
+    skill: "ieee-algorithm-pseudocode"
+    aliases:
+      - algorithm
+      - pseudocode
+      - "pseudo-code"
+      - 算法
+    path: "skills/ieee-algorithm-pseudocode"
+    coupled_components:
+      - equation
+      - method
+      - "problem-formulation"
+      - "theory-proof"
+  -
+    component: equation
+    skill: "ieee-equation"
+    aliases:
+      - equation
+      - formula
+      - math
+      - notation
+      - 公式
+    path: "skills/ieee-equation"
+    coupled_components:
+      - algorithm
+      - method
+      - "problem-formulation"
+      - "theory-proof"
+  -
+    component: "theory-proof"
+    skill: "ieee-theory-proof"
+    aliases:
+      - theory
+      - proof
+      - lemma
+      - theorem
+      - 理论
+      - 证明
+    path: "skills/ieee-theory-proof"
+    coupled_components:
+      - algorithm
+      - equation
+      - method
+      - "problem-formulation"
+  -
+    component: experiment
+    skill: "ieee-experiment-ablation"
+    aliases:
+      - experiment
+      - experimental
+      - evaluation
+      - 实验
+    path: "skills/ieee-experiment-ablation"
+    coupled_components:
+      - "ablation-study"
+      - "baseline-selection"
+      - "dataset-protocol"
+      - "metrics-evaluation"
+      - "results-reporting"
+      - "statistical-reporting"
+  -
+    component: "dataset-protocol"
+    skill: "ieee-dataset-protocol"
+    aliases:
+      - dataset
+      - data set
+      - benchmark
+      - split
+      - protocol
+      - 数据集
+    path: "skills/ieee-dataset-protocol"
+    coupled_components:
+      - "ablation-study"
+      - "baseline-selection"
+      - experiment
+      - "metrics-evaluation"
+      - "results-reporting"
+      - "statistical-reporting"
+  -
+    component: "baseline-selection"
+    skill: "ieee-baseline-selection"
+    aliases:
+      - baseline
+      - sota
+      - comparison
+      - 对比
+    path: "skills/ieee-baseline-selection"
+    coupled_components:
+      - "ablation-study"
+      - "dataset-protocol"
+      - experiment
+      - "metrics-evaluation"
+      - "results-reporting"
+      - "statistical-reporting"
+  -
+    component: "metrics-evaluation"
+    skill: "ieee-metrics-evaluation"
+    aliases:
+      - metric
+      - evaluation metric
+      - auc
+      - f1
+      - accuracy
+      - 指标
+    path: "skills/ieee-metrics-evaluation"
+    coupled_components:
+      - "ablation-study"
+      - "baseline-selection"
+      - "dataset-protocol"
+      - experiment
+      - "results-reporting"
+      - "statistical-reporting"
+  -
+    component: "results-reporting"
+    skill: "ieee-results-reporting"
+    aliases:
+      - result
+      - results
+      - 性能
+      - 结果
+    path: "skills/ieee-results-reporting"
+    coupled_components:
+      - "ablation-study"
+      - "baseline-selection"
+      - "dataset-protocol"
+      - experiment
+      - "metrics-evaluation"
+      - "statistical-reporting"
+  -
+    component: "ablation-study"
+    skill: "ieee-ablation-study"
+    aliases:
+      - ablation
+      - sensitivity
+      - 消融
+    path: "skills/ieee-ablation-study"
+    coupled_components:
+      - "baseline-selection"
+      - "dataset-protocol"
+      - experiment
+      - "metrics-evaluation"
+      - "results-reporting"
+      - "statistical-reporting"
+  -
+    component: "statistical-reporting"
+    skill: "ieee-statistical-reporting"
+    aliases:
+      - statistical
+      - significance
+      - "p-value"
+      - confidence interval
+      - 统计
+    path: "skills/ieee-statistical-reporting"
+    coupled_components:
+      - "ablation-study"
+      - "baseline-selection"
+      - "dataset-protocol"
+      - experiment
+      - "metrics-evaluation"
+      - "results-reporting"
+  -
+    component: table
+    skill: "ieee-table"
+    aliases:
+      - table
+      - tabular
+      - 表格
+    path: "skills/ieee-table"
+    coupled_components:
+      - caption
+      - figure
+      - "visual-accessibility"
+  -
+    component: figure
+    skill: "ieee-figure"
+    aliases:
+      - figure
+      - artwork
+      - plot
+      - diagram
+      - 图
+      - 插图
+    path: "skills/ieee-figure"
+    coupled_components:
+      - caption
+      - table
+      - "visual-accessibility"
+  -
+    component: caption
+    skill: "ieee-caption"
+    aliases:
+      - caption
+      - legend
+      - 图注
+      - 表注
+    path: "skills/ieee-caption"
+    coupled_components:
+      - figure
+      - table
+      - "visual-accessibility"
+  -
+    component: discussion
+    skill: "ieee-discussion"
+    aliases:
+      - discussion
+      - 讨论
+    path: "skills/ieee-discussion"
+    coupled_components:
+
+  -
+    component: limitations
+    skill: "ieee-limitations"
+    aliases:
+      - limitation
+      - limitations
+      - 局限
+    path: "skills/ieee-limitations"
+    coupled_components:
+
+  -
+    component: conclusion
+    skill: "ieee-conclusion"
+    aliases:
+      - conclusion
+      - 结论
+    path: "skills/ieee-conclusion"
+    coupled_components:
+
+  -
+    component: appendix
+    skill: "ieee-appendix"
+    aliases:
+      - appendix
+      - appendices
+      - supplementary
+      - supplement
+      - 附录
+      - 补充材料
+    path: "skills/ieee-appendix"
+    coupled_components:
+
+  -
+    component: "reference-integrity"
+    skill: "ieee-citation"
+    aliases:
+      - reference
+      - citation
+      - bibliography
+      - 引用
+      - 参考文献
+    path: "skills/ieee-citation"
+    coupled_components:
+      - "contribution-positioning"
+      - "related-work"
+  -
+    component: "data-code-availability"
+    skill: "ieee-data-code-availability"
+    aliases:
+      - code availability
+      - data availability
+      - artifact
+      - reproducibility
+      - 代码
+      - 数据可用
+    path: "skills/ieee-data-code-availability"
+    coupled_components:
+      - "author-agreement"
+      - declarations
+      - "preprint-prior-publication"
+  -
+    component: "cover-letter"
+    skill: "ieee-cover-letter"
+    aliases:
+      - cover letter
+      - fit statement
+      - 投稿信
+    path: "skills/ieee-cover-letter"
+    coupled_components:
+
+  -
+    component: response
+    skill: "ieee-response"
+    aliases:
+      - response letter
+      - reviewer response
+      - rebuttal
+      - revision response
+      - 回复审稿人
+    path: "skills/ieee-response"
+    coupled_components:
+
+  -
+    component: revision
+    skill: "ieee-revision-diff"
+    aliases:
+      - revision
+      - diff
+      - change log
+      - 修稿
+    path: "skills/ieee-revision-diff"
+    coupled_components:
+
+  -
+    component: "author-agreement"
+    skill: "ieee-author-agreement"
+    aliases:
+      - author agreement
+      - publishing agreement
+      - copyright
+      - license
+      - open access
+      - 版权
+      - 协议
+    path: "skills/ieee-author-agreement"
+    coupled_components:
+      - "data-code-availability"
+      - declarations
+      - "preprint-prior-publication"
+  -
+    component: declarations
+    skill: "ieee-component-router"
+    aliases:
+      - declaration
+      - competing interest
+      - conflict of interest
+      - funding
+      - ethics
+      - 声明
+    path: "skills/ieee-component-router"
+    coupled_components:
+      - "author-agreement"
+      - "data-code-availability"
+      - "preprint-prior-publication"
+  -
+    component: "proof-correction"
+    skill: "ieee-proof-correction"
+    aliases:
+      - proof
+      - proof correction
+      - page proof
+      - 校样
+    path: "skills/ieee-proof-correction"
+    coupled_components:
+
+  -
+    component: "graphical-abstract"
+    skill: "ieee-graphical-abstract"
+    aliases:
+      - graphical abstract
+      - visual abstract
+      - graphical summary
+      - 图文摘要
+    path: "skills/ieee-graphical-abstract"
+    coupled_components:
+      - figure
+      - caption
+  -
+    component: "permission-reuse"
+    skill: "ieee-copyright-license"
+    aliases:
+      - permission
+      - permissions
+      - reuse permission
+      - "third-party material"
+      - image permission
+      - 版权复用
+    path: "skills/ieee-copyright-license"
+    coupled_components:
+      - "author-agreement"

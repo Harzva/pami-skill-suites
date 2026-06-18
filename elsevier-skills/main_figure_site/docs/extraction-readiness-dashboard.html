@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Extraction Readiness Dashboard</title><link rel="stylesheet" href="assets/site.css"></head>
+<body>
+<main>
+<h1>Extraction Readiness Dashboard</h1>
+<p><strong>Release:</strong> v2.3.0</p>
+<p>The dashboard explains which seed figures can remain in the RAG index, which pending candidates are blocked, and why no pending slot can enter extraction before preflight passes.</p>
+<section><h2>Safety policy</h2><p>This workflow is offline-safe by default. It does not download papers, bypass paywalls, use Sci-Hub, or treat pending candidates as approved OA sources.</p></section>
+<section><h2>Required artifacts</h2><pre>data/extraction_readiness_dashboard.json
+data/source_discovery_review_queue.json</pre></section>
+<section><h2>Maintainer command</h2><pre>python scripts/extraction_readiness_dashboard.py</pre></section>
+</main>
+</body>
+</html>

@@ -1,0 +1,106 @@
+schema_version: '1.0'
+release_version: v2.3.0
+generated_on: '2026-06-16'
+title: Elsevier Live DOI/OA Metadata Connector Plan
+offline_safe_notice: This release defines connector contracts and evidence fields
+  but does not run live metadata APIs.
+connectors:
+- connector_id: crossref
+  name: Crossref metadata connector
+  purpose: Resolve DOI metadata, publication year, title, publisher, and canonical
+    DOI evidence.
+  status: planned-live-connector
+  offline_release_behavior: write connector plan only; do not claim live DOI validation
+  required_fields:
+  - doi
+  - title
+  - publisher
+  - container_title
+  - issued
+  - url
+  risk_notes: Crossref metadata does not prove OA license or figure reuse permission.
+- connector_id: openalex
+  name: OpenAlex discovery connector
+  purpose: Cross-check work metadata, venue, concepts, OA status hints, and alternate
+    host pages.
+  status: planned-live-connector
+  offline_release_behavior: write connector plan only; no live lookup in release build
+  required_fields:
+  - id
+  - doi
+  - display_name
+  - host_venue
+  - open_access
+  - authorships
+  risk_notes: OpenAlex OA flags are discovery aids; license and image reuse still
+    need review.
+- connector_id: unpaywall
+  name: Unpaywall OA evidence connector
+  purpose: Find OA locations, license hints, repository copies, and best OA PDF candidates.
+  status: planned-live-connector
+  offline_release_behavior: write connector plan only; no live OA validation in release
+    build
+  required_fields:
+  - is_oa
+  - best_oa_location
+  - oa_locations
+  - license
+  - url_for_pdf
+  risk_notes: OA availability does not automatically grant figure reuse; third-party
+    material review is still required.
+- connector_id: publisher-official-page
+  name: Publisher / official journal page connector
+  purpose: Verify publisher landing page, article license, copyright statement, supplementary
+    material, and policy links.
+  status: planned-manual-or-live-connector
+  offline_release_behavior: record required evidence fields; no live policy extraction
+    in release build
+  required_fields:
+  - article_url
+  - license_text
+  - copyright_holder
+  - reuse_terms
+  - third_party_material_notice
+  risk_notes: Publisher pages are mutable and must be checked before extraction or
+    public display.
+- connector_id: institutional-repository
+  name: Institutional / author repository metadata connector
+  purpose: Verify author-accepted or repository OA version, repository license, and
+    reuse constraints.
+  status: planned-manual-or-live-connector
+  offline_release_behavior: record source-review slots only
+  required_fields:
+  - repository_url
+  - version
+  - license
+  - rights_statement
+  - file_url
+  risk_notes: Repository copies may have different reuse terms than publisher versions.
+connector_pipeline:
+- normalize candidate title/journal/year
+- resolve DOI evidence using DOI/Crossref/OpenAlex-style metadata
+- verify OA status and OA locations using OA metadata connectors
+- verify publisher or repository page evidence
+- record exact license text and reuse constraints
+- send uncertain or mutable cases to human review queue
+- unlock extraction only when extraction gate report allows it
+never_allowed_sources:
+- Sci-Hub
+- pirated PDF
+- paywalled-only PDF
+- copyright-unknown PDF
+- unauthorized image reuse
+future_live_mode_inputs:
+- candidate_id
+- paper_id
+- proposed_title
+- proposed_journal
+- proposed_doi
+- proposed_source_url
+future_live_mode_outputs:
+- doi_evidence
+- oa_evidence
+- license_evidence
+- permission_evidence
+- third_party_material_flags
+- review_queue_status

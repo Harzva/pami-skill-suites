@@ -1,0 +1,23 @@
+schema_version: '1.0'
+release_version: 1.8.0
+publisher: Elsevier
+generated_on: '2026-06-14'
+mode: baseline-no-previous-snapshot
+old_snapshot: null
+new_snapshot: resources/source_snapshots/latest.json
+summary:
+  added_records: 0
+  removed_records: 0
+  changed_records: 0
+  baseline_inventory_records: 317
+  unique_urls: 91
+  affected_fragments: 0
+changes:
+  added: []
+  removed: []
+  changed: []
+baseline_inventory_note: This v1.8.0 release creates the first offline registry snapshot.
+  Future snapshots can be diffed against this baseline.
+live_verification_warning: This diff engine compares recorded policy/source fields.
+  It does not certify live URL health unless run with live-source scripts in a networked
+  environment.

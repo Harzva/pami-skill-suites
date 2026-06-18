@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "release_version": "v2.4.0",
+  "generated_on": "2026-06-16",
+  "candidate_id": "elsevier-seed-004",
+  "paper_id": "neurocomputing-2024-xai-cybersecurity",
+  "publisher_family": "Elsevier",
+  "proposed_title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+  "proposed_journal": "Neurocomputing",
+  "year": 2024,
+  "target_figure_type": "main_figure",
+  "source_status": "seed-needs-live-evidence-recheck",
+  "evidence_completeness_score": 42,
+  "extraction_gate": "blocked_until_live_evidence_review",
+  "doi_evidence": {
+    "proposed_doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+    "doi_status": "missing-or-not-encoded; live DOI lookup required",
+    "evidence_status": "needs-live-connector-check",
+    "required_actions": [
+      "query Crossref or DOI registry",
+      "confirm title/year/journal match",
+      "record canonical DOI URL"
+    ],
+    "notes": "DOI evidence alone is not enough for OA figure extraction."
+  },
+  "publisher_page_evidence": {
+    "proposed_source_url": "https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf",
+    "source_type": "existing-v2.0.0-open-access-template-corpus",
+    "evidence_status": "needs-live-publisher-page-review",
+    "required_actions": [
+      "open official publisher article page",
+      "capture license/copyright statement",
+      "record official PDF availability if any"
+    ],
+    "notes": "Do not use Sci-Hub, pirated PDFs, or paywalled-only PDFs."
+  },
+  "repository_oa_evidence": {
+    "candidate_repository_url": "TBD or not applicable",
+    "evidence_status": "needs-manual-review",
+    "required_actions": [
+      "check author or institutional repository version",
+      "record rights statement and version type",
+      "confirm repository copy is legally hosted"
+    ],
+    "notes": "Repository OA evidence may differ from publisher license evidence."
+  },
+  "license_evidence": {
+    "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+    "evidence_status": "needs-license-text-verification",
+    "accepted_license_examples": [
+      "CC BY",
+      "CC BY-NC",
+      "publisher-permitted OA",
+      "author/institutional repository OA with permitted analysis use"
+    ],
+    "required_actions": [
+      "record exact license text",
+      "record attribution requirements",
+      "record no-derivatives / non-commercial limitations when present"
+    ],
+    "notes": "A license candidate is not a final permission decision."
+  },
+  "permission_evidence": {
+    "permission_risk": "medium",
+    "permission_status": "requires-human-review",
+    "required_actions": [
+      "confirm figure extraction is allowed for analysis/gallery/RAG metadata",
+      "decide whether images can be hosted or only referenced",
+      "record attribution format"
+    ],
+    "notes": "Public gallery display and RAG storage may have stricter requirements than private structural analysis."
+  },
+  "third_party_material_evidence": {
+    "status": "unknown-until-visual-and-caption-review",
+    "required_actions": [
+      "check caption and article for third-party material notices",
+      "flag figures containing reused photos/logos/maps/screenshots/datasets",
+      "exclude or seek permissions if third-party status is unclear"
+    ],
+    "notes": "Third-party elements can invalidate apparent article-level reuse permission."
+  },
+  "manual_reviewer_notes": {
+    "reviewer": "TBD",
+    "last_reviewed": "not-reviewed-in-offline-release-build",
+    "decision": "do-not-extract-new-assets-yet",
+    "notes": "Offline scaffold only. Live DOI/OA/license verification is required before any new extraction or public hosting."
+  },
+  "forbidden_sources": [
+    "Sci-Hub",
+    "pirated PDF",
+    "paywalled-only PDF",
+    "copyright-unknown PDF",
+    "unauthorized image reuse"
+  ],
+  "promotion_state": {
+    "release_version": "v2.4.0",
+    "promotion_stage": "seed-live-evidence-recheck",
+    "promotion_gate": "blocked_until_connector_evidence_and_human_review_pass",
+    "human_review_required": true,
+    "new_extraction_allowed": false,
+    "metadata_only_rag_allowed": true,
+    "notes": "v2.4.0 adds evidence-gated promotion workflow; it does not certify live DOI/OA/license evidence."
+  }
+}

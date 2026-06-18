@@ -1,0 +1,177 @@
+{
+  "pr-writing": {
+    "journal": "Pattern Recognition",
+    "issn": "0031-3203",
+    "homepage": "https://www.sciencedirect.com/journal/pattern-recognition",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/pattern-recognition/publish/guide-for-authors",
+    "scope": "pattern recognition theory, methodology, applications, computer vision, image processing, machine learning"
+  },
+  "prl-writing": {
+    "journal": "Pattern Recognition Letters",
+    "issn": "0167-8655",
+    "homepage": "https://www.sciencedirect.com/journal/pattern-recognition-letters",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors",
+    "scope": "rapid concise pattern recognition, image analysis, theory, methodology, empirical studies"
+  },
+  "cviu-writing": {
+    "journal": "Computer Vision and Image Understanding",
+    "issn": "1077-3142",
+    "homepage": "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/publish/guide-for-authors",
+    "scope": "computer vision, image understanding, image analysis, object recognition, scene understanding"
+  },
+  "eswa-writing": {
+    "journal": "Expert Systems with Applications",
+    "issn": "0957-4174",
+    "homepage": "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors",
+    "scope": "expert systems, intelligent systems, applied AI, decision support, knowledge-based applications"
+  },
+  "neurocomputing-writing": {
+    "journal": "Neurocomputing",
+    "issn": "0925-2312",
+    "homepage": "https://www.sciencedirect.com/journal/neurocomputing",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors",
+    "scope": "neural computation, learning systems, machine learning, computational intelligence"
+  },
+  "information-sciences-writing": {
+    "journal": "Information Sciences",
+    "issn": "0020-0255",
+    "homepage": "https://www.sciencedirect.com/journal/information-sciences",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/information-sciences/publish/guide-for-authors",
+    "scope": "information science, intelligent systems, data science, fuzzy systems, AI methods"
+  },
+  "kbs-writing": {
+    "journal": "Knowledge-Based Systems",
+    "issn": "0950-7051",
+    "homepage": "https://www.sciencedirect.com/journal/knowledge-based-systems",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/knowledge-based-systems/publish/guide-for-authors",
+    "scope": "knowledge-based AI, intelligent systems, explainability, reasoning, applied machine learning"
+  },
+  "applied-soft-computing-writing": {
+    "journal": "Applied Soft Computing",
+    "issn": "1568-4946",
+    "homepage": "https://www.sciencedirect.com/journal/applied-soft-computing",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/applied-soft-computing/publish/guide-for-authors",
+    "scope": "soft computing, fuzzy systems, evolutionary computation, neural networks, metaheuristics"
+  },
+  "artificial-intelligence-writing": {
+    "journal": "Artificial Intelligence",
+    "issn": "0004-3702",
+    "homepage": "https://www.sciencedirect.com/journal/artificial-intelligence",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors",
+    "scope": "AI theory, search, reasoning, planning, learning, agents, foundations"
+  },
+  "medical-image-analysis-writing": {
+    "journal": "Medical Image Analysis",
+    "issn": "1361-8415",
+    "homepage": "https://www.sciencedirect.com/journal/medical-image-analysis",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/medical-image-analysis/publish/guide-for-authors",
+    "scope": "medical image analysis, computational imaging, biomedical AI, segmentation, registration, diagnosis"
+  },
+  "image-and-vision-computing-writing": {
+    "journal": "Image and Vision Computing",
+    "issn": "0262-8856",
+    "homepage": "https://www.sciencedirect.com/journal/image-and-vision-computing",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/image-and-vision-computing/publish/guide-for-authors",
+    "scope": "image analysis, vision computing, computer vision applications and algorithms"
+  },
+  "eaai-writing": {
+    "journal": "Engineering Applications of Artificial Intelligence",
+    "issn": "0952-1976",
+    "homepage": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence/publish/guide-for-authors",
+    "scope": "engineering AI applications, intelligent systems, methods validated in engineering settings"
+  },
+  "computers-biology-medicine-writing": {
+    "journal": "Computers in Biology and Medicine",
+    "issn": "0010-4825",
+    "homepage": "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine/publish/guide-for-authors",
+    "scope": "computational biology, medical computing, biomedical AI, clinical data systems"
+  },
+  "cmpb-writing": {
+    "journal": "Computer Methods and Programs in Biomedicine",
+    "issn": "0169-2607",
+    "homepage": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine/publish/guide-for-authors",
+    "scope": "biomedical software, medical informatics, computational methods, clinical systems"
+  },
+  "decision-support-systems-writing": {
+    "journal": "Decision Support Systems",
+    "issn": "0167-9236",
+    "homepage": "https://www.sciencedirect.com/journal/decision-support-systems",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/decision-support-systems/publish/guide-for-authors",
+    "scope": "decision support, analytics, management information systems, intelligent decision methods"
+  },
+  "jvcir-writing": {
+    "journal": "Journal of Visual Communication and Image Representation",
+    "issn": "1047-3203",
+    "homepage": "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation/publish/guide-for-authors",
+    "scope": "visual communication, image representation, multimedia, compression and analysis"
+  },
+  "signal-processing-writing": {
+    "journal": "Signal Processing",
+    "issn": "0165-1684",
+    "homepage": "https://www.sciencedirect.com/journal/signal-processing",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/signal-processing/publish/guide-for-authors",
+    "scope": "signal processing theory, methods, algorithms, applications"
+  },
+  "signal-processing-image-communication-writing": {
+    "journal": "Signal Processing: Image Communication",
+    "issn": "0923-5965",
+    "homepage": "https://www.sciencedirect.com/journal/signal-processing-image-communication",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/signal-processing-image-communication/publish/guide-for-authors",
+    "scope": "image communication, visual signal processing, coding, streaming and representation"
+  },
+  "robotics-autonomous-systems-writing": {
+    "journal": "Robotics and Autonomous Systems",
+    "issn": "0921-8890",
+    "homepage": "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems/publish/guide-for-authors",
+    "scope": "robotics, autonomous systems, control, perception, planning and applications"
+  },
+  "data-knowledge-engineering-writing": {
+    "journal": "Data & Knowledge Engineering",
+    "issn": "0169-023X",
+    "homepage": "https://www.sciencedirect.com/journal/data-and-knowledge-engineering",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/data-and-knowledge-engineering/publish/guide-for-authors",
+    "scope": "data engineering, knowledge engineering, database systems, semantic data management"
+  },
+  "artificial-intelligence-medicine-writing": {
+    "journal": "Artificial Intelligence in Medicine",
+    "issn": "0933-3657",
+    "homepage": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors",
+    "scope": "AI in medicine, clinical decision support, biomedical data analysis"
+  },
+  "biomedical-signal-processing-control-writing": {
+    "journal": "Biomedical Signal Processing and Control",
+    "issn": "1746-8094",
+    "homepage": "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control/publish/guide-for-authors",
+    "scope": "biomedical signals, medical signal processing, control, clinical engineering"
+  },
+  "future-generation-computer-systems-writing": {
+    "journal": "Future Generation Computer Systems",
+    "issn": "0167-739X",
+    "homepage": "https://www.sciencedirect.com/journal/future-generation-computer-systems",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/future-generation-computer-systems/publish/guide-for-authors",
+    "scope": "distributed systems, cloud, edge, high-performance computing, future computing infrastructure"
+  },
+  "computer-speech-language-writing": {
+    "journal": "Computer Speech & Language",
+    "issn": "0885-2308",
+    "homepage": "https://www.sciencedirect.com/journal/computer-speech-and-language",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors",
+    "scope": "speech processing, spoken language processing, natural language and audio systems"
+  },
+  "information-fusion-writing": {
+    "journal": "Information Fusion",
+    "issn": "1566-2535",
+    "homepage": "https://www.sciencedirect.com/journal/information-fusion",
+    "guide_for_authors": "https://www.sciencedirect.com/journal/information-fusion/publish/guide-for-authors",
+    "scope": "sensor fusion, multimodal fusion, data fusion theory and applications"
+  }
+}

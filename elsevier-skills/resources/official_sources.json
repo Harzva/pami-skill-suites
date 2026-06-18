@@ -1,0 +1,65 @@
+[
+  {
+    "id": "elsevier-latex-instructions",
+    "title": "LaTeX instructions for authors",
+    "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+    "publisher": "Elsevier",
+    "used_for": "elsarticle/source-package discipline, reference styles, submission-source bundling, file item type reminders."
+  },
+  {
+    "id": "elsevier-highlights",
+    "title": "Highlights of journal articles",
+    "url": "https://www.elsevier.com/researcher/author/tools-and-resources/highlights",
+    "publisher": "Elsevier",
+    "used_for": "3-5 bullet highlights, novelty/method focus, searchability, length discipline."
+  },
+  {
+    "id": "elsevier-graphical-abstract",
+    "title": "Graphical abstract in Elsevier journals",
+    "url": "https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstract",
+    "publisher": "Elsevier",
+    "used_for": "Graphical abstract skill, visual take-home message, interdisciplinary reader, separate-file reminders."
+  },
+  {
+    "id": "elsevier-genai-policies-journals",
+    "title": "Generative AI policies for journals",
+    "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+    "publisher": "Elsevier",
+    "used_for": "AI-assisted writing declaration and author-responsibility guardrails."
+  },
+  {
+    "id": "elsevier-credit-author-statement",
+    "title": "CRediT author statement",
+    "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement",
+    "publisher": "Elsevier",
+    "used_for": "Author-contribution/declaration reminders and no-fabrication policy."
+  },
+  {
+    "id": "elsevier-your-paper-your-way",
+    "title": "Guide for authors - Your Paper Your Way",
+    "url": "https://www.elsevier.com/subject/next/guide-for-authors",
+    "publisher": "Elsevier",
+    "used_for": "Submission flexibility, abstract independence, reference-consistency reminders, target-journal guide hierarchy."
+  },
+  {
+    "id": "elsevier-pattern-recognition-guide",
+    "title": "Pattern Recognition - Guide for Authors",
+    "url": "https://www.elsevier.com/journals/pattern-recognition/0031-3203/guide-for-authors",
+    "publisher": "Elsevier",
+    "used_for": "PR adapter fit, scope, submission material reminders, journal-specific verification gate."
+  },
+  {
+    "id": "elsevier-pattern-recognition-letters-guide",
+    "title": "Pattern Recognition Letters - Guide for Authors",
+    "url": "https://www.elsevier.com/journals/pattern-recognition-letters/0167-8655/guide-for-authors",
+    "publisher": "Elsevier",
+    "used_for": "PRL adapter fit and concise-paper expectations; always verify current guide."
+  },
+  {
+    "id": "elsevier-elsarticle-doc",
+    "title": "elsarticle.cls documentation",
+    "url": "https://texdoc.org/serve/elsdoc.pdf/0",
+    "publisher": "Elsevier/CTAN LaTeX ecosystem",
+    "used_for": "elsarticle class semantics and LaTeX template implementation notes."
+  }
+]

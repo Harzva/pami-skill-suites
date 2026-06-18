@@ -1,0 +1,14 @@
+name: Component skill request
+description: Request a new manuscript-component skill.
+title: "[component-skill]: "
+labels: [skill-request, component]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Component name
+      placeholder: e.g., equations, captions, permissions
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this needed?

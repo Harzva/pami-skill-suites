@@ -1,0 +1,1314 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: Elsevier Skills candidate evidence diff report
+baseline_release: v2.3.0
+current_release: v2.4.0
+offline_safe_notice: Diff report tracks repository metadata changes; it does not claim
+  live policy or license changes.
+summary:
+  total_candidates: 100
+  evidence_content_changed: 0
+  workflow_metadata_added: 100
+  risk_status_changed: 0
+records:
+- candidate_id: elsevier-candidate-slot-007
+  paper_id: elsevier-oa-candidate-007
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-008
+  paper_id: elsevier-oa-candidate-008
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-009
+  paper_id: elsevier-oa-candidate-009
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-010
+  paper_id: elsevier-oa-candidate-010
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-011
+  paper_id: elsevier-oa-candidate-011
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-012
+  paper_id: elsevier-oa-candidate-012
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-013
+  paper_id: elsevier-oa-candidate-013
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-014
+  paper_id: elsevier-oa-candidate-014
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-015
+  paper_id: elsevier-oa-candidate-015
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-016
+  paper_id: elsevier-oa-candidate-016
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-017
+  paper_id: elsevier-oa-candidate-017
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-018
+  paper_id: elsevier-oa-candidate-018
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-019
+  paper_id: elsevier-oa-candidate-019
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-020
+  paper_id: elsevier-oa-candidate-020
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-021
+  paper_id: elsevier-oa-candidate-021
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-022
+  paper_id: elsevier-oa-candidate-022
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-023
+  paper_id: elsevier-oa-candidate-023
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-024
+  paper_id: elsevier-oa-candidate-024
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-025
+  paper_id: elsevier-oa-candidate-025
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-026
+  paper_id: elsevier-oa-candidate-026
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-027
+  paper_id: elsevier-oa-candidate-027
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-028
+  paper_id: elsevier-oa-candidate-028
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-029
+  paper_id: elsevier-oa-candidate-029
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-030
+  paper_id: elsevier-oa-candidate-030
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-031
+  paper_id: elsevier-oa-candidate-031
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-032
+  paper_id: elsevier-oa-candidate-032
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-033
+  paper_id: elsevier-oa-candidate-033
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-034
+  paper_id: elsevier-oa-candidate-034
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-035
+  paper_id: elsevier-oa-candidate-035
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-036
+  paper_id: elsevier-oa-candidate-036
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-037
+  paper_id: elsevier-oa-candidate-037
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-038
+  paper_id: elsevier-oa-candidate-038
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-039
+  paper_id: elsevier-oa-candidate-039
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-040
+  paper_id: elsevier-oa-candidate-040
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-041
+  paper_id: elsevier-oa-candidate-041
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-042
+  paper_id: elsevier-oa-candidate-042
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-043
+  paper_id: elsevier-oa-candidate-043
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-044
+  paper_id: elsevier-oa-candidate-044
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-045
+  paper_id: elsevier-oa-candidate-045
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-046
+  paper_id: elsevier-oa-candidate-046
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-047
+  paper_id: elsevier-oa-candidate-047
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-048
+  paper_id: elsevier-oa-candidate-048
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-049
+  paper_id: elsevier-oa-candidate-049
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-050
+  paper_id: elsevier-oa-candidate-050
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-051
+  paper_id: elsevier-oa-candidate-051
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-052
+  paper_id: elsevier-oa-candidate-052
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-053
+  paper_id: elsevier-oa-candidate-053
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-054
+  paper_id: elsevier-oa-candidate-054
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-055
+  paper_id: elsevier-oa-candidate-055
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-056
+  paper_id: elsevier-oa-candidate-056
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-057
+  paper_id: elsevier-oa-candidate-057
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-058
+  paper_id: elsevier-oa-candidate-058
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-059
+  paper_id: elsevier-oa-candidate-059
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-060
+  paper_id: elsevier-oa-candidate-060
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-061
+  paper_id: elsevier-oa-candidate-061
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-062
+  paper_id: elsevier-oa-candidate-062
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-063
+  paper_id: elsevier-oa-candidate-063
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-064
+  paper_id: elsevier-oa-candidate-064
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-065
+  paper_id: elsevier-oa-candidate-065
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-066
+  paper_id: elsevier-oa-candidate-066
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-067
+  paper_id: elsevier-oa-candidate-067
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-068
+  paper_id: elsevier-oa-candidate-068
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-069
+  paper_id: elsevier-oa-candidate-069
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-070
+  paper_id: elsevier-oa-candidate-070
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-071
+  paper_id: elsevier-oa-candidate-071
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-072
+  paper_id: elsevier-oa-candidate-072
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-073
+  paper_id: elsevier-oa-candidate-073
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-074
+  paper_id: elsevier-oa-candidate-074
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-075
+  paper_id: elsevier-oa-candidate-075
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-076
+  paper_id: elsevier-oa-candidate-076
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-077
+  paper_id: elsevier-oa-candidate-077
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-078
+  paper_id: elsevier-oa-candidate-078
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-079
+  paper_id: elsevier-oa-candidate-079
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-080
+  paper_id: elsevier-oa-candidate-080
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-081
+  paper_id: elsevier-oa-candidate-081
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-082
+  paper_id: elsevier-oa-candidate-082
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-083
+  paper_id: elsevier-oa-candidate-083
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-084
+  paper_id: elsevier-oa-candidate-084
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-085
+  paper_id: elsevier-oa-candidate-085
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-086
+  paper_id: elsevier-oa-candidate-086
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-087
+  paper_id: elsevier-oa-candidate-087
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-088
+  paper_id: elsevier-oa-candidate-088
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-089
+  paper_id: elsevier-oa-candidate-089
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-090
+  paper_id: elsevier-oa-candidate-090
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-091
+  paper_id: elsevier-oa-candidate-091
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-092
+  paper_id: elsevier-oa-candidate-092
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-093
+  paper_id: elsevier-oa-candidate-093
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-094
+  paper_id: elsevier-oa-candidate-094
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-095
+  paper_id: elsevier-oa-candidate-095
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-096
+  paper_id: elsevier-oa-candidate-096
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-097
+  paper_id: elsevier-oa-candidate-097
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-098
+  paper_id: elsevier-oa-candidate-098
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-099
+  paper_id: elsevier-oa-candidate-099
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-candidate-slot-100
+  paper_id: elsevier-oa-candidate-100
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: pending-slot
+- candidate_id: elsevier-seed-001
+  paper_id: pr-2024-linear-transportation-lp-distance
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: seed
+- candidate_id: elsevier-seed-002
+  paper_id: prl-2023-too-good-prior
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: seed
+- candidate_id: elsevier-seed-003
+  paper_id: eswa-2024-knowledge-based-ai
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: seed
+- candidate_id: elsevier-seed-004
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: seed
+- candidate_id: elsevier-seed-005
+  paper_id: information-sciences-2025-gkf-pual
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: seed
+- candidate_id: elsevier-seed-006
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  baseline_release: v2.3.0
+  current_release: v2.4.0
+  evidence_fields_changed: false
+  new_workflow_fields_added:
+  - promotion_state
+  - connector_simulation_status
+  - human_review_decision_status
+  risk_change: unchanged-until-live-evidence-collected
+  diff_summary: v2.4.0 adds promotion workflow metadata without claiming new live
+    DOI/OA/license verification.
+  candidate_class: seed

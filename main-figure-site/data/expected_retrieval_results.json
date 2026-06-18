@@ -1,0 +1,879 @@
+{
+  "schema_version": "2.6.0",
+  "release_version": "v2.6.0",
+  "generated_on": "2026-06-17",
+  "title": "Combined Expected Retrieval Results",
+  "results": [
+    {
+      "query_id": "method_pipeline_main_figure",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "tip-2022-see360",
+          "title": "See360: Novel Panoramic View Interpolation",
+          "journal": "IEEE TIP",
+          "year": 2022,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "pipeline"
+          ],
+          "text_hits": [
+            "pipeline"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "title": "Multimodal Learning With Transformers: A Survey",
+          "journal": "IEEE TPAMI",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "motivation_gap_figure",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "title": "Multimodal Learning With Transformers: A Survey",
+          "journal": "IEEE TPAMI",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "ablation_table_style",
+      "expected_results_count": 3,
+      "expected_result_cards": [
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 5,
+          "tag_overlap": [
+            "method-comparison"
+          ],
+          "text_hits": [
+            "comparison",
+            "method-comparison"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "prl-2023-too-good-prior",
+          "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+          "journal": "Pattern Recognition Letters",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 5,
+          "tag_overlap": [
+            "method-comparison"
+          ],
+          "text_hits": [
+            "comparison",
+            "method-comparison"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "title": "Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images",
+          "journal": "IEEE TMI",
+          "year": 2020,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "evidence"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "taxonomy_survey_overview",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "title": "Multimodal Learning With Transformers: A Survey",
+          "journal": "IEEE TPAMI",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 13,
+          "tag_overlap": [
+            "concept-map",
+            "overview",
+            "taxonomy"
+          ],
+          "text_hits": [
+            "concept-map",
+            "overview",
+            "survey",
+            "taxonomy"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "medical_ai_workflow",
+      "expected_results_count": 1,
+      "expected_result_cards": [
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "title": "Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images",
+          "journal": "IEEE TMI",
+          "year": 2020,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "medical-ai"
+          ],
+          "text_hits": [
+            "medical-ai"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "remote_sensing_pipeline",
+      "expected_results_count": 1,
+      "expected_result_cards": [
+        {
+          "paper_id": "tip-2022-see360",
+          "title": "See360: Novel Panoramic View Interpolation",
+          "journal": "IEEE TIP",
+          "year": 2022,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "pipeline"
+          ],
+          "text_hits": [
+            "pipeline"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "caption_explanation_pattern",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "limitations_visualization",
+      "expected_results_count": 0,
+      "expected_result_cards": [],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "beautiful_comparison_table",
+      "expected_results_count": 3,
+      "expected_result_cards": [
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "comparison"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "prl-2023-too-good-prior",
+          "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+          "journal": "Pattern Recognition Letters",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "comparison"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "tmi-2020-lesion-localization",
+          "title": "Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images",
+          "journal": "IEEE TMI",
+          "year": 2020,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "evidence"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "figure_table_caption_bundle",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "title": "Multimodal Learning With Transformers: A Survey",
+          "journal": "IEEE TPAMI",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 5,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "figure",
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 2,
+          "tag_overlap": [],
+          "text_hits": [
+            "figure",
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "visual_rhetoric_for_introduction",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "tpami-2023-transformers-survey",
+          "title": "Multimodal Learning With Transformers: A Survey",
+          "journal": "IEEE TPAMI",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 4,
+          "tag_overlap": [
+            "overview"
+          ],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 1,
+          "tag_overlap": [],
+          "text_hits": [
+            "overview"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    },
+    {
+      "query_id": "rag_safety_permission_warning",
+      "expected_results_count": 5,
+      "expected_result_cards": [
+        {
+          "paper_id": "eswa-2024-knowledge-based-ai",
+          "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+          "journal": "Expert Systems With Applications",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "information-sciences-2025-gkf-pual",
+          "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+          "journal": "Information Sciences",
+          "year": 2025,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "kbs-2023-alzheimers-explainable-ai",
+          "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+          "journal": "Knowledge-Based Systems",
+          "year": 2023,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "neurocomputing-2024-xai-cybersecurity",
+          "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+          "journal": "Neurocomputing",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        },
+        {
+          "paper_id": "pr-2024-linear-transportation-lp-distance",
+          "title": "A linear transportation Lp distance for pattern recognition",
+          "journal": "Pattern Recognition",
+          "year": 2024,
+          "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+          "image_path": "paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png",
+          "retrieval_mode": "metadata-only",
+          "match_score": 6,
+          "tag_overlap": [
+            "copyright-review-required"
+          ],
+          "text_hits": [
+            "copyright-review-required"
+          ],
+          "safe_expected_use": "Use as structural retrieval evidence only; cite metadata and summarize visual organization without copying source visuals.",
+          "blocked_use": "No image reuse, redraw, caption copying, embedding, or public gallery display without evidence gate approval."
+        }
+      ],
+      "minimum_acceptable_behavior": [
+        "If no seed record matches, say coverage is insufficient rather than inventing results.",
+        "Recommend adding OA candidates and completing evidence review before extraction.",
+        "Keep answer metadata-only and include permission warning."
+      ]
+    }
+  ]
+}

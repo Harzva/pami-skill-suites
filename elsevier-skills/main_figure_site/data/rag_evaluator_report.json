@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.6.0",
+  "release_version": "v2.6.0",
+  "generated_on": "2026-06-17",
+  "title": "RAG Evaluator Report",
+  "summary": {
+    "visual_query_count": 12,
+    "seed_record_count": 6,
+    "expected_result_links": 35,
+    "coverage_gap_queries": 3,
+    "human_eval_traces": 12,
+    "metadata_only_rag_allowed": 6,
+    "image_embedding_allowed": 0,
+    "public_gallery_allowed": 0,
+    "offline_release_build": true
+  },
+  "quality_gates": {
+    "metadata_only_seed_rag": "passed",
+    "image_embedding_gate": "closed",
+    "public_gallery_gate": "closed",
+    "copyright_safety_filter": "enabled",
+    "human_evaluation_required_for_quality_claims": true,
+    "no_live_lookup_claimed": true
+  },
+  "recommended_next_actions": [
+    "Run human retrieval evaluation traces after connecting a retrieval system.",
+    "Add legally reviewed OA main figures to reduce coverage gaps.",
+    "Keep image embedding and public gallery modes closed until evidence gates pass."
+  ]
+}

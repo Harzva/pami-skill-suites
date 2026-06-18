@@ -1,0 +1,1415 @@
+{
+  "schema_version": "1.0",
+  "release_version": "v2.3.0",
+  "generated_on": "2026-06-16",
+  "title": "Candidate Source Risk Scores",
+  "summary": {
+    "total": 100,
+    "low": 0,
+    "medium": 6,
+    "high": 94,
+    "allowed_to_extract": 0
+  },
+  "items": [
+    {
+      "candidate_id": "elsevier-seed-001",
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "risk_score": 65,
+      "risk_band": "medium",
+      "drivers": [
+        "missing-or-not-encoded; live DOI lookup required",
+        "seed-source-present; OA/license live re-check required",
+        "permission risk: medium",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "manual-license-review"
+    },
+    {
+      "candidate_id": "elsevier-seed-002",
+      "paper_id": "prl-2023-too-good-prior",
+      "risk_score": 65,
+      "risk_band": "medium",
+      "drivers": [
+        "missing-or-not-encoded; live DOI lookup required",
+        "seed-source-present; OA/license live re-check required",
+        "permission risk: medium",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "manual-license-review"
+    },
+    {
+      "candidate_id": "elsevier-seed-003",
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "risk_score": 65,
+      "risk_band": "medium",
+      "drivers": [
+        "missing-or-not-encoded; live DOI lookup required",
+        "seed-source-present; OA/license live re-check required",
+        "permission risk: medium",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "manual-license-review"
+    },
+    {
+      "candidate_id": "elsevier-seed-004",
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "risk_score": 65,
+      "risk_band": "medium",
+      "drivers": [
+        "missing-or-not-encoded; live DOI lookup required",
+        "seed-source-present; OA/license live re-check required",
+        "permission risk: medium",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "manual-license-review"
+    },
+    {
+      "candidate_id": "elsevier-seed-005",
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "risk_score": 65,
+      "risk_band": "medium",
+      "drivers": [
+        "missing-or-not-encoded; live DOI lookup required",
+        "seed-source-present; OA/license live re-check required",
+        "permission risk: medium",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "manual-license-review"
+    },
+    {
+      "candidate_id": "elsevier-seed-006",
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "risk_score": 65,
+      "risk_band": "medium",
+      "drivers": [
+        "missing-or-not-encoded; live DOI lookup required",
+        "seed-source-present; OA/license live re-check required",
+        "permission risk: medium",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "manual-license-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-007",
+      "paper_id": "elsevier-oa-candidate-007",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-008",
+      "paper_id": "elsevier-oa-candidate-008",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-009",
+      "paper_id": "elsevier-oa-candidate-009",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-010",
+      "paper_id": "elsevier-oa-candidate-010",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-011",
+      "paper_id": "elsevier-oa-candidate-011",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-012",
+      "paper_id": "elsevier-oa-candidate-012",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-013",
+      "paper_id": "elsevier-oa-candidate-013",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-014",
+      "paper_id": "elsevier-oa-candidate-014",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-015",
+      "paper_id": "elsevier-oa-candidate-015",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-016",
+      "paper_id": "elsevier-oa-candidate-016",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-017",
+      "paper_id": "elsevier-oa-candidate-017",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-018",
+      "paper_id": "elsevier-oa-candidate-018",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-019",
+      "paper_id": "elsevier-oa-candidate-019",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-020",
+      "paper_id": "elsevier-oa-candidate-020",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-021",
+      "paper_id": "elsevier-oa-candidate-021",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-022",
+      "paper_id": "elsevier-oa-candidate-022",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-023",
+      "paper_id": "elsevier-oa-candidate-023",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-024",
+      "paper_id": "elsevier-oa-candidate-024",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-025",
+      "paper_id": "elsevier-oa-candidate-025",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-026",
+      "paper_id": "elsevier-oa-candidate-026",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-027",
+      "paper_id": "elsevier-oa-candidate-027",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-028",
+      "paper_id": "elsevier-oa-candidate-028",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-029",
+      "paper_id": "elsevier-oa-candidate-029",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-030",
+      "paper_id": "elsevier-oa-candidate-030",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-031",
+      "paper_id": "elsevier-oa-candidate-031",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-032",
+      "paper_id": "elsevier-oa-candidate-032",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-033",
+      "paper_id": "elsevier-oa-candidate-033",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-034",
+      "paper_id": "elsevier-oa-candidate-034",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-035",
+      "paper_id": "elsevier-oa-candidate-035",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-036",
+      "paper_id": "elsevier-oa-candidate-036",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-037",
+      "paper_id": "elsevier-oa-candidate-037",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-038",
+      "paper_id": "elsevier-oa-candidate-038",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-039",
+      "paper_id": "elsevier-oa-candidate-039",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-040",
+      "paper_id": "elsevier-oa-candidate-040",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-041",
+      "paper_id": "elsevier-oa-candidate-041",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-042",
+      "paper_id": "elsevier-oa-candidate-042",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-043",
+      "paper_id": "elsevier-oa-candidate-043",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-044",
+      "paper_id": "elsevier-oa-candidate-044",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-045",
+      "paper_id": "elsevier-oa-candidate-045",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-046",
+      "paper_id": "elsevier-oa-candidate-046",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-047",
+      "paper_id": "elsevier-oa-candidate-047",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-048",
+      "paper_id": "elsevier-oa-candidate-048",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-049",
+      "paper_id": "elsevier-oa-candidate-049",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-050",
+      "paper_id": "elsevier-oa-candidate-050",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-051",
+      "paper_id": "elsevier-oa-candidate-051",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-052",
+      "paper_id": "elsevier-oa-candidate-052",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-053",
+      "paper_id": "elsevier-oa-candidate-053",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-054",
+      "paper_id": "elsevier-oa-candidate-054",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-055",
+      "paper_id": "elsevier-oa-candidate-055",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-056",
+      "paper_id": "elsevier-oa-candidate-056",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-057",
+      "paper_id": "elsevier-oa-candidate-057",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-058",
+      "paper_id": "elsevier-oa-candidate-058",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-059",
+      "paper_id": "elsevier-oa-candidate-059",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-060",
+      "paper_id": "elsevier-oa-candidate-060",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-061",
+      "paper_id": "elsevier-oa-candidate-061",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-062",
+      "paper_id": "elsevier-oa-candidate-062",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-063",
+      "paper_id": "elsevier-oa-candidate-063",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-064",
+      "paper_id": "elsevier-oa-candidate-064",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-065",
+      "paper_id": "elsevier-oa-candidate-065",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-066",
+      "paper_id": "elsevier-oa-candidate-066",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-067",
+      "paper_id": "elsevier-oa-candidate-067",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-068",
+      "paper_id": "elsevier-oa-candidate-068",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-069",
+      "paper_id": "elsevier-oa-candidate-069",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-070",
+      "paper_id": "elsevier-oa-candidate-070",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-071",
+      "paper_id": "elsevier-oa-candidate-071",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-072",
+      "paper_id": "elsevier-oa-candidate-072",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-073",
+      "paper_id": "elsevier-oa-candidate-073",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-074",
+      "paper_id": "elsevier-oa-candidate-074",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-075",
+      "paper_id": "elsevier-oa-candidate-075",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-076",
+      "paper_id": "elsevier-oa-candidate-076",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-077",
+      "paper_id": "elsevier-oa-candidate-077",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-078",
+      "paper_id": "elsevier-oa-candidate-078",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-079",
+      "paper_id": "elsevier-oa-candidate-079",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-080",
+      "paper_id": "elsevier-oa-candidate-080",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-081",
+      "paper_id": "elsevier-oa-candidate-081",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-082",
+      "paper_id": "elsevier-oa-candidate-082",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-083",
+      "paper_id": "elsevier-oa-candidate-083",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-084",
+      "paper_id": "elsevier-oa-candidate-084",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-085",
+      "paper_id": "elsevier-oa-candidate-085",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-086",
+      "paper_id": "elsevier-oa-candidate-086",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-087",
+      "paper_id": "elsevier-oa-candidate-087",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-088",
+      "paper_id": "elsevier-oa-candidate-088",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-089",
+      "paper_id": "elsevier-oa-candidate-089",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-090",
+      "paper_id": "elsevier-oa-candidate-090",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-091",
+      "paper_id": "elsevier-oa-candidate-091",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-092",
+      "paper_id": "elsevier-oa-candidate-092",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-093",
+      "paper_id": "elsevier-oa-candidate-093",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-094",
+      "paper_id": "elsevier-oa-candidate-094",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-095",
+      "paper_id": "elsevier-oa-candidate-095",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-096",
+      "paper_id": "elsevier-oa-candidate-096",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-097",
+      "paper_id": "elsevier-oa-candidate-097",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-098",
+      "paper_id": "elsevier-oa-candidate-098",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-099",
+      "paper_id": "elsevier-oa-candidate-099",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-100",
+      "paper_id": "elsevier-oa-candidate-100",
+      "risk_score": 100,
+      "risk_band": "high",
+      "drivers": [
+        "pending-doi-discovery",
+        "pending-oa-source-discovery",
+        "permission risk: high",
+        "offline release build; live verification pending"
+      ],
+      "allowed_to_extract": false,
+      "recommended_queue": "source-discovery-review"
+    }
+  ]
+}

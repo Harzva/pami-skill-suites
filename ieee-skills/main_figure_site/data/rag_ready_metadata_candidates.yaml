@@ -1,0 +1,86 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: RAG-Ready Metadata Candidates
+rag_policy:
+  metadata_only_allowed_for_existing_seed_records: true
+  image_embedding_or_public_hosting_requires_permission_review: true
+  pending_candidates_excluded_from_rag: true
+summary:
+  total_candidates: 100
+  metadata_only_rag_ready_count: 5
+  full_visual_rag_ready_count: 0
+  pending_or_blocked_count: 95
+rag_ready_metadata_candidates:
+- candidate_id: ieee-seed-001
+  paper_id: tpami-2023-transformers-survey
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-002
+  paper_id: tip-2022-see360
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-003
+  paper_id: tmi-2020-lesion-localization
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization
+    in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-004
+  paper_id: tnnls-2023-sparce
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+    Representations'
+  journal: IEEE TNNLS
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off
+- candidate_id: ieee-seed-005
+  paper_id: tnnls-2024-mediterranean
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  rag_readiness: metadata-only-seed-record
+  allowed_use: structural-analysis metadata only
+  image_hosting_allowed: false
+  public_gallery_allowed: false
+  new_extraction_allowed: false
+  required_before_public_use:
+  - live license verification
+  - permission evidence approval
+  - third-party material review
+  - human reviewer sign-off

@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.4.0",
+  "release_version": "v2.4.0",
+  "generated_on": "2026-06-16",
+  "checks": {
+    "evidence_promotion_queue_exists": true,
+    "connector_simulation_report_exists": true,
+    "candidate_evidence_diff_report_exists": true,
+    "human_reviewer_decision_log_exists": true,
+    "extraction_ready_candidates_exists": true,
+    "rag_ready_metadata_candidates_exists": true,
+    "automatic_promotion_disabled": true,
+    "new_extraction_allowed_now": 0
+  }
+}

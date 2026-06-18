@@ -1,0 +1,21 @@
+{
+  "version": "1.6.0",
+  "release": "Live Source Check Automation + Release Health Dashboard",
+  "mode": "offline-safe release build",
+  "entries": [
+    {
+      "date": "2026-06-13",
+      "type": "maintenance-infrastructure",
+      "summary": "Added live-source check matrix, source aging policy, release health dashboard, and source verification badge data.",
+      "live_http_check_performed": false,
+      "note": "Run scripts/live_source_check_matrix.py --live and scripts/check_official_links_live.py --live in a networked maintainer environment before relying on live source status."
+    },
+    {
+      "date": "2026-06-13",
+      "type": "offline-dry-run",
+      "summary": "All official source records remain marked as needing reverification in the release build.",
+      "live_http_check_performed": false,
+      "note": "The release intentionally avoids claiming healthy URLs without live network verification."
+    }
+  ]
+}

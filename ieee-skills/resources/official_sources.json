@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ieee-article-templates",
+    "title": "IEEE Article Templates - IEEE Author Center Journals",
+    "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/",
+    "publisher": "IEEE",
+    "used_for": "Template Selector, peer-review draft preparation, author-list placement, abbreviations/acronyms, template verification gate."
+  },
+  {
+    "id": "ieee-structure-your-article",
+    "title": "Structure Your Article - IEEE Author Center Journals",
+    "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-the-text-of-your-article/structure-your-article/",
+    "publisher": "IEEE",
+    "used_for": "Manuscript-section expectations, results/discussion logic, figure/table reasoning."
+  },
+  {
+    "id": "ieee-submission-peer-review-policies",
+    "title": "Submission and Peer Review Policies - IEEE Author Center Journals",
+    "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/",
+    "publisher": "IEEE",
+    "used_for": "Originality, prior-publication disclosure, multiple-submission caution, plagiarism, conference-extension risk, AI-generated content policy."
+  },
+  {
+    "id": "ieee-editorial-style-manual",
+    "title": "IEEE Editorial Style Manual for Authors",
+    "url": "https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf",
+    "publisher": "IEEE",
+    "used_for": "IEEE style, figure/table citation order, equation/reference/acknowledgment conventions, AI disclosure wording patterns."
+  },
+  {
+    "id": "ieee-tai-author-instructions",
+    "title": "IEEE Transactions on Artificial Intelligence - Information for Authors",
+    "url": "https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence/information-for-authors-tai",
+    "publisher": "IEEE Computational Intelligence Society",
+    "used_for": "Example of a target-journal adapter: double-anonymous review, article types, significant-contribution expectations, conference-extension delta, impact statement, AI-generated text disclosure."
+  },
+  {
+    "id": "ieee-tnnls-author-info",
+    "title": "IEEE Transactions on Neural Networks and Learning Systems - Information for Authors",
+    "url": "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems/tnnls",
+    "publisher": "IEEE Computational Intelligence Society",
+    "used_for": "TNNLS adapter positioning around theory, design, and applications of neural networks and learning systems."
+  },
+  {
+    "id": "ieee-ieeetran-howto",
+    "title": "IEEEtran HOWTO / IEEEtran LaTeX class documentation",
+    "url": "https://ctan.math.illinois.edu/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf",
+    "publisher": "CTAN / IEEEtran maintainers",
+    "used_for": "LaTeX implementation hints; treated as a technical reference, not a substitute for official IEEE/journal instructions."
+  }
+]

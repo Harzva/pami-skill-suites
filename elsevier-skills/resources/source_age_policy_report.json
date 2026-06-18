@@ -1,0 +1,28 @@
+{
+  "policy_version": "1.6.0",
+  "generated_at": "2026-06-14",
+  "policy": {
+    "fresh": "0-90 days since live check; still verify mutable instructions before real submission.",
+    "aging": "91-180 days; refresh recommended.",
+    "stale": ">180 days; refresh required before relying on source.",
+    "unchecked": "No recorded live check; must be treated as needs reverification."
+  },
+  "summary": {
+    "total_records": 317,
+    "bucket_counts": {
+      "unchecked": 317
+    },
+    "maintenance_actions": {
+      "run live check before real submission advice": 317
+    },
+    "unchecked_ratio": 1.0,
+    "offline_release_allowed": true,
+    "advisory_threshold": 1.0
+  },
+  "recommendations": [
+    "Run scripts/check_official_links_live.py --live in a networked maintenance environment.",
+    "Run scripts/live_source_check_matrix.py after live checks to refresh matrix data.",
+    "Run scripts/source_age_policy.py and scripts/release_health_dashboard.py before a release.",
+    "Do not mark unchecked sources as healthy in an offline release build."
+  ]
+}

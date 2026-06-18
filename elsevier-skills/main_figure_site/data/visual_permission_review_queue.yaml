@@ -1,0 +1,33 @@
+schema_version: 2.0.0
+total: 6
+items:
+- paper_id: pr-2024-linear-transportation-lp-distance
+  priority: P1
+  reason: visual reuse requires license, attribution, third-party material, and target-venue
+    permission review
+  source_url: https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf
+- paper_id: prl-2023-too-good-prior
+  priority: P1
+  reason: visual reuse requires license, attribution, third-party material, and target-venue
+    permission review
+  source_url: https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf
+- paper_id: eswa-2024-knowledge-based-ai
+  priority: P1
+  reason: visual reuse requires license, attribution, third-party material, and target-venue
+    permission review
+  source_url: https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf
+- paper_id: neurocomputing-2024-xai-cybersecurity
+  priority: P1
+  reason: visual reuse requires license, attribution, third-party material, and target-venue
+    permission review
+  source_url: https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf
+- paper_id: information-sciences-2025-gkf-pual
+  priority: P1
+  reason: visual reuse requires license, attribution, third-party material, and target-venue
+    permission review
+  source_url: https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf
+- paper_id: kbs-2023-alzheimers-explainable-ai
+  priority: P1
+  reason: visual reuse requires license, attribution, third-party material, and target-venue
+    permission review
+  source_url: https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf

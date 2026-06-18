@@ -1,0 +1,875 @@
+schema_version: 1.3.0
+release_version: 1.7.0
+publisher_family: Elsevier
+context_policy: Expansion packs are opt-in and never increase default skills/ listing.
+maturity_levels:
+  L0: listed only
+  L1: official homepage + author instructions
+  L2: full official source matrix
+  L3: source-refresh metadata + live-check support
+  L4: paper-template card + evaluation task
+summary:
+  expansion_packs: 6
+  journal_entries: 27
+  unique_journals: 24
+  maturity_counts:
+    L0: 4
+    L1: 0
+    L2: 0
+    L3: 18
+    L4: 5
+  source_quality_scoring: enabled
+  promotion_workflow: staged only
+packs:
+- pack_id: computer-vision
+  title: Computer Vision
+  journal_entries: 5
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 2
+  hardening:
+    release: v1.3.0
+    source_quality_scoring:
+      script: scripts/score_source_quality.py
+      score_type: static conservative score
+      live_check_required: true
+      note: Scores help triage maintenance priority; they do not certify live publisher rules.
+    promotion_workflow:
+      script: scripts/promote_journal_candidate.py
+      staging_dir: resources/promoted_fragments_staging/
+      default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+      target_path: skills/elsevier-skill-suite/static/journals/
+      required_before_core_import:
+      - official homepage
+      - author instructions
+      - full official source matrix
+      - live-check metadata
+    pack_eval_placeholder: expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml
+    paper_card_todo: expansion_packs/computer-vision/paper_card_todo.md
+- pack_id: data-mining
+  title: Data Mining
+  journal_entries: 6
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 3
+  hardening:
+    release: v1.3.0
+    source_quality_scoring:
+      script: scripts/score_source_quality.py
+      score_type: static conservative score
+      live_check_required: true
+      note: Scores help triage maintenance priority; they do not certify live publisher rules.
+    promotion_workflow:
+      script: scripts/promote_journal_candidate.py
+      staging_dir: resources/promoted_fragments_staging/
+      default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+      target_path: skills/elsevier-skill-suite/static/journals/
+      required_before_core_import:
+      - official homepage
+      - author instructions
+      - full official source matrix
+      - live-check metadata
+    pack_eval_placeholder: expansion_packs/data-mining/eval_tasks/data-mining_coverage_task.yaml
+    paper_card_todo: expansion_packs/data-mining/paper_card_todo.md
+- pack_id: medical-ai
+  title: Medical Ai
+  journal_entries: 6
+  maturity_counts:
+    L0: 1
+    L1: 0
+    L2: 0
+    L3: 5
+    L4: 0
+  hardening:
+    release: v1.3.0
+    source_quality_scoring:
+      script: scripts/score_source_quality.py
+      score_type: static conservative score
+      live_check_required: true
+      note: Scores help triage maintenance priority; they do not certify live publisher rules.
+    promotion_workflow:
+      script: scripts/promote_journal_candidate.py
+      staging_dir: resources/promoted_fragments_staging/
+      default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+      target_path: skills/elsevier-skill-suite/static/journals/
+      required_before_core_import:
+      - official homepage
+      - author instructions
+      - full official source matrix
+      - live-check metadata
+    pack_eval_placeholder: expansion_packs/medical-ai/eval_tasks/medical-ai_coverage_task.yaml
+    paper_card_todo: expansion_packs/medical-ai/paper_card_todo.md
+- pack_id: multimedia
+  title: Multimedia
+  journal_entries: 4
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 4
+    L4: 0
+  hardening:
+    release: v1.3.0
+    source_quality_scoring:
+      script: scripts/score_source_quality.py
+      score_type: static conservative score
+      live_check_required: true
+      note: Scores help triage maintenance priority; they do not certify live publisher rules.
+    promotion_workflow:
+      script: scripts/promote_journal_candidate.py
+      staging_dir: resources/promoted_fragments_staging/
+      default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+      target_path: skills/elsevier-skill-suite/static/journals/
+      required_before_core_import:
+      - official homepage
+      - author instructions
+      - full official source matrix
+      - live-check metadata
+    pack_eval_placeholder: expansion_packs/multimedia/eval_tasks/multimedia_coverage_task.yaml
+    paper_card_todo: expansion_packs/multimedia/paper_card_todo.md
+- pack_id: remote-sensing
+  title: Remote Sensing
+  journal_entries: 3
+  maturity_counts:
+    L0: 3
+    L1: 0
+    L2: 0
+    L3: 0
+    L4: 0
+  hardening:
+    release: v1.3.0
+    source_quality_scoring:
+      script: scripts/score_source_quality.py
+      score_type: static conservative score
+      live_check_required: true
+      note: Scores help triage maintenance priority; they do not certify live publisher rules.
+    promotion_workflow:
+      script: scripts/promote_journal_candidate.py
+      staging_dir: resources/promoted_fragments_staging/
+      default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+      target_path: skills/elsevier-skill-suite/static/journals/
+      required_before_core_import:
+      - official homepage
+      - author instructions
+      - full official source matrix
+      - live-check metadata
+    pack_eval_placeholder: expansion_packs/remote-sensing/eval_tasks/remote-sensing_coverage_task.yaml
+    paper_card_todo: expansion_packs/remote-sensing/paper_card_todo.md
+- pack_id: signal-processing
+  title: Signal Processing
+  journal_entries: 3
+  maturity_counts:
+    L0: 0
+    L1: 0
+    L2: 0
+    L3: 3
+    L4: 0
+  hardening:
+    release: v1.3.0
+    source_quality_scoring:
+      script: scripts/score_source_quality.py
+      score_type: static conservative score
+      live_check_required: true
+      note: Scores help triage maintenance priority; they do not certify live publisher rules.
+    promotion_workflow:
+      script: scripts/promote_journal_candidate.py
+      staging_dir: resources/promoted_fragments_staging/
+      default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+      target_path: skills/elsevier-skill-suite/static/journals/
+      required_before_core_import:
+      - official homepage
+      - author instructions
+      - full official source matrix
+      - live-check metadata
+    pack_eval_placeholder: expansion_packs/signal-processing/eval_tasks/signal-processing_coverage_task.yaml
+    paper_card_todo: expansion_packs/signal-processing/paper_card_todo.md
+journals:
+- pack_id: computer-vision
+  journal_id: pr
+  title: Pattern Recognition
+  entry_type: imported-fragment
+  maturity_level: L4
+  maturity_label: paper-template card + evaluation task
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/pr.md
+  paper_template_cards:
+  - pr-2024-linear-transportation-lp-distance
+  source_quality_score:
+    score: 100
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: computer-vision
+  journal_id: prl
+  title: Pattern Recognition Letters
+  entry_type: imported-fragment
+  maturity_level: L4
+  maturity_label: paper-template card + evaluation task
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/prl.md
+  paper_template_cards:
+  - prl-2023-too-good-prior
+  source_quality_score:
+    score: 100
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: computer-vision
+  journal_id: cviu
+  title: Computer Vision and Image Understanding
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/cviu.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: computer-vision
+  journal_id: image-and-vision-computing
+  title: Image and Vision Computing
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/image-and-vision-computing.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: computer-vision
+  journal_id: medical-image-analysis
+  title: Medical Image Analysis
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/medical-image-analysis.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: data-mining
+  journal_id: information-sciences
+  title: Information Sciences
+  entry_type: imported-fragment
+  maturity_level: L4
+  maturity_label: paper-template card + evaluation task
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/information-sciences.md
+  paper_template_cards:
+  - information-sciences-2025-gkf-pual
+  source_quality_score:
+    score: 100
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: data-mining
+  journal_id: kbs
+  title: Knowledge-Based Systems
+  entry_type: imported-fragment
+  maturity_level: L4
+  maturity_label: paper-template card + evaluation task
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/kbs.md
+  paper_template_cards:
+  - kbs-2023-alzheimers-explainable-ai
+  source_quality_score:
+    score: 100
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: data-mining
+  journal_id: data-knowledge-engineering
+  title: Data & Knowledge Engineering
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/data-knowledge-engineering.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: data-mining
+  journal_id: decision-support-systems
+  title: Decision Support Systems
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/decision-support-systems.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: data-mining
+  journal_id: eswa
+  title: Expert Systems With Applications
+  entry_type: imported-fragment
+  maturity_level: L4
+  maturity_label: paper-template card + evaluation task
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/eswa.md
+  paper_template_cards:
+  - eswa-2024-knowledge-based-ai
+  source_quality_score:
+    score: 100
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: data-mining
+  journal_id: artificial-intelligence
+  title: Artificial Intelligence
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/artificial-intelligence.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: medical-ai
+  journal_id: medical-image-analysis
+  title: Medical Image Analysis
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/medical-image-analysis.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: medical-ai
+  journal_id: artificial-intelligence-medicine
+  title: Artificial Intelligence in Medicine
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/artificial-intelligence-medicine.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: medical-ai
+  journal_id: computers-biology-medicine
+  title: Computers in Biology and Medicine
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/computers-biology-medicine.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: medical-ai
+  journal_id: cmpb
+  title: Computer Methods and Programs in Biomedicine
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/cmpb.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: medical-ai
+  journal_id: biomedical-signal-processing-control
+  title: Biomedical Signal Processing and Control
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/biomedical-signal-processing-control.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: medical-ai
+  journal_id: artificial-intelligence-in-life-sciences
+  title: Artificial Intelligence in the Life Sciences
+  entry_type: candidate-l0
+  maturity_level: L0
+  maturity_label: listed only
+  needs_reverification: true
+  source_status: not-started
+  journal_fragment: null
+  paper_template_cards: []
+  source_quality_score:
+    score: 11
+    band: E
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: true
+    eligible_for_direct_core_import: false
+    next_target: L1/L2 first; L3 only after source-refresh metadata and live-check support
+    missing_for_next_level:
+    - full official source matrix
+    - draft journal fragment
+    - optional paper-template card for L4
+    - evaluation task coverage
+    recommended_action: use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: multimedia
+  journal_id: jvcir
+  title: Journal of Visual Communication and Image Representation
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/jvcir.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: multimedia
+  journal_id: signal-processing-image-communication
+  title: 'Signal Processing: Image Communication'
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/signal-processing-image-communication.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: multimedia
+  journal_id: information-fusion
+  title: Information Fusion
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/information-fusion.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: multimedia
+  journal_id: computer-speech-language
+  title: Computer Speech & Language
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/computer-speech-language.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: remote-sensing
+  journal_id: isprs-journal-photogrammetry-remote-sensing
+  title: ISPRS Journal of Photogrammetry and Remote Sensing
+  entry_type: candidate-l0
+  maturity_level: L0
+  maturity_label: listed only
+  needs_reverification: true
+  source_status: not-started
+  journal_fragment: null
+  paper_template_cards: []
+  source_quality_score:
+    score: 11
+    band: E
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: true
+    eligible_for_direct_core_import: false
+    next_target: L1/L2 first; L3 only after source-refresh metadata and live-check support
+    missing_for_next_level:
+    - full official source matrix
+    - draft journal fragment
+    - optional paper-template card for L4
+    - evaluation task coverage
+    recommended_action: use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: remote-sensing
+  journal_id: international-journal-applied-earth-observation-geoinformation
+  title: International Journal of Applied Earth Observation and Geoinformation
+  entry_type: candidate-l0
+  maturity_level: L0
+  maturity_label: listed only
+  needs_reverification: true
+  source_status: not-started
+  journal_fragment: null
+  paper_template_cards: []
+  source_quality_score:
+    score: 11
+    band: E
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: true
+    eligible_for_direct_core_import: false
+    next_target: L1/L2 first; L3 only after source-refresh metadata and live-check support
+    missing_for_next_level:
+    - full official source matrix
+    - draft journal fragment
+    - optional paper-template card for L4
+    - evaluation task coverage
+    recommended_action: use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: remote-sensing
+  journal_id: remote-sensing-applications-society-environment
+  title: 'Remote Sensing Applications: Society and Environment'
+  entry_type: candidate-l0
+  maturity_level: L0
+  maturity_label: listed only
+  needs_reverification: true
+  source_status: not-started
+  journal_fragment: null
+  paper_template_cards: []
+  source_quality_score:
+    score: 11
+    band: E
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: true
+    eligible_for_direct_core_import: false
+    next_target: L1/L2 first; L3 only after source-refresh metadata and live-check support
+    missing_for_next_level:
+    - full official source matrix
+    - draft journal fragment
+    - optional paper-template card for L4
+    - evaluation task coverage
+    recommended_action: use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: signal-processing
+  journal_id: signal-processing
+  title: Signal Processing
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/signal-processing.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: signal-processing
+  journal_id: signal-processing-image-communication
+  title: 'Signal Processing: Image Communication'
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/signal-processing-image-communication.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+- pack_id: signal-processing
+  journal_id: biomedical-signal-processing-control
+  title: Biomedical Signal Processing and Control
+  entry_type: imported-fragment
+  maturity_level: L3
+  maturity_label: source-refresh metadata + live-check support
+  needs_reverification: true
+  source_status: pending-live-check
+  journal_fragment: skills/elsevier-skill-suite/static/journals/biomedical-signal-processing-control.md
+  paper_template_cards: []
+  source_quality_score:
+    score: 90
+    band: A
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: false
+    eligible_for_direct_core_import: true
+    next_target: already imported; maintain or promote to L4 with paper card/eval coverage
+    missing_for_next_level:
+    - live link check
+    - optional paper-template card for L4
+    recommended_action: refresh sources and add paper-card/eval coverage if needed
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.

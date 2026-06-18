@@ -1,0 +1,11 @@
+name: ieee-writing
+version: 0.6.0
+role: full manuscript drafting, rewriting, structure, and claim-evidence improvement
+context_policy: default-visible-macro-skill
+routes_through: ieee-skill-suite
+loads:
+- manifest.yaml
+- references/output-contracts.md
+- checklists/quality-gate.md
+advanced_skills_policy: Use skills-advanced only for optional direct invocation or
+  repository development.

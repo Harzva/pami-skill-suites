@@ -1,0 +1,18 @@
+name: Preset scenario update
+description: Suggest an update to a preset scenario, sample output, or route trace.
+title: "[preset-scenario]: "
+labels: [preset, evaluation]
+body:
+  - type: input
+    id: preset
+    attributes:
+      label: Preset
+      placeholder: e.g., computer-vision
+  - type: input
+    id: scenario
+    attributes:
+      label: Scenario ID
+  - type: textarea
+    id: update
+    attributes:
+      label: Proposed update

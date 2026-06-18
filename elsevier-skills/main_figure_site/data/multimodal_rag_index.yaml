@@ -1,0 +1,109 @@
+schema_version: 2.1.0
+release_version: 2.1.0
+generated_on: '2026-06-16'
+title: Multimodal Scientific-Figure RAG Index
+index_policy: Seed records only. Pending candidate slots are excluded until OA source
+  and permission review pass.
+record_count: 6
+records:
+- paper_id: pr-2024-linear-transportation-lp-distance
+  title: A linear transportation Lp distance for pattern recognition
+  journal: Pattern Recognition
+  year: 2024
+  source_url: https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - method-comparison
+  - pattern-recognition
+  retrieval_text: A linear transportation Lp distance for pattern recognition | Pattern
+    Recognition | main figure | copyright-review-required method-comparison pattern-recognition
+    | structural analysis only.
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: prl-2023-too-good-prior
+  title: A too-good-to-be-true prior to reduce shortcut reliance
+  journal: Pattern Recognition Letters
+  year: 2023
+  source_url: https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - method-comparison
+  - pattern-recognition
+  retrieval_text: A too-good-to-be-true prior to reduce shortcut reliance | Pattern
+    Recognition Letters | main figure | copyright-review-required method-comparison
+    pattern-recognition | structural analysis only.
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: eswa-2024-knowledge-based-ai
+  title: 'Enhancing vessel arrival time prediction: A fusion-based deep learning approach'
+  journal: Expert Systems With Applications
+  year: 2024
+  source_url: https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  retrieval_text: 'Enhancing vessel arrival time prediction: A fusion-based deep learning
+    approach | Expert Systems With Applications | main figure | copyright-review-required
+    main-figure method-or-result-overview | structural analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: neurocomputing-2024-xai-cybersecurity
+  title: 'Advanced insights through systematic analysis: Mapping future research directions
+    and opportunities for xAI in deep learning and artificial intelligence used in
+    cybersecurity'
+  journal: Neurocomputing
+  year: 2024
+  source_url: https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  retrieval_text: 'Advanced insights through systematic analysis: Mapping future research
+    directions and opportunities for xAI in deep learning and artificial intelligence
+    used in cybersecurity | Neurocomputing | main figure | copyright-review-required
+    main-figure method-or-result-overview | structural analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: information-sciences-2025-gkf-pual
+  title: 'GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with
+    variable selection'
+  journal: Information Sciences
+  year: 2025
+  source_url: https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  retrieval_text: 'GKF-PUAL: A group kernel-free approach to positive-unlabeled learning
+    with variable selection | Information Sciences | main figure | copyright-review-required
+    main-figure method-or-result-overview | structural analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: kbs-2023-alzheimers-explainable-ai
+  title: 'Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection
+    system using EEG signals'
+  journal: Knowledge-Based Systems
+  year: 2023
+  source_url: https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  retrieval_text: 'Adazd-Net: Automated adaptive and explainable Alzheimer’s disease
+    detection system using EEG signals | Knowledge-Based Systems | main figure | copyright-review-required
+    main-figure method-or-result-overview | structural analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.

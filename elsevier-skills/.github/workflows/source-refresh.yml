@@ -1,0 +1,55 @@
+name: Scheduled Source Refresh
+
+on:
+  schedule:
+    # Weekly maintenance run. This workflow may perform live HTTP checks.
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      live_check:
+        description: "Perform live official-source HTTP checks"
+        required: true
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: read
+
+jobs:
+  source-refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyyaml
+      - name: Run official-source refresh checks
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.live_check }}" = "true" ]; then
+            python scripts/check_official_links_live.py --live || true
+          else
+            python scripts/check_official_links_live.py
+          fi
+          python scripts/report_stale_sources.py
+          python scripts/live_source_check_matrix.py
+          python scripts/source_age_policy.py
+          python scripts/generate_source_badges.py
+          python scripts/release_health_dashboard.py
+      - name: Upload maintenance artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-refresh-artifacts
+          path: |
+            resources/source_refresh_report.*
+            resources/stale_source_report.*
+            resources/live_source_check_matrix.*
+            resources/source_age_policy_report.*
+            resources/source_badges.*
+            resources/release_health_dashboard.*

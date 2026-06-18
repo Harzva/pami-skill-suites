@@ -1,0 +1,33 @@
+{
+  "schema_version": "2.0.0",
+  "tags": {
+    "copyright-review-required": [
+      "pr-2024-linear-transportation-lp-distance",
+      "prl-2023-too-good-prior",
+      "eswa-2024-knowledge-based-ai",
+      "neurocomputing-2024-xai-cybersecurity",
+      "information-sciences-2025-gkf-pual",
+      "kbs-2023-alzheimers-explainable-ai"
+    ],
+    "method-comparison": [
+      "pr-2024-linear-transportation-lp-distance",
+      "prl-2023-too-good-prior"
+    ],
+    "pattern-recognition": [
+      "pr-2024-linear-transportation-lp-distance",
+      "prl-2023-too-good-prior"
+    ],
+    "main-figure": [
+      "eswa-2024-knowledge-based-ai",
+      "neurocomputing-2024-xai-cybersecurity",
+      "information-sciences-2025-gkf-pual",
+      "kbs-2023-alzheimers-explainable-ai"
+    ],
+    "method-or-result-overview": [
+      "eswa-2024-knowledge-based-ai",
+      "neurocomputing-2024-xai-cybersecurity",
+      "information-sciences-2025-gkf-pual",
+      "kbs-2023-alzheimers-explainable-ai"
+    ]
+  }
+}

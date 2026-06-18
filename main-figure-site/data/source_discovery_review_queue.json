@@ -1,0 +1,1613 @@
+{
+  "schema_version": "1.0",
+  "release_version": "v2.3.0",
+  "generated_on": "2026-06-16",
+  "title": "Source Discovery Review Queue",
+  "summary": {
+    "total": 100,
+    "P0": 89,
+    "P1": 11
+  },
+  "queue": [
+    {
+      "queue_id": "source-discovery-ieee-seed-001",
+      "candidate_id": "ieee-seed-001",
+      "paper_id": "tpami-2023-transformers-survey",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-seed-002",
+      "candidate_id": "ieee-seed-002",
+      "paper_id": "tip-2022-see360",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-seed-003",
+      "candidate_id": "ieee-seed-003",
+      "paper_id": "tmi-2020-lesion-localization",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-seed-004",
+      "candidate_id": "ieee-seed-004",
+      "paper_id": "tnnls-2023-sparce",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-seed-005",
+      "candidate_id": "ieee-seed-005",
+      "paper_id": "tnnls-2024-mediterranean",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-seed-006",
+      "candidate_id": "elsevier-seed-006",
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-seed-007",
+      "candidate_id": "elsevier-seed-007",
+      "paper_id": "prl-2023-too-good-prior",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-seed-008",
+      "candidate_id": "elsevier-seed-008",
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-seed-009",
+      "candidate_id": "elsevier-seed-009",
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-seed-010",
+      "candidate_id": "elsevier-seed-010",
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-seed-011",
+      "candidate_id": "elsevier-seed-011",
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "priority": "P1",
+      "category": "seed-live-license-recheck",
+      "risk_band": "medium",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-012",
+      "candidate_id": "elsevier-candidate-slot-012",
+      "paper_id": "elsevier-oa-candidate-012",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-013",
+      "candidate_id": "ieee-candidate-slot-013",
+      "paper_id": "ieee-oa-candidate-013",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-014",
+      "candidate_id": "elsevier-candidate-slot-014",
+      "paper_id": "elsevier-oa-candidate-014",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-015",
+      "candidate_id": "ieee-candidate-slot-015",
+      "paper_id": "ieee-oa-candidate-015",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-016",
+      "candidate_id": "elsevier-candidate-slot-016",
+      "paper_id": "elsevier-oa-candidate-016",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-017",
+      "candidate_id": "ieee-candidate-slot-017",
+      "paper_id": "ieee-oa-candidate-017",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-018",
+      "candidate_id": "elsevier-candidate-slot-018",
+      "paper_id": "elsevier-oa-candidate-018",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-019",
+      "candidate_id": "ieee-candidate-slot-019",
+      "paper_id": "ieee-oa-candidate-019",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-020",
+      "candidate_id": "elsevier-candidate-slot-020",
+      "paper_id": "elsevier-oa-candidate-020",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-021",
+      "candidate_id": "ieee-candidate-slot-021",
+      "paper_id": "ieee-oa-candidate-021",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-022",
+      "candidate_id": "elsevier-candidate-slot-022",
+      "paper_id": "elsevier-oa-candidate-022",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-023",
+      "candidate_id": "ieee-candidate-slot-023",
+      "paper_id": "ieee-oa-candidate-023",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-024",
+      "candidate_id": "elsevier-candidate-slot-024",
+      "paper_id": "elsevier-oa-candidate-024",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-025",
+      "candidate_id": "ieee-candidate-slot-025",
+      "paper_id": "ieee-oa-candidate-025",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-026",
+      "candidate_id": "elsevier-candidate-slot-026",
+      "paper_id": "elsevier-oa-candidate-026",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-027",
+      "candidate_id": "ieee-candidate-slot-027",
+      "paper_id": "ieee-oa-candidate-027",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-028",
+      "candidate_id": "elsevier-candidate-slot-028",
+      "paper_id": "elsevier-oa-candidate-028",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-029",
+      "candidate_id": "ieee-candidate-slot-029",
+      "paper_id": "ieee-oa-candidate-029",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-030",
+      "candidate_id": "elsevier-candidate-slot-030",
+      "paper_id": "elsevier-oa-candidate-030",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-031",
+      "candidate_id": "ieee-candidate-slot-031",
+      "paper_id": "ieee-oa-candidate-031",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-032",
+      "candidate_id": "elsevier-candidate-slot-032",
+      "paper_id": "elsevier-oa-candidate-032",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-033",
+      "candidate_id": "ieee-candidate-slot-033",
+      "paper_id": "ieee-oa-candidate-033",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-034",
+      "candidate_id": "elsevier-candidate-slot-034",
+      "paper_id": "elsevier-oa-candidate-034",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-035",
+      "candidate_id": "ieee-candidate-slot-035",
+      "paper_id": "ieee-oa-candidate-035",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-036",
+      "candidate_id": "elsevier-candidate-slot-036",
+      "paper_id": "elsevier-oa-candidate-036",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-037",
+      "candidate_id": "ieee-candidate-slot-037",
+      "paper_id": "ieee-oa-candidate-037",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-038",
+      "candidate_id": "elsevier-candidate-slot-038",
+      "paper_id": "elsevier-oa-candidate-038",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-039",
+      "candidate_id": "ieee-candidate-slot-039",
+      "paper_id": "ieee-oa-candidate-039",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-040",
+      "candidate_id": "elsevier-candidate-slot-040",
+      "paper_id": "elsevier-oa-candidate-040",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-041",
+      "candidate_id": "ieee-candidate-slot-041",
+      "paper_id": "ieee-oa-candidate-041",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-042",
+      "candidate_id": "elsevier-candidate-slot-042",
+      "paper_id": "elsevier-oa-candidate-042",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-043",
+      "candidate_id": "ieee-candidate-slot-043",
+      "paper_id": "ieee-oa-candidate-043",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-044",
+      "candidate_id": "elsevier-candidate-slot-044",
+      "paper_id": "elsevier-oa-candidate-044",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-045",
+      "candidate_id": "ieee-candidate-slot-045",
+      "paper_id": "ieee-oa-candidate-045",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-046",
+      "candidate_id": "elsevier-candidate-slot-046",
+      "paper_id": "elsevier-oa-candidate-046",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-047",
+      "candidate_id": "ieee-candidate-slot-047",
+      "paper_id": "ieee-oa-candidate-047",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-048",
+      "candidate_id": "elsevier-candidate-slot-048",
+      "paper_id": "elsevier-oa-candidate-048",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-049",
+      "candidate_id": "ieee-candidate-slot-049",
+      "paper_id": "ieee-oa-candidate-049",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-050",
+      "candidate_id": "elsevier-candidate-slot-050",
+      "paper_id": "elsevier-oa-candidate-050",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-051",
+      "candidate_id": "ieee-candidate-slot-051",
+      "paper_id": "ieee-oa-candidate-051",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-052",
+      "candidate_id": "elsevier-candidate-slot-052",
+      "paper_id": "elsevier-oa-candidate-052",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-053",
+      "candidate_id": "ieee-candidate-slot-053",
+      "paper_id": "ieee-oa-candidate-053",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-054",
+      "candidate_id": "elsevier-candidate-slot-054",
+      "paper_id": "elsevier-oa-candidate-054",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-055",
+      "candidate_id": "ieee-candidate-slot-055",
+      "paper_id": "ieee-oa-candidate-055",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-056",
+      "candidate_id": "elsevier-candidate-slot-056",
+      "paper_id": "elsevier-oa-candidate-056",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-057",
+      "candidate_id": "ieee-candidate-slot-057",
+      "paper_id": "ieee-oa-candidate-057",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-058",
+      "candidate_id": "elsevier-candidate-slot-058",
+      "paper_id": "elsevier-oa-candidate-058",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-059",
+      "candidate_id": "ieee-candidate-slot-059",
+      "paper_id": "ieee-oa-candidate-059",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-060",
+      "candidate_id": "elsevier-candidate-slot-060",
+      "paper_id": "elsevier-oa-candidate-060",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-061",
+      "candidate_id": "ieee-candidate-slot-061",
+      "paper_id": "ieee-oa-candidate-061",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-062",
+      "candidate_id": "elsevier-candidate-slot-062",
+      "paper_id": "elsevier-oa-candidate-062",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-063",
+      "candidate_id": "ieee-candidate-slot-063",
+      "paper_id": "ieee-oa-candidate-063",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-064",
+      "candidate_id": "elsevier-candidate-slot-064",
+      "paper_id": "elsevier-oa-candidate-064",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-065",
+      "candidate_id": "ieee-candidate-slot-065",
+      "paper_id": "ieee-oa-candidate-065",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-066",
+      "candidate_id": "elsevier-candidate-slot-066",
+      "paper_id": "elsevier-oa-candidate-066",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-067",
+      "candidate_id": "ieee-candidate-slot-067",
+      "paper_id": "ieee-oa-candidate-067",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-068",
+      "candidate_id": "elsevier-candidate-slot-068",
+      "paper_id": "elsevier-oa-candidate-068",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-069",
+      "candidate_id": "ieee-candidate-slot-069",
+      "paper_id": "ieee-oa-candidate-069",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-070",
+      "candidate_id": "elsevier-candidate-slot-070",
+      "paper_id": "elsevier-oa-candidate-070",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-071",
+      "candidate_id": "ieee-candidate-slot-071",
+      "paper_id": "ieee-oa-candidate-071",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-072",
+      "candidate_id": "elsevier-candidate-slot-072",
+      "paper_id": "elsevier-oa-candidate-072",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-073",
+      "candidate_id": "ieee-candidate-slot-073",
+      "paper_id": "ieee-oa-candidate-073",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-074",
+      "candidate_id": "elsevier-candidate-slot-074",
+      "paper_id": "elsevier-oa-candidate-074",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-075",
+      "candidate_id": "ieee-candidate-slot-075",
+      "paper_id": "ieee-oa-candidate-075",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-076",
+      "candidate_id": "elsevier-candidate-slot-076",
+      "paper_id": "elsevier-oa-candidate-076",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-077",
+      "candidate_id": "ieee-candidate-slot-077",
+      "paper_id": "ieee-oa-candidate-077",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-078",
+      "candidate_id": "elsevier-candidate-slot-078",
+      "paper_id": "elsevier-oa-candidate-078",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-079",
+      "candidate_id": "ieee-candidate-slot-079",
+      "paper_id": "ieee-oa-candidate-079",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-080",
+      "candidate_id": "elsevier-candidate-slot-080",
+      "paper_id": "elsevier-oa-candidate-080",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-081",
+      "candidate_id": "ieee-candidate-slot-081",
+      "paper_id": "ieee-oa-candidate-081",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-082",
+      "candidate_id": "elsevier-candidate-slot-082",
+      "paper_id": "elsevier-oa-candidate-082",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-083",
+      "candidate_id": "ieee-candidate-slot-083",
+      "paper_id": "ieee-oa-candidate-083",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-084",
+      "candidate_id": "elsevier-candidate-slot-084",
+      "paper_id": "elsevier-oa-candidate-084",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-085",
+      "candidate_id": "ieee-candidate-slot-085",
+      "paper_id": "ieee-oa-candidate-085",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-086",
+      "candidate_id": "elsevier-candidate-slot-086",
+      "paper_id": "elsevier-oa-candidate-086",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-087",
+      "candidate_id": "ieee-candidate-slot-087",
+      "paper_id": "ieee-oa-candidate-087",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-088",
+      "candidate_id": "elsevier-candidate-slot-088",
+      "paper_id": "elsevier-oa-candidate-088",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-089",
+      "candidate_id": "ieee-candidate-slot-089",
+      "paper_id": "ieee-oa-candidate-089",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-090",
+      "candidate_id": "elsevier-candidate-slot-090",
+      "paper_id": "elsevier-oa-candidate-090",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-091",
+      "candidate_id": "ieee-candidate-slot-091",
+      "paper_id": "ieee-oa-candidate-091",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-092",
+      "candidate_id": "elsevier-candidate-slot-092",
+      "paper_id": "elsevier-oa-candidate-092",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-093",
+      "candidate_id": "ieee-candidate-slot-093",
+      "paper_id": "ieee-oa-candidate-093",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-094",
+      "candidate_id": "elsevier-candidate-slot-094",
+      "paper_id": "elsevier-oa-candidate-094",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-095",
+      "candidate_id": "ieee-candidate-slot-095",
+      "paper_id": "ieee-oa-candidate-095",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-096",
+      "candidate_id": "elsevier-candidate-slot-096",
+      "paper_id": "elsevier-oa-candidate-096",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-097",
+      "candidate_id": "ieee-candidate-slot-097",
+      "paper_id": "ieee-oa-candidate-097",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-098",
+      "candidate_id": "elsevier-candidate-slot-098",
+      "paper_id": "elsevier-oa-candidate-098",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-ieee-candidate-slot-099",
+      "candidate_id": "ieee-candidate-slot-099",
+      "paper_id": "ieee-oa-candidate-099",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    },
+    {
+      "queue_id": "source-discovery-elsevier-candidate-slot-100",
+      "candidate_id": "elsevier-candidate-slot-100",
+      "paper_id": "elsevier-oa-candidate-100",
+      "priority": "P0",
+      "category": "pending-oa-source-discovery",
+      "risk_band": "high",
+      "review_tasks": [
+        "resolve DOI from official registry or publisher page",
+        "confirm OA source URL is allowed",
+        "confirm license candidate and attribution requirements",
+        "check third-party material status inside the figure",
+        "update extraction readiness only after preflight passes"
+      ],
+      "blocked_until": "DOI/license/OA source preflight completed"
+    }
+  ]
+}

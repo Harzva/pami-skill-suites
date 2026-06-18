@@ -1,0 +1,16 @@
+{
+  "name": "ieee-skills-default",
+  "version": "1.2.0",
+  "description": "Default macro skill package: Context-safe AI-agent skills for IEEE journal manuscripts.",
+  "publisher_family": "IEEE",
+  "unofficial": true,
+  "install_mode": "default",
+  "entrypoint_skill": "ieee-skill-suite",
+  "context_safe": true,
+  "advanced_skills_default_visible": false,
+  "requires_live_verification_for_mutable_publication_rules": true,
+  "artifacts": {
+    "repository_dist": "dist/default-skills.zip",
+    "plugin_zip": "dist/plugin-default.zip"
+  }
+}

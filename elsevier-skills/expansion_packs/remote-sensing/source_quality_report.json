@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.3.0",
+  "pack_id": "remote-sensing",
+  "summary": {
+    "journal_entries": 3,
+    "average_source_quality_score": 11.0,
+    "maturity_counts": {
+      "L0": 3,
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0
+    },
+    "live_verification_required": true
+  },
+  "journals": [
+    {
+      "pack_id": "remote-sensing",
+      "journal_id": "isprs-journal-photogrammetry-remote-sensing",
+      "title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "maturity_level": "L0",
+      "score": 11,
+      "band": "E",
+      "needs_reverification": true
+    },
+    {
+      "pack_id": "remote-sensing",
+      "journal_id": "international-journal-applied-earth-observation-geoinformation",
+      "title": "International Journal of Applied Earth Observation and Geoinformation",
+      "maturity_level": "L0",
+      "score": 11,
+      "band": "E",
+      "needs_reverification": true
+    },
+    {
+      "pack_id": "remote-sensing",
+      "journal_id": "remote-sensing-applications-society-environment",
+      "title": "Remote Sensing Applications: Society and Environment",
+      "maturity_level": "L0",
+      "score": 11,
+      "band": "E",
+      "needs_reverification": true
+    }
+  ]
+}

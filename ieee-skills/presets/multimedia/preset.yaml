@@ -1,0 +1,98 @@
+preset_id: multimedia
+title: Multimedia
+publisher_family: IEEE
+release_version: 1.5.0
+generated_on: '2026-06-13'
+visibility: optional-preset; not default top-level skill
+context_policy: Presets are routing profiles, prompt packs, and evaluation profiles. They do not add top-level skills
+  and must not increase default skill-listing context.
+source_expansion_pack: expansion_packs/multimedia/
+suite_router: skills/ieee-skill-suite/
+recommended_installation: Use as optional preset pack or keep in repository as non-skill routing resources.
+target_journals:
+- id: tmm
+  title: IEEE TMM
+  maturity_level: L3
+  journal_fragment: skills/ieee-skill-suite/static/journals/tmm.md
+  advanced_skill: skills-advanced/journals/tmm-writing
+  source_quality_score: 90
+  source_quality_band: A
+  needs_reverification: true
+- id: tcsvt
+  title: IEEE TCSVT
+  maturity_level: L3
+  journal_fragment: skills/ieee-skill-suite/static/journals/tcsvt.md
+  advanced_skill: skills-advanced/journals/tcsvt-writing
+  source_quality_score: 90
+  source_quality_band: A
+  needs_reverification: true
+- id: tvcg
+  title: IEEE TVCG
+  maturity_level: L3
+  journal_fragment: skills/ieee-skill-suite/static/journals/tvcg.md
+  advanced_skill: skills-advanced/journals/tvcg-writing
+  source_quality_score: 90
+  source_quality_band: A
+  needs_reverification: true
+- id: tip
+  title: IEEE TIP
+  maturity_level: L4
+  journal_fragment: skills/ieee-skill-suite/static/journals/tip.md
+  advanced_skill: skills-advanced/journals/tip-writing
+  source_quality_score: 100
+  source_quality_band: A
+  needs_reverification: true
+maturity_counts:
+  L0: 0
+  L1: 0
+  L2: 0
+  L3: 3
+  L4: 1
+default_module_bundle:
+  suite: ieee-skill-suite
+  journal_modules:
+  - skills/ieee-skill-suite/static/journals/tmm.md
+  - skills/ieee-skill-suite/static/journals/tcsvt.md
+  - skills/ieee-skill-suite/static/journals/tvcg.md
+  - skills/ieee-skill-suite/static/journals/tip.md
+  component_modules:
+  - skills/ieee-skill-suite/static/components/abstract.md
+  - skills/ieee-skill-suite/static/components/introduction.md
+  - skills/ieee-skill-suite/static/components/related-work.md
+  - skills/ieee-skill-suite/static/components/method.md
+  - skills/ieee-skill-suite/static/components/experiment.md
+  - skills/ieee-skill-suite/static/components/table.md
+  - skills/ieee-skill-suite/static/components/figure.md
+  - skills/ieee-skill-suite/static/components/caption.md
+  - skills/ieee-skill-suite/static/components/response-letter.md
+  - skills/ieee-skill-suite/static/components/official-source-compliance.md
+  submission_modules:
+  - skills/ieee-skill-suite/static/submission/cover-letter.md
+  - skills/ieee-skill-suite/static/submission/response-letter.md
+  - skills/ieee-skill-suite/static/submission/author-agreement.md
+  - skills/ieee-skill-suite/static/submission/copyright.md
+  - skills/ieee-skill-suite/static/submission/open-access.md
+  - skills/ieee-skill-suite/static/submission/data-code-availability.md
+  - skills/ieee-skill-suite/static/submission/final-files.md
+routing_tasks:
+- abstract rewrite
+- related work audit
+- figure caption upgrade
+- table audit
+- reviewer response
+- submission package audit
+- paper mining structure task
+- official source compliance task
+safety_rules:
+- Do not expose this preset as a default top-level skill.
+- Do not bypass journal official-source live verification for mutable submission facts.
+- Use paper templates for structure mining only; do not copy text, figures, tables, captions, equations, or paper-specific
+  claims.
+- If a journal is L0/L1, treat it as planning-only until official-source matrix and source-refresh metadata are
+  complete.
+scenario_gallery:
+  scenarios: scenarios/
+  sample_outputs: sample-outputs/
+  route_traces: route-traces/
+  evaluation_report: evaluation-report.md
+  visibility: optional; not default top-level skill

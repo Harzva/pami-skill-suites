@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Source Verification Workflow - IEEE Skills</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header><h1>Source Verification Workflow - IEEE Skills</h1><p>IEEE Journal Skill-Suite v1.2.0</p><nav><a href="index.html">Home</a><a href="getting-started.html">Get started</a><a href="architecture.html">Architecture</a><a href="context-safety.html">Context safety</a><a href="official-sources.html">Official sources</a><a href="source-verification-workflow.html">Source verification</a><a href="contributing-journal-modules.html">Contribute journals</a><a href="release-maintenance.html">Maintenance</a><a href="faq.html">FAQ</a></nav></header>
+<main>
+
+<section class="card"><h2>Offline-safe by default</h2><p>CI uses dry-run validation so releases remain reproducible. Maintainers run live checks before public source-refresh releases.</p></section>
+<section class="card"><h2>Commands</h2><pre>python scripts/check_official_links_live.py --dry-run
+python scripts/check_official_links_live.py --live
+python scripts/report_stale_sources.py</pre></section>
+<section class="card"><h2>Outputs</h2><ul><li><code>resources/source_refresh_report.json</code></li><li><code>resources/source_refresh_report.yaml</code></li><li><code>resources/stale_source_report.md</code></li><li><code>resources/stale_source_report.json</code></li></ul></section>
+<section class="card"><h2>Important policy</h2><p>Source health is not the same as rule currency. Even when a URL is healthy, mutable details such as APCs, submission portals, author agreements, license options, templates, page limits, and AI disclosure requirements must be checked on live official pages before submission advice.</p></section>
+
+</main>
+<footer><p>Unofficial project. Verify live publisher and journal pages before real submission.</p></footer>
+</body>
+</html>

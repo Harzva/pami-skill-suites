@@ -1,0 +1,1109 @@
+schema_version: 2.1.0
+release_version: 2.1.0
+generated_on: '2026-06-16'
+title: Main-Figure Quality Score Report
+summary:
+  total_records: 100
+  seed_records_scored: 5
+  pending_records: 95
+scores:
+- candidate_id: ieee-seed-001
+  paper_id: tpami-2023-transformers-survey
+  quality_score: 85
+  quality_band: seed-review
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: true
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-seed-002
+  paper_id: tip-2022-see360
+  quality_score: 80
+  quality_band: seed-review
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: true
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-seed-003
+  paper_id: tmi-2020-lesion-localization
+  quality_score: 80
+  quality_band: seed-review
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: true
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-seed-004
+  paper_id: tnnls-2023-sparce
+  quality_score: 80
+  quality_band: seed-review
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: true
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-seed-005
+  paper_id: tnnls-2024-mediterranean
+  quality_score: 80
+  quality_band: seed-review
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: true
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-006
+  paper_id: ieee-oa-candidate-006
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-007
+  paper_id: ieee-oa-candidate-007
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-008
+  paper_id: ieee-oa-candidate-008
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-009
+  paper_id: ieee-oa-candidate-009
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-010
+  paper_id: ieee-oa-candidate-010
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-011
+  paper_id: ieee-oa-candidate-011
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-012
+  paper_id: ieee-oa-candidate-012
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-013
+  paper_id: ieee-oa-candidate-013
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-014
+  paper_id: ieee-oa-candidate-014
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-015
+  paper_id: ieee-oa-candidate-015
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-016
+  paper_id: ieee-oa-candidate-016
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-017
+  paper_id: ieee-oa-candidate-017
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-018
+  paper_id: ieee-oa-candidate-018
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-019
+  paper_id: ieee-oa-candidate-019
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-020
+  paper_id: ieee-oa-candidate-020
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-021
+  paper_id: ieee-oa-candidate-021
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-022
+  paper_id: ieee-oa-candidate-022
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-023
+  paper_id: ieee-oa-candidate-023
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-024
+  paper_id: ieee-oa-candidate-024
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-025
+  paper_id: ieee-oa-candidate-025
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-026
+  paper_id: ieee-oa-candidate-026
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-027
+  paper_id: ieee-oa-candidate-027
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-028
+  paper_id: ieee-oa-candidate-028
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-029
+  paper_id: ieee-oa-candidate-029
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-030
+  paper_id: ieee-oa-candidate-030
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-031
+  paper_id: ieee-oa-candidate-031
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-032
+  paper_id: ieee-oa-candidate-032
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-033
+  paper_id: ieee-oa-candidate-033
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-034
+  paper_id: ieee-oa-candidate-034
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-035
+  paper_id: ieee-oa-candidate-035
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-036
+  paper_id: ieee-oa-candidate-036
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-037
+  paper_id: ieee-oa-candidate-037
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-038
+  paper_id: ieee-oa-candidate-038
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-039
+  paper_id: ieee-oa-candidate-039
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-040
+  paper_id: ieee-oa-candidate-040
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-041
+  paper_id: ieee-oa-candidate-041
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-042
+  paper_id: ieee-oa-candidate-042
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-043
+  paper_id: ieee-oa-candidate-043
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-044
+  paper_id: ieee-oa-candidate-044
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-045
+  paper_id: ieee-oa-candidate-045
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-046
+  paper_id: ieee-oa-candidate-046
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-047
+  paper_id: ieee-oa-candidate-047
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-048
+  paper_id: ieee-oa-candidate-048
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-049
+  paper_id: ieee-oa-candidate-049
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-050
+  paper_id: ieee-oa-candidate-050
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-051
+  paper_id: ieee-oa-candidate-051
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-052
+  paper_id: ieee-oa-candidate-052
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-053
+  paper_id: ieee-oa-candidate-053
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-054
+  paper_id: ieee-oa-candidate-054
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-055
+  paper_id: ieee-oa-candidate-055
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-056
+  paper_id: ieee-oa-candidate-056
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-057
+  paper_id: ieee-oa-candidate-057
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-058
+  paper_id: ieee-oa-candidate-058
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-059
+  paper_id: ieee-oa-candidate-059
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-060
+  paper_id: ieee-oa-candidate-060
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-061
+  paper_id: ieee-oa-candidate-061
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-062
+  paper_id: ieee-oa-candidate-062
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-063
+  paper_id: ieee-oa-candidate-063
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-064
+  paper_id: ieee-oa-candidate-064
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-065
+  paper_id: ieee-oa-candidate-065
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-066
+  paper_id: ieee-oa-candidate-066
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-067
+  paper_id: ieee-oa-candidate-067
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-068
+  paper_id: ieee-oa-candidate-068
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-069
+  paper_id: ieee-oa-candidate-069
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-070
+  paper_id: ieee-oa-candidate-070
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-071
+  paper_id: ieee-oa-candidate-071
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-072
+  paper_id: ieee-oa-candidate-072
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-073
+  paper_id: ieee-oa-candidate-073
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-074
+  paper_id: ieee-oa-candidate-074
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-075
+  paper_id: ieee-oa-candidate-075
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-076
+  paper_id: ieee-oa-candidate-076
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-077
+  paper_id: ieee-oa-candidate-077
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-078
+  paper_id: ieee-oa-candidate-078
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-079
+  paper_id: ieee-oa-candidate-079
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-080
+  paper_id: ieee-oa-candidate-080
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-081
+  paper_id: ieee-oa-candidate-081
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-082
+  paper_id: ieee-oa-candidate-082
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-083
+  paper_id: ieee-oa-candidate-083
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-084
+  paper_id: ieee-oa-candidate-084
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-085
+  paper_id: ieee-oa-candidate-085
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-086
+  paper_id: ieee-oa-candidate-086
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-087
+  paper_id: ieee-oa-candidate-087
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-088
+  paper_id: ieee-oa-candidate-088
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-089
+  paper_id: ieee-oa-candidate-089
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-090
+  paper_id: ieee-oa-candidate-090
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-091
+  paper_id: ieee-oa-candidate-091
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-092
+  paper_id: ieee-oa-candidate-092
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-093
+  paper_id: ieee-oa-candidate-093
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-094
+  paper_id: ieee-oa-candidate-094
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-095
+  paper_id: ieee-oa-candidate-095
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-096
+  paper_id: ieee-oa-candidate-096
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-097
+  paper_id: ieee-oa-candidate-097
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-098
+  paper_id: ieee-oa-candidate-098
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-099
+  paper_id: ieee-oa-candidate-099
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true
+- candidate_id: ieee-candidate-slot-100
+  paper_id: ieee-oa-candidate-100
+  quality_score: 0
+  quality_band: pending
+  scoring_basis: static structural metadata only; not a quality judgment of the paper
+  needs_human_visual_review: true
+  checks:
+    has_image_path: false
+    has_safe_summary: true
+    has_visual_tags: true
+    permission_review_required: true

@@ -1,0 +1,922 @@
+schema_version: '1.0'
+release_version: v2.3.0
+generated_on: '2026-06-16'
+title: Extraction Readiness Dashboard
+summary:
+  total: 100
+  seed_extracted_recheck_before_reuse: 11
+  blocked_pending_source_discovery: 89
+  can_enter_extraction_queue: 0
+  can_enter_rag_index: 11
+items:
+- candidate_id: ieee-seed-001
+  paper_id: tpami-2023-transformers-survey
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: ieee-seed-002
+  paper_id: tip-2022-see360
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: ieee-seed-003
+  paper_id: tmi-2020-lesion-localization
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: ieee-seed-004
+  paper_id: tnnls-2023-sparce
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: ieee-seed-005
+  paper_id: tnnls-2024-mediterranean
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: elsevier-seed-006
+  paper_id: pr-2024-linear-transportation-lp-distance
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: elsevier-seed-007
+  paper_id: prl-2023-too-good-prior
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: elsevier-seed-008
+  paper_id: eswa-2024-knowledge-based-ai
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: elsevier-seed-009
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: elsevier-seed-010
+  paper_id: information-sciences-2025-gkf-pual
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: elsevier-seed-011
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  stage: seed-extracted-recheck-before-reuse
+  target figure type: main_figure
+  risk_band: medium
+  extraction_readiness: ready-seed-extracted
+  can_enter_extraction_queue: false
+  can_enter_rag_index: true
+  notes: Seed image is already extracted for structural analysis, but new extraction/reuse requires DOI/license/OA source
+    preflight and permission review.
+- candidate_id: elsevier-candidate-slot-012
+  paper_id: elsevier-oa-candidate-012
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-013
+  paper_id: ieee-oa-candidate-013
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-014
+  paper_id: elsevier-oa-candidate-014
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-015
+  paper_id: ieee-oa-candidate-015
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-016
+  paper_id: elsevier-oa-candidate-016
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-017
+  paper_id: ieee-oa-candidate-017
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-018
+  paper_id: elsevier-oa-candidate-018
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-019
+  paper_id: ieee-oa-candidate-019
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-020
+  paper_id: elsevier-oa-candidate-020
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-021
+  paper_id: ieee-oa-candidate-021
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-022
+  paper_id: elsevier-oa-candidate-022
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-023
+  paper_id: ieee-oa-candidate-023
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-024
+  paper_id: elsevier-oa-candidate-024
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-025
+  paper_id: ieee-oa-candidate-025
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-026
+  paper_id: elsevier-oa-candidate-026
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-027
+  paper_id: ieee-oa-candidate-027
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-028
+  paper_id: elsevier-oa-candidate-028
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-029
+  paper_id: ieee-oa-candidate-029
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-030
+  paper_id: elsevier-oa-candidate-030
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-031
+  paper_id: ieee-oa-candidate-031
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-032
+  paper_id: elsevier-oa-candidate-032
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-033
+  paper_id: ieee-oa-candidate-033
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-034
+  paper_id: elsevier-oa-candidate-034
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-035
+  paper_id: ieee-oa-candidate-035
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-036
+  paper_id: elsevier-oa-candidate-036
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-037
+  paper_id: ieee-oa-candidate-037
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-038
+  paper_id: elsevier-oa-candidate-038
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-039
+  paper_id: ieee-oa-candidate-039
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-040
+  paper_id: elsevier-oa-candidate-040
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-041
+  paper_id: ieee-oa-candidate-041
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-042
+  paper_id: elsevier-oa-candidate-042
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-043
+  paper_id: ieee-oa-candidate-043
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-044
+  paper_id: elsevier-oa-candidate-044
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-045
+  paper_id: ieee-oa-candidate-045
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-046
+  paper_id: elsevier-oa-candidate-046
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-047
+  paper_id: ieee-oa-candidate-047
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-048
+  paper_id: elsevier-oa-candidate-048
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-049
+  paper_id: ieee-oa-candidate-049
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-050
+  paper_id: elsevier-oa-candidate-050
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-051
+  paper_id: ieee-oa-candidate-051
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-052
+  paper_id: elsevier-oa-candidate-052
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-053
+  paper_id: ieee-oa-candidate-053
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-054
+  paper_id: elsevier-oa-candidate-054
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-055
+  paper_id: ieee-oa-candidate-055
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-056
+  paper_id: elsevier-oa-candidate-056
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-057
+  paper_id: ieee-oa-candidate-057
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-058
+  paper_id: elsevier-oa-candidate-058
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-059
+  paper_id: ieee-oa-candidate-059
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-060
+  paper_id: elsevier-oa-candidate-060
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-061
+  paper_id: ieee-oa-candidate-061
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-062
+  paper_id: elsevier-oa-candidate-062
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-063
+  paper_id: ieee-oa-candidate-063
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-064
+  paper_id: elsevier-oa-candidate-064
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-065
+  paper_id: ieee-oa-candidate-065
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-066
+  paper_id: elsevier-oa-candidate-066
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-067
+  paper_id: ieee-oa-candidate-067
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-068
+  paper_id: elsevier-oa-candidate-068
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-069
+  paper_id: ieee-oa-candidate-069
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-070
+  paper_id: elsevier-oa-candidate-070
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-071
+  paper_id: ieee-oa-candidate-071
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-072
+  paper_id: elsevier-oa-candidate-072
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-073
+  paper_id: ieee-oa-candidate-073
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-074
+  paper_id: elsevier-oa-candidate-074
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-075
+  paper_id: ieee-oa-candidate-075
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-076
+  paper_id: elsevier-oa-candidate-076
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-077
+  paper_id: ieee-oa-candidate-077
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-078
+  paper_id: elsevier-oa-candidate-078
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-079
+  paper_id: ieee-oa-candidate-079
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-080
+  paper_id: elsevier-oa-candidate-080
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-081
+  paper_id: ieee-oa-candidate-081
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-082
+  paper_id: elsevier-oa-candidate-082
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-083
+  paper_id: ieee-oa-candidate-083
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-084
+  paper_id: elsevier-oa-candidate-084
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-085
+  paper_id: ieee-oa-candidate-085
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-086
+  paper_id: elsevier-oa-candidate-086
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-087
+  paper_id: ieee-oa-candidate-087
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-088
+  paper_id: elsevier-oa-candidate-088
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-089
+  paper_id: ieee-oa-candidate-089
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-090
+  paper_id: elsevier-oa-candidate-090
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-091
+  paper_id: ieee-oa-candidate-091
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-092
+  paper_id: elsevier-oa-candidate-092
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-093
+  paper_id: ieee-oa-candidate-093
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-094
+  paper_id: elsevier-oa-candidate-094
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-095
+  paper_id: ieee-oa-candidate-095
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-096
+  paper_id: elsevier-oa-candidate-096
+  stage: blocked-pending-source-discovery
+  target figure type: main_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-097
+  paper_id: ieee-oa-candidate-097
+  stage: blocked-pending-source-discovery
+  target figure type: motivation_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-098
+  paper_id: elsevier-oa-candidate-098
+  stage: blocked-pending-source-discovery
+  target figure type: method_pipeline_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: ieee-candidate-slot-099
+  paper_id: ieee-oa-candidate-099
+  stage: blocked-pending-source-discovery
+  target figure type: taxonomy_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.
+- candidate_id: elsevier-candidate-slot-100
+  paper_id: elsevier-oa-candidate-100
+  stage: blocked-pending-source-discovery
+  target figure type: experiment_overview_figure
+  risk_band: high
+  extraction_readiness: blocked_until_doi_license_preflight_passes
+  can_enter_extraction_queue: false
+  can_enter_rag_index: false
+  notes: Pending candidates cannot enter extraction or RAG until DOI/license/OA source preflight passes.

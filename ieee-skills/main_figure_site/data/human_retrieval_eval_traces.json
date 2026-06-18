@@ -1,0 +1,272 @@
+{
+  "schema_version": "2.6.0",
+  "release_version": "v2.6.0",
+  "generated_on": "2026-06-17",
+  "title": "Human Retrieval Evaluation Traces",
+  "traces": [
+    {
+      "trace_id": "trace_method_pipeline_main_figure",
+      "query_id": "method_pipeline_main_figure",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 4,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_motivation_gap_figure",
+      "query_id": "motivation_gap_figure",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 3,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_ablation_table_style",
+      "query_id": "ablation_table_style",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 1,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_taxonomy_survey_overview",
+      "query_id": "taxonomy_survey_overview",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 3,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_medical_ai_workflow",
+      "query_id": "medical_ai_workflow",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 1,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_remote_sensing_pipeline",
+      "query_id": "remote_sensing_pipeline",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 1,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_caption_explanation_pattern",
+      "query_id": "caption_explanation_pattern",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 5,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_limitations_visualization",
+      "query_id": "limitations_visualization",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 0,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_beautiful_comparison_table",
+      "query_id": "beautiful_comparison_table",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 1,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_figure_table_caption_bundle",
+      "query_id": "figure_table_caption_bundle",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 5,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_visual_rhetoric_for_introduction",
+      "query_id": "visual_rhetoric_for_introduction",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 3,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    },
+    {
+      "trace_id": "trace_rag_safety_permission_warning",
+      "query_id": "rag_safety_permission_warning",
+      "evaluation_status": "pending-human-evaluation",
+      "offline_release_behavior": "No human evaluator judgment was claimed in this release build.",
+      "retrieved_result_count": 5,
+      "human_judgment_template": {
+        "relevance_0_to_5": null,
+        "tag_alignment_0_to_5": null,
+        "mode_safety_pass": null,
+        "copyright_safety_pass": null,
+        "scientific_figure_design_usefulness_0_to_5": null,
+        "failure_modes": [],
+        "reviewer_notes": "TBD by human reviewer."
+      },
+      "required_safety_checks": [
+        "metadata-only mode used",
+        "no unverified candidate leakage",
+        "no source image reuse suggested",
+        "permission warning included"
+      ]
+    }
+  ]
+}

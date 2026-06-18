@@ -1,0 +1,219 @@
+{
+  "schema_version": "2.1.0",
+  "release_version": "2.1.0",
+  "title": "Elsevier Main-Figure Gallery + RAG Scaffold",
+  "generated_on": "2026-06-16",
+  "target_capacity_minimum": 100,
+  "current_seed_main_figures": 6,
+  "actual_seed_status": "seeded from existing open-access template corpus only",
+  "corpus_status": "scaffold-ready; 100+ corpus support implemented; additional papers require OA source and permission review",
+  "allowed_sources": [
+    "open-access papers",
+    "CC BY / CC BY-NC / explicitly licensed versions",
+    "publisher-permitted OA PDFs",
+    "author/institution repository OA versions"
+  ],
+  "prohibited_sources": [
+    "Sci-Hub",
+    "pirated PDFs",
+    "paywalled-only PDFs",
+    "copyright-unknown PDFs",
+    "unauthorized reproductions"
+  ],
+  "required_card_fields": [
+    "paper_id",
+    "title",
+    "journal",
+    "year",
+    "DOI",
+    "license",
+    "source URL",
+    "main figure path",
+    "caption / safe summary",
+    "visual rhetoric tags",
+    "linked paper section",
+    "reusable structure lessons",
+    "copyright safety note"
+  ],
+  "entries": [
+    {
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "title": "A linear transportation Lp distance for pattern recognition",
+      "journal": "Pattern Recognition",
+      "publisher_family": "Elsevier",
+      "year": 2024,
+      "doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf",
+      "source_pdf_path": "paper_templates/open_access_papers/pattern_recognition_2024_linear_transportation_lp_distance_ccby.pdf",
+      "main_figure_path_repo": "paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png",
+      "caption_excerpt": "distance was on the order of magnitude of ten’s of seconds, whilst the full TL𝑝took several hours. Fig. 1 demonstrates that our proposed LTL𝑝",
+      "safe_summary": "Main figure from Pattern Recognition used for structural visual-rhetoric analysis only.",
+      "visual_rhetoric_tags": [
+        "copyright-review-required",
+        "method-comparison",
+        "pattern-recognition"
+      ],
+      "linked_paper_section": "Figure introduction / method overview / results context; verify manually from source PDF.",
+      "reusable_structure_lessons": [
+        "Use the figure as a structural example, not as reusable artwork.",
+        "Map the visual flow to claims, evidence, and caption logic.",
+        "Record what makes the figure effective: hierarchy, grouping, arrows, legends, or comparison layout."
+      ],
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements.",
+      "seed_status": "seeded-from-existing-open-access-template-corpus",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "site_image_path": "gallery/elsevier/pr-2024-linear-transportation-lp-distance__p007__main_figure.png"
+    },
+    {
+      "paper_id": "prl-2023-too-good-prior",
+      "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+      "journal": "Pattern Recognition Letters",
+      "publisher_family": "Elsevier",
+      "year": 2023,
+      "doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf",
+      "source_pdf_path": "paper_templates/open_access_papers/pattern_recognition_letters_2023_too_good_to_be_true_prior_ccby.pdf",
+      "main_figure_path_repo": "paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png",
+      "caption_excerpt": "Fig. 1. The standard and too-good-to-be-true prior approaches to learning. (A) In the standard approach, a single high-capacity network (HCN) is trained and is susceptible to shortcuts, in this case relying on color as …",
+      "safe_summary": "Main figure from Pattern Recognition Letters used for structural visual-rhetoric analysis only.",
+      "visual_rhetoric_tags": [
+        "copyright-review-required",
+        "method-comparison",
+        "pattern-recognition"
+      ],
+      "linked_paper_section": "Figure introduction / method overview / results context; verify manually from source PDF.",
+      "reusable_structure_lessons": [
+        "Use the figure as a structural example, not as reusable artwork.",
+        "Map the visual flow to claims, evidence, and caption logic.",
+        "Record what makes the figure effective: hierarchy, grouping, arrows, legends, or comparison layout."
+      ],
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements.",
+      "seed_status": "seeded-from-existing-open-access-template-corpus",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "site_image_path": "gallery/elsevier/prl-2023-too-good-prior__p002__main_figure.png"
+    },
+    {
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+      "journal": "Expert Systems With Applications",
+      "publisher_family": "Elsevier",
+      "year": 2024,
+      "doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf",
+      "source_pdf_path": "paper_templates/open_access_papers/eswa_2024_knowledge_based_ai_template_ccby.pdf",
+      "main_figure_path_repo": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+      "caption_excerpt": "In this study, we aim to present a DLBM to predict vessel arrival time. To achieve this, we primarily use the Design Science methodology to design and develop our method VATP (Hevner et al., 2004; Peffers et al., 2007).…",
+      "safe_summary": "Main figure from Expert Systems With Applications used for structural visual-rhetoric analysis only.",
+      "visual_rhetoric_tags": [
+        "copyright-review-required",
+        "main-figure",
+        "method-or-result-overview"
+      ],
+      "linked_paper_section": "Figure introduction / method overview / results context; verify manually from source PDF.",
+      "reusable_structure_lessons": [
+        "Use the figure as a structural example, not as reusable artwork.",
+        "Map the visual flow to claims, evidence, and caption logic.",
+        "Record what makes the figure effective: hierarchy, grouping, arrows, legends, or comparison layout."
+      ],
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements.",
+      "seed_status": "seeded-from-existing-open-access-template-corpus",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "site_image_path": "gallery/elsevier/eswa-2024-knowledge-based-ai__p005__main_figure.png"
+    },
+    {
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+      "journal": "Neurocomputing",
+      "publisher_family": "Elsevier",
+      "year": 2024,
+      "doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf",
+      "source_pdf_path": "paper_templates/open_access_papers/neurocomputing_2024_xai_systematic_analysis_ccby.pdf",
+      "main_figure_path_repo": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+      "caption_excerpt": "Fig. 1. The main concept behind explainable AI (xAI).",
+      "safe_summary": "Main figure from Neurocomputing used for structural visual-rhetoric analysis only.",
+      "visual_rhetoric_tags": [
+        "copyright-review-required",
+        "main-figure",
+        "method-or-result-overview"
+      ],
+      "linked_paper_section": "Figure introduction / method overview / results context; verify manually from source PDF.",
+      "reusable_structure_lessons": [
+        "Use the figure as a structural example, not as reusable artwork.",
+        "Map the visual flow to claims, evidence, and caption logic.",
+        "Record what makes the figure effective: hierarchy, grouping, arrows, legends, or comparison layout."
+      ],
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements.",
+      "seed_status": "seeded-from-existing-open-access-template-corpus",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "site_image_path": "gallery/elsevier/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png"
+    },
+    {
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+      "journal": "Information Sciences",
+      "publisher_family": "Elsevier",
+      "year": 2025,
+      "doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf",
+      "source_pdf_path": "paper_templates/open_access_papers/information_sciences_2025_gkf_pual_ccby.pdf",
+      "main_figure_path_repo": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+      "caption_excerpt": "Fig. 1. The t-SNE plots of the three trifurcate datasets OR1, OR2 and Pen; blue: positive instances; red: negative instances. The positive instances roughly scatter on both sides of the negative instances.",
+      "safe_summary": "Main figure from Information Sciences used for structural visual-rhetoric analysis only.",
+      "visual_rhetoric_tags": [
+        "copyright-review-required",
+        "main-figure",
+        "method-or-result-overview"
+      ],
+      "linked_paper_section": "Figure introduction / method overview / results context; verify manually from source PDF.",
+      "reusable_structure_lessons": [
+        "Use the figure as a structural example, not as reusable artwork.",
+        "Map the visual flow to claims, evidence, and caption logic.",
+        "Record what makes the figure effective: hierarchy, grouping, arrows, legends, or comparison layout."
+      ],
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements.",
+      "seed_status": "seeded-from-existing-open-access-template-corpus",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "site_image_path": "gallery/elsevier/information-sciences-2025-gkf-pual__p003__main_figure.png"
+    },
+    {
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+      "journal": "Knowledge-Based Systems",
+      "publisher_family": "Elsevier",
+      "year": 2023,
+      "doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "source_url": "https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf",
+      "source_pdf_path": "paper_templates/open_access_papers/kbs_2023_alzheimers_explainable_ai_ccby.pdf",
+      "main_figure_path_repo": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+      "caption_excerpt": "Fig. 1. Graphical overview of the proposed Adazd-Net.",
+      "safe_summary": "Main figure from Knowledge-Based Systems used for structural visual-rhetoric analysis only.",
+      "visual_rhetoric_tags": [
+        "copyright-review-required",
+        "main-figure",
+        "method-or-result-overview"
+      ],
+      "linked_paper_section": "Figure introduction / method overview / results context; verify manually from source PDF.",
+      "reusable_structure_lessons": [
+        "Use the figure as a structural example, not as reusable artwork.",
+        "Map the visual flow to claims, evidence, and caption logic.",
+        "Record what makes the figure effective: hierarchy, grouping, arrows, legends, or comparison layout."
+      ],
+      "copyright_safety_note": "Open-access structural analysis asset. Do not reuse or republish figure/table content without checking the source license and attribution requirements.",
+      "seed_status": "seeded-from-existing-open-access-template-corpus",
+      "permission_status": "requires-license-and-third-party-material-review-before-reuse",
+      "site_image_path": "gallery/elsevier/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png"
+    }
+  ],
+  "candidate_registry": "data/candidate_papers_100.json",
+  "candidate_workflow_status": "100-candidate workflow-ready; pending slots require OA source and permission review",
+  "actual_seed_main_figures": 6,
+  "candidate_slot_count": 100,
+  "do_not_claim_100_collected": "Only seed figures are actual extracted assets; candidate slots are placeholders until verified."
+}

@@ -1,0 +1,677 @@
+schema_version: '1.0'
+release_version: 1.8.0
+publisher: Elsevier
+generated_on: '2026-06-14'
+use_scope: For visual-structure analysis of legally included OA/template papers only.
+  Do not copy or reuse content without checking license and citation/permission requirements.
+asset_counts:
+  main_figure: 6
+  motivation_figure: 6
+  beautiful_table: 6
+assets:
+- paper_id: pr-2024-linear-transportation-lp-distance
+  title: A linear transportation Lp distance for pattern recognition
+  journal: Pattern Recognition
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf
+  pdf_path: paper_templates/open_access_papers/pattern_recognition_2024_linear_transportation_lp_distance_ccby.pdf
+  page: 7
+  caption: distance was on the order of magnitude of ten’s of seconds, whilst the
+    full TL𝑝took several hours. Fig. 1 demonstrates that our proposed LTL𝑝
+  caption_type: figure
+  asset_type: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 0.0
+  - 571.46
+  - 291.01
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: pr-2024-linear-transportation-lp-distance
+  title: A linear transportation Lp distance for pattern recognition
+  journal: Pattern Recognition
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf
+  pdf_path: paper_templates/open_access_papers/pattern_recognition_2024_linear_transportation_lp_distance_ccby.pdf
+  page: 8
+  caption: Fig. 1. (A) Distributions of macro-F1 scores for different transportation
+    methods. Evidently LTL𝑝significantly outperforms LW𝑝. (B) An example a multi-variate
+    signal 𝑓𝑖∶{𝑡1, … , 𝑡44} →R22 from the Auslan dataset. Each curve represents one
+    of the 22 sensors. We see that the informative part of the signal is before the
+    20th time frame.
+  caption_type: figure
+  asset_type: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/pr-2024-linear-transportation-lp-distance__p008__motivation_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 0.0
+  - 571.46
+  - 305.33
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: pr-2024-linear-transportation-lp-distance
+  title: A linear transportation Lp distance for pattern recognition
+  journal: Pattern Recognition
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf
+  pdf_path: paper_templates/open_access_papers/pattern_recognition_2024_linear_transportation_lp_distance_ccby.pdf
+  page: 7
+  caption: From Table 1 we see that the computational cost of the LTL𝑝and LW𝑝distances
+    differs significantly more than might be expected. This is due to the LTL𝑝distance
+    converging more quickly, requiring on an average of 10 (up to a maximum of 100)
+    iterations compared to an average of 100 (up to a maximum of 200) iterations for
+    LW𝑝in our Sinkhorn implementation. The TL𝑝distance was not included as a comparison
+    as it was too expensive to compute.
+  caption_type: table
+  asset_type: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/pr-2024-linear-transportation-lp-distance__p007__beautiful_table.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 231.5
+  - 571.46
+  - 629.34
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: prl-2023-too-good-prior
+  title: A too-good-to-be-true prior to reduce shortcut reliance
+  journal: Pattern Recognition Letters
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf
+  pdf_path: paper_templates/open_access_papers/pattern_recognition_letters_2023_too_good_to_be_true_prior_ccby.pdf
+  page: 2
+  caption: Fig. 1. The standard and too-good-to-be-true prior approaches to learning.
+    (A) In the standard approach, a single high-capacity network (HCN) is trained
+    and is susceptible to shortcuts, in this case relying on color as opposed to shape.
+    Such a network will generalize well to i.i.d. test items but fail on o.o.d. test
+    items (the last item for each class; shown in red). (B) In contrast, implementing
+    the too-good-to-be true prior by pairing a low-capacity network (LCN) with an
+    HCN leads to successful i.i.d. and o.o.d. generalization. Items that the LCN can
+    master, which may contain shortcuts, are downweighted when the HCN is trained,
+    which should reduce shortcut reliance and promote use of more complex and invariant
+    features by the HCN. (For interpretation of the references to colour in this ﬁgure
+    legend, the reader is referred to the web version of this article.)
+  caption_type: figure
+  asset_type: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 102.39
+  - 571.44
+  - 538.97
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: prl-2023-too-good-prior
+  title: A too-good-to-be-true prior to reduce shortcut reliance
+  journal: Pattern Recognition Letters
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf
+  pdf_path: paper_templates/open_access_papers/pattern_recognition_letters_2023_too_good_to_be_true_prior_ccby.pdf
+  page: 2
+  caption: where shortcut features are distributed identically to the training set
+    (i.i.d.), but fail dramatically on o.o.d. test sets where shortcuts are missing
+    or misleading [32] . Shortcuts can adversely affect generalization even when they
+    are not perfectly predictive. Because shortcuts are easily learned by DCNNs, they
+    can be misleading even in the presence of more reliable but complex features [20]
+    . To illustrate, shape may be per- fectly predictive of class membership but networks
+    may rely on color or other easily accessed features like texture [5,11] when tested
+    on novel cases (see Fig. 1 A). Although what is and is not a shortcut cannot be
+    known with perfect conﬁdence, all shortcuts are simple. We ﬁnd it unlikely that
+    diﬃcult learning problems will have trivial solutions when they have not been
+    fully solved by brains with billions of neurons shaped by millions of years of
+    natural selection nor by engineers working diligently for decades. Based on this
+    observation, we are skeptical of very simple solutions to complex problems and
+    believe they will have poor o.o.d. generalization. This inductive bias, which
+    we refer to as the “too-good-to-be-true prior”, can be incorporated into the training
+    of DCNNs to reduce shortcut reliance and promote
+  caption_type: figure
+  asset_type: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/prl-2023-too-good-prior__p002__motivation_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 171.89
+  - 571.44
+  - 766.01
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: prl-2023-too-good-prior
+  title: A too-good-to-be-true prior to reduce shortcut reliance
+  journal: Pattern Recognition Letters
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf
+  pdf_path: paper_templates/open_access_papers/pattern_recognition_letters_2023_too_good_to_be_true_prior_ccby.pdf
+  page: 3
+  caption: 'Shortcut learning and robust generalization. Multiple ap- proaches have
+    been suggested for preventing shortcut reliance and increasing generalization
+    robustness in deep neural networks [9] . We succinctly summarize eleven studies
+    which we ﬁnd most rel- evant to our work in Table 1 , using two criteria: whether
+    an ap- proach (1) assumes that simple solutions are probably shortcuts and (2)
+    requires a priori knowledge of the shortcut. We also spec- ify the task domains
+    considered. In contrast to Nam et al. [31] , we use an LCN, not a full-capacity
+    target model, to identify shortcuts and train the LCN separately from the target
+    HCN. In comparison to Clark et al. [8] , our ap- proach is less demanding computationally
+    and, again, the LCN and HCN are trained separately. We demonstrate that, in our
+    partic- ular implementation of the too-good-to-be-true prior, the limited capacity
+    of a secondary model plays a key role, thus complement- ing the results of Sanh
+    et al. [34] . We also extend the ﬁndings of Sanh et al., who introduced a similar
+    de-biasing approach in the language domain, to the domain of image recognition.
+    In contrast to all of the aforementioned studies, we show that an LCN can be employed
+    to detect the presence of shortcuts in a dataset. Further, we empirically examine
+    the relationship between the diﬃculty of a classiﬁcation problem and the effectiveness
+    of shortcut-avoiding training via our two-stage LCN-HCN procedure. Huang et al.
+    [21] suggested a heuristic, Representation Self- Challenging (RSC), to improve
+    o.o.d. generalization in image recog- nition. This method impedes predicting class
+    from features most correlated with it and thus encourages a DCNN to rely on more
+    complex combinations of features. RSC, however, is not directly de- signed to
+    prevent shortcut learning but rather attempts to expand the set of features learned.
+    Sample weighting. Re-weighting of data samples is a well- known approach to guiding
+    the training of DCNNs and machine learning models in general, and corresponding
+    methods differ in terms of which examples must be downweighted/emphasized. Some
+    authors suggested to mitigate the impact of easy examples and focus on hard ones
+    [28,36] . In contrast, in other research direc- tions, such as curriculum learning
+    [3,14,41] and self-paced learning [25,29] , it is recommended to stress easy examples
+    early in train- ing. It was also shown that the self-paced and curriculum learning
+    can be combined [22] .'
+  caption_type: table
+  asset_type: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/prl-2023-too-good-prior__p003__beautiful_table.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 311.98
+  - 571.44
+  - 793.92
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: eswa-2024-knowledge-based-ai
+  title: 'Enhancing vessel arrival time prediction: A fusion-based deep learning approach'
+  journal: Expert Systems With Applications
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf
+  pdf_path: paper_templates/open_access_papers/eswa_2024_knowledge_based_ai_template_ccby.pdf
+  page: 5
+  caption: In this study, we aim to present a DLBM to predict vessel arrival time.
+    To achieve this, we primarily use the Design Science methodology to design and
+    develop our method VATP (Hevner et al., 2004; Peffers et al., 2007). Design Science
+    research methodology (Hevner et al., 2004; Peffers et al., 2007) is a research
+    approach focused on creating practical solutions for real-world problems. It involves
+    the creation of a viable artefact in the form of a model or a method, rigorously
+    evaluating its effectiveness, and communicating the findings. Key principles include
+    problem relevance, rigorous research methods, and clear contributions to design
+    theory and practice (Hevner et al., 2004). By applying the Design Science research
+    methodology to our research goal, we arrive at the following steps, and each step
+    is described in detail in the corre­ sponding section. We first present the VATP
+    and then introduce the applied techniques. The important phases of data analytics
+    are then connected to create a more precise forecasting method. These phases are
+    Data pre-processing, Feature extraction, CNN, LSTM, Attention mecha­ nism, Dropout,
+    and Fully connected/dense layers. We also evaluated the performance, robustness,
+    and effectiveness of the VATP method using RMSR and MAPE. Subsequently, we describe
+    the data collection, data processing, dataset resources, and the required pre-processing
+    steps. We use four data sources in the experiment along with feature fusion for
+    performance optimization. We also investigate the potential of various DLBM and
+    TMLBM methods to predict the arrival time of the vessel. We then not only present
+    and discuss the outcomes of this study, but also compare the performance of VATP
+    with the existing proposed systems. The entire VATP system is presented in Fig.
+    6. We first present our input dataset and then we discuss how one can create an
+    effective deep neural network for predicting arrival time.
+  caption_type: figure
+  asset_type: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 18.53
+  - 571.46
+  - 701.17
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: eswa-2024-knowledge-based-ai
+  title: 'Enhancing vessel arrival time prediction: A fusion-based deep learning approach'
+  journal: Expert Systems With Applications
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf
+  pdf_path: paper_templates/open_access_papers/eswa_2024_knowledge_based_ai_template_ccby.pdf
+  page: 5
+  caption: sea information. By incorporating this information, we aim to enhance the
+    transparency and applicability of our findings. The linked ships in this dataset
+    (e.g., Container Ships and Tankers) represent a typical se­ lection commonly observed
+    during maritime operations at a particular port (e.g., Rotterdam and Amsterdam).
+    We employed common identi­ fiers to link and collect corresponding information
+    from multiple data­ sets. For example, we used the Global Positioning System (GPS)
+    coordinates and timestamps as shared identifiers to collect data on sea conditions
+    and weather at specific points or positions. Furthermore, we used vessel identification
+    numbers (ship ID) to link AIS data with vessel information. Through linking these
+    datasets using common identifiers, we successfully integrated the relevant information.
+    The Automatic Identification System (AIS) — is a safety system of navigation and
+    maritime traffic enforced by the International Maritime Organization (IMO). All
+    vessels with a gross tonnage greater than 300 are obliged to have an AIS system.
+    The AIS information can be used for various vital applications, such as vessel
+    monitoring, maritime surveil­ lance, security, rescue, traffic management, and
+    collision avoidance (Sampath, 2012). Fig. 1 presents the factors influencing the
+    arrival time of a ship. It also shows various subfigures (including sea information,
+    weather information, ship details, and AIS data) that provide an overview of these
+    interconnected elements and their impact on ship arrival. The sea information
+    (e.g., details on sea currents) aids in understanding the challenges ships may
+    face during their journey. The weather information shows meteorological data (e.g.,
+    wind speed) for assessing the impact of weather on ship performance and arrival
+    time. The ship information offers insights into vessel information (e.g., size,
+    type). Finally, the AIS data provide real-time ship information (e.g., positions,
+    speed) that en­ ables the assessment of navigational efficiency and potential
+    delays. Fig. 1 provides an overview of the various factors contributing to ship
+    arrival time, facilitating analysis and decision-making processes for optimal
+    planning and management. As shown in Fig. 2, during a voyage, each ship emits
+    thousands of signals at periodic intervals, which are then received by satellites,
+    ground stations, and other ships. The AIS dataset includes various in­ formation
+    that can be categorized into dynamic information (e.g., speed, course, and position)
+    and static information (e.g., ship name, MMSI, ship type). Table 1 presents the
+    fields of the AIS dataset as well as the cor­ responding explanation of each field.
+    Vessel information — We also derived vessel information from the aforementioned
+    websites (Fig. 3) using IMO or MMSI. This information can be considered complementary
+    to the AIS dataset. As presented in Table 2, the information includes the IMO,
+    MMSI, Vessel Type, Status, Gross Tonnage, Deadweight tonnage, ship’s length, and
+    Breadth. Status is used to check whether the vessel still is active or not. Weather
+    and Sea information — We also use marine weather infor­ mation to enhance the
+    vessel arrival time forecasting performance. As AIS data does not provide marine
+    weather information, it is required to get marine weather information. ERDDAP
+    (Fig. 4) provides meteoro­ logical data, which enables users to access data based
+    on the date, latitude, longitude, and other factors. A sample of weather information
+    that is shown in Table 3 includes temperature, precipitation (e.g., rainfall and
+    snowfall), sky conditions (e.g., visibility, wind speed), significant wave height,
+    wave direction, wind direction, wave period in seconds (the time between two peaks
+    of a wave at the same point in space), etc. Augmented information — indicates
+    invariant features (such as length, width, and vessel type) and new features (NF)
+    created using one or more existing variables (we utilized the AIS dataset). As
+    can be seen from the above datasets, apart from Vessel Information all other datasets
+    are essentially time series. There is not much guidance on how one can create
+    a deep learning model with such different input datasets with features varying
+    in both space and time. In the following section, we will describe our approach
+    to creating VATP.
+  caption_type: figure
+  asset_type: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/eswa-2024-knowledge-based-ai__p005__motivation_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 41.3
+  - 571.46
+  - 793.7
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: eswa-2024-knowledge-based-ai
+  title: 'Enhancing vessel arrival time prediction: A fusion-based deep learning approach'
+  journal: Expert Systems With Applications
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf
+  pdf_path: paper_templates/open_access_papers/eswa_2024_knowledge_based_ai_template_ccby.pdf
+  page: 5
+  caption: sea information. By incorporating this information, we aim to enhance the
+    transparency and applicability of our findings. The linked ships in this dataset
+    (e.g., Container Ships and Tankers) represent a typical se­ lection commonly observed
+    during maritime operations at a particular port (e.g., Rotterdam and Amsterdam).
+    We employed common identi­ fiers to link and collect corresponding information
+    from multiple data­ sets. For example, we used the Global Positioning System (GPS)
+    coordinates and timestamps as shared identifiers to collect data on sea conditions
+    and weather at specific points or positions. Furthermore, we used vessel identification
+    numbers (ship ID) to link AIS data with vessel information. Through linking these
+    datasets using common identifiers, we successfully integrated the relevant information.
+    The Automatic Identification System (AIS) — is a safety system of navigation and
+    maritime traffic enforced by the International Maritime Organization (IMO). All
+    vessels with a gross tonnage greater than 300 are obliged to have an AIS system.
+    The AIS information can be used for various vital applications, such as vessel
+    monitoring, maritime surveil­ lance, security, rescue, traffic management, and
+    collision avoidance (Sampath, 2012). Fig. 1 presents the factors influencing the
+    arrival time of a ship. It also shows various subfigures (including sea information,
+    weather information, ship details, and AIS data) that provide an overview of these
+    interconnected elements and their impact on ship arrival. The sea information
+    (e.g., details on sea currents) aids in understanding the challenges ships may
+    face during their journey. The weather information shows meteorological data (e.g.,
+    wind speed) for assessing the impact of weather on ship performance and arrival
+    time. The ship information offers insights into vessel information (e.g., size,
+    type). Finally, the AIS data provide real-time ship information (e.g., positions,
+    speed) that en­ ables the assessment of navigational efficiency and potential
+    delays. Fig. 1 provides an overview of the various factors contributing to ship
+    arrival time, facilitating analysis and decision-making processes for optimal
+    planning and management. As shown in Fig. 2, during a voyage, each ship emits
+    thousands of signals at periodic intervals, which are then received by satellites,
+    ground stations, and other ships. The AIS dataset includes various in­ formation
+    that can be categorized into dynamic information (e.g., speed, course, and position)
+    and static information (e.g., ship name, MMSI, ship type). Table 1 presents the
+    fields of the AIS dataset as well as the cor­ responding explanation of each field.
+    Vessel information — We also derived vessel information from the aforementioned
+    websites (Fig. 3) using IMO or MMSI. This information can be considered complementary
+    to the AIS dataset. As presented in Table 2, the information includes the IMO,
+    MMSI, Vessel Type, Status, Gross Tonnage, Deadweight tonnage, ship’s length, and
+    Breadth. Status is used to check whether the vessel still is active or not. Weather
+    and Sea information — We also use marine weather infor­ mation to enhance the
+    vessel arrival time forecasting performance. As AIS data does not provide marine
+    weather information, it is required to get marine weather information. ERDDAP
+    (Fig. 4) provides meteoro­ logical data, which enables users to access data based
+    on the date, latitude, longitude, and other factors. A sample of weather information
+    that is shown in Table 3 includes temperature, precipitation (e.g., rainfall and
+    snowfall), sky conditions (e.g., visibility, wind speed), significant wave height,
+    wave direction, wind direction, wave period in seconds (the time between two peaks
+    of a wave at the same point in space), etc. Augmented information — indicates
+    invariant features (such as length, width, and vessel type) and new features (NF)
+    created using one or more existing variables (we utilized the AIS dataset). As
+    can be seen from the above datasets, apart from Vessel Information all other datasets
+    are essentially time series. There is not much guidance on how one can create
+    a deep learning model with such different input datasets with features varying
+    in both space and time. In the following section, we will describe our approach
+    to creating VATP.
+  caption_type: table
+  asset_type: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/eswa-2024-knowledge-based-ai__p005__beautiful_table.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 33.3
+  - 571.46
+  - 793.7
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: neurocomputing-2024-xai-cybersecurity
+  title: 'Advanced insights through systematic analysis: Mapping future research directions
+    and opportunities for xAI in deep learning and artificial intelligence used in
+    cybersecurity'
+  journal: Neurocomputing
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf
+  pdf_path: paper_templates/open_access_papers/neurocomputing_2024_xai_systematic_analysis_ccby.pdf
+  page: 2
+  caption: Fig. 1. The main concept behind explainable AI (xAI).
+  caption_type: figure
+  asset_type: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 0.0
+  - 571.46
+  - 247.29
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: neurocomputing-2024-xai-cybersecurity
+  title: 'Advanced insights through systematic analysis: Mapping future research directions
+    and opportunities for xAI in deep learning and artificial intelligence used in
+    cybersecurity'
+  journal: Neurocomputing
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf
+  pdf_path: paper_templates/open_access_papers/neurocomputing_2024_xai_systematic_analysis_ccby.pdf
+  page: 2
+  caption: comprehend and interpret the decision-making process of ML algo- rithms.
+    Within the context of network intrusion detection, the intro- duction of explainability
+    can help recognize the decisive data attributes contributing to specific decisions,
+    thereby facilitating human analysts in grasping the nature of threats and devising
+    effective countermeasures. Furthermore, explainability can serve as a means to
+    uncover biases and errors within models, leading to enhancements in their perfor-
+    mance [9]. Fig. 1 shows the graphical representation of the main concept behind
+    explainable AI, serving the role of a magnifying glass used to peek inside the
+    ‘‘black-box’’ model. This transparency, or rather, lack thereof, especially in
+    the context of cybersecurity and network intrusion detection, may have real-world
+    consequences and significance. To name just a few examples, explain- able AI methods
+    can aid in improved identifying and understanding the behaviour patterns indicative
+    of threats and consequently in the iden- tification and analysis of anomalous
+    network traffic, which could indi- cate a cybersecurity threat. By understanding
+    the reasons behind the classification of traffic as anomalous, security professionals
+    can more effectively and accurately respond to potential threats [10]. Similarly,
+    the use of xAI in malware detection allows for a deeper understanding of the features
+    that lead to the classification of a file or process as malicious. This can improve
+    trust in malware detection systems and facilitate the development of more effective
+    countermeasures [11]. In the broader cybersecurity context, explainability is
+    also of exceptional value. For example, it can significantly enhance phishing
+    detection systems by providing insights into why certain emails or websites are
+    flagged as malicious. This can help security analysts understand the characteristics
+    of phishing attempts and improve the accuracy of detection models over time [12].
+    Meske et al. have remarked that explainability should not be per- ceived as a
+    byproduct ‘‘problem arising through AI’’. Rather, it is ‘‘as old as the topic
+    of AI itself’’ [13]. And yet, as pointed out by Mathew, explainability ‘‘is still
+    in its early stages’’, which leaves plenty of room for future research [14]. In
+    turn, it is the innovative research on xAI which has the potential to positively
+    influence the application of AI in general [15]. It has been projected that the
+    hype cycle for xAI will last longer than 10 years [15]. In other words, the expectations
+    and excitement about Explainable AI are expected to persist at high levels for
+    an extended period before reaching a more stable and realistic phase of adoption.
+    This can have various implications, such as extended invest- ments, advancements
+    in the field, and potential challenges in managing heightened expectations and
+    delivering on the promises of Explainable AI. Primarily, it signifies that the
+    field will undergo intensive research efforts. Bearing these considerations in
+    mind, the authors of this paper aimed to identify research opportunities for xAI,
+    and to analyse and categorize potential research directions. This work presents
+    the results of their study.
+  caption_type: figure
+  asset_type: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/neurocomputing-2024-xai-cybersecurity__p002__motivation_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 0.0
+  - 571.46
+  - 772.15
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: neurocomputing-2024-xai-cybersecurity
+  title: 'Advanced insights through systematic analysis: Mapping future research directions
+    and opportunities for xAI in deep learning and artificial intelligence used in
+    cybersecurity'
+  journal: Neurocomputing
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf
+  pdf_path: paper_templates/open_access_papers/neurocomputing_2024_xai_systematic_analysis_ccby.pdf
+  page: 6
+  caption: ((‘‘xai’’ OR ‘‘explainable AI’’ OR ‘‘explainability’’) AND ‘‘future’’)
+    In this case, the numbers of results were as presented in Table 2. This search
+    uncovered additional 12 178 potential hits. Collected together, the results underwent
+    thorough screening by the authors. In cases where the number of results was particularly
+    extensive, the search outcomes were scrutinized until they reached a point of
+    diminishing relevance or inclusion of relevant materials. This rigorous selection
+    process resulted in 985 papers being chosen for further examination.
+  caption_type: table
+  asset_type: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/neurocomputing-2024-xai-cybersecurity__p006__beautiful_table.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 288.77
+  - 571.46
+  - 694.25
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: information-sciences-2025-gkf-pual
+  title: 'GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with
+    variable selection'
+  journal: Information Sciences
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf
+  pdf_path: paper_templates/open_access_papers/information_sciences_2025_gkf_pual_ccby.pdf
+  page: 3
+  caption: 'Fig. 1. The t-SNE plots of the three trifurcate datasets OR1, OR2 and
+    Pen; blue: positive instances; red: negative instances. The positive instances
+    roughly scatter on both sides of the negative instances.'
+  caption_type: figure
+  asset_type: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png
+  crop_rect_pdf_points:
+  - 21.77
+  - 133.32
+  - 522.48
+  - 473.78
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: information-sciences-2025-gkf-pual
+  title: 'GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with
+    variable selection'
+  journal: Information Sciences
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf
+  pdf_path: paper_templates/open_access_papers/information_sciences_2025_gkf_pual_ccby.pdf
+  page: 3
+  caption: We build our model on PUAL [33], a PU classiﬁer particularly eﬀective on
+    the datasets having trifurcate patterns as illustrated in Fig. 1 by using three
+    UCI datasets (UCI Machine Learning Repository, https://archive .ics .uci .edu
+    /ml /index .php), as such a pattern necessitates a non-linear classiﬁer. The kernel
+    trick is widely adopted by classiﬁers to generate nonlinear decision boundary.
+    However, we note that the kernel trick is not compatible to the lasso or group-lasso
+    regularisation term for embedding variable selection in PUAL. To resolve this
+    issue, we propose a group kernel-free quadratic PU classiﬁer (GKF-PUAL) with the
+    ability of embedded variable selection in this paper.
+  caption_type: figure
+  asset_type: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/information-sciences-2025-gkf-pual__p003__motivation_figure.png
+  crop_rect_pdf_points:
+  - 21.77
+  - 10.54
+  - 522.48
+  - 437.21
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: information-sciences-2025-gkf-pual
+  title: 'GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with
+    variable selection'
+  journal: Information Sciences
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf
+  pdf_path: paper_templates/open_access_papers/information_sciences_2025_gkf_pual_ccby.pdf
+  page: 11
+  caption: The results of the experiments are summarised by average F1-score in Table
+    2, from which we can make the following observations. Firstly, GKF-PUAL outperformed
+    PUAL on 21 out of a total of 26 cases. This supports our motivation that GKF-PUAL
+    can achieve better PU classiﬁcation performance than PUAL on datasets containing
+    irrelevant variables. Moreover, GKF-PUAL consistently out- performed KF-PUAL,
+    indicating the eﬀectiveness of variable selection through group lasso. It is also
+    worth noting that KF-PUAL only surpassed PUAL in 7 out of 26 cases, suggesting
+    that quadratic decision boundary lacks ﬂexibility. However, when variable selection
+    was enabled, GKF-PUAL demonstrated dominant classiﬁcation performance against
+    PUAL. Secondly, there are 14 out of 26 cases where GKF-PUAL performs the best
+    among all the ﬁve methods compared in the experiments. This indicates superior
+    classiﬁcation performance of GKF-PUAL. Thirdly, on all 6 cases of the 3 trifurcate
+    PU datasets, OR1, OR2 and Pen, GKF-PUAL performs the best. This veriﬁes that GKF-PUAL
+    not only preserves the superior classiﬁcation performance of PUAL addressing trifurcate
+    data, but also does so without being aﬀected by a large number of irrelevant variables.
+  caption_type: table
+  asset_type: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/information-sciences-2025-gkf-pual__p011__beautiful_table.png
+  crop_rect_pdf_points:
+  - 21.77
+  - 180.95
+  - 522.48
+  - 592.78
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: kbs-2023-alzheimers-explainable-ai
+  title: 'Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection
+    system using EEG signals'
+  journal: Knowledge-Based Systems
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf
+  pdf_path: paper_templates/open_access_papers/kbs_2023_alzheimers_explainable_ai_ccby.pdf
+  page: 4
+  caption: Fig. 1. Graphical overview of the proposed Adazd-Net.
+  caption_type: figure
+  asset_type: main_figure
+  asset_path: paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 0.0
+  - 571.46
+  - 293.34
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: kbs-2023-alzheimers-explainable-ai
+  title: 'Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection
+    system using EEG signals'
+  journal: Knowledge-Based Systems
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf
+  pdf_path: paper_templates/open_access_papers/kbs_2023_alzheimers_explainable_ai_ccby.pdf
+  page: 4
+  caption: adaptive wavelet i.e. AFAWT, third subsection provides the details about
+    featureset, and final subsection presents the explainable ML model. The graphical
+    implementation steps of the developed adaptive and explainable AZD detection model
+    is shown in Fig. 1.
+  caption_type: figure
+  asset_type: motivation_figure
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/kbs-2023-alzheimers-explainable-ai__p004__motivation_figure.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 30.11
+  - 571.46
+  - 457.16
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.
+- paper_id: kbs-2023-alzheimers-explainable-ai
+  title: 'Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection
+    system using EEG signals'
+  journal: Knowledge-Based Systems
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf
+  pdf_path: paper_templates/open_access_papers/kbs_2023_alzheimers_explainable_ai_ccby.pdf
+  page: 7
+  caption: (responsible for personality and emotions, thinking skills, and controlling
+    movement) captures detailed changes during AZD enabling higher possibilities of
+    detecting AZD. In contrast, OR responsible for recognition of shapes and colors
+    is least affected due to which it has resulted in the least accuracy. To get more
+    insight into our developed model, we have evaluated five perfor- mance matrices
+    for combined features using ten-fold CV, LOSO, holdout, and FR. The summary of
+    performance report obtained for different combination is shown in Table 4. It
+    is evident from the Table 4 that holdout validation (90% data for training and
+    10% data for testing) has provided an ACCY of 98.51%, while SNSY of 100%. The
+    SNSY, SPCY, PRCS, and F1-score for 10-fold CV is 99.75%, 100%, 100%, and 99.88%,
+    respectively. The LOSO validation has yielded the least performance with an ACCY,
+    SNSY, SPCY, PRCS, and F1-score of 91.3%, 85.71%, 100%, 100%, and 93.21%, respectively.
+    The performance report generated by Adazd-Net model shows that our developed model
+    is effective and accurate in different scenarios. The analysis performed till
+    this point has used all the features. According to the brain region assessment,
+    the FR is the most informative lobe in the identification of AZD. However, it
+    remains unclear which channel and feature generates distinguishable information
+    for AZD detection. As a result, we conducted the statistical and ACCY analysis
+    for each channel utilizing all features. Fig. 4 illustrates the channel rank obtained
+    using univariate analysis and Table 5 shows the ACCY for each channel. It is seen
+    from Fig. 4 that F3 indicates the most discrimi- nant properties followed by P3,
+    O2, C4, and Fp2. On the other hand, channels F7 and T4 indicates the overlapping
+    characteristics of AZD and NC EEGs. The channel-wise analysis show that the F3
+    has obtained 98.94% surpassing the performance of all other channels. The other
+    channels in FR i.e. Fp1 and Fp2 are second and third best with the ACCY score
+    of 98.64%. T4 channel has generated the minimum ACCY score of 91.25% indicating
+    least contribution in the detection of AZD. The channel-wise analysis proves that
+    in the frontal lobes, the most contributing features channels are F3, Fp1, and
+    Fp2.
+  caption_type: table
+  asset_type: beautiful_table
+  asset_path: paper_templates/extracted_visual_assets/beautiful_tables/kbs-2023-alzheimers-explainable-ai__p007__beautiful_table.png
+  crop_rect_pdf_points:
+  - 23.81
+  - 297.76
+  - 571.46
+  - 793.7
+  extraction_method: heuristic caption-aware crop from OA PDF; for structure analysis
+    only
+  copyright_note: Open-access structural analysis asset. Do not reuse or republish
+    figure/table content without checking the source license and attribution requirements.

@@ -1,0 +1,16 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated archives
+*.zip
+
+# Local scratch
+.tmp/
+dist/

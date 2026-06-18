@@ -1,0 +1,1361 @@
+{
+  "registry_version": "1.8.0",
+  "publisher": "Elsevier",
+  "last_verified_date": "2026-06-12",
+  "verification_scope": "official-source fields populated and publisher-wide official sources mapped; mutable journal-specific rules require live verification before submission",
+  "source_tier_policy": {
+    "highest": "journal official rule",
+    "second": "publisher official rule",
+    "third": "repository best-practice recommendation",
+    "lowest": "template-paper observation"
+  },
+  "publisher_common_sources": {
+    "publisher_name": "Elsevier",
+    "author_center": "https://www.elsevier.com/researcher/author",
+    "journal_home_finder": "https://www.elsevier.com/researcher/author/tools-and-resources/find-a-journal",
+    "author_instructions": "https://www.elsevier.com/researcher/author/policies-and-guidelines",
+    "submission_system": "https://www.elsevier.support/publishing/answer/how-do-i-submit-a-manuscript-in-editorial-manager",
+    "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+    "latex_instructions": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+    "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+    "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+    "open_access": "https://www.elsevier.com/open-access",
+    "open_access_licenses": "https://www.elsevier.com/about/policies-and-standards/open-access-licenses",
+    "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+    "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+    "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+    "data_statement": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-statement",
+    "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+    "highlights": "https://www.elsevier.com/researcher/author/tools-and-resources/highlights",
+    "graphical_abstract": "https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstract"
+  },
+  "journals": [
+    {
+      "id": "applied-soft-computing",
+      "title": "Applied Soft Computing",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/applied-soft-computing.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/applied-soft-computing",
+        "author_instructions": "https://www.sciencedirect.com/journal/applied-soft-computing/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/applied-soft-computing/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/applied-soft-computing/publish/guide-for-authors",
+        "issn": "1568-4946"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "artificial-intelligence-medicine",
+      "title": "Artificial Intelligence in Medicine",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/artificial-intelligence-medicine.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine",
+        "author_instructions": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/guide-for-authors",
+        "issn": "0933-3657"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/artificial-intelligence.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/artificial-intelligence",
+        "author_instructions": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/artificial-intelligence/publish/guide-for-authors",
+        "issn": "0004-3702"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "biomedical-signal-processing-control",
+      "title": "Biomedical Signal Processing and Control",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/biomedical-signal-processing-control.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control",
+        "author_instructions": "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control/publish/guide-for-authors",
+        "issn": "1746-8094"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "cmpb",
+      "title": "Computer Methods and Programs in Biomedicine",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/cmpb.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine",
+        "author_instructions": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine/publish/guide-for-authors",
+        "issn": "0169-2607"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "computer-speech-language",
+      "title": "Computer Speech & Language",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/computer-speech-language.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/computer-speech-and-language",
+        "author_instructions": "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors",
+        "issn": "0885-2308"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "computers-biology-medicine",
+      "title": "Computers in Biology and Medicine",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/computers-biology-medicine.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine",
+        "author_instructions": "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine/publish/guide-for-authors",
+        "issn": "0010-4825"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "cviu",
+      "title": "Computer Vision and Image Understanding",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/cviu.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding",
+        "author_instructions": "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/publish/guide-for-authors",
+        "issn": "1077-3142"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "data-knowledge-engineering",
+      "title": "Data & Knowledge Engineering",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/data-knowledge-engineering.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/data-and-knowledge-engineering",
+        "author_instructions": "https://www.sciencedirect.com/journal/data-and-knowledge-engineering/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/data-and-knowledge-engineering/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/data-and-knowledge-engineering/publish/guide-for-authors",
+        "issn": "0169-023X"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "decision-support-systems",
+      "title": "Decision Support Systems",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/decision-support-systems.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/decision-support-systems",
+        "author_instructions": "https://www.sciencedirect.com/journal/decision-support-systems/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/decision-support-systems/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/decision-support-systems/publish/guide-for-authors",
+        "issn": "0167-9236"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "eaai",
+      "title": "Engineering Applications of Artificial Intelligence",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/eaai.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence",
+        "author_instructions": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence/publish/guide-for-authors",
+        "issn": "0952-1976"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "eswa",
+      "title": "Expert Systems With Applications",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/eswa.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+        "author_instructions": "https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors",
+        "issn": "0957-4174"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "future-generation-computer-systems",
+      "title": "Future Generation Computer Systems",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/future-generation-computer-systems.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/future-generation-computer-systems",
+        "author_instructions": "https://www.sciencedirect.com/journal/future-generation-computer-systems/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/future-generation-computer-systems/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/future-generation-computer-systems/publish/guide-for-authors",
+        "issn": "0167-739X"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "image-and-vision-computing",
+      "title": "Image and Vision Computing",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/image-and-vision-computing.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/image-and-vision-computing",
+        "author_instructions": "https://www.sciencedirect.com/journal/image-and-vision-computing/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/image-and-vision-computing/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/image-and-vision-computing/publish/guide-for-authors",
+        "issn": "0262-8856"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "information-fusion",
+      "title": "Information Fusion",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/information-fusion.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/information-fusion",
+        "author_instructions": "https://www.sciencedirect.com/journal/information-fusion/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/information-fusion/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/information-fusion/publish/guide-for-authors",
+        "issn": "1566-2535"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "information-sciences",
+      "title": "Information Sciences",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/information-sciences.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/information-sciences",
+        "author_instructions": "https://www.sciencedirect.com/journal/information-sciences/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/information-sciences/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/information-sciences/publish/guide-for-authors",
+        "issn": "0020-0255"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "jvcir",
+      "title": "Journal of Visual Communication and Image Representation",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/jvcir.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation",
+        "author_instructions": "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation/publish/guide-for-authors",
+        "issn": "1047-3203"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "kbs",
+      "title": "Knowledge-Based Systems",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/kbs.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/knowledge-based-systems",
+        "author_instructions": "https://www.sciencedirect.com/journal/knowledge-based-systems/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/knowledge-based-systems/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/knowledge-based-systems/publish/guide-for-authors",
+        "issn": "0950-7051"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "medical-image-analysis",
+      "title": "Medical Image Analysis",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/medical-image-analysis.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/medical-image-analysis",
+        "author_instructions": "https://www.sciencedirect.com/journal/medical-image-analysis/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/medical-image-analysis/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/medical-image-analysis/publish/guide-for-authors",
+        "issn": "1361-8415"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "neurocomputing",
+      "title": "Neurocomputing",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/neurocomputing.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/neurocomputing",
+        "author_instructions": "https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors",
+        "issn": "0925-2312"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "pr",
+      "title": "Pattern Recognition",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/pr.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/pattern-recognition",
+        "author_instructions": "https://www.sciencedirect.com/journal/pattern-recognition/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/pattern-recognition/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/pattern-recognition/publish/guide-for-authors",
+        "issn": "0031-3203"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "prl",
+      "title": "Pattern Recognition Letters",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/prl.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/pattern-recognition-letters",
+        "author_instructions": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/pattern-recognition-letters/publish/guide-for-authors",
+        "issn": "0167-8655"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "robotics-autonomous-systems",
+      "title": "Robotics and Autonomous Systems",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/robotics-autonomous-systems.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems",
+        "author_instructions": "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems/publish/guide-for-authors",
+        "issn": "0921-8890"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "signal-processing-image-communication",
+      "title": "Signal Processing: Image Communication",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/signal-processing-image-communication.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/signal-processing-image-communication",
+        "author_instructions": "https://www.sciencedirect.com/journal/signal-processing-image-communication/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/signal-processing-image-communication/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/signal-processing-image-communication/publish/guide-for-authors",
+        "issn": "0923-5965"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    },
+    {
+      "id": "signal-processing",
+      "title": "Signal Processing",
+      "publisher": "Elsevier",
+      "path": "skills/elsevier-skill-suite/static/journals/signal-processing.md",
+      "fields": {
+        "journal_homepage": "https://www.sciencedirect.com/journal/signal-processing",
+        "author_instructions": "https://www.sciencedirect.com/journal/signal-processing/publish/guide-for-authors",
+        "submission_system": "https://www.sciencedirect.com/journal/signal-processing/publish/guide-for-authors#submit-your-article",
+        "manuscript_template": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+        "publishing_agreement": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "copyright_license": "https://www.elsevier.com/about/policies-and-standards/copyright",
+        "open_access": "https://www.elsevier.com/researcher/author/open-access/choice",
+        "ethics_integrity": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+        "ai_disclosure_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "data_code_availability": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines",
+        "permissions": "https://www.elsevier.com/about/policies-and-standards/copyright/permissions",
+        "guide_for_authors": "https://www.sciencedirect.com/journal/signal-processing/publish/guide-for-authors",
+        "issn": "0165-1684"
+      },
+      "last_verified_date": "2026-06-11",
+      "verification_status": "official-source fields populated in v0.8.0; live verification required before submission",
+      "source_tiers": {
+        "publisher_official_rule": [
+          "publisher author center/policies",
+          "publisher templates",
+          "publishing agreement/copyright/license/open access pages",
+          "AI/data/permissions pages"
+        ],
+        "journal_official_rule": [
+          "journal homepage",
+          "journal author instructions / Guide for Authors / Information for Authors",
+          "submission system"
+        ],
+        "repository_best_practice_recommendation": [
+          "routing policy",
+          "output contracts",
+          "reviewer-risk checklists"
+        ],
+        "template_paper_observation": [
+          "open-access template-paper structural observations only, when included"
+        ]
+      },
+      "last_live_checked": "not-run-in-release-build",
+      "source_status": "pending-live-check",
+      "needs_reverification": true,
+      "official_link_health": {
+        "status": "unchecked",
+        "reason": "Release build is offline-friendly; run scripts/check_official_links_live.py --live in a networked environment.",
+        "report_path": "resources/source_refresh_report.json"
+      }
+    }
+  ],
+  "source_refresh_policy": {
+    "cadence": "quarterly or before each public release",
+    "live_check_script": "scripts/check_official_links_live.py",
+    "stale_report_script": "scripts/report_stale_sources.py",
+    "release_build_network_policy": "offline-friendly by default; CI uses dry-run unless maintainers opt into --live",
+    "mutable_fields_require_reverification": [
+      "submission system",
+      "manuscript template",
+      "publishing agreement",
+      "copyright/license",
+      "open access options or APC",
+      "AI disclosure policy",
+      "data/code availability policy",
+      "permissions",
+      "page limits",
+      "supplementary-file requirements"
+    ]
+  },
+  "maintenance_policy": {
+    "live_check_script": "scripts/check_official_links_live.py --live",
+    "matrix_script": "scripts/live_source_check_matrix.py",
+    "age_policy_script": "scripts/source_age_policy.py",
+    "dashboard_script": "scripts/release_health_dashboard.py",
+    "offline_safe_policy": "Do not mark unchecked sources as healthy in offline release builds.",
+    "last_release_update": "2026-06-13"
+  },
+  "last_policy_snapshot": "resources/source_snapshots/2026-06-14-v1.8.0-registry-snapshot.json"
+}

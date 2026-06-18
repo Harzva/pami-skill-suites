@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Query Rewrite Suggestions · IEEE Skills v2.7.0</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:1040px;margin:40px auto;padding:0 20px;line-height:1.6}code,pre{background:#f6f8fa;padding:.15rem .3rem;border-radius:6px}.card{border:1px solid #ddd;border-radius:14px;padding:18px;margin:16px 0}.warn{background:#fff8e5;border-left:4px solid #b7791f;padding:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}</style>
+</head><body>
+<h1>Query Rewrite Suggestions</h1>
+<p>Provide safer and more precise query rewrites for scientific-figure RAG without encouraging image reuse.</p>
+<div class="warn"><strong>Safety policy:</strong> v2.7.0 is metadata-only for seed RAG. Image embedding and public-gallery modes remain blocked until DOI/OA/license evidence, permission evidence, third-party-material review, and human reviewer approval pass.</div>
+<div class="grid">
+  <div class="card"><h2>Primary data</h2><ul>
+    <li><code>main_figure_site/data/rag_trace_ui_index.json</code></li>
+    <li><code>main_figure_site/data/visual_query_debug_traces.json</code></li>
+    <li><code>main_figure_site/data/query_rewrite_suggestions.json</code></li>
+    <li><code>main_figure_site/data/missing_tag_coverage_report.json</code></li>
+    <li><code>main_figure_site/data/corpus_expansion_recommendations.json</code></li>
+    <li><code>main_figure_site/data/human_eval_dashboard.json</code></li>
+  </ul></div>
+  <div class="card"><h2>Scripts</h2><ul>
+    <li><code>python scripts/validate_rag_trace_ui.py</code></li>
+    <li><code>python scripts/visual_query_debugger.py</code></li>
+    <li><code>python scripts/query_rewrite_suggestions.py</code></li>
+    <li><code>python scripts/human_eval_dashboard.py</code></li>
+  </ul></div>
+</div>
+<h2>How to use this page</h2>
+<p>Use the JSON/YAML assets as a transparent debugging layer for scientific-figure retrieval. Each trace links the user query to expected tags, seed metadata records, blocked RAG modes, failure-mode candidates, query rewrites, and human-evaluation placeholders.</p>
+<h2>Do not use as image reuse permission</h2>
+<p>These assets do not grant permission to copy, redraw, embed, publish, or publicly display source figures. They only support safe structural analysis and metadata-only retrieval.</p>
+</body></html>

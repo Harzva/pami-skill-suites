@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.7.0",
+  "release_version": "v2.7.0",
+  "generated_on": "2026-06-18",
+  "title": "Journal Skill Suites v2.7.0 Summary",
+  "release_name": "RAG Trace UI + Visual Query Debugger",
+  "packages": {
+    "ieee-skills-v2.7.0.zip": {
+      "path": "https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/ieee-skills-v2.7.0.zip",
+      "sha256": "a2332de13e95dcbebd85de3ce34670f3bc8c50e8f0561d67a7b98a4e077bfb8f",
+      "size_bytes": 92831483
+    },
+    "elsevier-skills-v2.7.0.zip": {
+      "path": "https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/elsevier-skills-v2.7.0.zip",
+      "sha256": "57d6f49d4ba6a67d71737163fe4ce0b3047cf90c3bb415099e2093869581aa1f",
+      "size_bytes": 53240882
+    },
+    "main-figure-site-v2.7.0.zip": {
+      "path": "https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/main-figure-site-v2.7.0.zip",
+      "sha256": "5144d066d9b224ea44ec0b8c91ee96ac42bdc7dd9c3d12ab3ffacf7f22a520ec",
+      "size_bytes": 4676658
+    }
+  },
+  "targets": [
+    {
+      "name": "IEEE Skills",
+      "package": "ieee-skills-v2.7.0.zip",
+      "default_macro_skills": 8,
+      "default_skill_names": [
+        "ieee-citation",
+        "ieee-figure-table",
+        "ieee-paper-miner",
+        "ieee-response",
+        "ieee-reviewer",
+        "ieee-skill-suite",
+        "ieee-submission",
+        "ieee-writing"
+      ],
+      "trace_count": 12,
+      "debug_trace_count": 12,
+      "missing_tag_count": 35,
+      "pending_human_evaluations": 12,
+      "image_embedding_allowed": false,
+      "public_gallery_allowed": false
+    },
+    {
+      "name": "Elsevier Skills",
+      "package": "elsevier-skills-v2.7.0.zip",
+      "default_macro_skills": 9,
+      "default_skill_names": [
+        "elsevier-citation",
+        "elsevier-figure-table",
+        "elsevier-highlights",
+        "elsevier-paper-miner",
+        "elsevier-response",
+        "elsevier-reviewer",
+        "elsevier-skill-suite",
+        "elsevier-submission",
+        "elsevier-writing"
+      ],
+      "trace_count": 12,
+      "debug_trace_count": 12,
+      "missing_tag_count": 39,
+      "pending_human_evaluations": 12,
+      "image_embedding_allowed": false,
+      "public_gallery_allowed": false
+    },
+    {
+      "name": "Main-Figure Site",
+      "package": "main-figure-site-v2.7.0.zip",
+      "default_macro_skills": 0,
+      "default_skill_names": [],
+      "trace_count": 12,
+      "debug_trace_count": 12,
+      "missing_tag_count": 34,
+      "pending_human_evaluations": 12,
+      "image_embedding_allowed": false,
+      "public_gallery_allowed": false
+    }
+  ],
+  "checks": [
+    "RAG trace UI files exist",
+    "visual query debug traces exist",
+    "query rewrite suggestions exist",
+    "missing-tag coverage report exists",
+    "corpus expansion recommendations exist",
+    "human evaluation dashboard exists",
+    "metadata-only RAG remains allowed for seed records",
+    "image embedding remains blocked",
+    "public gallery remains blocked",
+    "default top-level skill count remains <= 10",
+    "zip integrity checked"
+  ],
+  "offline_safe_release_build": true,
+  "live_lookup_claimed": false,
+  "human_evaluation_completed_claimed": false,
+  "aggregate_package": {
+    "filename": "journal-skill-suites-v2.7.0.zip",
+    "note": "Aggregate package contains the three release zips and this summary JSON. Its SHA256 is reported in the final assistant response because including it inside this JSON would create a self-referential hash cycle."
+  },
+  "summary_json_note": "This JSON omits its own SHA256 for the same self-reference reason."
+}

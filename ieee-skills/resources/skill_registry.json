@@ -1,0 +1,31 @@
+{
+  "version": "0.6.0",
+  "publisher": "IEEE",
+  "default_skills": [
+    "ieee-skill-suite",
+    "ieee-writing",
+    "ieee-reviewer",
+    "ieee-response",
+    "ieee-figure-table",
+    "ieee-submission",
+    "ieee-citation",
+    "ieee-paper-miner"
+  ],
+  "advanced_counts": {
+    "journals": 22,
+    "components": 43,
+    "submission": 23,
+    "routers": 3,
+    "core": 0
+  },
+  "fragment_counts": {
+    "journals": 22,
+    "components": 50,
+    "submission": 31
+  },
+  "context_safety": {
+    "default_visible_skills_max": 10,
+    "description_chars_max": 350,
+    "total_description_budget_max": 3000
+  }
+}

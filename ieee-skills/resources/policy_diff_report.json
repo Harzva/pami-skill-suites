@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "mode": "baseline-no-previous-snapshot",
+  "old_snapshot": null,
+  "new_snapshot": "resources/source_snapshots/latest.json",
+  "summary": {
+    "added_records": 0,
+    "removed_records": 0,
+    "changed_records": 0,
+    "baseline_inventory_records": 279
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "live_verification_warning": "Diff compares recorded fields; run live source checks separately for URL health."
+}

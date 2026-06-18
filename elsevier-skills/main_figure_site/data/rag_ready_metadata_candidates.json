@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "release_version": "v2.4.0",
+  "generated_on": "2026-06-16",
+  "title": "Elsevier Skills RAG-ready metadata-only candidates",
+  "metadata_only_policy": "Existing seed records may remain in metadata-only RAG. No new figure extraction or public reuse is allowed by this list.",
+  "summary": {
+    "total_candidates": 100,
+    "rag_ready_metadata_only_count": 6,
+    "pending_not_rag_ready": 94
+  },
+  "candidates": [
+    {
+      "candidate_id": "elsevier-seed-001",
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "publisher_family": "Elsevier",
+      "target_figure_type": "main_figure",
+      "can_extract": false,
+      "can_host_public_gallery": false,
+      "can_enter_rag_metadata_only": true,
+      "reason": "seed metadata-only record; live evidence re-check still required",
+      "required_unlock_conditions": [
+        "canonical DOI verified",
+        "OA source verified",
+        "license text recorded",
+        "permission status approved",
+        "third-party material review passed",
+        "human reviewer decision recorded"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-002",
+      "paper_id": "prl-2023-too-good-prior",
+      "publisher_family": "Elsevier",
+      "target_figure_type": "main_figure",
+      "can_extract": false,
+      "can_host_public_gallery": false,
+      "can_enter_rag_metadata_only": true,
+      "reason": "seed metadata-only record; live evidence re-check still required",
+      "required_unlock_conditions": [
+        "canonical DOI verified",
+        "OA source verified",
+        "license text recorded",
+        "permission status approved",
+        "third-party material review passed",
+        "human reviewer decision recorded"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-003",
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "publisher_family": "Elsevier",
+      "target_figure_type": "main_figure",
+      "can_extract": false,
+      "can_host_public_gallery": false,
+      "can_enter_rag_metadata_only": true,
+      "reason": "seed metadata-only record; live evidence re-check still required",
+      "required_unlock_conditions": [
+        "canonical DOI verified",
+        "OA source verified",
+        "license text recorded",
+        "permission status approved",
+        "third-party material review passed",
+        "human reviewer decision recorded"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-004",
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "publisher_family": "Elsevier",
+      "target_figure_type": "main_figure",
+      "can_extract": false,
+      "can_host_public_gallery": false,
+      "can_enter_rag_metadata_only": true,
+      "reason": "seed metadata-only record; live evidence re-check still required",
+      "required_unlock_conditions": [
+        "canonical DOI verified",
+        "OA source verified",
+        "license text recorded",
+        "permission status approved",
+        "third-party material review passed",
+        "human reviewer decision recorded"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-005",
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "publisher_family": "Elsevier",
+      "target_figure_type": "main_figure",
+      "can_extract": false,
+      "can_host_public_gallery": false,
+      "can_enter_rag_metadata_only": true,
+      "reason": "seed metadata-only record; live evidence re-check still required",
+      "required_unlock_conditions": [
+        "canonical DOI verified",
+        "OA source verified",
+        "license text recorded",
+        "permission status approved",
+        "third-party material review passed",
+        "human reviewer decision recorded"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-006",
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "publisher_family": "Elsevier",
+      "target_figure_type": "main_figure",
+      "can_extract": false,
+      "can_host_public_gallery": false,
+      "can_enter_rag_metadata_only": true,
+      "reason": "seed metadata-only record; live evidence re-check still required",
+      "required_unlock_conditions": [
+        "canonical DOI verified",
+        "OA source verified",
+        "license text recorded",
+        "permission status approved",
+        "third-party material review passed",
+        "human reviewer decision recorded"
+      ]
+    }
+  ]
+}

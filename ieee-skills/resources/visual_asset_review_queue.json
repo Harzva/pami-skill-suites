@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.9.0",
+  "publisher": "IEEE",
+  "generated_on": "2026-06-14",
+  "queue_type": "visual_asset_review_queue",
+  "total_items": 14,
+  "items": [
+    {
+      "asset_id": "tpami-2023-transformers-survey::main_figure::p1",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png",
+      "priority": "P2",
+      "reason": [
+        "wide-layout",
+        "caption-too-short-for-standalone-reuse-analysis"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tpami-2023-transformers-survey::motivation_figure::p1",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tpami-2023-transformers-survey__p001__motivation_figure.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tpami-2023-transformers-survey::beautiful_table::p9",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tpami-2023-transformers-survey__p009__beautiful_table.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tip-2022-see360::main_figure::p1",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tip-2022-see360::motivation_figure::p2",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tip-2022-see360__p002__motivation_figure.png",
+      "priority": "P2",
+      "reason": [
+        "wide-layout",
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tip-2022-see360::beautiful_table::p9",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tip-2022-see360__p009__beautiful_table.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tmi-2020-lesion-localization::main_figure::p4",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png",
+      "priority": "P2",
+      "reason": [
+        "low-pixel-resolution-for-close-study",
+        "wide-layout",
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tmi-2020-lesion-localization::beautiful_table::p2",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tmi-2020-lesion-localization__p002__beautiful_table.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tnnls-2023-sparce::main_figure::p4",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tnnls-2023-sparce__p004__main_figure.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tnnls-2023-sparce::motivation_figure::p4",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tnnls-2023-sparce__p004__motivation_figure.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tnnls-2023-sparce::beautiful_table::p10",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tnnls-2023-sparce__p010__beautiful_table.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tnnls-2024-mediterranean::main_figure::p3",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/tnnls-2024-mediterranean__p003__main_figure.png",
+      "priority": "P2",
+      "reason": [
+        "wide-layout"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tnnls-2024-mediterranean::motivation_figure::p6",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/tnnls-2024-mediterranean__p006__motivation_figure.png",
+      "priority": "P2",
+      "reason": [
+        "wide-layout"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    },
+    {
+      "asset_id": "tnnls-2024-mediterranean::beautiful_table::p8",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/tnnls-2024-mediterranean__p008__beautiful_table.png",
+      "priority": "P2",
+      "reason": [
+        "caption-long-may-encode-results-and-conditions"
+      ],
+      "action": "Check whether crop is clean, caption is informative, license is correct, and analysis tags are accurate."
+    }
+  ],
+  "policy": "Queue items are for manual quality/license/crop review; not permission to copy or reuse visuals."
+}

@@ -1,0 +1,151 @@
+schema_version: 2.7.0
+release_version: v2.7.0
+generated_on: '2026-06-17'
+title: Human Evaluation Dashboard
+scope: Elsevier Skills
+evaluation_status: scaffold-ready-pending-human-evaluation
+human_eval_trace_count: 12
+completed_human_evaluations: 0
+pending_human_evaluations: 12
+metadata_only_seed_records: 6
+image_embedding_allowed: 0
+public_gallery_allowed: 0
+trace_summary:
+- trace_id: trace_method_pipeline_main_figure
+  query_id: method_pipeline_main_figure
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_motivation_gap_figure
+  query_id: motivation_gap_figure
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_ablation_table_style
+  query_id: ablation_table_style
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_taxonomy_survey_overview
+  query_id: taxonomy_survey_overview
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_medical_ai_workflow
+  query_id: medical_ai_workflow
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_remote_sensing_pipeline
+  query_id: remote_sensing_pipeline
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_caption_explanation_pattern
+  query_id: caption_explanation_pattern
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_limitations_visualization
+  query_id: limitations_visualization
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_beautiful_comparison_table
+  query_id: beautiful_comparison_table
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_figure_table_caption_bundle
+  query_id: figure_table_caption_bundle
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_visual_rhetoric_for_introduction
+  query_id: visual_rhetoric_for_introduction
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+- trace_id: trace_rag_safety_permission_warning
+  query_id: rag_safety_permission_warning
+  status: pending-human-evaluation
+  requires_reviewer_fields:
+  - relevance_0_to_5
+  - tag_alignment_0_to_5
+  - mode_safety_pass
+  - copyright_safety_pass
+  - scientific_figure_design_usefulness_0_to_5
+  - failure_modes
+  - reviewer_notes
+reviewer_protocol:
+- Judge relevance and tag alignment from metadata-only summaries.
+- Fail any answer that suggests copying figures, captions, labels, layouts, or panel
+  text.
+- Fail any answer that leaks pending candidates into retrieval results.
+- Record failure taxonomy IDs for each issue.

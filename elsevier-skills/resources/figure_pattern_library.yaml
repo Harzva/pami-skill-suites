@@ -1,0 +1,114 @@
+schema_version: '1.0'
+release_version: 1.9.0
+publisher: Elsevier
+generated_on: '2026-06-14'
+use_scope: Reusable visual-structure patterns only; do not copy original figures.
+main_figure_patterns:
+- pattern_id: pipeline-overview
+  when_to_use: method paper with multi-stage architecture
+  typical_panels:
+  - input
+  - module stack
+  - training/inference flow
+  - output
+  caption_moves:
+  - state overall task
+  - name modules
+  - explain arrows
+  - state result role
+  reviewer_risk: Too many arrows without data/evidence flow.
+- pattern_id: taxonomy-map
+  when_to_use: survey or method-positioning paper
+  typical_panels:
+  - categories
+  - method families
+  - cross-links
+  - representative works
+  caption_moves:
+  - define taxonomy axis
+  - explain grouping
+  - avoid exhaustive claims unless complete
+  reviewer_risk: Taxonomy may look arbitrary if axes are not defined.
+- pattern_id: problem-to-solution-overview
+  when_to_use: new method motivated by a clear failure mode
+  typical_panels:
+  - problem setting
+  - failure mode
+  - core insight
+  - proposed mechanism
+  caption_moves:
+  - contrast old/new
+  - identify bottleneck
+  - preview technical remedy
+  reviewer_risk: Motivation becomes marketing if not tied to evidence.
+- pattern_id: evidence-centered-main-figure
+  when_to_use: experimental contribution with clear empirical story
+  typical_panels:
+  - benchmark setup
+  - key comparison
+  - ablation highlight
+  - qualitative example
+  caption_moves:
+  - state evaluation protocol
+  - summarize comparison
+  - point to table/section
+  reviewer_risk: Embedding results in main figure can overclaim if details are absent.
+asset_observations:
+- asset_id: pr-2024-linear-transportation-lp-distance::main_figure::p7
+  pattern: architecture-or-overview-map
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png
+- asset_id: prl-2023-too-good-prior::main_figure::p2
+  pattern: architecture-or-overview-map
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png
+- asset_id: eswa-2024-knowledge-based-ai::main_figure::p5
+  pattern: architecture-or-overview-map
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png
+- asset_id: neurocomputing-2024-xai-cybersecurity::main_figure::p2
+  pattern: architecture-or-overview-map
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png
+- asset_id: information-sciences-2025-gkf-pual::main_figure::p3
+  pattern: architecture-or-overview-map
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png
+- asset_id: kbs-2023-alzheimers-explainable-ai::main_figure::p4
+  pattern: architecture-or-overview-map
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png
+- asset_id: pr-2024-linear-transportation-lp-distance::motivation_figure::p8
+  pattern: problem-gap-to-method-motivation
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/pr-2024-linear-transportation-lp-distance__p008__motivation_figure.png
+- asset_id: prl-2023-too-good-prior::motivation_figure::p2
+  pattern: problem-gap-to-method-motivation
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/prl-2023-too-good-prior__p002__motivation_figure.png
+- asset_id: eswa-2024-knowledge-based-ai::motivation_figure::p5
+  pattern: problem-gap-to-method-motivation
+  orientation: tall
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/eswa-2024-knowledge-based-ai__p005__motivation_figure.png
+- asset_id: neurocomputing-2024-xai-cybersecurity::motivation_figure::p2
+  pattern: problem-gap-to-method-motivation
+  orientation: tall
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/neurocomputing-2024-xai-cybersecurity__p002__motivation_figure.png
+- asset_id: information-sciences-2025-gkf-pual::motivation_figure::p3
+  pattern: problem-gap-to-method-motivation
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/information-sciences-2025-gkf-pual__p003__motivation_figure.png
+- asset_id: kbs-2023-alzheimers-explainable-ai::motivation_figure::p4
+  pattern: problem-gap-to-method-motivation
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/kbs-2023-alzheimers-explainable-ai__p004__motivation_figure.png
+design_checklist:
+- Can a reader understand the contribution in 30 seconds?
+- Are arrows/labels semantically meaningful?
+- Does every panel map to a manuscript claim?
+- Is the caption standalone enough?
+- Is there no copied layout from template papers?
+future_100_paper_rag_ready:
+  target: v2.0.0
+  minimum_main_figure_papers: 100
+  needs_legal_oa_expansion: true

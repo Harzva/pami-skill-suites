@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.9.0",
+  "scores": [
+    {
+      "asset_id": "pr-2024-linear-transportation-lp-distance::main_figure::p7",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/pr-2024-linear-transportation-lp-distance__p007__main_figure.png",
+      "score": 85,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "pr-2024-linear-transportation-lp-distance::motivation_figure::p8",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/pr-2024-linear-transportation-lp-distance__p008__motivation_figure.png",
+      "score": 85,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "pr-2024-linear-transportation-lp-distance::beautiful_table::p7",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/pr-2024-linear-transportation-lp-distance__p007__beautiful_table.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "prl-2023-too-good-prior::main_figure::p2",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/prl-2023-too-good-prior__p002__main_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "prl-2023-too-good-prior::motivation_figure::p2",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/prl-2023-too-good-prior__p002__motivation_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "prl-2023-too-good-prior::beautiful_table::p3",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/prl-2023-too-good-prior__p003__beautiful_table.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "eswa-2024-knowledge-based-ai::main_figure::p5",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/eswa-2024-knowledge-based-ai__p005__main_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "eswa-2024-knowledge-based-ai::motivation_figure::p5",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/eswa-2024-knowledge-based-ai__p005__motivation_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "eswa-2024-knowledge-based-ai::beautiful_table::p5",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/eswa-2024-knowledge-based-ai__p005__beautiful_table.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "neurocomputing-2024-xai-cybersecurity::main_figure::p2",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/neurocomputing-2024-xai-cybersecurity__p002__main_figure.png",
+      "score": 85,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "neurocomputing-2024-xai-cybersecurity::motivation_figure::p2",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/neurocomputing-2024-xai-cybersecurity__p002__motivation_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "neurocomputing-2024-xai-cybersecurity::beautiful_table::p6",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/neurocomputing-2024-xai-cybersecurity__p006__beautiful_table.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "information-sciences-2025-gkf-pual::main_figure::p3",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/information-sciences-2025-gkf-pual__p003__main_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "information-sciences-2025-gkf-pual::motivation_figure::p3",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/information-sciences-2025-gkf-pual__p003__motivation_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "information-sciences-2025-gkf-pual::beautiful_table::p11",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/information-sciences-2025-gkf-pual__p011__beautiful_table.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "kbs-2023-alzheimers-explainable-ai::main_figure::p4",
+      "asset_path": "paper_templates/extracted_visual_assets/main_figures/kbs-2023-alzheimers-explainable-ai__p004__main_figure.png",
+      "score": 85,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "kbs-2023-alzheimers-explainable-ai::motivation_figure::p4",
+      "asset_path": "paper_templates/extracted_visual_assets/motivation_figures/kbs-2023-alzheimers-explainable-ai__p004__motivation_figure.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    },
+    {
+      "asset_id": "kbs-2023-alzheimers-explainable-ai::beautiful_table::p7",
+      "asset_path": "paper_templates/extracted_visual_assets/beautiful_tables/kbs-2023-alzheimers-explainable-ai__p007__beautiful_table.png",
+      "score": 100,
+      "scope": "analysis-readiness-only"
+    }
+  ],
+  "safety": "Scores are not permission to reuse visuals."
+}

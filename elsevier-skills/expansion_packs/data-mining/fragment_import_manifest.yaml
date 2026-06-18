@@ -1,0 +1,54 @@
+pack_id: data-mining
+release_version: 1.3.0
+import_mode: opt-in-fragment-pack
+context_safety_rules:
+- Do not copy expansion pack journals into default skills/.
+- Import fragments into skill-suite/static/journals only after source matrix validation.
+- Keep independent advanced skills under skills-advanced/ unless explicitly requested by a maintainer.
+- All L0/L1/L2 entries require source verification before real submission use.
+imports:
+- journal_id: information-sciences
+  source_fragment: skills/elsevier-skill-suite/static/journals/information-sciences.md
+  advanced_skill_source: skills-advanced/journals/information-sciences-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L4
+- journal_id: kbs
+  source_fragment: skills/elsevier-skill-suite/static/journals/kbs.md
+  advanced_skill_source: skills-advanced/journals/kbs-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L4
+- journal_id: data-knowledge-engineering
+  source_fragment: skills/elsevier-skill-suite/static/journals/data-knowledge-engineering.md
+  advanced_skill_source: skills-advanced/journals/data-knowledge-engineering-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: decision-support-systems
+  source_fragment: skills/elsevier-skill-suite/static/journals/decision-support-systems.md
+  advanced_skill_source: skills-advanced/journals/decision-support-systems-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+- journal_id: eswa
+  source_fragment: skills/elsevier-skill-suite/static/journals/eswa.md
+  advanced_skill_source: skills-advanced/journals/eswa-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L4
+- journal_id: artificial-intelligence
+  source_fragment: skills/elsevier-skill-suite/static/journals/artificial-intelligence.md
+  advanced_skill_source: skills-advanced/journals/artificial-intelligence-writing
+  import_action: reference-existing-fragment
+  default_visible: false
+  maturity_level: L3
+candidate_entries: []
+promotion_workflow:
+  script: scripts/promote_journal_candidate.py
+  staging_only_by_default: true
+  default_skill_listing_policy: never add promoted candidates to default skills/
+  required_validators:
+  - validate_pack_maturity.py
+  - validate_official_links.py
+  - validate_live_verification_warnings.py

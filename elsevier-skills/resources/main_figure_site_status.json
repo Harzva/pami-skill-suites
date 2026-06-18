@@ -1,0 +1,10 @@
+{
+  "schema_version": "2.0.0",
+  "release_version": "2.0.0",
+  "main_figure_site_path": "main_figure_site/",
+  "current_seed_main_figures": 6,
+  "target_capacity_minimum": 100,
+  "status": "scaffold-ready; 100+ corpus support implemented; additional papers require OA source and permission review",
+  "default_visibility": "not a default top-level skill",
+  "permission_policy": "structural analysis only; reuse requires license and permission review"
+}

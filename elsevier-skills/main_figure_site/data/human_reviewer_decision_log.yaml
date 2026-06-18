@@ -1,0 +1,1435 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: Elsevier Skills human reviewer decision log
+decision_policy:
+  default_decision: not-reviewed
+  who_reviews:
+  - source reviewer
+  - license reviewer
+  - visual permission reviewer
+  decision_required_before:
+  - new figure extraction
+  - public gallery hosting
+  - reuse beyond structural analysis
+summary:
+  total_candidates: 100
+  reviewed: 0
+  pending_review: 100
+  approved_for_extraction: 0
+  approved_for_metadata_only_rag: 6
+decision_template:
+  decision_id: manual-YYYYMMDD-candidate-id
+  candidate_id: <candidate_id>
+  reviewer: <name or handle>
+  decision: approve_metadata_only | approve_extraction_after_license_review | reject_source
+    | needs_more_evidence
+  evidence_checked:
+  - DOI
+  - publisher page
+  - repository OA copy
+  - license text
+  - third-party material
+  - target venue policy
+  notes: <manual notes>
+decisions:
+- candidate_id: elsevier-candidate-slot-007
+  paper_id: elsevier-oa-candidate-007
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-008
+  paper_id: elsevier-oa-candidate-008
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-009
+  paper_id: elsevier-oa-candidate-009
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-010
+  paper_id: elsevier-oa-candidate-010
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-011
+  paper_id: elsevier-oa-candidate-011
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-012
+  paper_id: elsevier-oa-candidate-012
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-013
+  paper_id: elsevier-oa-candidate-013
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-014
+  paper_id: elsevier-oa-candidate-014
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-015
+  paper_id: elsevier-oa-candidate-015
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-016
+  paper_id: elsevier-oa-candidate-016
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-017
+  paper_id: elsevier-oa-candidate-017
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-018
+  paper_id: elsevier-oa-candidate-018
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-019
+  paper_id: elsevier-oa-candidate-019
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-020
+  paper_id: elsevier-oa-candidate-020
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-021
+  paper_id: elsevier-oa-candidate-021
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-022
+  paper_id: elsevier-oa-candidate-022
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-023
+  paper_id: elsevier-oa-candidate-023
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-024
+  paper_id: elsevier-oa-candidate-024
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-025
+  paper_id: elsevier-oa-candidate-025
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-026
+  paper_id: elsevier-oa-candidate-026
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-027
+  paper_id: elsevier-oa-candidate-027
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-028
+  paper_id: elsevier-oa-candidate-028
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-029
+  paper_id: elsevier-oa-candidate-029
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-030
+  paper_id: elsevier-oa-candidate-030
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-031
+  paper_id: elsevier-oa-candidate-031
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-032
+  paper_id: elsevier-oa-candidate-032
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-033
+  paper_id: elsevier-oa-candidate-033
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-034
+  paper_id: elsevier-oa-candidate-034
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-035
+  paper_id: elsevier-oa-candidate-035
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-036
+  paper_id: elsevier-oa-candidate-036
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-037
+  paper_id: elsevier-oa-candidate-037
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-038
+  paper_id: elsevier-oa-candidate-038
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-039
+  paper_id: elsevier-oa-candidate-039
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-040
+  paper_id: elsevier-oa-candidate-040
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-041
+  paper_id: elsevier-oa-candidate-041
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-042
+  paper_id: elsevier-oa-candidate-042
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-043
+  paper_id: elsevier-oa-candidate-043
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-044
+  paper_id: elsevier-oa-candidate-044
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-045
+  paper_id: elsevier-oa-candidate-045
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-046
+  paper_id: elsevier-oa-candidate-046
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-047
+  paper_id: elsevier-oa-candidate-047
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-048
+  paper_id: elsevier-oa-candidate-048
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-049
+  paper_id: elsevier-oa-candidate-049
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-050
+  paper_id: elsevier-oa-candidate-050
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-051
+  paper_id: elsevier-oa-candidate-051
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-052
+  paper_id: elsevier-oa-candidate-052
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-053
+  paper_id: elsevier-oa-candidate-053
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-054
+  paper_id: elsevier-oa-candidate-054
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-055
+  paper_id: elsevier-oa-candidate-055
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-056
+  paper_id: elsevier-oa-candidate-056
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-057
+  paper_id: elsevier-oa-candidate-057
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-058
+  paper_id: elsevier-oa-candidate-058
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-059
+  paper_id: elsevier-oa-candidate-059
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-060
+  paper_id: elsevier-oa-candidate-060
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-061
+  paper_id: elsevier-oa-candidate-061
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-062
+  paper_id: elsevier-oa-candidate-062
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-063
+  paper_id: elsevier-oa-candidate-063
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-064
+  paper_id: elsevier-oa-candidate-064
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-065
+  paper_id: elsevier-oa-candidate-065
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-066
+  paper_id: elsevier-oa-candidate-066
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-067
+  paper_id: elsevier-oa-candidate-067
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-068
+  paper_id: elsevier-oa-candidate-068
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-069
+  paper_id: elsevier-oa-candidate-069
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-070
+  paper_id: elsevier-oa-candidate-070
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-071
+  paper_id: elsevier-oa-candidate-071
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-072
+  paper_id: elsevier-oa-candidate-072
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-073
+  paper_id: elsevier-oa-candidate-073
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-074
+  paper_id: elsevier-oa-candidate-074
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-075
+  paper_id: elsevier-oa-candidate-075
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-076
+  paper_id: elsevier-oa-candidate-076
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-077
+  paper_id: elsevier-oa-candidate-077
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-078
+  paper_id: elsevier-oa-candidate-078
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-079
+  paper_id: elsevier-oa-candidate-079
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-080
+  paper_id: elsevier-oa-candidate-080
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-081
+  paper_id: elsevier-oa-candidate-081
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-082
+  paper_id: elsevier-oa-candidate-082
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-083
+  paper_id: elsevier-oa-candidate-083
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-084
+  paper_id: elsevier-oa-candidate-084
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-085
+  paper_id: elsevier-oa-candidate-085
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-086
+  paper_id: elsevier-oa-candidate-086
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-087
+  paper_id: elsevier-oa-candidate-087
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-088
+  paper_id: elsevier-oa-candidate-088
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-089
+  paper_id: elsevier-oa-candidate-089
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-090
+  paper_id: elsevier-oa-candidate-090
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-091
+  paper_id: elsevier-oa-candidate-091
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-092
+  paper_id: elsevier-oa-candidate-092
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-093
+  paper_id: elsevier-oa-candidate-093
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-094
+  paper_id: elsevier-oa-candidate-094
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-095
+  paper_id: elsevier-oa-candidate-095
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-096
+  paper_id: elsevier-oa-candidate-096
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-097
+  paper_id: elsevier-oa-candidate-097
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-098
+  paper_id: elsevier-oa-candidate-098
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-099
+  paper_id: elsevier-oa-candidate-099
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-candidate-slot-100
+  paper_id: elsevier-oa-candidate-100
+  decision_status: pending-human-review
+  required_decision: approve-source-discovery-before-evidence-review
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-seed-001
+  paper_id: pr-2024-linear-transportation-lp-distance
+  decision_status: pending-human-review
+  required_decision: approve-evidence-reviewed-metadata-only-rag
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-seed-002
+  paper_id: prl-2023-too-good-prior
+  decision_status: pending-human-review
+  required_decision: approve-evidence-reviewed-metadata-only-rag
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-seed-003
+  paper_id: eswa-2024-knowledge-based-ai
+  decision_status: pending-human-review
+  required_decision: approve-evidence-reviewed-metadata-only-rag
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-seed-004
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  decision_status: pending-human-review
+  required_decision: approve-evidence-reviewed-metadata-only-rag
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-seed-005
+  paper_id: information-sciences-2025-gkf-pual
+  decision_status: pending-human-review
+  required_decision: approve-evidence-reviewed-metadata-only-rag
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.
+- candidate_id: elsevier-seed-006
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  decision_status: pending-human-review
+  required_decision: approve-evidence-reviewed-metadata-only-rag
+  reviewer_role: visual-permission-reviewer
+  decision_options:
+  - approve_metadata_only
+  - approve_extraction_after_license_review
+  - reject_source
+  - needs_more_evidence
+  current_decision: not-reviewed
+  decision_timestamp: null
+  review_notes: Pending manual review. No extraction or public reuse permission is
+    implied.

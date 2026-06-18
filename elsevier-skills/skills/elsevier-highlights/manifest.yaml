@@ -1,0 +1,11 @@
+name: elsevier-highlights
+version: 0.6.0
+role: Elsevier Highlights and related short submission assets
+context_policy: default-visible-macro-skill
+routes_through: elsevier-skill-suite
+loads:
+- manifest.yaml
+- references/output-contracts.md
+- checklists/quality-gate.md
+advanced_skills_policy: Use skills-advanced only for optional direct invocation or
+  repository development.

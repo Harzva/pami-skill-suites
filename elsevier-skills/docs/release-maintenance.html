@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Release Maintenance - Elsevier Skills</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header><h1>Release Maintenance - Elsevier Skills</h1><p>Elsevier Journal Skill-Suite v1.2.0</p><nav><a href="index.html">Home</a><a href="getting-started.html">Get started</a><a href="architecture.html">Architecture</a><a href="context-safety.html">Context safety</a><a href="official-sources.html">Official sources</a><a href="source-verification-workflow.html">Source verification</a><a href="contributing-journal-modules.html">Contribute journals</a><a href="release-maintenance.html">Maintenance</a><a href="faq.html">FAQ</a></nav></header>
+<main>
+
+<section class="card"><h2>v1.x maintenance cadence</h2><ul><li><strong>v1.1.x</strong>: official source refresh and link health.</li><li><strong>v1.2.x</strong>: journal coverage expansion packs.</li><li><strong>v1.3.x</strong>: discipline-specific profiles and examples.</li></ul></section>
+<section class="card"><h2>Pre-release checklist</h2><pre>python scripts/context_budget.py
+python scripts/validate_manifest.py
+python scripts/validate_sources.py
+python scripts/validate_official_links.py
+python scripts/validate_live_verification_warnings.py
+python scripts/check_official_links_live.py
+python scripts/report_stale_sources.py
+python scripts/validate_structure.py
+python scripts/validate_paper_corpus.py
+python scripts/validate_evals.py
+python scripts/run_evals.py
+python scripts/build_distribution.py
+python scripts/validate_distribution.py</pre></section>
+<section class="card"><h2>Current coverage</h2><p>This release maintains 25 journal source modules while keeping only a small default macro-skill listing.</p></section>
+
+</main>
+<footer><p>Unofficial project. Verify live publisher and journal pages before real submission.</p></footer>
+</body>
+</html>

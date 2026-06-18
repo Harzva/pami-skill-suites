@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.3.0",
+  "pack_id": "data-mining",
+  "summary": {
+    "journal_entries": 3,
+    "average_source_quality_score": 90.0,
+    "maturity_counts": {
+      "L0": 0,
+      "L1": 0,
+      "L2": 0,
+      "L3": 3,
+      "L4": 0
+    },
+    "live_verification_required": true
+  },
+  "journals": [
+    {
+      "pack_id": "data-mining",
+      "journal_id": "tkde",
+      "title": "IEEE TKDE",
+      "maturity_level": "L3",
+      "score": 90,
+      "band": "A",
+      "needs_reverification": true
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "tai",
+      "title": "IEEE Transactions on Artificial Intelligence",
+      "maturity_level": "L3",
+      "score": 90,
+      "band": "A",
+      "needs_reverification": true
+    },
+    {
+      "pack_id": "data-mining",
+      "journal_id": "access",
+      "title": "IEEE Access",
+      "maturity_level": "L3",
+      "score": 90,
+      "band": "A",
+      "needs_reverification": true
+    }
+  ]
+}

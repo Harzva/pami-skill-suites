@@ -1,0 +1,100 @@
+{
+  "generated_on": "2026-06-11",
+  "repo": "elsevier-skills",
+  "open_access_papers": [
+    {
+      "id": "pr-2024-linear-transportation-lp-distance",
+      "journal": "Pattern Recognition",
+      "title": "A linear transportation Lp distance for pattern recognition",
+      "year": "2024",
+      "file": "open_access_papers/pattern_recognition_2024_linear_transportation_lp_distance_ccby.pdf",
+      "source_url": "https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "template_use": "Pattern Recognition technical article anatomy, theoretical-method contribution, experimental validation narrative.",
+      "not_for": "Do not reuse theorem/algorithm language or paper-specific claims.",
+      "path": "open_access_papers/pattern_recognition_2024_linear_transportation_lp_distance_ccby.pdf",
+      "size_bytes": 3169289,
+      "sha256": "7a3d2b811060ddf6e798cdd3f1c7cbb8a26deed0ab30226f46ae3a158061ce3b"
+    },
+    {
+      "id": "prl-2023-too-good-prior",
+      "journal": "Pattern Recognition Letters",
+      "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+      "year": "2023",
+      "file": "open_access_papers/pattern_recognition_letters_2023_too_good_to_be_true_prior_ccby.pdf",
+      "source_url": "https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "template_use": "Short-format argument, compact experiment reporting, PRL-style concise contribution packaging.",
+      "not_for": "Do not copy compact phrasing or the shortcut-learning framing as boilerplate.",
+      "path": "open_access_papers/pattern_recognition_letters_2023_too_good_to_be_true_prior_ccby.pdf",
+      "size_bytes": 1522798,
+      "sha256": "74d8c59831295aac4d31ed6094cae66c50891da85cad3a8b00cdcd4ac7dbe1f8"
+    },
+    {
+      "id": "eswa-2024-knowledge-based-ai",
+      "journal": "Expert Systems With Applications",
+      "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+      "year": "2024",
+      "file": "open_access_papers/eswa_2024_knowledge_based_ai_template_ccby.pdf",
+      "source_url": "https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "template_use": "Fusion-based deep learning application framing, applied prediction evaluation, practical decision-support discussion style.",
+      "not_for": "Do not reuse vessel-arrival, logistics, or dataset-specific claims.",
+      "path": "open_access_papers/eswa_2024_knowledge_based_ai_template_ccby.pdf",
+      "size_bytes": 11511715,
+      "sha256": "3e974cc242ed646bb550cee1e2c8c88f42c3f3fee0afa9ac1914993c3328c0bc"
+    },
+    {
+      "id": "neurocomputing-2024-xai-cybersecurity",
+      "journal": "Neurocomputing",
+      "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+      "year": "2024",
+      "file": "open_access_papers/neurocomputing_2024_xai_systematic_analysis_ccby.pdf",
+      "source_url": "https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "template_use": "Neurocomputing survey/analysis structure, research-direction synthesis, technical taxonomy with applied context.",
+      "not_for": "Do not copy taxonomy, research questions, or field-specific conclusions.",
+      "path": "open_access_papers/neurocomputing_2024_xai_systematic_analysis_ccby.pdf",
+      "size_bytes": 1893851,
+      "sha256": "c5873766393024cf640ade837c68d7a236c986c8b6f1daf53874028ccbe13395"
+    },
+    {
+      "id": "information-sciences-2025-gkf-pual",
+      "journal": "Information Sciences",
+      "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+      "year": "2025",
+      "file": "open_access_papers/information_sciences_2025_gkf_pual_ccby.pdf",
+      "source_url": "https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "template_use": "Information Sciences method naming, algorithmic contribution, variable-selection evaluation, discussion/conclusion balance.",
+      "not_for": "Do not reuse algorithm naming or variable-selection claims.",
+      "path": "open_access_papers/information_sciences_2025_gkf_pual_ccby.pdf",
+      "size_bytes": 634360,
+      "sha256": "94a8a423ae2b43412ca59c41df2500c98c8104bb87451578e11c780aaa71f46a"
+    },
+    {
+      "id": "kbs-2023-alzheimers-explainable-ai",
+      "journal": "Knowledge-Based Systems",
+      "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+      "year": "2023",
+      "file": "open_access_papers/kbs_2023_alzheimers_explainable_ai_ccby.pdf",
+      "source_url": "https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf",
+      "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "template_use": "KBS application/method blend, adaptive/explainable AI framing, biomedical signal validation and limitations.",
+      "not_for": "Do not copy medical conclusions, EEG figures, adaptive-wavelet claims, or case-study-specific text.",
+      "path": "open_access_papers/kbs_2023_alzheimers_explainable_ai_ccby.pdf",
+      "size_bytes": 3058465,
+      "sha256": "0fc17364b4c048730f2994b42771bd75fdf06d6f5b07e0176a215b12cf764104"
+    }
+  ],
+  "official_templates": [
+    {
+      "id": "elsarticle-doc-pdf",
+      "title": "elsarticle.cls documentation",
+      "file": "official_templates/elsdoc.pdf",
+      "source_url": "https://texdoc.org/serve/elsdoc.pdf/0",
+      "purpose": "Elsevier article class and LaTeX submission implementation reference."
+    }
+  ],
+  "policy": "Use bundled papers for structural study only. Do not copy text or content."
+}

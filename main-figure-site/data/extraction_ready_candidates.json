@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "release_version": "v2.4.0",
+  "generated_on": "2026-06-16",
+  "title": "Extraction-Ready Candidates",
+  "gate_policy": {
+    "default_state": "closed",
+    "minimum_evidence_score": 90,
+    "human_reviewer_decision_required": true,
+    "public_gallery_requires_additional_permission_review": true
+  },
+  "summary": {
+    "total_candidates": 100,
+    "extraction_ready_count": 0,
+    "public_gallery_ready_count": 0,
+    "blocked_count": 100
+  },
+  "extraction_ready_candidates": [],
+  "blocked_reason": "No candidate has complete live DOI/OA/license/permission/third-party evidence and human reviewer sign-off in the offline release build."
+}

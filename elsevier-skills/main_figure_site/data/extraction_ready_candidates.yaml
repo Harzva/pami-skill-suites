@@ -1,0 +1,1512 @@
+schema_version: '1.0'
+release_version: v2.4.0
+generated_on: '2026-06-16'
+title: Elsevier Skills extraction-ready candidates
+default_gate: closed
+summary:
+  total_candidates: 100
+  extraction_ready_count: 0
+  blocked_count: 100
+  new_extraction_allowed: 0
+candidates: []
+blocked_items:
+- candidate_id: elsevier-candidate-slot-007
+  paper_id: elsevier-oa-candidate-007
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-008
+  paper_id: elsevier-oa-candidate-008
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-009
+  paper_id: elsevier-oa-candidate-009
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-010
+  paper_id: elsevier-oa-candidate-010
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-011
+  paper_id: elsevier-oa-candidate-011
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-012
+  paper_id: elsevier-oa-candidate-012
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-013
+  paper_id: elsevier-oa-candidate-013
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-014
+  paper_id: elsevier-oa-candidate-014
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-015
+  paper_id: elsevier-oa-candidate-015
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-016
+  paper_id: elsevier-oa-candidate-016
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-017
+  paper_id: elsevier-oa-candidate-017
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-018
+  paper_id: elsevier-oa-candidate-018
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-019
+  paper_id: elsevier-oa-candidate-019
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-020
+  paper_id: elsevier-oa-candidate-020
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-021
+  paper_id: elsevier-oa-candidate-021
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-022
+  paper_id: elsevier-oa-candidate-022
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-023
+  paper_id: elsevier-oa-candidate-023
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-024
+  paper_id: elsevier-oa-candidate-024
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-025
+  paper_id: elsevier-oa-candidate-025
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-026
+  paper_id: elsevier-oa-candidate-026
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-027
+  paper_id: elsevier-oa-candidate-027
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-028
+  paper_id: elsevier-oa-candidate-028
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-029
+  paper_id: elsevier-oa-candidate-029
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-030
+  paper_id: elsevier-oa-candidate-030
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-031
+  paper_id: elsevier-oa-candidate-031
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-032
+  paper_id: elsevier-oa-candidate-032
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-033
+  paper_id: elsevier-oa-candidate-033
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-034
+  paper_id: elsevier-oa-candidate-034
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-035
+  paper_id: elsevier-oa-candidate-035
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-036
+  paper_id: elsevier-oa-candidate-036
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-037
+  paper_id: elsevier-oa-candidate-037
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-038
+  paper_id: elsevier-oa-candidate-038
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-039
+  paper_id: elsevier-oa-candidate-039
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-040
+  paper_id: elsevier-oa-candidate-040
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-041
+  paper_id: elsevier-oa-candidate-041
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-042
+  paper_id: elsevier-oa-candidate-042
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-043
+  paper_id: elsevier-oa-candidate-043
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-044
+  paper_id: elsevier-oa-candidate-044
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-045
+  paper_id: elsevier-oa-candidate-045
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-046
+  paper_id: elsevier-oa-candidate-046
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-047
+  paper_id: elsevier-oa-candidate-047
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-048
+  paper_id: elsevier-oa-candidate-048
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-049
+  paper_id: elsevier-oa-candidate-049
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-050
+  paper_id: elsevier-oa-candidate-050
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-051
+  paper_id: elsevier-oa-candidate-051
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-052
+  paper_id: elsevier-oa-candidate-052
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-053
+  paper_id: elsevier-oa-candidate-053
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-054
+  paper_id: elsevier-oa-candidate-054
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-055
+  paper_id: elsevier-oa-candidate-055
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-056
+  paper_id: elsevier-oa-candidate-056
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-057
+  paper_id: elsevier-oa-candidate-057
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-058
+  paper_id: elsevier-oa-candidate-058
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-059
+  paper_id: elsevier-oa-candidate-059
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-060
+  paper_id: elsevier-oa-candidate-060
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-061
+  paper_id: elsevier-oa-candidate-061
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-062
+  paper_id: elsevier-oa-candidate-062
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-063
+  paper_id: elsevier-oa-candidate-063
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-064
+  paper_id: elsevier-oa-candidate-064
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-065
+  paper_id: elsevier-oa-candidate-065
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-066
+  paper_id: elsevier-oa-candidate-066
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-067
+  paper_id: elsevier-oa-candidate-067
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-068
+  paper_id: elsevier-oa-candidate-068
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-069
+  paper_id: elsevier-oa-candidate-069
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-070
+  paper_id: elsevier-oa-candidate-070
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-071
+  paper_id: elsevier-oa-candidate-071
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-072
+  paper_id: elsevier-oa-candidate-072
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-073
+  paper_id: elsevier-oa-candidate-073
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-074
+  paper_id: elsevier-oa-candidate-074
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-075
+  paper_id: elsevier-oa-candidate-075
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-076
+  paper_id: elsevier-oa-candidate-076
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-077
+  paper_id: elsevier-oa-candidate-077
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-078
+  paper_id: elsevier-oa-candidate-078
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-079
+  paper_id: elsevier-oa-candidate-079
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-080
+  paper_id: elsevier-oa-candidate-080
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-081
+  paper_id: elsevier-oa-candidate-081
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-082
+  paper_id: elsevier-oa-candidate-082
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-083
+  paper_id: elsevier-oa-candidate-083
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-084
+  paper_id: elsevier-oa-candidate-084
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-085
+  paper_id: elsevier-oa-candidate-085
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-086
+  paper_id: elsevier-oa-candidate-086
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-087
+  paper_id: elsevier-oa-candidate-087
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-088
+  paper_id: elsevier-oa-candidate-088
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-089
+  paper_id: elsevier-oa-candidate-089
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-090
+  paper_id: elsevier-oa-candidate-090
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-091
+  paper_id: elsevier-oa-candidate-091
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-092
+  paper_id: elsevier-oa-candidate-092
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-093
+  paper_id: elsevier-oa-candidate-093
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-094
+  paper_id: elsevier-oa-candidate-094
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-095
+  paper_id: elsevier-oa-candidate-095
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-096
+  paper_id: elsevier-oa-candidate-096
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-097
+  paper_id: elsevier-oa-candidate-097
+  publisher_family: Elsevier
+  target_figure_type: motivation_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-098
+  paper_id: elsevier-oa-candidate-098
+  publisher_family: Elsevier
+  target_figure_type: method_pipeline_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-099
+  paper_id: elsevier-oa-candidate-099
+  publisher_family: Elsevier
+  target_figure_type: taxonomy_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-candidate-slot-100
+  paper_id: elsevier-oa-candidate-100
+  publisher_family: Elsevier
+  target_figure_type: experiment_overview_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: false
+  reason: blocked pending source discovery and evidence review
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-seed-001
+  paper_id: pr-2024-linear-transportation-lp-distance
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: true
+  reason: seed metadata-only record; live evidence re-check still required
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-seed-002
+  paper_id: prl-2023-too-good-prior
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: true
+  reason: seed metadata-only record; live evidence re-check still required
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-seed-003
+  paper_id: eswa-2024-knowledge-based-ai
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: true
+  reason: seed metadata-only record; live evidence re-check still required
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-seed-004
+  paper_id: neurocomputing-2024-xai-cybersecurity
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: true
+  reason: seed metadata-only record; live evidence re-check still required
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-seed-005
+  paper_id: information-sciences-2025-gkf-pual
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: true
+  reason: seed metadata-only record; live evidence re-check still required
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded
+- candidate_id: elsevier-seed-006
+  paper_id: kbs-2023-alzheimers-explainable-ai
+  publisher_family: Elsevier
+  target_figure_type: main_figure
+  can_extract: false
+  can_host_public_gallery: false
+  can_enter_rag_metadata_only: true
+  reason: seed metadata-only record; live evidence re-check still required
+  required_unlock_conditions:
+  - canonical DOI verified
+  - OA source verified
+  - license text recorded
+  - permission status approved
+  - third-party material review passed
+  - human reviewer decision recorded

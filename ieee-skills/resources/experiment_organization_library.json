@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "release_version": "1.9.0",
+  "publisher": "IEEE",
+  "generated_on": "2026-06-14",
+  "purpose": "Convert experimental evidence into a reviewer-legible chain from protocol to result to interpretation.",
+  "fixed_routines": [
+    {
+      "name": "Setup-first protocol",
+      "sequence": [
+        "task/dataset",
+        "baselines",
+        "metrics",
+        "implementation details",
+        "fairness controls",
+        "result table",
+        "interpretation"
+      ],
+      "risk": "Missing implementation details makes gains look non-reproducible."
+    },
+    {
+      "name": "Claim-evidence alignment",
+      "sequence": [
+        "claim",
+        "primary metric",
+        "supporting table/figure",
+        "statistical/ablation support",
+        "failure case"
+      ],
+      "risk": "Overclaiming if a claim is not backed by an explicit result."
+    },
+    {
+      "name": "Ablation staircase",
+      "sequence": [
+        "base model",
+        "add component A",
+        "add component B",
+        "full model",
+        "sensitivity/failure analysis"
+      ],
+      "risk": "Ablation without rationale reads like parameter fishing."
+    },
+    {
+      "name": "Fair comparison block",
+      "sequence": [
+        "same split",
+        "same metric",
+        "same training budget",
+        "same input resolution/feature",
+        "same test protocol"
+      ],
+      "risk": "Reviewers will attack unfair or under-specified baselines."
+    }
+  ],
+  "output_contract": [
+    "experiment map",
+    "claim-evidence table",
+    "missing baseline list",
+    "reviewer-risk checklist"
+  ]
+}

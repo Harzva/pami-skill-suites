@@ -1,0 +1,106 @@
+schema_version: '1.0'
+release_version: 1.9.0
+publisher: IEEE
+generated_on: '2026-06-14'
+use_scope: Reusable visual-structure patterns only; do not copy original figures.
+main_figure_patterns:
+- pattern_id: pipeline-overview
+  when_to_use: method paper with multi-stage architecture
+  typical_panels:
+  - input
+  - module stack
+  - training/inference flow
+  - output
+  caption_moves:
+  - state overall task
+  - name modules
+  - explain arrows
+  - state result role
+  reviewer_risk: Too many arrows without data/evidence flow.
+- pattern_id: taxonomy-map
+  when_to_use: survey or method-positioning paper
+  typical_panels:
+  - categories
+  - method families
+  - cross-links
+  - representative works
+  caption_moves:
+  - define taxonomy axis
+  - explain grouping
+  - avoid exhaustive claims unless complete
+  reviewer_risk: Taxonomy may look arbitrary if axes are not defined.
+- pattern_id: problem-to-solution-overview
+  when_to_use: new method motivated by a clear failure mode
+  typical_panels:
+  - problem setting
+  - failure mode
+  - core insight
+  - proposed mechanism
+  caption_moves:
+  - contrast old/new
+  - identify bottleneck
+  - preview technical remedy
+  reviewer_risk: Motivation becomes marketing if not tied to evidence.
+- pattern_id: evidence-centered-main-figure
+  when_to_use: experimental contribution with clear empirical story
+  typical_panels:
+  - benchmark setup
+  - key comparison
+  - ablation highlight
+  - qualitative example
+  caption_moves:
+  - state evaluation protocol
+  - summarize comparison
+  - point to table/section
+  reviewer_risk: Embedding results in main figure can overclaim if details are absent.
+asset_observations:
+- asset_id: tpami-2023-transformers-survey::main_figure::p1
+  pattern: taxonomy-overview-map
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png
+- asset_id: tip-2022-see360::main_figure::p1
+  pattern: architecture-or-overview-map
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png
+- asset_id: tmi-2020-lesion-localization::main_figure::p4
+  pattern: architecture-or-overview-map
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png
+- asset_id: tnnls-2023-sparce::main_figure::p4
+  pattern: architecture-or-overview-map
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tnnls-2023-sparce__p004__main_figure.png
+- asset_id: tnnls-2024-mediterranean::main_figure::p3
+  pattern: architecture-or-overview-map
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/main_figures/tnnls-2024-mediterranean__p003__main_figure.png
+- asset_id: tpami-2023-transformers-survey::motivation_figure::p1
+  pattern: problem-gap-to-method-motivation
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tpami-2023-transformers-survey__p001__motivation_figure.png
+- asset_id: tip-2022-see360::motivation_figure::p2
+  pattern: problem-gap-to-method-motivation
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tip-2022-see360__p002__motivation_figure.png
+- asset_id: tmi-2020-lesion-localization::motivation_figure::p4
+  pattern: problem-gap-to-method-motivation
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tmi-2020-lesion-localization__p004__motivation_figure.png
+- asset_id: tnnls-2023-sparce::motivation_figure::p4
+  pattern: problem-gap-to-method-motivation
+  orientation: balanced
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tnnls-2023-sparce__p004__motivation_figure.png
+- asset_id: tnnls-2024-mediterranean::motivation_figure::p6
+  pattern: problem-gap-to-method-motivation
+  orientation: wide
+  asset_path: paper_templates/extracted_visual_assets/motivation_figures/tnnls-2024-mediterranean__p006__motivation_figure.png
+design_checklist:
+- Can a reader understand the contribution in 30 seconds?
+- Are arrows/labels semantically meaningful?
+- Does every panel map to a manuscript claim?
+- Is the caption standalone enough?
+- Is there no copied layout from template papers?
+future_100_paper_rag_ready:
+  target: v2.0.0
+  minimum_main_figure_papers: 100
+  needs_legal_oa_expansion: true

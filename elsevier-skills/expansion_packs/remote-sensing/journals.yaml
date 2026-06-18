@@ -1,0 +1,183 @@
+pack_id: remote-sensing
+title: Remote Sensing
+publisher_family: Elsevier
+release_version: 1.5.0
+generated_on: '2026-06-13'
+context_policy: Expansion packs are opt-in. They do not add journals to default skills/ and must not increase the default
+  skill listing.
+maturity_levels:
+  L0: listed only
+  L1: official homepage + author instructions
+  L2: full official source matrix
+  L3: source-refresh metadata + live-check support
+  L4: paper-template card + evaluation task
+journals:
+- id: isprs-journal-photogrammetry-remote-sensing
+  title: ISPRS Journal of Photogrammetry and Remote Sensing
+  entry_type: candidate-l0
+  publisher: Elsevier
+  maturity_level: L0
+  maturity_label: listed only
+  maturity_reason: Listed as a candidate for future coverage. No official source matrix has been populated in this release.
+  journal_fragment: null
+  advanced_skill: null
+  paper_template_cards: []
+  evaluation_tasks: []
+  source_status: not-started
+  needs_reverification: true
+  import_action: do-not-import-until-source-matrix-is-complete
+  official_sources:
+    matrix_status: not populated
+    missing_fields:
+    - journal_homepage
+    - author_instructions
+    - submission_system
+    - manuscript_template
+    - publishing_agreement
+    - copyright_license
+    - open_access
+    - ethics_integrity
+    - ai_disclosure_policy
+    - data_code_availability
+    - permissions
+    live_verification_required: true
+  discipline_tags:
+  - remote-sensing
+  source_quality_score:
+    score: 11
+    band: E
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: true
+    eligible_for_direct_core_import: false
+    next_target: L1/L2 first; L3 only after source-refresh metadata and live-check support
+    missing_for_next_level:
+    - full official source matrix
+    - draft journal fragment
+    - optional paper-template card for L4
+    - evaluation task coverage
+    recommended_action: use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+  pack_specific_evaluation_task: expansion_packs/remote-sensing/eval_tasks/remote-sensing_coverage_task.yaml
+  paper_card_todo: expansion_packs/remote-sensing/paper_card_todo.md
+- id: international-journal-applied-earth-observation-geoinformation
+  title: International Journal of Applied Earth Observation and Geoinformation
+  entry_type: candidate-l0
+  publisher: Elsevier
+  maturity_level: L0
+  maturity_label: listed only
+  maturity_reason: Listed as a candidate for future coverage. No official source matrix has been populated in this release.
+  journal_fragment: null
+  advanced_skill: null
+  paper_template_cards: []
+  evaluation_tasks: []
+  source_status: not-started
+  needs_reverification: true
+  import_action: do-not-import-until-source-matrix-is-complete
+  official_sources:
+    matrix_status: not populated
+    missing_fields:
+    - journal_homepage
+    - author_instructions
+    - submission_system
+    - manuscript_template
+    - publishing_agreement
+    - copyright_license
+    - open_access
+    - ethics_integrity
+    - ai_disclosure_policy
+    - data_code_availability
+    - permissions
+    live_verification_required: true
+  discipline_tags:
+  - remote-sensing
+  source_quality_score:
+    score: 11
+    band: E
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: true
+    eligible_for_direct_core_import: false
+    next_target: L1/L2 first; L3 only after source-refresh metadata and live-check support
+    missing_for_next_level:
+    - full official source matrix
+    - draft journal fragment
+    - optional paper-template card for L4
+    - evaluation task coverage
+    recommended_action: use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+  pack_specific_evaluation_task: expansion_packs/remote-sensing/eval_tasks/remote-sensing_coverage_task.yaml
+  paper_card_todo: expansion_packs/remote-sensing/paper_card_todo.md
+- id: remote-sensing-applications-society-environment
+  title: 'Remote Sensing Applications: Society and Environment'
+  entry_type: candidate-l0
+  publisher: Elsevier
+  maturity_level: L0
+  maturity_label: listed only
+  maturity_reason: Listed as a candidate for future coverage. No official source matrix has been populated in this release.
+  journal_fragment: null
+  advanced_skill: null
+  paper_template_cards: []
+  evaluation_tasks: []
+  source_status: not-started
+  needs_reverification: true
+  import_action: do-not-import-until-source-matrix-is-complete
+  official_sources:
+    matrix_status: not populated
+    missing_fields:
+    - journal_homepage
+    - author_instructions
+    - submission_system
+    - manuscript_template
+    - publishing_agreement
+    - copyright_license
+    - open_access
+    - ethics_integrity
+    - ai_disclosure_policy
+    - data_code_availability
+    - permissions
+    live_verification_required: true
+  discipline_tags:
+  - remote-sensing
+  source_quality_score:
+    score: 11
+    band: E
+    live_check_required: true
+    caveat: Static score only. Run check_official_links_live.py --live before real submission advice.
+  promotion_readiness:
+    is_l0_candidate: true
+    eligible_for_direct_core_import: false
+    next_target: L1/L2 first; L3 only after source-refresh metadata and live-check support
+    missing_for_next_level:
+    - full official source matrix
+    - draft journal fragment
+    - optional paper-template card for L4
+    - evaluation task coverage
+    recommended_action: use scripts/promote_journal_candidate.py to generate a draft fragment in resources/promoted_fragments_staging/
+    context_safety: Promotion must not add a default top-level skill. Promote only as suite/static fragment or optional advanced
+      skill.
+  pack_specific_evaluation_task: expansion_packs/remote-sensing/eval_tasks/remote-sensing_coverage_task.yaml
+  paper_card_todo: expansion_packs/remote-sensing/paper_card_todo.md
+hardening:
+  release: v1.3.0
+  source_quality_scoring:
+    script: scripts/score_source_quality.py
+    score_type: static conservative score
+    live_check_required: true
+    note: Scores help triage maintenance priority; they do not certify live publisher rules.
+  promotion_workflow:
+    script: scripts/promote_journal_candidate.py
+    staging_dir: resources/promoted_fragments_staging/
+    default_visibility_rule: Never add promoted candidates to default skills/ automatically.
+    target_path: skills/elsevier-skill-suite/static/journals/
+    required_before_core_import:
+    - official homepage
+    - author instructions
+    - full official source matrix
+    - live-check metadata
+  pack_eval_placeholder: expansion_packs/remote-sensing/eval_tasks/remote-sensing_coverage_task.yaml
+  paper_card_todo: expansion_packs/remote-sensing/paper_card_todo.md

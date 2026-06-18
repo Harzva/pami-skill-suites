@@ -1,0 +1,2003 @@
+{
+  "schema_version": "2.1.0",
+  "release_version": "2.1.0",
+  "generated_on": "2026-06-16",
+  "title": "OA Source Review Report",
+  "summary": {
+    "total_candidates": 100,
+    "ready_seed_candidates": 6,
+    "pending_candidates": 94,
+    "forbidden_sources_policy": [
+      "Sci-Hub",
+      "pirated PDFs",
+      "paywalled-only PDFs",
+      "copyright-unknown PDFs",
+      "unauthorized image reuse"
+    ]
+  },
+  "review_policy": "Do not download or extract a main figure until source URL, license, OA source type, and permission status are verified.",
+  "items": [
+    {
+      "candidate_id": "elsevier-seed-001",
+      "paper_id": "pr-2024-linear-transportation-lp-distance",
+      "title": "A linear transportation Lp distance for pattern recognition",
+      "journal": "Pattern Recognition",
+      "source_url": "https://wrap.warwick.ac.uk/id/eprint/185436/13/1-s2.0-S003132032300777X-main.pdf",
+      "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "oa_source_type": "existing-v2.0.0-open-access-template-corpus",
+      "permission_review_status": "seed-included-for-structural-analysis; live license re-check required before reuse",
+      "extraction_readiness": "ready-seed-extracted",
+      "oa_precheck_status": "requires-live-license-recheck",
+      "ready_for_extraction": true,
+      "risk_flags": [
+        "live license re-check required",
+        "third-party material status unknown until manual review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-002",
+      "paper_id": "prl-2023-too-good-prior",
+      "title": "A too-good-to-be-true prior to reduce shortcut reliance",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "https://juser.fz-juelich.de/record/1024830/files/1-s2.0-S0167865522003841-main-1.pdf",
+      "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "oa_source_type": "existing-v2.0.0-open-access-template-corpus",
+      "permission_review_status": "seed-included-for-structural-analysis; live license re-check required before reuse",
+      "extraction_readiness": "ready-seed-extracted",
+      "oa_precheck_status": "requires-live-license-recheck",
+      "ready_for_extraction": true,
+      "risk_flags": [
+        "live license re-check required",
+        "third-party material status unknown until manual review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-003",
+      "paper_id": "eswa-2024-knowledge-based-ai",
+      "title": "Enhancing vessel arrival time prediction: A fusion-based deep learning approach",
+      "journal": "Expert Systems With Applications",
+      "source_url": "https://pure.uva.nl/ws/files/204160450/1-s2.0-S0957417424008546-main.pdf",
+      "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "oa_source_type": "existing-v2.0.0-open-access-template-corpus",
+      "permission_review_status": "seed-included-for-structural-analysis; live license re-check required before reuse",
+      "extraction_readiness": "ready-seed-extracted",
+      "oa_precheck_status": "requires-live-license-recheck",
+      "ready_for_extraction": true,
+      "risk_flags": [
+        "live license re-check required",
+        "third-party material status unknown until manual review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-004",
+      "paper_id": "neurocomputing-2024-xai-cybersecurity",
+      "title": "Advanced insights through systematic analysis: Mapping future research directions and opportunities for xAI in deep learning and artificial intelligence used in cybersecurity",
+      "journal": "Neurocomputing",
+      "source_url": "https://www.starlight-h2020.eu/sites/default/files/2024-05/Advanced%20insights%20through%20systematic%20analysis.pdf",
+      "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "oa_source_type": "existing-v2.0.0-open-access-template-corpus",
+      "permission_review_status": "seed-included-for-structural-analysis; live license re-check required before reuse",
+      "extraction_readiness": "ready-seed-extracted",
+      "oa_precheck_status": "requires-live-license-recheck",
+      "ready_for_extraction": true,
+      "risk_flags": [
+        "live license re-check required",
+        "third-party material status unknown until manual review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-005",
+      "paper_id": "information-sciences-2025-gkf-pual",
+      "title": "GKF-PUAL: A group kernel-free approach to positive-unlabeled learning with variable selection",
+      "journal": "Information Sciences",
+      "source_url": "https://openaccess.city.ac.uk/id/eprint/33901/8/1-s2.0-S0020025524014889-main.pdf",
+      "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "oa_source_type": "existing-v2.0.0-open-access-template-corpus",
+      "permission_review_status": "seed-included-for-structural-analysis; live license re-check required before reuse",
+      "extraction_readiness": "ready-seed-extracted",
+      "oa_precheck_status": "requires-live-license-recheck",
+      "ready_for_extraction": true,
+      "risk_flags": [
+        "live license re-check required",
+        "third-party material status unknown until manual review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-seed-006",
+      "paper_id": "kbs-2023-alzheimers-explainable-ai",
+      "title": "Adazd-Net: Automated adaptive and explainable Alzheimer’s disease detection system using EEG signals",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "https://pure.au.dk/ws/files/401416437/1-s2.0-S0950705123006081-main.pdf",
+      "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "oa_source_type": "existing-v2.0.0-open-access-template-corpus",
+      "permission_review_status": "seed-included-for-structural-analysis; live license re-check required before reuse",
+      "extraction_readiness": "ready-seed-extracted",
+      "oa_precheck_status": "requires-live-license-recheck",
+      "ready_for_extraction": true,
+      "risk_flags": [
+        "live license re-check required",
+        "third-party material status unknown until manual review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-007",
+      "paper_id": "elsevier-oa-candidate-007",
+      "title": "TBD — pending Elsevier OA paper selection #007",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-008",
+      "paper_id": "elsevier-oa-candidate-008",
+      "title": "TBD — pending Elsevier OA paper selection #008",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-009",
+      "paper_id": "elsevier-oa-candidate-009",
+      "title": "TBD — pending Elsevier OA paper selection #009",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-010",
+      "paper_id": "elsevier-oa-candidate-010",
+      "title": "TBD — pending Elsevier OA paper selection #010",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-011",
+      "paper_id": "elsevier-oa-candidate-011",
+      "title": "TBD — pending Elsevier OA paper selection #011",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-012",
+      "paper_id": "elsevier-oa-candidate-012",
+      "title": "TBD — pending Elsevier OA paper selection #012",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-013",
+      "paper_id": "elsevier-oa-candidate-013",
+      "title": "TBD — pending Elsevier OA paper selection #013",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-014",
+      "paper_id": "elsevier-oa-candidate-014",
+      "title": "TBD — pending Elsevier OA paper selection #014",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-015",
+      "paper_id": "elsevier-oa-candidate-015",
+      "title": "TBD — pending Elsevier OA paper selection #015",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-016",
+      "paper_id": "elsevier-oa-candidate-016",
+      "title": "TBD — pending Elsevier OA paper selection #016",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-017",
+      "paper_id": "elsevier-oa-candidate-017",
+      "title": "TBD — pending Elsevier OA paper selection #017",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-018",
+      "paper_id": "elsevier-oa-candidate-018",
+      "title": "TBD — pending Elsevier OA paper selection #018",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-019",
+      "paper_id": "elsevier-oa-candidate-019",
+      "title": "TBD — pending Elsevier OA paper selection #019",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-020",
+      "paper_id": "elsevier-oa-candidate-020",
+      "title": "TBD — pending Elsevier OA paper selection #020",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-021",
+      "paper_id": "elsevier-oa-candidate-021",
+      "title": "TBD — pending Elsevier OA paper selection #021",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-022",
+      "paper_id": "elsevier-oa-candidate-022",
+      "title": "TBD — pending Elsevier OA paper selection #022",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-023",
+      "paper_id": "elsevier-oa-candidate-023",
+      "title": "TBD — pending Elsevier OA paper selection #023",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-024",
+      "paper_id": "elsevier-oa-candidate-024",
+      "title": "TBD — pending Elsevier OA paper selection #024",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-025",
+      "paper_id": "elsevier-oa-candidate-025",
+      "title": "TBD — pending Elsevier OA paper selection #025",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-026",
+      "paper_id": "elsevier-oa-candidate-026",
+      "title": "TBD — pending Elsevier OA paper selection #026",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-027",
+      "paper_id": "elsevier-oa-candidate-027",
+      "title": "TBD — pending Elsevier OA paper selection #027",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-028",
+      "paper_id": "elsevier-oa-candidate-028",
+      "title": "TBD — pending Elsevier OA paper selection #028",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-029",
+      "paper_id": "elsevier-oa-candidate-029",
+      "title": "TBD — pending Elsevier OA paper selection #029",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-030",
+      "paper_id": "elsevier-oa-candidate-030",
+      "title": "TBD — pending Elsevier OA paper selection #030",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-031",
+      "paper_id": "elsevier-oa-candidate-031",
+      "title": "TBD — pending Elsevier OA paper selection #031",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-032",
+      "paper_id": "elsevier-oa-candidate-032",
+      "title": "TBD — pending Elsevier OA paper selection #032",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-033",
+      "paper_id": "elsevier-oa-candidate-033",
+      "title": "TBD — pending Elsevier OA paper selection #033",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-034",
+      "paper_id": "elsevier-oa-candidate-034",
+      "title": "TBD — pending Elsevier OA paper selection #034",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-035",
+      "paper_id": "elsevier-oa-candidate-035",
+      "title": "TBD — pending Elsevier OA paper selection #035",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-036",
+      "paper_id": "elsevier-oa-candidate-036",
+      "title": "TBD — pending Elsevier OA paper selection #036",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-037",
+      "paper_id": "elsevier-oa-candidate-037",
+      "title": "TBD — pending Elsevier OA paper selection #037",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-038",
+      "paper_id": "elsevier-oa-candidate-038",
+      "title": "TBD — pending Elsevier OA paper selection #038",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-039",
+      "paper_id": "elsevier-oa-candidate-039",
+      "title": "TBD — pending Elsevier OA paper selection #039",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-040",
+      "paper_id": "elsevier-oa-candidate-040",
+      "title": "TBD — pending Elsevier OA paper selection #040",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-041",
+      "paper_id": "elsevier-oa-candidate-041",
+      "title": "TBD — pending Elsevier OA paper selection #041",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-042",
+      "paper_id": "elsevier-oa-candidate-042",
+      "title": "TBD — pending Elsevier OA paper selection #042",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-043",
+      "paper_id": "elsevier-oa-candidate-043",
+      "title": "TBD — pending Elsevier OA paper selection #043",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-044",
+      "paper_id": "elsevier-oa-candidate-044",
+      "title": "TBD — pending Elsevier OA paper selection #044",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-045",
+      "paper_id": "elsevier-oa-candidate-045",
+      "title": "TBD — pending Elsevier OA paper selection #045",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-046",
+      "paper_id": "elsevier-oa-candidate-046",
+      "title": "TBD — pending Elsevier OA paper selection #046",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-047",
+      "paper_id": "elsevier-oa-candidate-047",
+      "title": "TBD — pending Elsevier OA paper selection #047",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-048",
+      "paper_id": "elsevier-oa-candidate-048",
+      "title": "TBD — pending Elsevier OA paper selection #048",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-049",
+      "paper_id": "elsevier-oa-candidate-049",
+      "title": "TBD — pending Elsevier OA paper selection #049",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-050",
+      "paper_id": "elsevier-oa-candidate-050",
+      "title": "TBD — pending Elsevier OA paper selection #050",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-051",
+      "paper_id": "elsevier-oa-candidate-051",
+      "title": "TBD — pending Elsevier OA paper selection #051",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-052",
+      "paper_id": "elsevier-oa-candidate-052",
+      "title": "TBD — pending Elsevier OA paper selection #052",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-053",
+      "paper_id": "elsevier-oa-candidate-053",
+      "title": "TBD — pending Elsevier OA paper selection #053",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-054",
+      "paper_id": "elsevier-oa-candidate-054",
+      "title": "TBD — pending Elsevier OA paper selection #054",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-055",
+      "paper_id": "elsevier-oa-candidate-055",
+      "title": "TBD — pending Elsevier OA paper selection #055",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-056",
+      "paper_id": "elsevier-oa-candidate-056",
+      "title": "TBD — pending Elsevier OA paper selection #056",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-057",
+      "paper_id": "elsevier-oa-candidate-057",
+      "title": "TBD — pending Elsevier OA paper selection #057",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-058",
+      "paper_id": "elsevier-oa-candidate-058",
+      "title": "TBD — pending Elsevier OA paper selection #058",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-059",
+      "paper_id": "elsevier-oa-candidate-059",
+      "title": "TBD — pending Elsevier OA paper selection #059",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-060",
+      "paper_id": "elsevier-oa-candidate-060",
+      "title": "TBD — pending Elsevier OA paper selection #060",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-061",
+      "paper_id": "elsevier-oa-candidate-061",
+      "title": "TBD — pending Elsevier OA paper selection #061",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-062",
+      "paper_id": "elsevier-oa-candidate-062",
+      "title": "TBD — pending Elsevier OA paper selection #062",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-063",
+      "paper_id": "elsevier-oa-candidate-063",
+      "title": "TBD — pending Elsevier OA paper selection #063",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-064",
+      "paper_id": "elsevier-oa-candidate-064",
+      "title": "TBD — pending Elsevier OA paper selection #064",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-065",
+      "paper_id": "elsevier-oa-candidate-065",
+      "title": "TBD — pending Elsevier OA paper selection #065",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-066",
+      "paper_id": "elsevier-oa-candidate-066",
+      "title": "TBD — pending Elsevier OA paper selection #066",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-067",
+      "paper_id": "elsevier-oa-candidate-067",
+      "title": "TBD — pending Elsevier OA paper selection #067",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-068",
+      "paper_id": "elsevier-oa-candidate-068",
+      "title": "TBD — pending Elsevier OA paper selection #068",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-069",
+      "paper_id": "elsevier-oa-candidate-069",
+      "title": "TBD — pending Elsevier OA paper selection #069",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-070",
+      "paper_id": "elsevier-oa-candidate-070",
+      "title": "TBD — pending Elsevier OA paper selection #070",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-071",
+      "paper_id": "elsevier-oa-candidate-071",
+      "title": "TBD — pending Elsevier OA paper selection #071",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-072",
+      "paper_id": "elsevier-oa-candidate-072",
+      "title": "TBD — pending Elsevier OA paper selection #072",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-073",
+      "paper_id": "elsevier-oa-candidate-073",
+      "title": "TBD — pending Elsevier OA paper selection #073",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-074",
+      "paper_id": "elsevier-oa-candidate-074",
+      "title": "TBD — pending Elsevier OA paper selection #074",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-075",
+      "paper_id": "elsevier-oa-candidate-075",
+      "title": "TBD — pending Elsevier OA paper selection #075",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-076",
+      "paper_id": "elsevier-oa-candidate-076",
+      "title": "TBD — pending Elsevier OA paper selection #076",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-077",
+      "paper_id": "elsevier-oa-candidate-077",
+      "title": "TBD — pending Elsevier OA paper selection #077",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-078",
+      "paper_id": "elsevier-oa-candidate-078",
+      "title": "TBD — pending Elsevier OA paper selection #078",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-079",
+      "paper_id": "elsevier-oa-candidate-079",
+      "title": "TBD — pending Elsevier OA paper selection #079",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-080",
+      "paper_id": "elsevier-oa-candidate-080",
+      "title": "TBD — pending Elsevier OA paper selection #080",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-081",
+      "paper_id": "elsevier-oa-candidate-081",
+      "title": "TBD — pending Elsevier OA paper selection #081",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-082",
+      "paper_id": "elsevier-oa-candidate-082",
+      "title": "TBD — pending Elsevier OA paper selection #082",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-083",
+      "paper_id": "elsevier-oa-candidate-083",
+      "title": "TBD — pending Elsevier OA paper selection #083",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-084",
+      "paper_id": "elsevier-oa-candidate-084",
+      "title": "TBD — pending Elsevier OA paper selection #084",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-085",
+      "paper_id": "elsevier-oa-candidate-085",
+      "title": "TBD — pending Elsevier OA paper selection #085",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-086",
+      "paper_id": "elsevier-oa-candidate-086",
+      "title": "TBD — pending Elsevier OA paper selection #086",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-087",
+      "paper_id": "elsevier-oa-candidate-087",
+      "title": "TBD — pending Elsevier OA paper selection #087",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-088",
+      "paper_id": "elsevier-oa-candidate-088",
+      "title": "TBD — pending Elsevier OA paper selection #088",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-089",
+      "paper_id": "elsevier-oa-candidate-089",
+      "title": "TBD — pending Elsevier OA paper selection #089",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-090",
+      "paper_id": "elsevier-oa-candidate-090",
+      "title": "TBD — pending Elsevier OA paper selection #090",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-091",
+      "paper_id": "elsevier-oa-candidate-091",
+      "title": "TBD — pending Elsevier OA paper selection #091",
+      "journal": "Pattern Recognition",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-092",
+      "paper_id": "elsevier-oa-candidate-092",
+      "title": "TBD — pending Elsevier OA paper selection #092",
+      "journal": "Pattern Recognition Letters",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-093",
+      "paper_id": "elsevier-oa-candidate-093",
+      "title": "TBD — pending Elsevier OA paper selection #093",
+      "journal": "CVIU",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-094",
+      "paper_id": "elsevier-oa-candidate-094",
+      "title": "TBD — pending Elsevier OA paper selection #094",
+      "journal": "Expert Systems with Applications",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-095",
+      "paper_id": "elsevier-oa-candidate-095",
+      "title": "TBD — pending Elsevier OA paper selection #095",
+      "journal": "Neurocomputing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-096",
+      "paper_id": "elsevier-oa-candidate-096",
+      "title": "TBD — pending Elsevier OA paper selection #096",
+      "journal": "Information Sciences",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-097",
+      "paper_id": "elsevier-oa-candidate-097",
+      "title": "TBD — pending Elsevier OA paper selection #097",
+      "journal": "Knowledge-Based Systems",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-098",
+      "paper_id": "elsevier-oa-candidate-098",
+      "title": "TBD — pending Elsevier OA paper selection #098",
+      "journal": "Medical Image Analysis",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-099",
+      "paper_id": "elsevier-oa-candidate-099",
+      "title": "TBD — pending Elsevier OA paper selection #099",
+      "journal": "Image and Vision Computing",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    },
+    {
+      "candidate_id": "elsevier-candidate-slot-100",
+      "paper_id": "elsevier-oa-candidate-100",
+      "title": "TBD — pending Elsevier OA paper selection #100",
+      "journal": "Information Fusion",
+      "source_url": "TBD — must be official OA publisher page, author page, or institutional repository",
+      "license_candidate": "TBD — must be CC BY / CC BY-NC / publisher-permitted OA / author repository OA",
+      "oa_source_type": "pending_oa_source_collection",
+      "permission_review_status": "pending_oa_source_review",
+      "extraction_readiness": "blocked_until_oa_source_verified",
+      "oa_precheck_status": "blocked-pending-source-url-and-license",
+      "ready_for_extraction": false,
+      "risk_flags": [
+        "missing source URL",
+        "missing DOI",
+        "missing license",
+        "no PDF path",
+        "no permission review"
+      ]
+    }
+  ]
+}

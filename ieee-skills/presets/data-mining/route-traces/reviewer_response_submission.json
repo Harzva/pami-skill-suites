@@ -1,0 +1,70 @@
+{
+  "trace_id": "data-mining:reviewer_response_submission",
+  "preset_id": "data-mining",
+  "scenario_id": "reviewer_response_submission",
+  "preset_visibility": "optional; not default top-level skill",
+  "selected_modules": {
+    "suite_router": "skills/ieee-skill-suite/",
+    "preset": "presets/data-mining/",
+    "journal_fragment": "skills/ieee-skill-suite/static/journals/tkde.md",
+    "component_fragments": [
+      "skills/ieee-skill-suite/static/components/limitations.md",
+      "skills/ieee-skill-suite/static/components/discussion.md",
+      "skills/ieee-skill-suite/static/components/data-code-availability.md"
+    ],
+    "submission_fragments": [
+      "skills/ieee-skill-suite/static/submission/response-letter.md",
+      "skills/ieee-skill-suite/static/submission/reviewer-response-matrix.md",
+      "skills/ieee-skill-suite/static/submission/author-agreement.md",
+      "skills/ieee-skill-suite/static/submission/copyright.md",
+      "skills/ieee-skill-suite/static/submission/open-access.md",
+      "skills/ieee-skill-suite/static/submission/final-files.md"
+    ]
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "detect_preset",
+      "result": "data-mining"
+    },
+    {
+      "step": 2,
+      "action": "select_suite_router",
+      "result": "skills/ieee-skill-suite/"
+    },
+    {
+      "step": 3,
+      "action": "select_journal_fragment",
+      "result": "skills/ieee-skill-suite/static/journals/tkde.md"
+    },
+    {
+      "step": 4,
+      "action": "select_components",
+      "result": [
+        "skills/ieee-skill-suite/static/components/limitations.md",
+        "skills/ieee-skill-suite/static/components/discussion.md",
+        "skills/ieee-skill-suite/static/components/data-code-availability.md"
+      ]
+    },
+    {
+      "step": 5,
+      "action": "select_submission",
+      "result": [
+        "skills/ieee-skill-suite/static/submission/response-letter.md",
+        "skills/ieee-skill-suite/static/submission/reviewer-response-matrix.md",
+        "skills/ieee-skill-suite/static/submission/author-agreement.md",
+        "skills/ieee-skill-suite/static/submission/copyright.md",
+        "skills/ieee-skill-suite/static/submission/open-access.md",
+        "skills/ieee-skill-suite/static/submission/final-files.md"
+      ]
+    },
+    {
+      "step": 6,
+      "action": "emit_warnings",
+      "result": {
+        "official_source_warning": true,
+        "copyright_safe_paper_mining_warning": false
+      }
+    }
+  ]
+}

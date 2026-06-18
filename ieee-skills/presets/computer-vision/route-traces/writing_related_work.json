@@ -1,0 +1,58 @@
+{
+  "trace_id": "computer-vision:writing_related_work",
+  "preset_id": "computer-vision",
+  "scenario_id": "writing_related_work",
+  "preset_visibility": "optional; not default top-level skill",
+  "selected_modules": {
+    "suite_router": "skills/ieee-skill-suite/",
+    "preset": "presets/computer-vision/",
+    "journal_fragment": "skills/ieee-skill-suite/static/journals/pami.md",
+    "component_fragments": [
+      "skills/ieee-skill-suite/static/components/introduction.md",
+      "skills/ieee-skill-suite/static/components/related-work.md",
+      "skills/ieee-skill-suite/static/components/contribution-positioning.md",
+      "skills/ieee-skill-suite/static/components/citation.md"
+    ],
+    "submission_fragments": []
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "detect_preset",
+      "result": "computer-vision"
+    },
+    {
+      "step": 2,
+      "action": "select_suite_router",
+      "result": "skills/ieee-skill-suite/"
+    },
+    {
+      "step": 3,
+      "action": "select_journal_fragment",
+      "result": "skills/ieee-skill-suite/static/journals/pami.md"
+    },
+    {
+      "step": 4,
+      "action": "select_components",
+      "result": [
+        "skills/ieee-skill-suite/static/components/introduction.md",
+        "skills/ieee-skill-suite/static/components/related-work.md",
+        "skills/ieee-skill-suite/static/components/contribution-positioning.md",
+        "skills/ieee-skill-suite/static/components/citation.md"
+      ]
+    },
+    {
+      "step": 5,
+      "action": "select_submission",
+      "result": []
+    },
+    {
+      "step": 6,
+      "action": "emit_warnings",
+      "result": {
+        "official_source_warning": true,
+        "copyright_safe_paper_mining_warning": false
+      }
+    }
+  ]
+}

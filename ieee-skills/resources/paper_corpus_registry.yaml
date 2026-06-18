@@ -1,0 +1,148 @@
+schema_version: '1.0'
+release_version: 0.8.0
+generated_on: '2026-06-12'
+repo: ieee-skills
+publisher_family: IEEE
+policy:
+  allowed_sources:
+  - open-access papers
+  - CC BY / CC BY-NC / explicitly licensed PDFs
+  - publisher-permitted OA PDFs
+  - official template/manual documents
+  - author/institutional repository OA versions
+  prohibited_sources:
+  - Sci-Hub
+  - pirated PDFs
+  - paywalled PDFs without permission
+  - unknown-copyright PDFs
+  - full-text copying without authorization
+  use_scope: 'Structure mining only: section patterns, table/figure/caption logic, evidence organization, reviewer-risk lessons.'
+  forbidden_use: Do not copy text, figures, tables, captions, equations, layouts, benchmark interpretations, or paper-specific claims.
+  verification_warning: Source/license metadata are recorded for auditability; live re-check the source page and license before redistribution or public release.
+entries:
+- id: tpami-2023-transformers-survey
+  type: open_access_paper
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  year: '2023'
+  doi: 10.1109/TPAMI.2023.3275156
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf
+  local_pdf_path: open_access_papers/tpami_2023_multimodal_learning_with_transformers_ccby.pdf
+  why_included: Survey structure, taxonomy-driven related work, dense sectioning, visual overview tables, TPAMI-style synthesis.
+  not_for: Do not copy survey taxonomy, wording, figures, or paper-specific claims.
+  size_bytes: 1523350
+  sha256: e21ed49574fbf5f37b265b70fa954cbb085af9f31d58faff6548084fab4723f0
+  pages: 20
+  license_status: allowed_by_corpus_policy_metadata; live re-check before redistribution
+  source_status: source URL inherited from v0.7 corpus metadata; live re-check recommended
+  card_path: cards/tpami-2023-transformers-survey.md
+  structure_map_path: extracted_structure_maps/tpami-2023-transformers-survey.md
+- id: tip-2022-see360
+  type: open_access_paper
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  year: '2022'
+  doi: 10.1109/TIP.2022.3148819
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf
+  local_pdf_path: open_access_papers/tip_2022_see360_panoramic_view_interpolation_ccby.pdf
+  why_included: Image-processing method exposition, visual-result comparison, ablation rhythm, quantitative/qualitative evidence pairing.
+  not_for: Do not reuse images or claims without attribution and permission checks.
+  size_bytes: 4644857
+  sha256: b39b20e9039c6e618a9fa568873d2f3d9222201c234f0ecdc32c5d6df083156a
+  pages: 13
+  license_status: allowed_by_corpus_policy_metadata; live re-check before redistribution
+  source_status: source URL inherited from v0.7 corpus metadata; live re-check recommended
+  card_path: cards/tip-2022-see360.md
+  structure_map_path: extracted_structure_maps/tip-2022-see360.md
+- id: tmi-2020-lesion-localization
+  type: open_access_paper
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  year: '2020'
+  doi: 10.1109/TMI.2020.2994463
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf
+  local_pdf_path: open_access_papers/tmi_2020_weakly_supervised_lesion_localization_ccby.pdf
+  why_included: Medical-imaging motivation, dataset/clinical-context framing, interpretability evidence, risk-aware experimental presentation.
+  not_for: Do not borrow medical claims, patient/data statements, or regulatory implications.
+  size_bytes: 47795920
+  sha256: 459669e80fca58617e6ecbcef60b63d776383c85257485e5d55630dbbf4e85c2
+  pages: 14
+  license_status: allowed_by_corpus_policy_metadata; live re-check before redistribution
+  source_status: source URL inherited from v0.7 corpus metadata; live re-check recommended
+  card_path: cards/tmi-2020-lesion-localization.md
+  structure_map_path: extracted_structure_maps/tmi-2020-lesion-localization.md
+- id: tnnls-2023-sparce
+  type: open_access_paper
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse Representations'
+  journal: IEEE TNNLS
+  year: '2023'
+  doi: 10.1109/tnnls.2021.3102378
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf
+  local_pdf_path: open_access_papers/tnnls_2023_sparce_sparse_reservoir_computing_ccby.pdf
+  why_included: Learning-systems method narrative, theoretical/method motivation, equations plus experiments.
+  not_for: Do not reuse algorithms, notation, or equations unless properly cited and scientifically relevant.
+  size_bytes: 3282635
+  sha256: c1e2b20b4f05308157a4c004efdf2c1d07862f8d8cd375ca00245008c31e2ab1
+  pages: 16
+  license_status: allowed_by_corpus_policy_metadata; live re-check before redistribution
+  source_status: source URL inherited from v0.7 corpus metadata; live re-check recommended
+  card_path: cards/tnnls-2023-sparce.md
+  structure_map_path: extracted_structure_maps/tnnls-2023-sparce.md
+- id: tnnls-2024-mediterranean
+  type: open_access_paper
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  year: '2024'
+  doi: 10.1109/TNNLS.2022.3176197
+  license: Creative Commons Attribution 4.0 (CC BY 4.0)
+  source_url: https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf
+  local_pdf_path: open_access_papers/tnnls_2024_mediterranean_matrix_multiplication_ccby.pdf
+  why_included: Compact theory-to-experiment flow, mathematical contribution framing, complexity/efficiency storyline.
+  not_for: Do not reuse method name, derivations, or benchmark interpretation as generic language.
+  size_bytes: 4153630
+  sha256: 45a7ade03f8a54947c7e5b25275159d605ef176942d87c36ade794ff2d119b48
+  pages: 14
+  license_status: allowed_by_corpus_policy_metadata; live re-check before redistribution
+  source_status: source URL inherited from v0.7 corpus metadata; live re-check recommended
+  card_path: cards/tnnls-2024-mediterranean.md
+  structure_map_path: extracted_structure_maps/tnnls-2024-mediterranean.md
+- id: ieee-editorial-style-manual-pdf
+  type: official_template
+  title: IEEE Editorial Style Manual for Authors
+  journal: IEEE official template/manual
+  year: N/A
+  doi: N/A (official template/manual; verify current official source before use)
+  license: Official template / LaTeX documentation; use as formatting reference and verify redistribution terms before public release.
+  source_url: https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf
+  local_pdf_path: official_templates/IEEE-Editorial-Style-Manual-for-Authors.pdf
+  why_included: Style and figure/table/equation/reference conventions.
+  not_for: Do not treat as journal-specific legal advice; do not copy manual text.
+  size_bytes: 809723
+  sha256: 4891f9e7ae600ddc57628d46b242f5319b8924789841aac33b847001c2bedaba
+  pages: 67
+  license_status: 'allowed source type under corpus policy: official template/manual; live re-check before redistribution'
+  source_status: official/template source URL inherited from v0.7 registry; live re-check recommended
+  card_path: cards/ieee-editorial-style-manual-pdf.md
+  structure_map_path: extracted_structure_maps/ieee-editorial-style-manual-pdf.md
+- id: ieeetran-howto-pdf
+  type: official_template
+  title: IEEEtran HOWTO
+  journal: IEEE official template/manual
+  year: N/A
+  doi: N/A (official template/manual; verify current official source before use)
+  license: Official template / LaTeX documentation; use as formatting reference and verify redistribution terms before public release.
+  source_url: https://ctan.math.illinois.edu/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf
+  local_pdf_path: official_templates/IEEEtran_HOWTO.pdf
+  why_included: Technical LaTeX template implementation reference.
+  not_for: Do not treat as journal-specific legal advice; do not copy manual text.
+  size_bytes: 671626
+  sha256: 462b4d99a973a5433ffa42de4d96e25c90e87fc44c2ebe598270af8cfd932922
+  pages: 28
+  license_status: 'allowed source type under corpus policy: official template/manual; live re-check before redistribution'
+  source_status: official/template source URL inherited from v0.7 registry; live re-check recommended
+  card_path: cards/ieeetran-howto-pdf.md
+  structure_map_path: extracted_structure_maps/ieeetran-howto-pdf.md

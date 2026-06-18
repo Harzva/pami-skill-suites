@@ -1,0 +1,110 @@
+preset_id: computer-vision
+title: Computer Vision
+publisher_family: Elsevier
+release_version: 1.5.0
+generated_on: '2026-06-13'
+visibility: optional-preset; not default top-level skill
+context_policy: Presets are routing profiles, prompt packs, and evaluation profiles. They do not add top-level skills and
+  must not increase default skill-listing context.
+source_expansion_pack: expansion_packs/computer-vision/
+suite_router: skills/elsevier-skill-suite/
+recommended_installation: Use as optional preset pack or keep in repository as non-skill routing resources.
+target_journals:
+- id: pr
+  title: Pattern Recognition
+  maturity_level: L4
+  journal_fragment: skills/elsevier-skill-suite/static/journals/pr.md
+  advanced_skill: skills-advanced/journals/pr-writing
+  source_quality_score: 100
+  source_quality_band: A
+  needs_reverification: true
+- id: prl
+  title: Pattern Recognition Letters
+  maturity_level: L4
+  journal_fragment: skills/elsevier-skill-suite/static/journals/prl.md
+  advanced_skill: skills-advanced/journals/prl-writing
+  source_quality_score: 100
+  source_quality_band: A
+  needs_reverification: true
+- id: cviu
+  title: Computer Vision and Image Understanding
+  maturity_level: L3
+  journal_fragment: skills/elsevier-skill-suite/static/journals/cviu.md
+  advanced_skill: skills-advanced/journals/cviu-writing
+  source_quality_score: 90
+  source_quality_band: A
+  needs_reverification: true
+- id: image-and-vision-computing
+  title: Image and Vision Computing
+  maturity_level: L3
+  journal_fragment: skills/elsevier-skill-suite/static/journals/image-and-vision-computing.md
+  advanced_skill: skills-advanced/journals/image-and-vision-computing-writing
+  source_quality_score: 90
+  source_quality_band: A
+  needs_reverification: true
+- id: medical-image-analysis
+  title: Medical Image Analysis
+  maturity_level: L3
+  journal_fragment: skills/elsevier-skill-suite/static/journals/medical-image-analysis.md
+  advanced_skill: skills-advanced/journals/medical-image-analysis-writing
+  source_quality_score: 90
+  source_quality_band: A
+  needs_reverification: true
+maturity_counts:
+  L0: 0
+  L1: 0
+  L2: 0
+  L3: 3
+  L4: 2
+default_module_bundle:
+  suite: elsevier-skill-suite
+  journal_modules:
+  - skills/elsevier-skill-suite/static/journals/pr.md
+  - skills/elsevier-skill-suite/static/journals/prl.md
+  - skills/elsevier-skill-suite/static/journals/cviu.md
+  - skills/elsevier-skill-suite/static/journals/image-and-vision-computing.md
+  - skills/elsevier-skill-suite/static/journals/medical-image-analysis.md
+  component_modules:
+  - skills/elsevier-skill-suite/static/components/abstract-keywords.md
+  - skills/elsevier-skill-suite/static/components/highlights.md
+  - skills/elsevier-skill-suite/static/components/graphical-abstract.md
+  - skills/elsevier-skill-suite/static/components/introduction.md
+  - skills/elsevier-skill-suite/static/components/related-work.md
+  - skills/elsevier-skill-suite/static/components/method.md
+  - skills/elsevier-skill-suite/static/components/experiment.md
+  - skills/elsevier-skill-suite/static/components/table.md
+  - skills/elsevier-skill-suite/static/components/figure.md
+  - skills/elsevier-skill-suite/static/components/caption.md
+  - skills/elsevier-skill-suite/static/components/response-letter.md
+  - skills/elsevier-skill-suite/static/components/official-source-compliance.md
+  submission_modules:
+  - skills/elsevier-skill-suite/static/submission/cover-letter.md
+  - skills/elsevier-skill-suite/static/submission/response-letter.md
+  - skills/elsevier-skill-suite/static/submission/publishing-agreement.md
+  - skills/elsevier-skill-suite/static/submission/copyright.md
+  - skills/elsevier-skill-suite/static/submission/license-options.md
+  - skills/elsevier-skill-suite/static/submission/open-access.md
+  - skills/elsevier-skill-suite/static/submission/research-data.md
+  - skills/elsevier-skill-suite/static/submission/declarations.md
+  - skills/elsevier-skill-suite/static/submission/final-files.md
+routing_tasks:
+- abstract rewrite
+- related work audit
+- figure caption upgrade
+- table audit
+- reviewer response
+- submission package audit
+- paper mining structure task
+- official source compliance task
+safety_rules:
+- Do not expose this preset as a default top-level skill.
+- Do not bypass journal official-source live verification for mutable submission facts.
+- Use paper templates for structure mining only; do not copy text, figures, tables, captions, equations, or paper-specific
+  claims.
+- If a journal is L0/L1, treat it as planning-only until official-source matrix and source-refresh metadata are complete.
+scenario_gallery: scenarios/
+sample_outputs: sample-outputs/
+route_traces: route-traces/
+evaluation_report: evaluation-report.md
+scenario_count: 3
+default_visible: false

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.3.0",
+  "baseline_release": "1.2.0",
+  "current_release": "1.7.0",
+  "summary": {
+    "added_entries": 0,
+    "removed_entries": 0,
+    "maturity_changes": 0,
+    "baseline_maturity_counts": {
+      "L0": 4,
+      "L1": 0,
+      "L2": 0,
+      "L3": 18,
+      "L4": 5
+    },
+    "current_maturity_counts": {
+      "L0": 4,
+      "L1": 0,
+      "L2": 0,
+      "L3": 18,
+      "L4": 5
+    },
+    "context_policy": "Expansion packs remain opt-in and do not add default top-level skills."
+  },
+  "added_entries": [],
+  "removed_entries": [],
+  "maturity_changes": [],
+  "notes": [
+    "v1.3.0 focuses on hardening, scoring, promotion workflow, and pack evaluation placeholders; coverage entries may remain unchanged."
+  ]
+}

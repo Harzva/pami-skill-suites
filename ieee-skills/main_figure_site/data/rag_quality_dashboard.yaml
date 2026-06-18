@@ -1,0 +1,34 @@
+schema_version: 2.5.0
+release_version: v2.5.0
+generated_on: '2026-06-16'
+title: IEEE Skills RAG Quality Dashboard
+quality_policy:
+  metadata_quality_dimensions:
+  - field completeness
+  - tag coverage
+  - safe summary quality
+  - retrieval benchmark coverage
+  - license metadata clarity
+  image_quality_dimensions:
+  - not evaluated until image embedding gate passes
+  public_gallery_dimensions:
+  - not evaluated until public display approval passes
+summary:
+  candidate_count: 100
+  metadata_only_records: 5
+  retrieval_benchmark_queries: 8
+  safety_filter_pass_metadata_only: 5
+  image_embedding_records: 0
+  public_gallery_records: 0
+  overall_status: metadata-only governance ready; image/public gallery blocked pending permissions
+quality_scores:
+  metadata_only_governance: 0.86
+  retrieval_benchmark_coverage: 0.8
+  safety_filter_strictness: 1.0
+  image_embedding_readiness: 0.0
+  public_gallery_readiness: 0.0
+next_actions:
+- Complete live DOI/OA/license connector checks for candidates.
+- Collect human reviewer approvals for any candidate entering image embedding or public gallery modes.
+- Expand retrieval benchmark with user query logs after deployment.
+- Add near-duplicate image embedding checks only after permission gate passes.

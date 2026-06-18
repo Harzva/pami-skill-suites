@@ -1,0 +1,91 @@
+schema_version: 2.1.0
+release_version: 2.1.0
+generated_on: '2026-06-16'
+title: Multimodal Scientific-Figure RAG Index
+index_policy: Seed records only. Pending candidate slots are excluded until OA source
+  and permission review pass.
+record_count: 5
+records:
+- paper_id: tpami-2023-transformers-survey
+  title: 'Multimodal Learning With Transformers: A Survey'
+  journal: IEEE TPAMI
+  year: 2023
+  source_url: https://eng.ox.ac.uk/media/ttrg2f51/2023-ieee-px.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/tpami-2023-transformers-survey__p001__main_figure.png
+  visual_rhetoric_tags:
+  - concept-map
+  - copyright-review-required
+  - overview
+  - taxonomy
+  retrieval_text: 'Multimodal Learning With Transformers: A Survey | IEEE TPAMI |
+    main figure | concept-map copyright-review-required overview taxonomy | structural
+    analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: tip-2022-see360
+  title: 'See360: Novel Panoramic View Interpolation'
+  journal: IEEE TIP
+  year: 2022
+  source_url: https://ira.lib.polyu.edu.hk/bitstream/10397/96492/1/See360_Novel_Panoramic_View_Interpolation.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/tip-2022-see360__p001__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - image-processing
+  - pipeline
+  retrieval_text: 'See360: Novel Panoramic View Interpolation | IEEE TIP | main figure
+    | copyright-review-required image-processing pipeline | structural analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: tmi-2020-lesion-localization
+  title: 'Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization
+    in Deep Interpretability Frameworks: Application to Color Fundus Images'
+  journal: IEEE TMI
+  year: 2020
+  source_url: https://pure.uva.nl/ws/files/68020849/Iterative_Augmentation_of_Visual_Evidence_for_Weakly_Supervised_Lesion_Localization_in_Deep_Interpretability_Frameworks_Application_to_Color_Fundus_Images.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/tmi-2020-lesion-localization__p004__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - evidence-flow
+  - medical-ai
+  retrieval_text: 'Iterative Augmentation of Visual Evidence for Weakly Supervised
+    Lesion Localization in Deep Interpretability Frameworks: Application to Color
+    Fundus Images | IEEE TMI | main figure | copyright-review-required evidence-flow
+    medical-ai | structural analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: tnnls-2023-sparce
+  title: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse
+    Representations'
+  journal: IEEE TNNLS
+  year: 2023
+  source_url: https://eprints.whiterose.ac.uk/id/eprint/241349/1/SpaRCe_Improved_Learning_of_Reservoir_Computing_Systems_Through_Sparse_Representations.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/tnnls-2023-sparce__p004__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  retrieval_text: 'SpaRCe: Improved Learning of Reservoir Computing Systems Through
+    Sparse Representations | IEEE TNNLS | main figure | copyright-review-required
+    main-figure method-or-result-overview | structural analysis only.'
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.
+- paper_id: tnnls-2024-mediterranean
+  title: Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication
+  journal: IEEE TNNLS
+  year: 2024
+  source_url: https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf
+  license_candidate: Creative Commons Attribution 4.0 (CC BY 4.0)
+  image_path: paper_templates/extracted_visual_assets/main_figures/tnnls-2024-mediterranean__p003__main_figure.png
+  visual_rhetoric_tags:
+  - copyright-review-required
+  - main-figure
+  - method-or-result-overview
+  retrieval_text: Fully Connected Networks on a Diet With the Mediterranean Matrix
+    Multiplication | IEEE TNNLS | main figure | copyright-review-required main-figure
+    method-or-result-overview | structural analysis only.
+  copyright_safety: Do not copy, redraw, or reuse without license and third-party-material
+    review.

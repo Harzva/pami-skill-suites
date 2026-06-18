@@ -1,0 +1,55 @@
+{
+  "release_version": "1.7.0",
+  "summary": {
+    "preset_count": 6,
+    "scenario_count": 18,
+    "sample_output_count": 18,
+    "route_trace_count": 18,
+    "passed": true
+  },
+  "presets": [
+    {
+      "preset_id": "computer-vision",
+      "scenario_count": 3,
+      "sample_output_count": 3,
+      "route_trace_count": 3,
+      "status": "passed"
+    },
+    {
+      "preset_id": "medical-ai",
+      "scenario_count": 3,
+      "sample_output_count": 3,
+      "route_trace_count": 3,
+      "status": "passed"
+    },
+    {
+      "preset_id": "remote-sensing",
+      "scenario_count": 3,
+      "sample_output_count": 3,
+      "route_trace_count": 3,
+      "status": "passed"
+    },
+    {
+      "preset_id": "multimedia",
+      "scenario_count": 3,
+      "sample_output_count": 3,
+      "route_trace_count": 3,
+      "status": "passed"
+    },
+    {
+      "preset_id": "data-mining",
+      "scenario_count": 3,
+      "sample_output_count": 3,
+      "route_trace_count": 3,
+      "status": "passed"
+    },
+    {
+      "preset_id": "signal-processing",
+      "scenario_count": 3,
+      "sample_output_count": 3,
+      "route_trace_count": 3,
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

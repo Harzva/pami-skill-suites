@@ -1,0 +1,60 @@
+{
+  "trace_id": "multimedia:figure_table_caption",
+  "preset_id": "multimedia",
+  "scenario_id": "figure_table_caption",
+  "preset_visibility": "optional; not default top-level skill",
+  "selected_modules": {
+    "suite_router": "skills/ieee-skill-suite/",
+    "preset": "presets/multimedia/",
+    "journal_fragment": "skills/ieee-skill-suite/static/journals/tip.md",
+    "component_fragments": [
+      "skills/ieee-skill-suite/static/components/table.md",
+      "skills/ieee-skill-suite/static/components/figure.md",
+      "skills/ieee-skill-suite/static/components/caption.md",
+      "skills/ieee-skill-suite/static/components/results-reporting.md",
+      "skills/ieee-skill-suite/static/components/visual-accessibility.md"
+    ],
+    "submission_fragments": []
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "detect_preset",
+      "result": "multimedia"
+    },
+    {
+      "step": 2,
+      "action": "select_suite_router",
+      "result": "skills/ieee-skill-suite/"
+    },
+    {
+      "step": 3,
+      "action": "select_journal_fragment",
+      "result": "skills/ieee-skill-suite/static/journals/tip.md"
+    },
+    {
+      "step": 4,
+      "action": "select_components",
+      "result": [
+        "skills/ieee-skill-suite/static/components/table.md",
+        "skills/ieee-skill-suite/static/components/figure.md",
+        "skills/ieee-skill-suite/static/components/caption.md",
+        "skills/ieee-skill-suite/static/components/results-reporting.md",
+        "skills/ieee-skill-suite/static/components/visual-accessibility.md"
+      ]
+    },
+    {
+      "step": 5,
+      "action": "select_submission",
+      "result": []
+    },
+    {
+      "step": 6,
+      "action": "emit_warnings",
+      "result": {
+        "official_source_warning": true,
+        "copyright_safe_paper_mining_warning": false
+      }
+    }
+  ]
+}

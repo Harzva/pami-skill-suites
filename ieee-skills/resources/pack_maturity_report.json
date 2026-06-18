@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.3.0",
+  "release_version": "1.3.0",
+  "publisher_family": "IEEE",
+  "generated_on": "2026-06-13",
+  "maturity_levels": {
+    "L0": "listed only",
+    "L1": "official homepage + author instructions",
+    "L2": "full official source matrix",
+    "L3": "source-refresh metadata + live-check support",
+    "L4": "paper-template card + evaluation task"
+  },
+  "summary": {
+    "packs": 6,
+    "maturity_counts": {
+      "L0": 3,
+      "L1": 0,
+      "L2": 0,
+      "L3": 13,
+      "L4": 5
+    },
+    "l0_candidates": 3,
+    "promotion_policy": "L0 candidates are staged only and never default-visible."
+  },
+  "packs": [
+    {
+      "pack_id": "computer-vision",
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 2,
+        "L4": 2
+      },
+      "average_source_quality_score": 95.0,
+      "l0_candidates": 0,
+      "pack_eval_task": "expansion_packs/computer-vision/eval_tasks/computer-vision_coverage_task.yaml",
+      "paper_card_todo": "expansion_packs/computer-vision/paper_card_todo.md"
+    },
+    {
+      "pack_id": "data-mining",
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 0
+      },
+      "average_source_quality_score": 90.0,
+      "l0_candidates": 0,
+      "pack_eval_task": "expansion_packs/data-mining/eval_tasks/data-mining_coverage_task.yaml",
+      "paper_card_todo": "expansion_packs/data-mining/paper_card_todo.md"
+    },
+    {
+      "pack_id": "medical-ai",
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 1
+      },
+      "average_source_quality_score": 67.0,
+      "l0_candidates": 1,
+      "pack_eval_task": "expansion_packs/medical-ai/eval_tasks/medical-ai_coverage_task.yaml",
+      "paper_card_todo": "expansion_packs/medical-ai/paper_card_todo.md"
+    },
+    {
+      "pack_id": "multimedia",
+      "maturity_counts": {
+        "L0": 0,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      },
+      "average_source_quality_score": 92.5,
+      "l0_candidates": 0,
+      "pack_eval_task": "expansion_packs/multimedia/eval_tasks/multimedia_coverage_task.yaml",
+      "paper_card_todo": "expansion_packs/multimedia/paper_card_todo.md"
+    },
+    {
+      "pack_id": "remote-sensing",
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 1,
+        "L4": 0
+      },
+      "average_source_quality_score": 50.5,
+      "l0_candidates": 1,
+      "pack_eval_task": "expansion_packs/remote-sensing/eval_tasks/remote-sensing_coverage_task.yaml",
+      "paper_card_todo": "expansion_packs/remote-sensing/paper_card_todo.md"
+    },
+    {
+      "pack_id": "signal-processing",
+      "maturity_counts": {
+        "L0": 1,
+        "L1": 0,
+        "L2": 0,
+        "L3": 3,
+        "L4": 1
+      },
+      "average_source_quality_score": 76.2,
+      "l0_candidates": 1,
+      "pack_eval_task": "expansion_packs/signal-processing/eval_tasks/signal-processing_coverage_task.yaml",
+      "paper_card_todo": "expansion_packs/signal-processing/paper_card_todo.md"
+    }
+  ]
+}

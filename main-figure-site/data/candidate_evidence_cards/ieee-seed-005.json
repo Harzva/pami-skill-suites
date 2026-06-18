@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "release_version": "v2.3.0",
+  "generated_on": "2026-06-16",
+  "candidate_id": "ieee-seed-005",
+  "paper_id": "tnnls-2024-mediterranean",
+  "publisher_family": "Mixed IEEE + Elsevier",
+  "proposed_title": "Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication",
+  "proposed_journal": "IEEE TNNLS",
+  "year": 2024,
+  "target_figure_type": "main_figure",
+  "source_status": "seed-needs-live-evidence-recheck",
+  "evidence_completeness_score": 42,
+  "extraction_gate": "blocked_until_live_evidence_review",
+  "doi_evidence": {
+    "proposed_doi": "Not encoded in seed manifest; verify from paper card or source URL before public reuse.",
+    "doi_status": "missing-or-not-encoded; live DOI lookup required",
+    "evidence_status": "needs-live-connector-check",
+    "required_actions": [
+      "query Crossref or DOI registry",
+      "confirm title/year/journal match",
+      "record canonical DOI URL"
+    ],
+    "notes": "DOI evidence alone is not enough for OA figure extraction."
+  },
+  "publisher_page_evidence": {
+    "proposed_source_url": "https://cronfa.swan.ac.uk/Record/cronfa60038/Download/60038__31356__0b683a7201f540b89f3f8ca0f373040d.pdf",
+    "source_type": "existing-v2.0.0-open-access-template-corpus",
+    "evidence_status": "needs-live-publisher-page-review",
+    "required_actions": [
+      "open official publisher article page",
+      "capture license/copyright statement",
+      "record official PDF availability if any"
+    ],
+    "notes": "Do not use Sci-Hub, pirated PDFs, or paywalled-only PDFs."
+  },
+  "repository_oa_evidence": {
+    "candidate_repository_url": "TBD or not applicable",
+    "evidence_status": "needs-manual-review",
+    "required_actions": [
+      "check author or institutional repository version",
+      "record rights statement and version type",
+      "confirm repository copy is legally hosted"
+    ],
+    "notes": "Repository OA evidence may differ from publisher license evidence."
+  },
+  "license_evidence": {
+    "license_candidate": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+    "evidence_status": "needs-license-text-verification",
+    "accepted_license_examples": [
+      "CC BY",
+      "CC BY-NC",
+      "publisher-permitted OA",
+      "author/institutional repository OA with permitted analysis use"
+    ],
+    "required_actions": [
+      "record exact license text",
+      "record attribution requirements",
+      "record no-derivatives / non-commercial limitations when present"
+    ],
+    "notes": "A license candidate is not a final permission decision."
+  },
+  "permission_evidence": {
+    "permission_risk": "medium",
+    "permission_status": "requires-human-review",
+    "required_actions": [
+      "confirm figure extraction is allowed for analysis/gallery/RAG metadata",
+      "decide whether images can be hosted or only referenced",
+      "record attribution format"
+    ],
+    "notes": "Public gallery display and RAG storage may have stricter requirements than private structural analysis."
+  },
+  "third_party_material_evidence": {
+    "status": "unknown-until-visual-and-caption-review",
+    "required_actions": [
+      "check caption and article for third-party material notices",
+      "flag figures containing reused photos/logos/maps/screenshots/datasets",
+      "exclude or seek permissions if third-party status is unclear"
+    ],
+    "notes": "Third-party elements can invalidate apparent article-level reuse permission."
+  },
+  "manual_reviewer_notes": {
+    "reviewer": "TBD",
+    "last_reviewed": "not-reviewed-in-offline-release-build",
+    "decision": "do-not-extract-new-assets-yet",
+    "notes": "Offline scaffold only. Live DOI/OA/license verification is required before any new extraction or public hosting."
+  },
+  "forbidden_sources": [
+    "Sci-Hub",
+    "pirated PDF",
+    "paywalled-only PDF",
+    "copyright-unknown PDF",
+    "unauthorized image reuse"
+  ]
+}

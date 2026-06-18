@@ -1,0 +1,61 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyyaml
+      - name: Run release gates
+        run: |
+          python scripts/context_budget.py
+          python scripts/validate_manifest.py
+          python scripts/validate_routes.py
+          python scripts/validate_sources.py
+          python scripts/validate_official_links.py
+          python scripts/validate_live_verification_warnings.py
+          python scripts/check_official_links_live.py
+          python scripts/report_stale_sources.py
+          python scripts/live_source_check_matrix.py
+          python scripts/source_age_policy.py
+          python scripts/generate_source_badges.py
+          python scripts/release_health_dashboard.py
+          python scripts/validate_release_health.py
+          python scripts/classify_source_trust.py
+          python scripts/build_human_review_queue.py
+          python scripts/review_queue_report.py
+          python scripts/validate_source_trust.py
+          python scripts/score_source_quality.py
+          python scripts/coverage_dashboard.py
+          python scripts/coverage_diff.py
+          python scripts/validate_pack_maturity.py
+          python scripts/validate_expansion_packs.py
+          python scripts/validate_presets.py
+          python scripts/preset_router_preview.py --list
+          python scripts/validate_structure.py
+          python scripts/validate_paper_corpus.py
+          python scripts/validate_evals.py
+          python scripts/run_evals.py
+          python scripts/validate_plugins.py
+          python scripts/build_manifest.py
+          python scripts/build_distribution.py
+          python scripts/build_expansion_pack.py
+          python scripts/build_preset_pack.py
+          python scripts/validate_distribution.py
+          python scripts/quality_score.py
+          python scripts/run_smoke_tests.py
+
+      - name: Validate policy diff and visual assets
+        run: |
+          python scripts/validate_policy_diff.py
+          python scripts/validate_visual_assets.py

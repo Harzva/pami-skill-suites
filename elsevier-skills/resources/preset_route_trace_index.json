@@ -1,0 +1,140 @@
+{
+  "release_version": "1.5.0",
+  "generated_on": "2026-06-13",
+  "publisher_family": "Elsevier",
+  "context_policy": "Route traces are explainability resources; they do not change default skills/.",
+  "presets": [
+    {
+      "preset_id": "computer-vision",
+      "title": "Computer Vision",
+      "default_visible": false,
+      "route_traces": [
+        {
+          "scenario_id": "writing-related-work",
+          "path": "presets/computer-vision/route-traces/writing-related-work.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "figure-table-caption",
+          "path": "presets/computer-vision/route-traces/figure-table-caption.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "reviewer-response-submission",
+          "path": "presets/computer-vision/route-traces/reviewer-response-submission.json",
+          "step_count": 8
+        }
+      ]
+    },
+    {
+      "preset_id": "medical-ai",
+      "title": "Medical Ai",
+      "default_visible": false,
+      "route_traces": [
+        {
+          "scenario_id": "writing-related-work",
+          "path": "presets/medical-ai/route-traces/writing-related-work.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "figure-table-caption",
+          "path": "presets/medical-ai/route-traces/figure-table-caption.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "reviewer-response-submission",
+          "path": "presets/medical-ai/route-traces/reviewer-response-submission.json",
+          "step_count": 8
+        }
+      ]
+    },
+    {
+      "preset_id": "remote-sensing",
+      "title": "Remote Sensing",
+      "default_visible": false,
+      "route_traces": [
+        {
+          "scenario_id": "writing-related-work",
+          "path": "presets/remote-sensing/route-traces/writing-related-work.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "figure-table-caption",
+          "path": "presets/remote-sensing/route-traces/figure-table-caption.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "reviewer-response-submission",
+          "path": "presets/remote-sensing/route-traces/reviewer-response-submission.json",
+          "step_count": 8
+        }
+      ]
+    },
+    {
+      "preset_id": "multimedia",
+      "title": "Multimedia",
+      "default_visible": false,
+      "route_traces": [
+        {
+          "scenario_id": "writing-related-work",
+          "path": "presets/multimedia/route-traces/writing-related-work.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "figure-table-caption",
+          "path": "presets/multimedia/route-traces/figure-table-caption.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "reviewer-response-submission",
+          "path": "presets/multimedia/route-traces/reviewer-response-submission.json",
+          "step_count": 8
+        }
+      ]
+    },
+    {
+      "preset_id": "data-mining",
+      "title": "Data Mining",
+      "default_visible": false,
+      "route_traces": [
+        {
+          "scenario_id": "writing-related-work",
+          "path": "presets/data-mining/route-traces/writing-related-work.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "figure-table-caption",
+          "path": "presets/data-mining/route-traces/figure-table-caption.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "reviewer-response-submission",
+          "path": "presets/data-mining/route-traces/reviewer-response-submission.json",
+          "step_count": 8
+        }
+      ]
+    },
+    {
+      "preset_id": "signal-processing",
+      "title": "Signal Processing",
+      "default_visible": false,
+      "route_traces": [
+        {
+          "scenario_id": "writing-related-work",
+          "path": "presets/signal-processing/route-traces/writing-related-work.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "figure-table-caption",
+          "path": "presets/signal-processing/route-traces/figure-table-caption.json",
+          "step_count": 8
+        },
+        {
+          "scenario_id": "reviewer-response-submission",
+          "path": "presets/signal-processing/route-traces/reviewer-response-submission.json",
+          "step_count": 8
+        }
+      ]
+    }
+  ]
+}

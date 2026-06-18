@@ -1,0 +1,41 @@
+scenario_id: figure_table_caption
+preset_id: data-mining
+scenario_type: figure-table-caption scenario
+release_version: 1.5.0
+visibility: optional preset scenario; not default top-level skill
+target_journal:
+  id: tkde
+  title: IEEE TKDE
+  maturity_level: L3
+  journal_fragment: skills/ieee-skill-suite/static/journals/tkde.md
+  advanced_skill: skills-advanced/journals/tkde-writing
+  source_quality_score: 90
+  source_quality_band: A
+  needs_reverification: true
+selected_skills_modules:
+  suite_router: skills/ieee-skill-suite/
+  preset: presets/data-mining/
+  journal_fragment: skills/ieee-skill-suite/static/journals/tkde.md
+  component_fragments:
+  - skills/ieee-skill-suite/static/components/table.md
+  - skills/ieee-skill-suite/static/components/figure.md
+  - skills/ieee-skill-suite/static/components/caption.md
+  - skills/ieee-skill-suite/static/components/results-reporting.md
+  - skills/ieee-skill-suite/static/components/visual-accessibility.md
+  submission_fragments: []
+official_source_warning: Live verification required before real submission advice.
+copyright_safe_paper_mining_warning: No protected paper content is reused in this sample output.
+reviewer_risk_checklist:
+- claim-to-evidence mismatch
+- unverified journal-fit claim
+- missing statistical or metric context
+- stale official-source detail
+structured_output_contract:
+- selected skills/modules
+- official-source warning
+- copyright-safe paper-mining warning
+- reviewer-risk checklist
+- structured output contract
+warnings_required:
+  official_source_warning: true
+  copyright_safe_paper_mining_warning: false

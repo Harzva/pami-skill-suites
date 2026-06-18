@@ -1,0 +1,1815 @@
+{
+  "schema_version": "2.5.0",
+  "release_version": "v2.5.0",
+  "generated_on": "2026-06-16",
+  "title": "IEEE Skills RAG Entry Eligibility Report",
+  "summary": {
+    "candidate_count": 100,
+    "metadata_only_eligible": 5,
+    "image_embedding_eligible": 0,
+    "public_gallery_eligible": 0,
+    "blocked_pending_evidence": 95
+  },
+  "entries": [
+    {
+      "candidate_id": "ieee-seed-001",
+      "paper_id": "tpami-2023-transformers-survey",
+      "title": "Multimodal Learning With Transformers: A Survey",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "eligible_seed_metadata_only",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-seed-002",
+      "paper_id": "tip-2022-see360",
+      "title": "See360: Novel Panoramic View Interpolation",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "eligible_seed_metadata_only",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-seed-003",
+      "paper_id": "tmi-2020-lesion-localization",
+      "title": "Iterative Augmentation of Visual Evidence for Weakly Supervised Lesion Localization in Deep Interpretability Frameworks: Application to Color Fundus Images",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "eligible_seed_metadata_only",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-seed-004",
+      "paper_id": "tnnls-2023-sparce",
+      "title": "SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse Representations",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "eligible_seed_metadata_only",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-seed-005",
+      "paper_id": "tnnls-2024-mediterranean",
+      "title": "Fully Connected Networks on a Diet With the Mediterranean Matrix Multiplication",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "eligible_seed_metadata_only",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-006",
+      "paper_id": "ieee-oa-candidate-006",
+      "title": "TBD — pending IEEE OA paper selection #006",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-007",
+      "paper_id": "ieee-oa-candidate-007",
+      "title": "TBD — pending IEEE OA paper selection #007",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-008",
+      "paper_id": "ieee-oa-candidate-008",
+      "title": "TBD — pending IEEE OA paper selection #008",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-009",
+      "paper_id": "ieee-oa-candidate-009",
+      "title": "TBD — pending IEEE OA paper selection #009",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-010",
+      "paper_id": "ieee-oa-candidate-010",
+      "title": "TBD — pending IEEE OA paper selection #010",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-011",
+      "paper_id": "ieee-oa-candidate-011",
+      "title": "TBD — pending IEEE OA paper selection #011",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-012",
+      "paper_id": "ieee-oa-candidate-012",
+      "title": "TBD — pending IEEE OA paper selection #012",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-013",
+      "paper_id": "ieee-oa-candidate-013",
+      "title": "TBD — pending IEEE OA paper selection #013",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-014",
+      "paper_id": "ieee-oa-candidate-014",
+      "title": "TBD — pending IEEE OA paper selection #014",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-015",
+      "paper_id": "ieee-oa-candidate-015",
+      "title": "TBD — pending IEEE OA paper selection #015",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-016",
+      "paper_id": "ieee-oa-candidate-016",
+      "title": "TBD — pending IEEE OA paper selection #016",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-017",
+      "paper_id": "ieee-oa-candidate-017",
+      "title": "TBD — pending IEEE OA paper selection #017",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-018",
+      "paper_id": "ieee-oa-candidate-018",
+      "title": "TBD — pending IEEE OA paper selection #018",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-019",
+      "paper_id": "ieee-oa-candidate-019",
+      "title": "TBD — pending IEEE OA paper selection #019",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-020",
+      "paper_id": "ieee-oa-candidate-020",
+      "title": "TBD — pending IEEE OA paper selection #020",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-021",
+      "paper_id": "ieee-oa-candidate-021",
+      "title": "TBD — pending IEEE OA paper selection #021",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-022",
+      "paper_id": "ieee-oa-candidate-022",
+      "title": "TBD — pending IEEE OA paper selection #022",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-023",
+      "paper_id": "ieee-oa-candidate-023",
+      "title": "TBD — pending IEEE OA paper selection #023",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-024",
+      "paper_id": "ieee-oa-candidate-024",
+      "title": "TBD — pending IEEE OA paper selection #024",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-025",
+      "paper_id": "ieee-oa-candidate-025",
+      "title": "TBD — pending IEEE OA paper selection #025",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-026",
+      "paper_id": "ieee-oa-candidate-026",
+      "title": "TBD — pending IEEE OA paper selection #026",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-027",
+      "paper_id": "ieee-oa-candidate-027",
+      "title": "TBD — pending IEEE OA paper selection #027",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-028",
+      "paper_id": "ieee-oa-candidate-028",
+      "title": "TBD — pending IEEE OA paper selection #028",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-029",
+      "paper_id": "ieee-oa-candidate-029",
+      "title": "TBD — pending IEEE OA paper selection #029",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-030",
+      "paper_id": "ieee-oa-candidate-030",
+      "title": "TBD — pending IEEE OA paper selection #030",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-031",
+      "paper_id": "ieee-oa-candidate-031",
+      "title": "TBD — pending IEEE OA paper selection #031",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-032",
+      "paper_id": "ieee-oa-candidate-032",
+      "title": "TBD — pending IEEE OA paper selection #032",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-033",
+      "paper_id": "ieee-oa-candidate-033",
+      "title": "TBD — pending IEEE OA paper selection #033",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-034",
+      "paper_id": "ieee-oa-candidate-034",
+      "title": "TBD — pending IEEE OA paper selection #034",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-035",
+      "paper_id": "ieee-oa-candidate-035",
+      "title": "TBD — pending IEEE OA paper selection #035",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-036",
+      "paper_id": "ieee-oa-candidate-036",
+      "title": "TBD — pending IEEE OA paper selection #036",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-037",
+      "paper_id": "ieee-oa-candidate-037",
+      "title": "TBD — pending IEEE OA paper selection #037",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-038",
+      "paper_id": "ieee-oa-candidate-038",
+      "title": "TBD — pending IEEE OA paper selection #038",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-039",
+      "paper_id": "ieee-oa-candidate-039",
+      "title": "TBD — pending IEEE OA paper selection #039",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-040",
+      "paper_id": "ieee-oa-candidate-040",
+      "title": "TBD — pending IEEE OA paper selection #040",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-041",
+      "paper_id": "ieee-oa-candidate-041",
+      "title": "TBD — pending IEEE OA paper selection #041",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-042",
+      "paper_id": "ieee-oa-candidate-042",
+      "title": "TBD — pending IEEE OA paper selection #042",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-043",
+      "paper_id": "ieee-oa-candidate-043",
+      "title": "TBD — pending IEEE OA paper selection #043",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-044",
+      "paper_id": "ieee-oa-candidate-044",
+      "title": "TBD — pending IEEE OA paper selection #044",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-045",
+      "paper_id": "ieee-oa-candidate-045",
+      "title": "TBD — pending IEEE OA paper selection #045",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-046",
+      "paper_id": "ieee-oa-candidate-046",
+      "title": "TBD — pending IEEE OA paper selection #046",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-047",
+      "paper_id": "ieee-oa-candidate-047",
+      "title": "TBD — pending IEEE OA paper selection #047",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-048",
+      "paper_id": "ieee-oa-candidate-048",
+      "title": "TBD — pending IEEE OA paper selection #048",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-049",
+      "paper_id": "ieee-oa-candidate-049",
+      "title": "TBD — pending IEEE OA paper selection #049",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-050",
+      "paper_id": "ieee-oa-candidate-050",
+      "title": "TBD — pending IEEE OA paper selection #050",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-051",
+      "paper_id": "ieee-oa-candidate-051",
+      "title": "TBD — pending IEEE OA paper selection #051",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-052",
+      "paper_id": "ieee-oa-candidate-052",
+      "title": "TBD — pending IEEE OA paper selection #052",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-053",
+      "paper_id": "ieee-oa-candidate-053",
+      "title": "TBD — pending IEEE OA paper selection #053",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-054",
+      "paper_id": "ieee-oa-candidate-054",
+      "title": "TBD — pending IEEE OA paper selection #054",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-055",
+      "paper_id": "ieee-oa-candidate-055",
+      "title": "TBD — pending IEEE OA paper selection #055",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-056",
+      "paper_id": "ieee-oa-candidate-056",
+      "title": "TBD — pending IEEE OA paper selection #056",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-057",
+      "paper_id": "ieee-oa-candidate-057",
+      "title": "TBD — pending IEEE OA paper selection #057",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-058",
+      "paper_id": "ieee-oa-candidate-058",
+      "title": "TBD — pending IEEE OA paper selection #058",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-059",
+      "paper_id": "ieee-oa-candidate-059",
+      "title": "TBD — pending IEEE OA paper selection #059",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-060",
+      "paper_id": "ieee-oa-candidate-060",
+      "title": "TBD — pending IEEE OA paper selection #060",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-061",
+      "paper_id": "ieee-oa-candidate-061",
+      "title": "TBD — pending IEEE OA paper selection #061",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-062",
+      "paper_id": "ieee-oa-candidate-062",
+      "title": "TBD — pending IEEE OA paper selection #062",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-063",
+      "paper_id": "ieee-oa-candidate-063",
+      "title": "TBD — pending IEEE OA paper selection #063",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-064",
+      "paper_id": "ieee-oa-candidate-064",
+      "title": "TBD — pending IEEE OA paper selection #064",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-065",
+      "paper_id": "ieee-oa-candidate-065",
+      "title": "TBD — pending IEEE OA paper selection #065",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-066",
+      "paper_id": "ieee-oa-candidate-066",
+      "title": "TBD — pending IEEE OA paper selection #066",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-067",
+      "paper_id": "ieee-oa-candidate-067",
+      "title": "TBD — pending IEEE OA paper selection #067",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-068",
+      "paper_id": "ieee-oa-candidate-068",
+      "title": "TBD — pending IEEE OA paper selection #068",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-069",
+      "paper_id": "ieee-oa-candidate-069",
+      "title": "TBD — pending IEEE OA paper selection #069",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-070",
+      "paper_id": "ieee-oa-candidate-070",
+      "title": "TBD — pending IEEE OA paper selection #070",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-071",
+      "paper_id": "ieee-oa-candidate-071",
+      "title": "TBD — pending IEEE OA paper selection #071",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-072",
+      "paper_id": "ieee-oa-candidate-072",
+      "title": "TBD — pending IEEE OA paper selection #072",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-073",
+      "paper_id": "ieee-oa-candidate-073",
+      "title": "TBD — pending IEEE OA paper selection #073",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-074",
+      "paper_id": "ieee-oa-candidate-074",
+      "title": "TBD — pending IEEE OA paper selection #074",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-075",
+      "paper_id": "ieee-oa-candidate-075",
+      "title": "TBD — pending IEEE OA paper selection #075",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-076",
+      "paper_id": "ieee-oa-candidate-076",
+      "title": "TBD — pending IEEE OA paper selection #076",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-077",
+      "paper_id": "ieee-oa-candidate-077",
+      "title": "TBD — pending IEEE OA paper selection #077",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-078",
+      "paper_id": "ieee-oa-candidate-078",
+      "title": "TBD — pending IEEE OA paper selection #078",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-079",
+      "paper_id": "ieee-oa-candidate-079",
+      "title": "TBD — pending IEEE OA paper selection #079",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-080",
+      "paper_id": "ieee-oa-candidate-080",
+      "title": "TBD — pending IEEE OA paper selection #080",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-081",
+      "paper_id": "ieee-oa-candidate-081",
+      "title": "TBD — pending IEEE OA paper selection #081",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-082",
+      "paper_id": "ieee-oa-candidate-082",
+      "title": "TBD — pending IEEE OA paper selection #082",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-083",
+      "paper_id": "ieee-oa-candidate-083",
+      "title": "TBD — pending IEEE OA paper selection #083",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-084",
+      "paper_id": "ieee-oa-candidate-084",
+      "title": "TBD — pending IEEE OA paper selection #084",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-085",
+      "paper_id": "ieee-oa-candidate-085",
+      "title": "TBD — pending IEEE OA paper selection #085",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-086",
+      "paper_id": "ieee-oa-candidate-086",
+      "title": "TBD — pending IEEE OA paper selection #086",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-087",
+      "paper_id": "ieee-oa-candidate-087",
+      "title": "TBD — pending IEEE OA paper selection #087",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-088",
+      "paper_id": "ieee-oa-candidate-088",
+      "title": "TBD — pending IEEE OA paper selection #088",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-089",
+      "paper_id": "ieee-oa-candidate-089",
+      "title": "TBD — pending IEEE OA paper selection #089",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-090",
+      "paper_id": "ieee-oa-candidate-090",
+      "title": "TBD — pending IEEE OA paper selection #090",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-091",
+      "paper_id": "ieee-oa-candidate-091",
+      "title": "TBD — pending IEEE OA paper selection #091",
+      "journal": "IEEE TPAMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-092",
+      "paper_id": "ieee-oa-candidate-092",
+      "title": "TBD — pending IEEE OA paper selection #092",
+      "journal": "IEEE TIP",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-093",
+      "paper_id": "ieee-oa-candidate-093",
+      "title": "TBD — pending IEEE OA paper selection #093",
+      "journal": "IEEE TMI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-094",
+      "paper_id": "ieee-oa-candidate-094",
+      "title": "TBD — pending IEEE OA paper selection #094",
+      "journal": "IEEE TNNLS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-095",
+      "paper_id": "ieee-oa-candidate-095",
+      "title": "TBD — pending IEEE OA paper selection #095",
+      "journal": "IEEE TMM",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-096",
+      "paper_id": "ieee-oa-candidate-096",
+      "title": "TBD — pending IEEE OA paper selection #096",
+      "journal": "IEEE TKDE",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-097",
+      "paper_id": "ieee-oa-candidate-097",
+      "title": "TBD — pending IEEE OA paper selection #097",
+      "journal": "IEEE TGRS",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-098",
+      "paper_id": "ieee-oa-candidate-098",
+      "title": "TBD — pending IEEE OA paper selection #098",
+      "journal": "IEEE TCSVT",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-099",
+      "paper_id": "ieee-oa-candidate-099",
+      "title": "TBD — pending IEEE OA paper selection #099",
+      "journal": "IEEE JBHI",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    },
+    {
+      "candidate_id": "ieee-candidate-slot-100",
+      "paper_id": "ieee-oa-candidate-100",
+      "title": "TBD — pending IEEE OA paper selection #100",
+      "journal": "IEEE Access",
+      "metadata_only_rag": "blocked_pending_evidence",
+      "image_embedding_rag": "blocked_until_permission_evidence_and_human_approval",
+      "public_gallery_rag": "blocked_until_public_display_license_and_attribution_package",
+      "required_before_embedding": [
+        "canonical DOI evidence verified",
+        "OA source evidence verified",
+        "license text recorded",
+        "permission evidence approved",
+        "third-party material review passed",
+        "human reviewer approval recorded"
+      ],
+      "safety_notes": "Metadata-only safe summaries are allowed for seed records; images/captions/layouts cannot be copied or publicly reused without approval."
+    }
+  ]
+}
