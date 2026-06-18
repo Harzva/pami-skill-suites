@@ -1,0 +1,48 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PAMI Skill Suites logo</title>
+  <desc id="desc">A manuscript skill card connected to citation, review, and figure-trace nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="58" x2="442" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#123A46"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="tab" x1="154" y1="126" x2="380" y2="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="soft" x="44" y="44" width="424" height="424" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect x="52" y="52" width="408" height="408" rx="116" fill="url(#bg)" filter="url(#soft)"/>
+
+  <path d="M116 160H146" stroke="#F8FAFC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M366 160H396" stroke="#F8FAFC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M116 352H146" stroke="#F8FAFC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M366 352H396" stroke="#F8FAFC" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="92" cy="160" r="24" fill="#38BDF8"/>
+  <circle cx="420" cy="160" r="24" fill="#F97316"/>
+  <circle cx="92" cy="352" r="24" fill="#10B981"/>
+  <circle cx="420" cy="352" r="24" fill="#F43F5E"/>
+
+  <rect x="178" y="112" width="190" height="268" rx="30" fill="#E0F2FE" opacity="0.72"/>
+  <rect x="144" y="136" width="224" height="268" rx="32" fill="#F8FAFC"/>
+  <path d="M144 168C144 150.327 158.327 136 176 136H336C353.673 136 368 150.327 368 168V204H144V168Z" fill="url(#tab)"/>
+
+  <rect x="178" y="232" width="78" height="72" rx="16" fill="#DBEAFE"/>
+  <path d="M192 286L207 264L222 274L242 246" stroke="#2563EB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M280 238H330" stroke="#CBD5E1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M280 268H324" stroke="#CBD5E1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M280 298H312" stroke="#CBD5E1" stroke-width="12" stroke-linecap="round"/>
+
+  <rect x="178" y="330" width="42" height="42" rx="13" fill="#DCFCE7"/>
+  <rect x="236" y="330" width="42" height="42" rx="13" fill="#EDE9FE"/>
+  <rect x="294" y="330" width="42" height="42" rx="13" fill="#FFEDD5"/>
+
+  <path d="M184 180H328" stroke="#0F172A" stroke-width="18" stroke-linecap="round" opacity="0.86"/>
+  <path d="M198 124V158" stroke="#F8FAFC" stroke-width="18" stroke-linecap="round"/>
+  <path d="M314 124V158" stroke="#F8FAFC" stroke-width="18" stroke-linecap="round"/>
+</svg>

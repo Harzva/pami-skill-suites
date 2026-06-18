@@ -1,28 +1,36 @@
-<div align="center">
-  <img src="docs/readme-assets/pami-skill-suites-icon.png" alt="PAMI Skill Suites icon" width="128" />
+<p align="center">
+  <img src="docs/readme-assets/pami-skill-suites-logo.svg" alt="PAMI Skill Suites logo" width="180">
+</p>
 
-  <h1>PAMI Skill Suites</h1>
+<h1 align="center">PAMI Skill Suites</h1>
 
-  <p><strong>Context-safe academic writing skills for IEEE and Elsevier style journal work, packaged with a metadata-only scientific-figure RAG trace workspace.</strong></p>
+<p align="center">
+  IEEE / Elsevier manuscript skills with a <strong>metadata-only figure RAG workspace</strong>.
+  <br>
+  Install compact defaults first; load advanced packs, presets, and trace tools only when needed.
+</p>
 
-  <p>
-    <a href="https://github.com/Harzva/pami-skill-suites/releases/tag/v2.7.0"><img alt="Release v2.7.0" src="https://img.shields.io/badge/release-v2.7.0-blue" /></a>
-    <a href="https://harzva.github.io/pami-skill-suites/"><img alt="GitHub Pages" src="https://img.shields.io/badge/site-github.io-45d6c2" /></a>
-    <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-green" /></a>
-    <a href="#download"><img alt="Skill suites" src="https://img.shields.io/badge/suites-IEEE%20%2B%20Elsevier%20%2B%20Figure-0f766e" /></a>
-    <a href="#safety-boundaries"><img alt="Metadata-only RAG" src="https://img.shields.io/badge/RAG-metadata--only-f59e0b" /></a>
-  </p>
+<p align="center">
+  <a href="https://github.com/Harzva/pami-skill-suites/releases/tag/v2.7.0"><img alt="Release v2.7.0" src="https://img.shields.io/badge/Release-v2.7.0-2563EB?style=for-the-badge"></a>
+  <a href="https://harzva.github.io/pami-skill-suites/"><img alt="GitHub Pages" src="https://img.shields.io/badge/Pages-live-0F766E?style=for-the-badge"></a>
+  <a href="#download"><img alt="Suites" src="https://img.shields.io/badge/Suites-IEEE%20%2B%20Elsevier%20%2B%20Figure-111827?style=for-the-badge"></a>
+  <a href="#safety-boundaries"><img alt="Metadata-only RAG" src="https://img.shields.io/badge/RAG-metadata--only-F97316?style=for-the-badge"></a>
+  <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge"></a>
+</p>
 
-  <p>
-    <a href="https://harzva.github.io/pami-skill-suites/">Website</a> ·
-    <a href="#download">Download</a> ·
-    <a href="#install">Install</a> ·
-    <a href="#use">Use</a> ·
-    <a href="docs/readme-assets/gallery.html">Visual Gallery</a> ·
-    <a href="#validate">Validate</a>
-  </p>
-
-</div>
+<p align="center">
+  <a href="https://harzva.github.io/pami-skill-suites/"><strong>Open Website</strong></a>
+  ·
+  <a href="#download"><strong>Download v2.7.0</strong></a>
+  ·
+  <a href="#install">Install</a>
+  ·
+  <a href="#use">Use</a>
+  ·
+  <a href="docs/readme-assets/gallery.html">Visual Gallery</a>
+  ·
+  <a href="#validate">Validate</a>
+</p>
 
 <!-- showcase:start -->
 <p align="center">
