@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-06-18T13:02:04.577Z",
+  "static": [
+    {
+      "id": "desktop-rag-trace",
+      "title": "RAG Trace UI",
+      "path": "desktop-rag-trace.png",
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 920
+    },
+    {
+      "id": "desktop-visual-query-debugger",
+      "title": "Visual Query Debugger",
+      "path": "desktop-visual-query-debugger.png",
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 920
+    },
+    {
+      "id": "mobile-rag-trace",
+      "title": "Mobile RAG Trace UI",
+      "path": "mobile-rag-trace.png",
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "motion": [],
+  "hero": {
+    "path": "pami-skill-suites-hero.png",
+    "title": "PAMI Skill Suites"
+  },
+  "gallery": {
+    "path": "gallery.html"
+  },
+  "projectName": "PAMI Skill Suites",
+  "config": "showcase.config.json"
+}

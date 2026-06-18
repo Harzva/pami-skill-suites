@@ -1,0 +1,61 @@
+{
+  "projectName": "PAMI Skill Suites",
+  "root": ".",
+  "type": "static-html",
+  "installCommand": null,
+  "startCommand": "python3 -m http.server 4187 --bind 127.0.0.1",
+  "baseUrl": "http://127.0.0.1:4187",
+  "outputDir": "docs/readme-assets",
+  "readme": "README.md",
+  "waitMs": 500,
+  "timeoutMs": 60000,
+  "disableAnimations": true,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 920,
+      "deviceScaleFactor": 1
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 2,
+      "isMobile": true
+    }
+  },
+  "screenshots": [
+    {
+      "id": "desktop-rag-trace",
+      "title": "RAG Trace UI",
+      "path": "/main-figure-site/docs/rag-trace-ui.html",
+      "viewport": "desktop",
+      "fullPage": false
+    },
+    {
+      "id": "desktop-visual-query-debugger",
+      "title": "Visual Query Debugger",
+      "path": "/main-figure-site/docs/visual-query-debugger.html",
+      "viewport": "desktop",
+      "fullPage": false
+    },
+    {
+      "id": "mobile-rag-trace",
+      "title": "Mobile RAG Trace UI",
+      "path": "/main-figure-site/docs/rag-trace-ui.html",
+      "viewport": "mobile",
+      "fullPage": false
+    }
+  ],
+  "motions": [],
+  "hero": {
+    "title": "PAMI Skill Suites",
+    "subtitle": "Publisher-specific writing skills, release packages, and metadata-only scientific-figure RAG trace tooling.",
+    "images": [
+      "desktop-rag-trace",
+      "mobile-rag-trace"
+    ]
+  },
+  "gallery": {
+    "file": "gallery.html"
+  }
+}
