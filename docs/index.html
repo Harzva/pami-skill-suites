@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAMI Skill Suites</title>
+  <meta name="description" content="Context-safe IEEE and Elsevier style academic writing skills with a metadata-only scientific-figure RAG trace workspace." />
+  <meta property="og:title" content="PAMI Skill Suites" />
+  <meta property="og:description" content="Context-safe manuscript skills, release packages, and metadata-only RAG trace tooling." />
+  <meta property="og:image" content="readme-assets/pami-skill-suites-hero.png" />
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #07111f;
+      --panel: #101c2d;
+      --line: rgba(255, 255, 255, 0.16);
+      --text: #f7fbff;
+      --muted: #b7c7d9;
+      --teal: #45d6c2;
+      --amber: #f2b14b;
+      --green: #74db8b;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--ink);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .hero {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding: 32px 24px 72px;
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(90deg, rgba(7, 17, 31, 0.92), rgba(7, 17, 31, 0.72) 42%, rgba(7, 17, 31, 0.24)), url("readme-assets/pami-skill-suites-hero.png");
+      background-size: cover;
+      background-position: center;
+      z-index: -2;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 180px;
+      background: linear-gradient(0deg, var(--ink), transparent);
+      z-index: -1;
+    }
+
+    .nav {
+      position: absolute;
+      top: 20px;
+      left: 24px;
+      right: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+    }
+
+    .brand img {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: #d6e3ef;
+      font-size: 14px;
+    }
+
+    .hero-inner {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding-top: 70px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--teal);
+      font-size: 14px;
+      font-weight: 760;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 780px;
+      margin: 18px 0 20px;
+      font-size: 64px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .hero-copy {
+      max-width: 690px;
+      margin: 0;
+      color: #dbe7f3;
+      font-size: 20px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--white);
+      font-weight: 740;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(14px);
+    }
+
+    .button.primary {
+      border-color: rgba(69, 214, 194, 0.55);
+      background: #0f766e;
+    }
+
+    .proof {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      max-width: 840px;
+      margin-top: 44px;
+    }
+
+    .proof-item {
+      border: 1px solid var(--line);
+      background: rgba(7, 17, 31, 0.62);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+
+    .proof-item strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.1;
+    }
+
+    .proof-item span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    main {
+      background: var(--ink);
+    }
+
+    .section {
+      padding: 76px 24px;
+    }
+
+    .section.alt {
+      background: #0b1625;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 28px;
+      align-items: flex-end;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .section-head p,
+    .lead {
+      max-width: 620px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .suite-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .suite {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 22px;
+    }
+
+    .suite h3 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    .suite p {
+      color: var(--muted);
+      margin: 0 0 18px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      color: #d8e7f3;
+      font-size: 13px;
+      padding: 5px 9px;
+    }
+
+    .download-table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .download-table th,
+    .download-table td {
+      border-bottom: 1px solid var(--line);
+      padding: 14px 16px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .download-table th {
+      color: #d9f3ef;
+      background: rgba(69, 214, 194, 0.08);
+    }
+
+    .download-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .download-table td {
+      color: #d7e3ef;
+    }
+
+    code {
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2px 6px;
+      color: #f7d38f;
+    }
+
+    pre {
+      overflow: auto;
+      margin: 0;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #06101d;
+      color: #e7f4ff;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .shot-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .shot {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--panel);
+    }
+
+    .shot img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      background: #fff;
+    }
+
+    .shot span {
+      display: block;
+      padding: 12px 14px;
+      color: var(--muted);
+    }
+
+    .safety {
+      border-left: 4px solid var(--amber);
+      background: rgba(242, 177, 75, 0.09);
+      padding: 18px 20px;
+      color: #f8e9cf;
+    }
+
+    footer {
+      padding: 36px 24px 52px;
+      color: #8ea3b7;
+      background: #06101d;
+    }
+
+    @media (max-width: 860px) {
+      .nav {
+        align-items: flex-start;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .hero-copy {
+        font-size: 18px;
+      }
+
+      .proof,
+      .suite-grid,
+      .steps,
+      .shot-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .section-head p {
+        margin-top: 14px;
+      }
+
+      .download-table {
+        display: block;
+        overflow-x: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#">
+        <img src="readme-assets/pami-skill-suites-icon.png" alt="" />
+        <span>PAMI Skill Suites</span>
+      </a>
+      <div class="nav-links">
+        <a href="#packages">Packages</a>
+        <a href="#download">Download</a>
+        <a href="#install">Install</a>
+        <a href="#preview">Preview</a>
+        <a href="https://github.com/Harzva/pami-skill-suites">GitHub</a>
+      </div>
+    </nav>
+
+    <div class="hero-inner">
+      <div class="eyebrow">v2.7.0 release bundle</div>
+      <h1>PAMI Skill Suites</h1>
+      <p class="hero-copy">Context-safe IEEE and Elsevier style academic writing skills, packaged with a metadata-only scientific-figure RAG trace workspace for manuscript planning, review, and submission readiness.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/Harzva/pami-skill-suites/releases/tag/v2.7.0">Download v2.7.0</a>
+        <a class="button" href="https://github.com/Harzva/pami-skill-suites">View on GitHub</a>
+        <a class="button" href="readme-assets/gallery.html">Visual Gallery</a>
+      </div>
+      <div class="proof" aria-label="Release facts">
+        <div class="proof-item"><strong>8</strong><span>IEEE default skills</span></div>
+        <div class="proof-item"><strong>9</strong><span>Elsevier default skills</span></div>
+        <div class="proof-item"><strong>4</strong><span>release assets</span></div>
+        <div class="proof-item"><strong>0</strong><span>image-embedding RAG modes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="packages" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Choose The Package You Need</h2>
+          <p>Start with the compact default skills. Add advanced packs, presets, and RAG assets only when your agent runtime can handle a larger skill listing.</p>
+        </div>
+        <div class="suite-grid">
+          <article class="suite">
+            <h3>IEEE Skills</h3>
+            <p>Writing, review, response, citation, figure/table, and submission checks for IEEE style journal workflows.</p>
+            <div class="tag-row">
+              <span class="tag">8 default skills</span>
+              <span class="tag">ieee-skill-suite</span>
+              <span class="tag">compact default</span>
+            </div>
+          </article>
+          <article class="suite">
+            <h3>Elsevier Skills</h3>
+            <p>Writing, highlights, review, response, citation, figure/table, and submission checks for Elsevier style workflows.</p>
+            <div class="tag-row">
+              <span class="tag">9 default skills</span>
+              <span class="tag">elsevier-skill-suite</span>
+              <span class="tag">optional packs</span>
+            </div>
+          </article>
+          <article class="suite">
+            <h3>Main-Figure Site</h3>
+            <p>Static docs, metadata-only RAG traces, visual query debugging, evidence cards, and governance dashboards.</p>
+            <div class="tag-row">
+              <span class="tag">metadata only</span>
+              <span class="tag">RAG trace UI</span>
+              <span class="tag">safety gated</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Download</h2>
+          <p>All archives are attached to the GitHub release. The aggregate archive contains the three package zips and release metadata.</p>
+        </div>
+        <table class="download-table">
+          <thead>
+            <tr>
+              <th>Asset</th>
+              <th>Contents</th>
+              <th>SHA256</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/ieee-skills-v2.7.0.zip">ieee-skills-v2.7.0.zip</a></td>
+              <td>IEEE suite source tree and dist packages</td>
+              <td><code>a2332de13e95dcbebd85de3ce34670f3bc8c50e8f0561d67a7b98a4e077bfb8f</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/elsevier-skills-v2.7.0.zip">elsevier-skills-v2.7.0.zip</a></td>
+              <td>Elsevier suite source tree and dist packages</td>
+              <td><code>57d6f49d4ba6a67d71737163fe4ce0b3047cf90c3bb415099e2093869581aa1f</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/main-figure-site-v2.7.0.zip">main-figure-site-v2.7.0.zip</a></td>
+              <td>Static site and metadata-only RAG trace data</td>
+              <td><code>5144d066d9b224ea44ec0b8c91ee96ac42bdc7dd9c3d12ab3ffacf7f22a520ec</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/journal-skill-suites-v2.7.0.zip">journal-skill-suites-v2.7.0.zip</a></td>
+              <td>Aggregate archive</td>
+              <td><code>6e40bafeecb728b8efa59ad4573b806d0e8a4f3a34ccaae017ff3fa665e51d07</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="install" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Install And Use</h2>
+          <p>The publisher suites ship multiple dist packages. Install <code>default-skills.zip</code> first; it is the compact skill surface.</p>
+        </div>
+        <div class="steps">
+          <pre><code>curl -L -o ieee-skills-v2.7.0.zip \
+  https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/ieee-skills-v2.7.0.zip
+
+unzip ieee-skills-v2.7.0.zip
+tmpdir="$(mktemp -d)"
+unzip ieee-skills/dist/default-skills.zip -d "$tmpdir"
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R "$tmpdir/default-skills/skills/"* "${CODEX_HOME:-$HOME/.codex}/skills/"</code></pre>
+          <pre><code>Use ieee-skill-suite to audit this manuscript for IEEE-style structure,
+evidence gaps, citation integrity, figure/table readiness, and submission risks.
+
+Use elsevier-skill-suite to prepare a revision plan, reviewer-response matrix,
+highlights, declaration checklist, and source-grounded submission reminders.</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="preview" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Metadata-Only RAG Preview</h2>
+          <p>The main-figure workspace explains retrieval decisions without authorizing figure reuse, image embedding, or public-gallery RAG.</p>
+        </div>
+        <div class="shot-grid">
+          <a class="shot" href="readme-assets/desktop-rag-trace.png">
+            <img src="readme-assets/desktop-rag-trace.png" alt="RAG Trace UI screenshot" loading="lazy" />
+            <span>RAG Trace UI</span>
+          </a>
+          <a class="shot" href="readme-assets/desktop-visual-query-debugger.png">
+            <img src="readme-assets/desktop-visual-query-debugger.png" alt="Visual Query Debugger screenshot" loading="lazy" />
+            <span>Visual Query Debugger</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Safety Boundary</h2>
+          <p>These packages are for manuscript structure, evidence planning, citation hygiene, submission readiness, and metadata-only figure retrieval analysis.</p>
+        </div>
+        <div class="safety">
+          They do not grant permission to copy, redraw, publish, embed, or reuse source figures, tables, captions, labels, layouts, paper-specific claims, restricted full text, private manuscripts, confidential peer review, or unpublished research data.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">PAMI Skill Suites v2.7.0. Unofficial project; not affiliated with IEEE, Elsevier, any journal, society owner, submission system, or publisher platform.</div>
+  </footer>
+</body>
+</html>

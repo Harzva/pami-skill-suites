@@ -7,12 +7,14 @@
 
   <p>
     <a href="https://github.com/Harzva/pami-skill-suites/releases/tag/v2.7.0"><img alt="Release v2.7.0" src="https://img.shields.io/badge/release-v2.7.0-blue" /></a>
+    <a href="https://harzva.github.io/pami-skill-suites/"><img alt="GitHub Pages" src="https://img.shields.io/badge/site-github.io-45d6c2" /></a>
     <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-green" /></a>
     <a href="#download"><img alt="4 release assets" src="https://img.shields.io/badge/packages-4%20release%20assets-0f766e" /></a>
     <a href="#safety-boundaries"><img alt="Metadata-only RAG" src="https://img.shields.io/badge/RAG-metadata--only-f59e0b" /></a>
   </p>
 
   <p>
+    <a href="https://harzva.github.io/pami-skill-suites/">Website</a> ·
     <a href="#download">Download</a> ·
     <a href="#install">Install</a> ·
     <a href="#use">Use</a> ·
