@@ -9,7 +9,7 @@
     <a href="https://github.com/Harzva/pami-skill-suites/releases/tag/v2.7.0"><img alt="Release v2.7.0" src="https://img.shields.io/badge/release-v2.7.0-blue" /></a>
     <a href="https://harzva.github.io/pami-skill-suites/"><img alt="GitHub Pages" src="https://img.shields.io/badge/site-github.io-45d6c2" /></a>
     <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-green" /></a>
-    <a href="#download"><img alt="4 release assets" src="https://img.shields.io/badge/packages-4%20release%20assets-0f766e" /></a>
+    <a href="#download"><img alt="Skill suites" src="https://img.shields.io/badge/suites-IEEE%20%2B%20Elsevier%20%2B%20Figure-0f766e" /></a>
     <a href="#safety-boundaries"><img alt="Metadata-only RAG" src="https://img.shields.io/badge/RAG-metadata--only-f59e0b" /></a>
   </p>
 
@@ -26,7 +26,7 @@
 
 <!-- showcase:start -->
 <p align="center">
-  <img src="docs/readme-assets/pami-skill-suites-hero.png" alt="PAMI Skill Suites release bundle preview" width="900" />
+  <img src="docs/readme-assets/pami-skill-suites-hero.png" alt="PAMI Skill Suites overview" width="900" />
 </p>
 
 <p align="center">
@@ -52,22 +52,20 @@ The publisher suites are compact by default. Advanced component packs, presets, 
 
 ## Download
 
-Release assets are hosted at [v2.7.0](https://github.com/Harzva/pami-skill-suites/releases/tag/v2.7.0).
+Download v2.7.0 from [GitHub Releases](https://github.com/Harzva/pami-skill-suites/releases/tag/v2.7.0).
 
-| Asset | Contents | SHA256 |
-| --- | --- | --- |
-| [`ieee-skills-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/ieee-skills-v2.7.0.zip) | IEEE suite source tree and `dist/*.zip` packages | `a2332de13e95dcbebd85de3ce34670f3bc8c50e8f0561d67a7b98a4e077bfb8f` |
-| [`elsevier-skills-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/elsevier-skills-v2.7.0.zip) | Elsevier suite source tree and `dist/*.zip` packages | `57d6f49d4ba6a67d71737163fe4ce0b3047cf90c3bb415099e2093869581aa1f` |
-| [`main-figure-site-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/main-figure-site-v2.7.0.zip) | Static site, metadata-only RAG trace data, and validation scripts | `5144d066d9b224ea44ec0b8c91ee96ac42bdc7dd9c3d12ab3ffacf7f22a520ec` |
-| [`journal-skill-suites-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/journal-skill-suites-v2.7.0.zip) | Aggregate download containing the three release zips plus release metadata | `6e40bafeecb728b8efa59ad4573b806d0e8a4f3a34ccaae017ff3fa665e51d07` |
-
-Machine-readable release metadata is available in [`journal-skill-suites-v2.7.0-summary.json`](./journal-skill-suites-v2.7.0-summary.json).
+| Package | Use It For |
+| --- | --- |
+| [`ieee-skills-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/ieee-skills-v2.7.0.zip) | IEEE-style manuscript writing, review, citation, figure/table, and submission workflows |
+| [`elsevier-skills-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/elsevier-skills-v2.7.0.zip) | Elsevier-style manuscript preparation, highlights, declarations, revision plans, and response letters |
+| [`main-figure-site-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/main-figure-site-v2.7.0.zip) | Metadata-only figure retrieval traces, query debugging, evidence cards, and governance dashboards |
+| [`journal-skill-suites-v2.7.0.zip`](https://github.com/Harzva/pami-skill-suites/releases/download/v2.7.0/journal-skill-suites-v2.7.0.zip) | The complete bundle when you want all three packages together |
 
 ## Install
 
 ### 1. Download a suite
 
-Install one publisher suite, or use the aggregate archive when you want everything.
+Install one publisher suite, or use the complete bundle when you want everything.
 
 ```bash
 curl -L -o ieee-skills-v2.7.0.zip \
@@ -215,7 +213,6 @@ elsevier-skills/                         Elsevier suite source tree
 ieee-skills/                             IEEE suite source tree
 main-figure-site/                        Static site and metadata-only RAG trace workspace
 docs/readme-assets/                      README icon, hero, screenshots, and gallery
-journal-skill-suites-v2.7.0-summary.json Release package metadata
 showcase.config.json                     Repeatable README screenshot configuration
 zip/                                     Local release archives, ignored by Git
 ```

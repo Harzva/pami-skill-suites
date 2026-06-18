@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAMI Skill Suites Promo Card</title>
+  <style>
+    :root {
+      --ink: #091127;
+      --muted: #4b5874;
+      --line: #e5e9f5;
+      --blue: #12a6e8;
+      --violet: #7448ff;
+      --pink: #f2296b;
+      --orange: #ff7a1a;
+      --green: #18b876;
+      --cyan: #1fbad6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 12%, rgba(116, 72, 255, 0.16), transparent 22%),
+        radial-gradient(circle at 84% 8%, rgba(18, 166, 232, 0.14), transparent 24%),
+        radial-gradient(circle at 86% 86%, rgba(242, 41, 107, 0.10), transparent 24%),
+        #fbfcff;
+    }
+
+    .stage {
+      position: relative;
+      width: 1600px;
+      height: 900px;
+      padding: 34px 48px;
+      overflow: hidden;
+    }
+
+    .halo {
+      position: absolute;
+      border-radius: 999px;
+      pointer-events: none;
+    }
+
+    .halo.one {
+      width: 260px;
+      height: 260px;
+      left: -84px;
+      bottom: -92px;
+      border: 42px solid rgba(255, 122, 26, 0.34);
+    }
+
+    .halo.two {
+      width: 300px;
+      height: 300px;
+      right: -86px;
+      top: -112px;
+      border: 48px solid rgba(116, 72, 255, 0.28);
+    }
+
+    .dots {
+      position: absolute;
+      left: 36px;
+      top: 220px;
+      width: 120px;
+      height: 92px;
+      background-image: radial-gradient(circle, #d7dafa 2px, transparent 3px);
+      background-size: 20px 20px;
+      opacity: 0.8;
+    }
+
+    .top {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 42px;
+      font-weight: 900;
+    }
+
+    .brand img {
+      width: 66px;
+      height: 66px;
+      border-radius: 20px;
+      box-shadow: 0 16px 36px rgba(38, 68, 119, 0.18);
+    }
+
+    .brand .accent {
+      background: linear-gradient(90deg, var(--orange), var(--pink), var(--violet));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 50px;
+      padding: 0 24px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.82);
+      box-shadow: 0 12px 34px rgba(39, 53, 91, 0.08);
+      color: #111b33;
+      font-size: 20px;
+      font-weight: 760;
+    }
+
+    .pill::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--orange);
+    }
+
+    .headline {
+      position: relative;
+      z-index: 2;
+      margin-top: 36px;
+      max-width: 1280px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 66px;
+      line-height: 1.06;
+      font-weight: 950;
+      letter-spacing: 0;
+    }
+
+    .grad-blue {
+      background: linear-gradient(90deg, var(--violet), var(--blue), var(--cyan));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .grad-pink {
+      background: linear-gradient(90deg, var(--pink), #ff4d88);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .underline {
+      position: absolute;
+      left: 650px;
+      top: 96px;
+      width: 250px;
+      height: 22px;
+      border-bottom: 8px solid #8f6dff;
+      border-radius: 50%;
+      transform: rotate(-3deg);
+      opacity: 0.36;
+    }
+
+    .subhead {
+      margin: 14px 0 0;
+      max-width: 1040px;
+      font-size: 26px;
+      line-height: 1.34;
+      color: #39445f;
+      font-weight: 650;
+    }
+
+    .cards {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .card {
+      min-height: 230px;
+      border: 2px solid var(--line);
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.86);
+      box-shadow: 0 18px 44px rgba(34, 52, 93, 0.10);
+      padding: 24px 28px 20px;
+      overflow: hidden;
+    }
+
+    .card.ieee {
+      border-top: 6px solid var(--violet);
+    }
+
+    .card.elsevier {
+      border-top: 6px solid var(--blue);
+    }
+
+    .card.figure {
+      border-top: 6px solid var(--pink);
+    }
+
+    .card-head {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .icon {
+      display: grid;
+      place-items: center;
+      width: 58px;
+      height: 58px;
+      border-radius: 18px;
+      color: #fff;
+      font-size: 28px;
+      font-weight: 900;
+      box-shadow: 0 14px 28px rgba(40, 56, 103, 0.18);
+    }
+
+    .ieee .icon {
+      background: linear-gradient(135deg, #7448ff, #a179ff);
+    }
+
+    .elsevier .icon {
+      background: linear-gradient(135deg, #12a6e8, #33d0df);
+    }
+
+    .figure .icon {
+      background: linear-gradient(135deg, #f2296b, #ff8aa7);
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 31px;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 14px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 11px;
+      border-radius: 999px;
+      background: #eef3fb;
+      color: #27324d;
+      font-size: 15px;
+      font-weight: 720;
+    }
+
+    .chip.hot {
+      color: #fff;
+      background: var(--green);
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 20px;
+      line-height: 1.38;
+      font-weight: 560;
+    }
+
+    .mini {
+      margin-top: 16px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 36px;
+      border: 1px solid #ebeff7;
+      border-radius: 14px;
+      background: #fbfdff;
+      padding: 0 14px;
+      color: #28344e;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .row span:last-child {
+      color: #66728d;
+      font-weight: 650;
+    }
+
+    .bottom {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 18px;
+    }
+
+    .panel {
+      border: 2px solid #e6eafe;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 16px 36px rgba(43, 57, 94, 0.08);
+      padding: 18px 24px;
+    }
+
+    .panel h3 {
+      margin: 0 0 10px;
+      font-size: 25px;
+    }
+
+    .list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .list div {
+      min-height: 38px;
+      display: flex;
+      align-items: center;
+      border-radius: 14px;
+      border: 1px solid #e7ebf5;
+      padding: 0 14px;
+      color: #33415f;
+      font-weight: 700;
+      background: #fcfdff;
+    }
+
+    .repo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      min-height: 104px;
+      border: 2px solid #e7ddff;
+      border-radius: 24px;
+      background: linear-gradient(90deg, rgba(248, 244, 255, 0.94), rgba(255, 255, 255, 0.94));
+      padding: 18px 30px;
+      box-shadow: 0 18px 40px rgba(77, 70, 150, 0.10);
+    }
+
+    .repo strong {
+      display: block;
+      font-size: 31px;
+      line-height: 1.1;
+      background: linear-gradient(90deg, var(--orange), var(--pink));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .repo span {
+      display: block;
+      margin-top: 6px;
+      color: #526079;
+      font-size: 18px;
+      font-weight: 640;
+    }
+
+    .github {
+      color: var(--ink);
+      font-size: 21px;
+      font-weight: 880;
+      white-space: nowrap;
+    }
+
+    .ghost {
+      position: absolute;
+      right: 16px;
+      top: 138px;
+      width: 700px;
+      opacity: 0.18;
+      filter: saturate(1.1);
+      pointer-events: none;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <div class="halo one"></div>
+    <div class="halo two"></div>
+    <div class="dots"></div>
+    <img class="ghost" src="pami-skill-suites-illustration.png" alt="" />
+
+    <section class="top">
+      <div class="brand">
+        <img src="pami-skill-suites-icon.png" alt="" />
+        <span><span class="accent">PAMI</span> Skill Suites</span>
+      </div>
+      <div class="pill">Manuscript Skill Hub for Agents / Researchers / Authors</div>
+    </section>
+
+    <section class="headline">
+      <h1><span class="grad-blue">IEEE</span> / <span class="grad-blue">Elsevier</span> / <span class="grad-pink">图表 RAG</span>，一站式 Skill 套件</h1>
+      <div class="underline"></div>
+      <p class="subhead">从论文结构、引用完整性、审稿回复，到 metadata-only figure trace，默认紧凑安装，按需扩展。</p>
+    </section>
+
+    <section class="cards">
+      <article class="card ieee">
+        <div class="card-head">
+          <div class="icon">I</div>
+          <h2>IEEE Skills</h2>
+        </div>
+        <div class="chips">
+          <span class="chip hot">8 default</span>
+          <span class="chip">writing</span>
+          <span class="chip">review</span>
+        </div>
+        <p>面向 IEEE 风格论文：写作、引用、图表、投稿包与审稿回复。</p>
+        <div class="mini">
+          <div class="row"><span>ieee-skill-suite</span><span>compact</span></div>
+          <div class="row"><span>figure / table</span><span>ready</span></div>
+        </div>
+      </article>
+
+      <article class="card elsevier">
+        <div class="card-head">
+          <div class="icon">E</div>
+          <h2>Elsevier Skills</h2>
+        </div>
+        <div class="chips">
+          <span class="chip hot">9 default</span>
+          <span class="chip">highlights</span>
+          <span class="chip">response</span>
+        </div>
+        <p>覆盖 Elsevier 写作流：highlights、declaration、cover letter 与修回矩阵。</p>
+        <div class="mini">
+          <div class="row"><span>elsevier-skill-suite</span><span>default</span></div>
+          <div class="row"><span>submission checks</span><span>guided</span></div>
+        </div>
+      </article>
+
+      <article class="card figure">
+        <div class="card-head">
+          <div class="icon">R</div>
+          <h2>Figure RAG</h2>
+        </div>
+        <div class="chips">
+          <span class="chip hot">metadata-only</span>
+          <span class="chip">trace UI</span>
+          <span class="chip">safe</span>
+        </div>
+        <p>只做结构与元数据检索：query trace、visual debugger、evidence gate。</p>
+        <div class="mini">
+          <div class="row"><span>image embedding</span><span>blocked</span></div>
+          <div class="row"><span>permission gate</span><span>required</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="bottom">
+      <div class="panel">
+        <h3>你能在这里做什么？</h3>
+        <div class="list">
+          <div>论文结构审计</div>
+          <div>引用完整性检查</div>
+          <div>图表与 caption 风险</div>
+          <div>修回与投稿清单</div>
+        </div>
+      </div>
+      <div class="repo">
+        <div>
+          <strong>Install default-skills.zip first</strong>
+          <span>高级包、presets、RAG assets 按需加载。</span>
+        </div>
+        <div class="github">GitHub: Harzva/pami-skill-suites</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
